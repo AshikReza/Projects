@@ -5,12 +5,10 @@
   </head>
   <body>
     <div id="app-container">
-      <!-- View 1: Settings for API Key (SIMPLIFIED) -->
+      <!-- View 1: Settings for API Key (UPDATED) -->
       <div id="settings-view" class="view hidden">
         <h2>Gemini API Settings</h2>
         <p>Please enter your API key from Google AI Studio to continue.</p>
-
-        <!-- Model Selection has been removed -->
 
         <input
           type="password"
@@ -19,6 +17,20 @@
         />
         <button id="saveApiKeyBtn">Save and Continue</button>
         <div id="statusMessage"></div>
+
+        <!-- ========================================================= -->
+        <!-- === NEW: "How to get API Key" Link ====================== -->
+        <!-- ========================================================= -->
+        <p class="api-key-link">
+          <a
+            href="https://aistudio.google.com/app/apikey"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Get your Gemini API Key here
+          </a>
+        </p>
+        <!-- ========================================================= -->
       </div>
 
       <!-- View 2: Main Chat Interface (Unchanged) -->
