@@ -1,4 +1,4 @@
-// popup.js (Final Corrected Version)
+// popup.js (Final Version - Listens for Reset Request)
 
 document.addEventListener("DOMContentLoaded", () => {
   // --- References and State ---
@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const sendBtn = document.getElementById("sendBtn");
   let chatHistory = [];
 
-  // --- Helper Functions ---
+  // --- Helper Functions (Unchanged) ---
   const showView = (viewToShow) => {
     settingsView.classList.add("hidden");
     chatView.classList.add("hidden");
@@ -21,13 +21,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const addMessage = (text, role) => {
     const messageDiv = document.createElement("div");
-    // This logic is correct and relies on the role being 'user' or 'model'
     const cssClass = role === "model" ? "bot-message" : "user-message";
     messageDiv.classList.add("message", cssClass);
     messageDiv.innerHTML = marked.parse(text);
     chatbox.appendChild(messageDiv);
     chatbox.scrollTop = chatbox.scrollHeight;
-    // Add to history with the correct role for the API
     chatHistory.push({ role, parts: [{ text }] });
   };
 
@@ -59,7 +57,7 @@ document.addEventListener("DOMContentLoaded", () => {
     showView(chatView);
   };
 
-  // --- Main Initialization ---
+  // --- Main Initialization (Unchanged) ---
   chrome.runtime.sendMessage({ type: "GET_INITIAL_STATE" }, (response) => {
     if (response.apiKeyExists) {
       setupChatView(response.problemData);
@@ -100,6 +98,30 @@ document.addEventListener("DOMContentLoaded", () => {
     if (e.key === "Enter") handleUserMessage();
   });
 
+  // The old resetApiKeyBtn listener has been REMOVED
+
+  // =========================================================
+  // === NEW: Message listener for API Reset Request =========
+  // =========================================================
+  chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
+    if (message.type === "RESET_API_REQUEST") {
+      // 1. Remove the key from storage
+      chrome.storage.sync.remove("geminiApiKey", () => {
+        // 2. Clear the input field and any status messages
+        apiKeyInput.value = "";
+        statusMessage.textContent = "";
+        statusMessage.style.color = ""; // Reset color
+
+        // 3. Switch back to the settings view
+        showView(settingsView);
+
+        // 4. (Optional but good UX) Focus the input field
+        apiKeyInput.focus();
+      });
+    }
+  });
+  // =========================================================
+
   function handleUserMessage() {
     const userText = userInput.value.trim();
     if (!userText) return;
@@ -111,7 +133,6 @@ document.addEventListener("DOMContentLoaded", () => {
       { type: "ASK_GEMINI", history: chatHistory },
       (response) => {
         removeLoadingIndicator();
-        // THE FIX IS HERE: The role must be 'model' to get the gray bot message style.
         addMessage(response.text || "An unexpected error occurred.", "model");
         userInput.disabled = false;
         userInput.focus();
