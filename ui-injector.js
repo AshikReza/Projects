@@ -1,4 +1,4 @@
-// ui-injector.js (VERSION 4 - With Settings Menu)
+// ui-injector.js (VERSION 5.3 - Syntax Errors Corrected)
 
 (function () {
   // Prevent duplicate injection
@@ -7,7 +7,6 @@
   // --- Create Main Container ---
   const container = document.createElement("div");
   container.id = "gemini-hint-container";
-  // ... (all other container styles remain the same) ...
   container.style.position = "fixed";
   container.style.top = "20px";
   container.style.right = "20px";
@@ -25,7 +24,6 @@
 
   // --- Create Draggable Header Bar ---
   const headerBar = document.createElement("div");
-  // ... (all other header bar styles remain the same) ...
   headerBar.style.height = "36px";
   headerBar.style.width = "100%";
   headerBar.style.cursor = "grab";
@@ -39,7 +37,6 @@
   // --- Create Title Element in Header ---
   const headerTitle = document.createElement("div");
   headerTitle.id = "gemini-hint-header-title";
-  // ... (all other title styles remain the same) ...
   headerTitle.style.color = "#e0e0e0";
   headerTitle.style.fontSize = "14px";
   headerTitle.style.fontWeight = "500";
@@ -48,9 +45,8 @@
   headerTitle.style.textOverflow = "ellipsis";
   headerTitle.textContent = "Loading...";
 
-  // --- Create Close Button ---
+  // --- Header Buttons & Menu ---
   const closeButton = document.createElement("button");
-  // ... (all close button styles remain the same) ...
   closeButton.innerHTML = "×";
   closeButton.style.position = "absolute";
   closeButton.style.top = "0px";
@@ -71,16 +67,11 @@
   };
   closeButton.onclick = () => container.remove();
 
-  // =========================================================
-  // === NEW: Settings Icon and Popup Menu ===================
-  // =========================================================
-
-  // --- 1. Create Settings Icon ---
   const settingsIcon = document.createElement("button");
   settingsIcon.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>`;
   settingsIcon.style.position = "absolute";
   settingsIcon.style.top = "0px";
-  settingsIcon.style.right = "40px"; // Position left of the close button
+  settingsIcon.style.right = "40px";
   settingsIcon.style.height = "36px";
   settingsIcon.style.width = "36px";
   settingsIcon.style.background = "transparent";
@@ -96,29 +87,55 @@
     settingsIcon.style.color = "#b0b3b8";
   };
 
-  // --- 2. Create Popup Menu ---
   const settingsMenu = document.createElement("div");
   settingsMenu.style.position = "absolute";
-  settingsMenu.style.top = "40px"; // Below the header
+  settingsMenu.style.top = "40px";
   settingsMenu.style.right = "10px";
   settingsMenu.style.background = "#ffffff";
   settingsMenu.style.border = "1px solid #e0e0e0";
   settingsMenu.style.borderRadius = "8px";
   settingsMenu.style.boxShadow = "0 4px 12px rgba(0,0,0,0.15)";
-  settingsMenu.style.zIndex = "2147483647"; // Ensure it's on top
-  settingsMenu.style.display = "none"; // Initially hidden
+  settingsMenu.style.zIndex = "2147483647";
+  settingsMenu.style.display = "none";
+  settingsMenu.style.padding = "5px 0";
 
-  // --- 3. Create "Reset API" Button in Menu ---
-  const resetApiButton = document.createElement("button");
+  // =========================================================
+  // === THE FIX IS HERE: Corrected Syntax Errors Below ======
+  // =========================================================
+  const deleteHistoryButton = document.createElement("button"); // <-- Fixed
+  deleteHistoryButton.textContent = "Delete History";
+  deleteHistoryButton.style.display = "block";
+  deleteHistoryButton.style.width = "100%";
+  deleteHistoryButton.style.padding = "8px 15px";
+  deleteHistoryButton.style.border = "none";
+  deleteHistoryButton.style.background = "none";
+  deleteHistoryButton.style.textAlign = "left";
+  deleteHistoryButton.style.cursor = "pointer";
+  deleteHistoryButton.style.fontSize = "14px";
+  deleteHistoryButton.onmouseover = () => {
+    deleteHistoryButton.style.backgroundColor = "#f0f0f0";
+  };
+  deleteHistoryButton.onmouseout = () => {
+    deleteHistoryButton.style.backgroundColor = "transparent";
+  };
+
+  const divider = document.createElement("hr"); // <-- Fixed
+  divider.style.border = "none";
+  divider.style.borderTop = "1px solid #e5e5e5";
+  divider.style.margin = "5px 0";
+
+  const resetApiButton = document.createElement("button"); // <-- Fixed
   resetApiButton.textContent = "Reset API Key";
   resetApiButton.style.display = "block";
   resetApiButton.style.width = "100%";
-  resetApiButton.style.padding = "10px 15px";
+  resetApiButton.style.padding = "8px 15px";
   resetApiButton.style.border = "none";
   resetApiButton.style.background = "none";
   resetApiButton.style.textAlign = "left";
   resetApiButton.style.cursor = "pointer";
   resetApiButton.style.fontSize = "14px";
+  resetApiButton.style.color = "#c93c3c";
+  resetApiButton.style.fontWeight = "500";
   resetApiButton.onmouseover = () => {
     resetApiButton.style.backgroundColor = "#f0f0f0";
   };
@@ -126,42 +143,17 @@
     resetApiButton.style.backgroundColor = "transparent";
   };
 
+  settingsMenu.appendChild(deleteHistoryButton);
+  settingsMenu.appendChild(divider);
   settingsMenu.appendChild(resetApiButton);
 
-  // --- 4. Add Event Listeners ---
-  settingsIcon.addEventListener("click", (e) => {
-    e.stopPropagation(); // Prevent header drag
-    settingsMenu.style.display =
-      settingsMenu.style.display === "block" ? "none" : "block";
-  });
-
-  resetApiButton.addEventListener("click", (e) => {
-    e.stopPropagation();
-    // Send a message to the iframe to handle the logic
-    chrome.runtime.sendMessage({ type: "RESET_API_REQUEST" });
-    settingsMenu.style.display = "none"; // Hide menu after clicking
-  });
-
-  // Hide menu if clicking outside of it
-  document.addEventListener("click", (e) => {
-    if (
-      settingsMenu.style.display === "block" &&
-      !settingsMenu.contains(e.target) &&
-      !settingsIcon.contains(e.target)
-    ) {
-      settingsMenu.style.display = "none";
-    }
-  });
-
-  // --- Create Iframe ---
-  const iframe = document.createElement("iframe");
+  const iframe = document.createElement("iframe"); // <-- Fixed
   iframe.src = chrome.runtime.getURL("popup/popup.html");
   iframe.style.width = "100%";
   iframe.style.height = "100%";
   iframe.style.border = "none";
 
-  // --- Create Resize Handle ---
-  const resizeHandle = document.createElement("div");
+  const resizeHandle = document.createElement("div"); // <-- Fixed
   resizeHandle.style.position = "absolute";
   resizeHandle.style.width = "15px";
   resizeHandle.style.height = "15px";
@@ -172,29 +164,55 @@
 
   // --- Assemble and Inject ---
   headerBar.appendChild(headerTitle);
-  headerBar.appendChild(settingsIcon); // Add settings icon
+  headerBar.appendChild(settingsIcon);
   headerBar.appendChild(closeButton);
   container.appendChild(headerBar);
-  container.appendChild(settingsMenu); // Add menu to container
+  container.appendChild(settingsMenu);
   container.appendChild(iframe);
   container.appendChild(resizeHandle);
   document.body.appendChild(container);
 
-  // --- Draggable & Resizing Logic (Unchanged) ---
-  // ... (paste the draggable and resizing logic from your previous file here) ...
+  // --- Event Listeners ---
+  settingsIcon.addEventListener("click", (e) => {
+    e.stopPropagation();
+    settingsMenu.style.display =
+      settingsMenu.style.display === "block" ? "none" : "block";
+  });
+  deleteHistoryButton.addEventListener("click", (e) => {
+    e.stopPropagation();
+    chrome.runtime.sendMessage({ type: "DELETE_HISTORY_REQUEST" });
+    settingsMenu.style.display = "none";
+  });
+  resetApiButton.addEventListener("click", (e) => {
+    e.stopPropagation();
+    chrome.runtime.sendMessage({ type: "RESET_API_REQUEST" });
+    settingsMenu.style.display = "none";
+  });
+  document.addEventListener("click", (e) => {
+    if (
+      settingsMenu.style.display === "block" &&
+      !settingsMenu.contains(e.target) &&
+      !settingsIcon.contains(e.target)
+    ) {
+      settingsMenu.style.display = "none";
+    }
+  });
+
+  // --- Drag and Resize Logic (Unchanged) ---
   headerBar.addEventListener("mousedown", (e) => {
-    // Prevent drag if clicking on an interactive element like the settings icon
-    if (settingsIcon.contains(e.target)) return;
+    if (e.target.closest("button")) return;
     e.preventDefault();
     headerBar.style.cursor = "grabbing";
     document.body.style.userSelect = "none";
-    let initialX = e.clientX,
-      initialY = e.clientY;
-    let initialLeft = container.offsetLeft,
-      initialTop = container.offsetTop;
+    let initialX = e.clientX;
+    let initialY = e.clientY;
+    let initialLeft = container.offsetLeft;
+    let initialTop = container.offsetTop;
     function onMouseMove(e) {
-      container.style.left = `${initialLeft + e.clientX - initialX}px`;
-      container.style.top = `${initialTop + e.clientY - initialY}px`;
+      let dx = e.clientX - initialX;
+      let dy = e.clientY - initialY;
+      container.style.left = `${initialLeft + dx}px`;
+      container.style.top = `${initialTop + dy}px`;
     }
     function onMouseUp() {
       headerBar.style.cursor = "grab";
@@ -205,18 +223,19 @@
     document.addEventListener("mousemove", onMouseMove);
     document.addEventListener("mouseup", onMouseUp);
   });
-
   resizeHandle.addEventListener("mousedown", (e) => {
     e.preventDefault();
     let isResizing = true;
-    let initialWidth = container.offsetWidth,
-      initialHeight = container.offsetHeight;
-    let initialMouseX = e.clientX,
-      initialMouseY = e.clientY;
+    let initialWidth = container.offsetWidth;
+    let initialHeight = container.offsetHeight;
+    let initialMouseX = e.clientX;
+    let initialMouseY = e.clientY;
     function onMouseMove(e) {
       if (!isResizing) return;
-      container.style.width = `${initialWidth + e.clientX - initialMouseX}px`;
-      container.style.height = `${initialHeight + e.clientY - initialMouseY}px`;
+      let dw = e.clientX - initialMouseX;
+      let dh = e.clientY - initialMouseY;
+      container.style.width = `${initialWidth + dw}px`;
+      container.style.height = `${initialHeight + dh}px`;
     }
     function onMouseUp() {
       isResizing = false;
@@ -227,12 +246,17 @@
     document.addEventListener("mouseup", onMouseUp);
   });
 
-  // --- Message Listener (Unchanged) ---
+  // --- Message Listener (Now it will run correctly) ---
   chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
     if (message.type === "UPDATE_HEADER_TITLE") {
       const titleElement = document.getElementById("gemini-hint-header-title");
       if (titleElement) {
         titleElement.textContent = message.text;
+      }
+    } else if (message.type === "IFRAME_CLICKED") {
+      // If the menu is open and a click happened inside the iframe, close it.
+      if (settingsMenu.style.display === "block") {
+        settingsMenu.style.display = "none";
       }
     }
   });

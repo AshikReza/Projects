@@ -1,7 +1,7 @@
-// popup.js (Final Version - Listens for Reset Request)
+// popup.js (Final Version 2.3 - Fixed "Receiving End" Error)
 
 document.addEventListener("DOMContentLoaded", () => {
-  // --- References and State ---
+  // --- References and State (Unchanged) ---
   const settingsView = document.getElementById("settings-view");
   const chatView = document.getElementById("chat-view");
   const apiKeyInput = document.getElementById("apiKeyInput");
@@ -12,32 +12,52 @@ document.addEventListener("DOMContentLoaded", () => {
   const sendBtn = document.getElementById("sendBtn");
   let chatHistory = [];
 
-  // --- Helper Functions (Unchanged) ---
+  // --- Click-Away Listener (Unchanged) ---
+  document.addEventListener("click", () => {
+    chrome.runtime.sendMessage({ type: "IFRAME_CLICKED" });
+  });
+
+  // --- Helper Functions (Unchanged, except for setupChatView) ---
   const showView = (viewToShow) => {
     settingsView.classList.add("hidden");
     chatView.classList.add("hidden");
     viewToShow.classList.remove("hidden");
   };
 
-  const addMessage = (text, role) => {
+  const addMessage = (text, role, save = true) => {
     const messageDiv = document.createElement("div");
     const cssClass = role === "model" ? "bot-message" : "user-message";
     messageDiv.classList.add("message", cssClass);
     messageDiv.innerHTML = marked.parse(text);
     chatbox.appendChild(messageDiv);
     chatbox.scrollTop = chatbox.scrollHeight;
-    chatHistory.push({ role, parts: [{ text }] });
+    if (save) {
+      chatHistory.push({ role, parts: [{ text }] });
+      chrome.storage.session.set({ chatHistory });
+    }
   };
 
-  const setupChatView = (problemData) => {
+  const rebuildChatFromHistory = (history) => {
     chatbox.innerHTML = "";
-    chatHistory = [];
-    if (problemData && problemData.title) {
+    history.forEach((message) => {
+      addMessage(message.parts[0].text, message.role, false);
+    });
+  };
+
+  // =========================================================
+  // === THE FIX IS HERE: Modified setupChatView function ===
+  // =========================================================
+  const setupChatView = (problemData, storedHistory) => {
+    chatHistory = storedHistory || [];
+    chatbox.innerHTML = "";
+
+    if (chatHistory.length > 0) {
+      rebuildChatFromHistory(chatHistory);
+    } else if (problemData && problemData.title) {
       addMessage(
         "I've read the problem. How can I help you get started?",
         "model"
       );
-      userInput.disabled = false;
     } else {
       addMessage(
         "Navigate to a supported problem page and click the extension icon again.",
@@ -45,28 +65,41 @@ document.addEventListener("DOMContentLoaded", () => {
       );
       userInput.disabled = true;
     }
-    chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
-      if (tabs && tabs.length > 0) {
-        const tabId = tabs[0].id;
-        chrome.tabs.sendMessage(tabId, {
-          type: "UPDATE_HEADER_TITLE",
-          text: problemData?.title || "Gemini Solver",
-        });
-      }
-    });
+
+    if (problemData) {
+      userInput.disabled = false;
+      // Only send the message to update the title if we have problem data,
+      // which guarantees the UI has been injected.
+      chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
+        if (tabs && tabs.length > 0) {
+          chrome.tabs
+            .sendMessage(tabs[0].id, {
+              type: "UPDATE_HEADER_TITLE",
+              text: problemData.title,
+            })
+            .catch((err) => {
+              // Optional: Catches the error if the user navigates away very quickly.
+              // This prevents the error from appearing in the console in that edge case.
+              // console.log("Could not send title update, tab may have been closed or changed.");
+            });
+        }
+      });
+    }
+
     showView(chatView);
   };
 
   // --- Main Initialization (Unchanged) ---
   chrome.runtime.sendMessage({ type: "GET_INITIAL_STATE" }, (response) => {
     if (response.apiKeyExists) {
-      setupChatView(response.problemData);
+      setupChatView(response.problemData, response.chatHistory);
     } else {
       showView(settingsView);
     }
   });
 
-  // --- Event Listeners ---
+  // --- All other Event Listeners and Functions are Unchanged ---
+  // ... (paste the rest of the unchanged code from the previous file) ...
   saveApiKeyBtn.addEventListener("click", () => {
     const apiKey = apiKeyInput.value.trim();
     if (!apiKey) {
@@ -85,7 +118,7 @@ document.addEventListener("DOMContentLoaded", () => {
           chrome.runtime.sendMessage(
             { type: "GET_INITIAL_STATE" },
             (response) => {
-              setupChatView(response.problemData);
+              setupChatView(response.problemData, response.chatHistory);
             }
           );
         }, 1000);
@@ -98,29 +131,23 @@ document.addEventListener("DOMContentLoaded", () => {
     if (e.key === "Enter") handleUserMessage();
   });
 
-  // The old resetApiKeyBtn listener has been REMOVED
-
-  // =========================================================
-  // === NEW: Message listener for API Reset Request =========
-  // =========================================================
   chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
     if (message.type === "RESET_API_REQUEST") {
-      // 1. Remove the key from storage
-      chrome.storage.sync.remove("geminiApiKey", () => {
-        // 2. Clear the input field and any status messages
-        apiKeyInput.value = "";
-        statusMessage.textContent = "";
-        statusMessage.style.color = ""; // Reset color
-
-        // 3. Switch back to the settings view
-        showView(settingsView);
-
-        // 4. (Optional but good UX) Focus the input field
-        apiKeyInput.focus();
-      });
+      chrome.storage.sync.remove("geminiApiKey");
+      chrome.storage.session.remove("chatHistory");
+      apiKeyInput.value = "";
+      statusMessage.textContent = "";
+      showView(settingsView);
+      apiKeyInput.focus();
+    } else if (message.type === "HISTORY_DELETED") {
+      chatHistory = [];
+      chatbox.innerHTML = "";
+      addMessage(
+        "I've read the problem. How can I help you get started?",
+        "model"
+      );
     }
   });
-  // =========================================================
 
   function handleUserMessage() {
     const userText = userInput.value.trim();
@@ -149,6 +176,7 @@ document.addEventListener("DOMContentLoaded", () => {
     chatbox.appendChild(botMessageDiv);
     chatbox.scrollTop = chatbox.scrollHeight;
   }
+
   function removeLoadingIndicator() {
     document.querySelector(".loading-indicator")?.remove();
   }
