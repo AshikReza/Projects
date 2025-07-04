@@ -1,0 +1,87 @@
+{
+    "chapterId": "chapter-4",
+    "chapterTitle": "রাসায়নিক পরিবর্তন (Chemical Change)",
+    "topics": [
+        {
+            "title": "প্রাথমিক ধারণা -",
+            "subtopics": [
+                {
+                    "title": "গ্রীন কেমিস্ট্রি ও এটম ইকোনমি",
+                    "contentId": "cc-green-chem"
+                }
+            ]
+        },
+        {
+            "title": "বিক্রিয়ার হার ও শক্তি -",
+            "subtopics": [
+                {
+                    "title": "বিক্রিয়ার হার ও হার ধ্রুবক",
+                    "contentId": "cc-reaction-rate"
+                },
+                {
+                    "title": "সক্রিয়ন শক্তি ও আরহেনিয়াসের সমীকরণ",
+                    "contentId": "cc-activation-energy"
+                }
+            ]
+        },
+        {
+            "title": "রাসায়নিক সাম্যাবস্থা -",
+            "subtopics": [
+                {
+                    "title": "ভূমিকা ও লা-শাতেলিয়ার নীতি",
+                    "contentId": "cc-le-chatelier"
+                },
+                {
+                    "title": "সাম্য ধ্রুবক Kc ও Kp",
+                    "contentId": "cc-kp-kc-basics"
+                },
+                {
+                    "title": "বিয়োজন মাত্রা ও সাম্য ধ্রুবক",
+                    "contentId": "cc-dissociation-degree"
+                },
+                {
+                    "title": "Kp ও Kc এর সম্পর্ক",
+                    "contentId": "cc-kp-kc-relation"
+                }
+            ]
+        },
+        {
+            "title": "অম্ল-ক্ষারক সাম্যাবস্থা -",
+            "subtopics": [
+                {
+                    "title": "অ্যাসিড ও ক্ষারকের ধারণা ও শক্তি",
+                    "contentId": "cc-acid-base-strength"
+                },
+                {
+                    "title": "পানির আয়নিক গুণফল (Kw)",
+                    "contentId": "cc-ionic-product-water"
+                },
+                {
+                    "title": "pH ও pOH নির্ণয়",
+                    "contentId": "cc-ph-calculation"
+                },
+                {
+                    "title": "অসওয়াল্ডের লঘুকরণ সূত্র",
+                    "contentId": "cc-ostwald-law"
+                }
+            ]
+        },
+        {
+            "title": "বাফার দ্রবণ -",
+            "subtopics": [
+                {
+                    "title": "বাফার দ্রবণের পরিচিতি ও প্রকারভেদ",
+                    "contentId": "cc-buffer-intro"
+                },
+                {
+                    "title": "হেন্ডারসন-হ্যাসেলবাখ সমীকরণ",
+                    "contentId": "cc-henderson-hasselbalch"
+                },
+                {
+                    "title": "বাফার দ্রবণের ক্রিয়াকৌশল",
+                    "contentId": "cc-buffer-mechanism"
+                }
+            ]
+        }
+    ]
+}

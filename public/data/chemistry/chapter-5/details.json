@@ -1,0 +1,66 @@
+{
+    "chapterId": "chapter-11",
+    "chapterTitle": "কর্মমূখী রসায়ন (Vocational Chemistry)",
+    "topics": [
+        {
+            "title": "খাদ্য নিরাপত্তা ও রসায়ন -",
+            "subtopics": [
+                {
+                    "title": "খাদ্য নিরাপত্তা ও এর নিয়ামকসমূহ",
+                    "contentId": "vc-food-security"
+                },
+                {
+                    "title": "খাদ্য উৎপাদনে রসায়ন (মাটির গুণাগুণ)",
+                    "contentId": "vc-food-production"
+                },
+                {
+                    "title": "খাদ্যের সঠিক ব্যবহার ও শক্তিমান",
+                    "contentId": "vc-food-utilization"
+                }
+            ]
+        },
+        {
+            "title": "খাদ্য সংরক্ষণ -",
+            "subtopics": [
+                {
+                    "title": "খাদ্য নষ্ট হওয়ার কারণ",
+                    "contentId": "vc-food-spoilage"
+                },
+                {
+                    "title": "খাদ্য সংরক্ষক: প্রাকৃতিক ও কৃত্রিম",
+                    "contentId": "vc-preservatives-intro"
+                },
+                {
+                    "title": "প্রাকৃতিক খাদ্য সংরক্ষক",
+                    "contentId": "vc-natural-preservatives"
+                }
+            ]
+        },
+        {
+            "title": "কৃত্রিম খাদ্য সংরক্ষক -",
+            "subtopics": [
+                {
+                    "title": "এন্টিমাইক্রোবিয়াল ও এন্টিঅক্সিডেন্ট",
+                    "contentId": "vc-antimicrobial-antioxidant"
+                },
+                {
+                    "title": "কিলেটিং এজেন্ট (Chelating Agents)",
+                    "contentId": "vc-chelating-agents"
+                }
+            ]
+        },
+        {
+            "title": "ভিনেগার (Vinegar) -",
+            "subtopics": [
+                {
+                    "title": "ভিনেগার প্রস্তুতি",
+                    "contentId": "vc-vinegar-prep"
+                },
+                {
+                    "title": "খাদ্য সংরক্ষণে ভিনেগারের ভূমিকা",
+                    "contentId": "vc-vinegar-role"
+                }
+            ]
+        }
+    ]
+}

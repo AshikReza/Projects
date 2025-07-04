@@ -1,0 +1,98 @@
+{
+    "chapterId": "chapter-3",
+    "chapterTitle": "মৌলের পর্যায়বৃত্ত ধর্ম ও রাসায়নিক বন্ধন (Periodic Properties & Chemical Bonding)",
+    "topics": [
+        {
+            "title": "পর্যায় সারণী ও মৌলের শ্রেণিবিভাগ -",
+            "subtopics": [
+                {
+                    "title": "পর্যায় সারণীতে মৌলের অবস্থান নির্ণয়",
+                    "contentId": "element-positioning"
+                },
+                {
+                    "title": "s-ব্লক, p-ব্লক ও তাদের অক্সাইডের ধর্ম",
+                    "contentId": "sp-block-elements"
+                },
+                {
+                    "title": "p-ব্লক মৌলের বিশেষ আলোচনা (হাইড্রোলাইসিস, ডাইমার)",
+                    "contentId": "p-block-special-topics"
+                },
+                {
+                    "title": "d-ব্লক ও অবস্থান্তর মৌল",
+                    "contentId": "d-block-transition-elements"
+                },
+                {
+                    "title": "অবস্থান্তর মৌলের বৈশিষ্ট্য",
+                    "contentId": "transition-element-properties"
+                },
+                {
+                    "title": "f-ব্লক মৌল",
+                    "contentId": "f-block-elements"
+                }
+            ]
+        },
+        {
+            "title": "পর্যায়বৃত্ত ধর্ম -",
+            "subtopics": [
+                {
+                    "title": "পারমাণবিক আকার",
+                    "contentId": "periodic-atomic-size"
+                },
+                {
+                    "title": "আয়নীকরণ শক্তি ও ব্যতিক্রম",
+                    "contentId": "periodic-ionization-energy"
+                },
+                {
+                    "title": "ইলেকট্রন আসক্তি ও ব্যতিক্রম",
+                    "contentId": "periodic-electron-affinity"
+                },
+                {
+                    "title": "তড়িৎ ঋণাত্মকতা",
+                    "contentId": "periodic-electronegativity"
+                }
+            ]
+        },
+        {
+            "title": "রাসায়নিক বন্ধন -",
+            "subtopics": [
+                {
+                    "title": "পোলারায়ন ও ফাজানের নীতি",
+                    "contentId": "fajans-rule-polarization"
+                },
+                {
+                    "title": "সমযোজী বন্ধন (σ ও π বন্ধন)",
+                    "contentId": "covalent-sigma-pi-bonds"
+                },
+                {
+                    "title": "সংকরায়ন বা হাইব্রিডাইজেশন",
+                    "contentId": "hybridization-basics"
+                },
+                {
+                    "title": "বিভিন্ন প্রকার সংকরায়ন ও আণবিক গঠন",
+                    "contentId": "hybridization-types-geometry"
+                },
+                {
+                    "title": "বন্ধন কোণের উপর প্রভাবক (VSEPR তত্ত্ব)",
+                    "contentId": "bond-angle-factors"
+                }
+            ]
+        },
+        {
+            "title": "আন্তঃআণবিক আকর্ষণ বল -",
+            "subtopics": [
+                {
+                    "title": "হাইড্রোজেন বন্ধন ও এর প্রকারভেদ",
+                    "contentId": "hydrogen-bonding-basics"
+                },
+                {
+                    "title": "হাইড্রোজেন বন্ধনের প্রভাব ও গুরুত্ব",
+                    "contentId": "hydrogen-bonding-effects"
+                },
+                {
+                    "title": "ভ্যান ডার ওয়ালস বল",
+                    "contentId": "van-der-waals-forces"
+                }
+            ]
+        }
+    ]
+}

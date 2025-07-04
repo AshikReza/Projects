@@ -1,0 +1,25 @@
+{
+  "subjectName": "রসায়ন",
+  "papers": [
+    {
+      "paperTitle": "রসায়ন ১ম পত্র",
+      "chapters": [
+        { "id": "chapter-1", "title": "ল্যাবরেটরির নিরাপদ ব্যবহার", "icon": "Beaker" },
+        { "id": "chapter-2", "title": "গুণগত রসায়ন", "icon": "Atom" },
+        { "id": "chapter-3", "title": "মৌলের পর্যায়বৃত্ত ধর্ম", "icon": "BookType" },
+        { "id": "chapter-4", "title": "রাসায়নিক পরিবর্তন", "icon": "FlaskConical" },
+        { "id": "chapter-5", "title": "কর্মমুখী রসায়ন", "icon": "Briefcase" }
+      ]
+    },
+    {
+      "paperTitle": "রসায়ন ২য় পত্র",
+      "chapters": [
+        { "id": "chapter-6", "title": "পরিবেশ রসায়ন", "icon": "Wind" },
+        { "id": "chapter-7", "title": "জৈব রসায়ন", "icon": "Grape" },
+        { "id": "chapter-8", "title": "পরিমাণগত রসায়ন", "icon": "Calculator" },
+        { "id": "chapter-9", "title": "তড়িৎ রসায়ন", "icon": "Zap" },
+        { "id": "chapter-10", "title": "অর্থনৈতিক রসায়ন", "icon": "Landmark" }
+      ]
+    }
+  ]
+}

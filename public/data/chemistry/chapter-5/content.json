@@ -1,0 +1,348 @@
+{
+    "vc-food-security": {
+        "title": "খাদ্য নিরাপত্তা ও এর নিয়ামকসমূহ",
+        "blocks": [
+            {
+                "type": "definition",
+                "title": "খাদ্য নিরাপত্তা (Food Security)",
+                "text_bn": "খাদ্য নিরাপত্তা হলো এমন একটি ব্যবস্থা যার মাধ্যমে একটি দেশের সকল মানুষের জন্য সব সময় স্বাস্থ্যকর ও নিরাপদ জীবনযাপনের জন্য পর্যাপ্ত, পুষ্টিকর, নিরাপদ ও সহজলভ্য খাদ্য নিশ্চিত করা হয়। এর মূল উদ্দেশ্য হলো খাদ্যের গুণগত ও পরিমাণগত মান নিশ্চিত করা।",
+                "text_en": "Food Security is a system that ensures all people in a country have sufficient, nutritious, safe, and accessible food at all times to lead a healthy and safe life. Its main objective is to ensure both the quality and quantity of food."
+            },
+            {
+                "type": "table",
+                "title": "খাদ্য নিরাপত্তার তিনটি প্রধান নিয়ামক",
+                "headers": [
+                    "নিয়াকম (Factor)",
+                    "বর্ণনা (Description)",
+                    "রসায়নের ভূমিকা (Role of Chemistry)"
+                ],
+                "rows": [
+                    [
+                        "খাদ্যের পর্যাপ্ততা (Food Availability)",
+                        "দেশের সকল মানুষের চাহিদা মেটানোর জন্য যথেষ্ট পরিমাণে খাদ্য উৎপাদন করা। ক্রমবর্ধমান জনসংখ্যার জন্য এটি একটি বড় চ্যালেঞ্জ।",
+                        "মাটির pH নিয়ন্ত্রণ, রাসায়নিক সার (যেমন: ইউরিয়া, TSP, DAP), এবং কীটনাশক ব্যবহার করে ফসলের উৎপাদন বৃদ্ধি করা।"
+                    ],
+                    [
+                        "খাদ্যের সহজলভ্যতা (Food Access)",
+                        "উৎপাদিত খাদ্য সঠিক সংরক্ষণ, সরবরাহ ও বিপণনের মাধ্যমে সারাদেশের মানুষের কাছে ন্যায্যমূল্যে পৌঁছে দেওয়া।",
+                        "হিমায়নে রেফ্রিজারেন্ট গ্যাস (অ্যামোনিয়া, HCFC), খাদ্য সংরক্ষক (BHA, BHT), এবং জেলাটিনের মতো জেলিং এজেন্ট ব্যবহার করা।"
+                    ],
+                    [
+                        "খাদ্যের সঠিক ব্যবহার (Proper Utilization)",
+                        "খাদ্যের পুষ্টিগুণ অক্ষুণ্ণ রেখে সঠিক পদ্ধতিতে রান্না ও গ্রহণ করা। এর মধ্যে পরিমিত ও সুষম খাদ্য গ্রহণ এবং বিশুদ্ধ পানি নিশ্চিত করা অন্তর্ভুক্ত।",
+                        "খাদ্যের শক্তিমান নির্ণয়, পুষ্টি উপাদান বিশ্লেষণ এবং বিশুদ্ধ পানি সরবরাহের জন্য রাসায়নিক পরীক্ষা (যেমন: ক্লোরিনেশন) সম্পাদন করা।"
+                    ]
+                ]
+            }
+        ]
+    },
+    "vc-food-production": {
+        "title": "খাদ্য উৎপাদনে রসায়ন (মাটির গুণাগুণ)",
+        "blocks": [
+            {
+                "type": "important",
+                "title": "ফসলের জন্য মাটির pH এর গুরুত্ব",
+                "text_bn": "ফসলের ভালো ফলনের জন্য মাটির pH একটি নির্দিষ্ট সীমার মধ্যে (সাধারণত 6.0 থেকে 7.5) থাকা আবশ্যক। অ্যাসিড বৃষ্টি বা অন্যান্য কারণে মাটির pH কমে গেলে (অম্লীয়) বা বেড়ে গেলে (ক্ষারীয়), তা অনুর্বর হয়ে পড়ে। রসায়নের সাহায্যে এই pH নিয়ন্ত্রণ করা হয়।",
+                "text_en": "For good crop yield, the soil pH must be within a specific range (usually 6.0 to 7.5). If the soil pH decreases (acidic) or increases (alkaline) due to acid rain or other reasons, it becomes infertile. Chemistry is used to control this pH."
+            },
+            {
+                "type": "table",
+                "title": "মাটির pH নিয়ন্ত্রণ ও রাসায়নিক সারের ব্যবহার",
+                "headers": [
+                    "মাটির অবস্থা (Soil Condition)",
+                    "প্রতিকার (Corrective Measure)",
+                    "ব্যবহৃত রাসায়নিক পদার্থ (Chemicals Used)"
+                ],
+                "rows": [
+                    [
+                        "অম্লীয় মাটি (Acidic Soil, pH < 6.0)",
+                        "ক্ষারীয় পদার্থ যোগ করে pH বাড়ানো হয়।",
+                        "লাইম (CaO), চুনাপাথর ($$CaCO_3$$), ডলোমাইট ($$CaMg(CO_3)_2$$)"
+                    ],
+                    [
+                        "ক্ষারীয় মাটি (Alkaline Soil, pH > 7.5)",
+                        "অম্লীয় সার যোগ করে pH কমানো হয়।",
+                        "ইউরিয়া, অ্যামোনিয়াম নাইট্রেট ($$NH_4NO_3$$), TSP, DAP"
+                    ]
+                ]
+            }
+        ]
+    },
+    "vc-food-utilization": {
+        "title": "খাদ্যের সঠিক ব্যবহার ও শক্তিমান",
+        "blocks": [
+            {
+                "type": "definition",
+                "title": "খাদ্যের শক্তিমান (Food Energy Value)",
+                "text_bn": "কোনো খাদ্য গ্রহণ করলে তা থেকে যে পরিমাণ শক্তি পাওয়া যায়, তাকে ঐ খাদ্যের শক্তিমান বলে। এটি সাধারণত কিলোক্যালরি (kcal) বা কিলোজুল (kJ) এককে প্রকাশ করা হয়।",
+                "text_en": "The amount of energy obtained from consuming a food item is called its food energy value. It is usually expressed in kilocalories (kcal) or kilojoules (kJ)."
+            },
+            {
+                "type": "table",
+                "title": "বিভিন্ন খাদ্য উপাদানের শক্তিমান",
+                "headers": [
+                    "খাদ্য উপাদান (Food Component)",
+                    "শক্তিমান (Energy Value per gram)"
+                ],
+                "rows": [
+                    [
+                        "কার্বোহাইড্রেট (Carbohydrate)",
+                        "4 kcal/g"
+                    ],
+                    [
+                        "প্রোটিন (Protein)",
+                        "4 kcal/g"
+                    ],
+                    [
+                        "ফ্যাট/লিপিড (Fat/Lipid)",
+                        "9 kcal/g"
+                    ]
+                ]
+            },
+            {
+                "type": "important",
+                "title": "সুষম খাদ্য গ্রহণের নিয়মাবলী",
+                "text_bn": "১. কাটার আগে সবজি ধুয়ে নিতে হবে, এতে খনিজ লবণ ও ভিটামিন সংরক্ষিত থাকে।\n২. ভাতের মাড় বা সিদ্ধ সবজির পানি ফেলে না দেওয়া, কারণ এতে পুষ্টি উপাদান থাকে।\n৩. পরিমিত ও সুষম খাদ্য গ্রহণ করা এবং জাঙ্ক ফুড এড়িয়ে চলা।\n৪. খাওয়ার পরপরই ঘুমাতে না যাওয়া। রাতের খাবার রাত ৮-৯টার মধ্যে শেষ করা উচিত।",
+                "text_en": "1. Wash vegetables before cutting to preserve minerals and vitamins.\n2. Do not discard rice starch or water from boiled vegetables as they contain nutrients.\n3. Consume a balanced and moderate diet and avoid junk food.\n4. Avoid sleeping immediately after meals. Dinner should be finished by 8-9 PM."
+            }
+        ]
+    },
+    "vc-food-spoilage": {
+        "title": "খাদ্য নষ্ট হওয়ার কারণ",
+        "blocks": [
+            {
+                "type": "table",
+                "title": "খাদ্যদ্রব্য পচনের প্রধান তিনটি কারণ",
+                "headers": [
+                    "কারণ (Cause)",
+                    "ব্যাখ্যা (Explanation)",
+                    "উদাহরণ (Example)"
+                ],
+                "rows": [
+                    [
+                        "অনুজীবের আক্রমণ (Microbial Attack)",
+                        "ব্যাকটেরিয়া, ইস্ট ও মোল্ড (ছত্রাক) খাদ্যে বংশবৃদ্ধি করে এবং এনজাইমের সাহায্যে খাদ্যকে পচিয়ে ফেলে।",
+                        "রুটিতে ছত্রাক পড়া, দুধ টক হয়ে যাওয়া।"
+                    ],
+                    [
+                        "বায়ুর অক্সিজেন দ্বারা জারণ (Oxidation by Air)",
+                        "খাদ্যে উপস্থিত এনজাইমের প্রভাবে বায়ুর অক্সিজেনের সাথে বিক্রিয়ায় খাদ্যের বর্ণ ও গন্ধ পরিবর্তিত হয়।",
+                        "কেটে রাখা আপেল বা আলু বাদামী হয়ে যাওয়া।"
+                    ],
+                    [
+                        "ধাতব আয়ন দ্বারা জারণ (Oxidation by Metal Ions)",
+                        "ধাতব আয়ন (যেমন: $$Fe^{2+}, Mn^{2+}$$) প্রভাবক হিসেবে কাজ করে তেল ও চর্বিযুক্ত খাদ্যের জারণকে ত্বরান্বিত করে।",
+                        "তেল বা চর্বিযুক্ত খাবার দীর্ঘদিন খোলা রাখলে দুর্গন্ধযুক্ত (rancid) হওয়া।"
+                    ]
+                ]
+            }
+        ]
+    },
+    "vc-preservatives-intro": {
+        "title": "খাদ্য সংরক্ষক: প্রাকৃতিক ও কৃত্রিম",
+        "blocks": [
+            {
+                "type": "definition",
+                "title": "খাদ্য সংরক্ষক (Food Preservative)",
+                "text_bn": "যেসব রাসায়নিক পদার্থ খাদ্যদ্রব্যের সাথে স্বল্প পরিমাণে মিশিয়ে দিলে অনুজীবের বৃদ্ধি ব্যাহত হয় এবং খাদ্যের জারণ প্রতিরোধ করে, ফলে খাদ্য দীর্ঘদিন টাটকা ও খাওয়ার উপযোগী থাকে, তাদের খাদ্য সংরক্ষক বলে।",
+                "text_en": "Chemical substances that, when added to food in small amounts, inhibit microbial growth and prevent food oxidation, thus keeping the food fresh and edible for a long time, are called food preservatives."
+            },
+            {
+                "type": "table",
+                "title": "খাদ্য সংরক্ষকের প্রকারভেদ",
+                "headers": [
+                    "প্রকার (Type)",
+                    "উৎস ও বৈশিষ্ট্য (Source & Characteristics)",
+                    "উদাহরণ (Examples)"
+                ],
+                "rows": [
+                    [
+                        "প্রাকৃতিক সংরক্ষক (Natural)",
+                        "প্রকৃতি থেকে পাওয়া যায়, তুলনামূলকভাবে নিরাপদ এবং পার্শ্বপ্রতিক্রিয়া কম।",
+                        "লবণ, চিনি, ভিনেগার, সরিষার তেল, হলুদ, মধু।"
+                    ],
+                    [
+                        "কৃত্রিম বা রাসায়নিক সংরক্ষক (Artificial/Chemical)",
+                        "শিল্প কারখানায় রাসায়নিকভাবে প্রস্তুত করা হয়। অত্যন্ত কার্যকর কিন্তু অনুমোদিত মাত্রার বেশি ব্যবহার স্বাস্থ্যের জন্য ক্ষতিকর।",
+                        "সোডিয়াম বেনজোয়েট, সরবেট, নাইট্রেট, BHA, BHT, EDTA।"
+                    ]
+                ]
+            }
+        ]
+    },
+    "vc-natural-preservatives": {
+        "title": "প্রাকৃতিক খাদ্য সংরক্ষক",
+        "blocks": [
+            {
+                "type": "table",
+                "title": "প্রচলিত প্রাকৃতিক সংরক্ষকের কার্যকৌশল",
+                "headers": [
+                    "সংরক্ষক (Preservative)",
+                    "কার্যকৌশল (Mechanism)",
+                    "বিশেষ প্রক্রিয়া (Key Process)"
+                ],
+                "rows": [
+                    [
+                        "লবণ (Salt)",
+                        "অসমোসিস বা অভিস্রবণ প্রক্রিয়ায় খাদ্য থেকে পানি শোষণ করে নেয়। পানিশূন্য পরিবেশে অনুজীব জন্মাতে পারে না।",
+                        "**কিউরিং (Curing):** ৭-৮% লবণ দ্রবণে খাদ্য সংরক্ষণ।"
+                    ],
+                    [
+                        "চিনি (Sugar)",
+                        "লবণের মতোই অভিস্রবণ প্রক্রিয়ায় খাদ্যকে পানিশূন্য করে অনুজীবের বৃদ্ধি রোধ করে। এর জন্য উচ্চ ঘনমাত্রা (৬০-৭০%) প্রয়োজন।",
+                        "জ্যাম, জেলি, মুরব্বা তৈরিতে ব্যবহৃত হয়।"
+                    ],
+                    [
+                        "ভিনেগার (Vinegar)",
+                        "খাদ্যের pH মান কমিয়ে ৪.৫ এর নিচে নিয়ে আসে। এই অম্লীয় পরিবেশে ব্যাকটেরিয়া ও অন্যান্য অনুজীবের এনজাইম নিষ্ক্রিয় হয়ে যায়।",
+                        "**পিকলিং (Pickling):** ভিনেগার দিয়ে খাদ্য সংরক্ষণ (যেমন: আচার)।"
+                    ]
+                ]
+            }
+        ]
+    },
+    "vc-antimicrobial-antioxidant": {
+        "title": "এন্টিমাইক্রোবিয়াল ও এন্টিঅক্সিডেন্ট",
+        "blocks": [
+            {
+                "type": "definition",
+                "title": "এন্টিমাইক্রোবিয়াল এজেন্ট (Antimicrobial Agents)",
+                "text_bn": "এইসব রাসায়নিক পদার্থ অনুজীবের (ব্যাকটেরিয়া, ইস্ট, মোল্ড) কোষপ্রাচীর ধ্বংস করে বা তাদের এনজাইমের কার্যকারিতা নষ্ট করে দেয়, যার ফলে অনুজীবের বৃদ্ধি ও বংশবিস্তার রোধ হয়।\n**উদাহরণ:** সোডিয়াম বেনজোয়েট, পটাশিয়াম সরবেট, নাইট্রেট লবণ, সালফাইট, অ্যাসিটিক এসিড।",
+                "text_en": "These chemical substances destroy the cell walls of microorganisms (bacteria, yeast, mold) or inhibit their enzyme activity, thereby preventing their growth and reproduction.\n**Examples:** Sodium benzoate, potassium sorbate, nitrate salts, sulfites, acetic acid."
+            },
+            {
+                "type": "definition",
+                "title": "এন্টিঅক্সিডেন্ট (Antioxidants)",
+                "text_bn": "এরা নিজেরা জারিত হয়ে খাদ্যকে জারণের হাত থেকে রক্ষা করে। এরা তেল ও চর্বিযুক্ত খাদ্যের জারণ প্রতিরোধ করে খাদ্যকে দীর্ঘ সময় সতেজ রাখে।",
+                "text_en": "They get oxidized themselves to protect the food from oxidation. They prevent the oxidation of fats and oils, keeping the food fresh for a longer time."
+            },
+            {
+                "type": "table",
+                "title": "প্রাকৃতিক ও কৃত্রিম এন্টিঅক্সিডেন্টের উদাহরণ",
+                "headers": [
+                    "প্রকার (Type)",
+                    "নাম (Name)",
+                    "উৎস/রাসায়নিক নাম (Source/Chemical Name)"
+                ],
+                "rows": [
+                    [
+                        "প্রাকৃতিক (Natural)",
+                        "ভিটামিন-সি (Vitamin C)",
+                        "অ্যাসকরবিক এসিড (Ascorbic Acid) - লেবু, কমলা, কাঁচামরিচ"
+                    ],
+                    [
+                        "প্রাকৃতিক (Natural)",
+                        "ভিটামিন-ই (Vitamin E)",
+                        "টোকোফেরল (Tocopherol) - ভোজ্যতেল, শস্যদানা"
+                    ],
+                    [
+                        "কৃত্রিম (Artificial)",
+                        "BHA",
+                        "Butylated Hydroxyanisole"
+                    ],
+                    [
+                        "কৃত্রিম (Artificial)",
+                        "BHT",
+                        "Butylated Hydroxytoluene"
+                    ],
+                    [
+                        "কৃত্রিম (Artificial)",
+                        "TBHQ",
+                        "Tertiary Butylhydroquinone"
+                    ]
+                ]
+            }
+        ]
+    },
+    "vc-chelating-agents": {
+        "title": "কিলেটিং এজেন্ট (Chelating Agents)",
+        "blocks": [
+            {
+                "type": "definition",
+                "title": "কিলেটিং এজেন্ট (Chelating Agent)",
+                "text_bn": "যেসব রাসায়নিক যৌগ ধাতব আয়নের (যেমন: $$Fe^{2+}, Fe^{3+}, Cu^{2+}$$) সাথে সন্নিবেশ বন্ধন গঠন করে জটিল যৌগ তৈরি করে এবং ধাতব আয়নগুলোকে নিষ্ক্রিয় রাখে, তাদের কিলেটিং এজেন্ট বলে। 'কিলেট' শব্দটি গ্রিক 'chele' থেকে এসেছে, যার অর্থ 'কাঁকড়ার চিমটা'।",
+                "text_en": "Chemical compounds that form coordinate bonds with metal ions (e.g., $$Fe^{2+}, Fe^{3+}, Cu^{2+}$$) to form complex compounds and deactivate the metal ions are called chelating agents. The word 'chelate' comes from the Greek 'chele', meaning 'crab's claw'."
+            },
+            {
+                "type": "important",
+                "title": "কিলেশনের কার্যকৌশল (Mechanism of Chelation)",
+                "text_bn": "তেল বা চর্বিযুক্ত খাদ্যে উপস্থিত ধাতব আয়নগুলো জারণের প্রভাবক হিসেবে কাজ করে। কিলেটিং এজেন্ট এই ধাতব আয়নগুলোকে কাঁকড়ার চিমটার মতো আবদ্ধ করে ফেলে, ফলে এরা আর প্রভাবক হিসেবে কাজ করতে পারে না। এতে খাদ্যের জারণ প্রক্রিয়া বন্ধ হয়ে যায়।",
+                "text_en": "Metal ions present in oily or fatty foods act as catalysts for oxidation. Chelating agents trap these metal ions like a crab's claw, preventing them from acting as catalysts. This stops the food oxidation process."
+            },
+            {
+                "type": "example",
+                "title": "উদাহরণ: EDTA",
+                "examples": [
+                    {
+                        "bn": "EDTA (Ethylenediamine Tetraacetate) একটি শক্তিশালী হেক্সাডেন্টেট (hexadentate) কিলেটিং এজেন্ট। এর একটি অণু ৬টি সন্নিবেশ বন্ধনের মাধ্যমে একটি ধাতব আয়নকে দৃঢ়ভাবে আবদ্ধ করতে পারে। এটি কোমল পানীয় এবং টিনজাত খাদ্যে বহুল ব্যবহৃত হয়।",
+                        "en": "EDTA (Ethylenediamine Tetraacetate) is a powerful hexadentate chelating agent. One molecule of EDTA can strongly bind a metal ion through six coordinate bonds. It is widely used in soft drinks and canned foods."
+                    }
+                ]
+            }
+        ]
+    },
+    "vc-vinegar-prep": {
+        "title": "ভিনেগার প্রস্তুতি",
+        "blocks": [
+            {
+                "type": "definition",
+                "title": "ভিনেগার (Vinegar)",
+                "text_bn": "ভিনেগার হলো অ্যাসিটিক এসিড বা ইথানয়িক এসিড ($$CH_3COOH$$) এর ৬-১০% জলীয় দ্রবণ। এটি একটি মৃদু এসিড এবং জনপ্রিয় খাদ্য সংরক্ষক।",
+                "text_en": "Vinegar is a 6-10% aqueous solution of acetic acid or ethanoic acid ($$CH_3COOH$$). It is a mild acid and a popular food preservative."
+            },
+            {
+                "type": "table",
+                "title": "ভিনেগার প্রস্তুতির বিভিন্ন পদ্ধতি",
+                "headers": [
+                    "পদ্ধতি (Method)",
+                    "উপকরণ (Raw Material)",
+                    "মূল প্রক্রিয়া (Core Process)"
+                ],
+                "rows": [
+                    [
+                        "শিল্পক্ষেত্রে (Industrial)",
+                        "ইথাইন গ্যাস ($$C_2H_2$$)",
+                        "ইথাইনকে প্রথমে ইথান্যাল, পরে জারণের মাধ্যমে ইথানয়িক এসিডে পরিণত করা হয়।"
+                    ],
+                    [
+                        "দ্রুত পদ্ধতি (Quick Method)",
+                        "ইথানল ($$C_2H_5OH$$)",
+                        "মাইকোডার্মা অ্যাসেটি (Microderma aceti) ব্যাকটেরিয়ার উপস্থিতিতে ইথানলের বায়বীয় জারণ।"
+                    ],
+                    [
+                        "ফার্মেন্টেশন (Fermentation)",
+                        "আখের রস/চিনি/গুড় (Sucrose)",
+                        "ইস্টের সাহায্যে ফার্মেন্টেশন করে প্রথমে ইথানল ও পরে অ্যাসেটোব্যাকটর দিয়ে জারণ করে অ্যাসিটিক এসিড তৈরি।"
+                    ]
+                ]
+            },
+            {
+                "type": "example",
+                "title": "আখের রস থেকে ফার্মেন্টেশন প্রক্রিয়ায় ভিনেগার প্রস্তুতি",
+                "examples": [
+                    {
+                        "bn": "**ধাপ ১: ইনভার্সন**\nসুক্রোজকে ইনভার্টেজ এনজাইমের সাহায্যে আর্দ্রবিশ্লেষণ করে গ্লুকোজ ও ফ্রুক্টোজ (ইনভার্ট চিনি) তৈরি করা হয়।\n$$C_{12}H_{22}O_{11} (aq) + H_2O (l) \\xrightarrow{Invertase} C_6H_{12}O_6 (aq) + C_6H_{12}O_6 (aq)$$\n\n**ধাপ ২: অ্যালকোহলীয় ফার্মেন্টেশন**\nগ্লুকোজকে জাইমেজ এনজাইমের (ইস্ট থেকে প্রাপ্ত) সাহায্যে সন্ধান প্রক্রিয়ায় ইথানলে পরিণত করা হয়।\n$$C_6H_{12}O_6 (aq) \\xrightarrow{Zymase} 2C_2H_5OH (aq) + 2CO_2 (g)$$\n\n**ধাপ ৩: অ্যাসিটিক এসিড ফার্মেন্টেশন**\nইথানলকে অ্যাসেটোব্যাকটর (Acetobacter) ব্যাকটেরিয়ার উপস্থিতিতে বায়ুর অক্সিজেন দ্বারা জারিত করে ইথানয়িক এসিড বা অ্যাসিটিক এসিড প্রস্তুত করা হয়।\n$$C_2H_5OH (aq) + O_2 (g) \\xrightarrow{Acetobacter} CH_3COOH (aq) + H_2O (l)$$",
+                        "en": "**Step 1: Inversion**\nSucrose is hydrolyzed with invertase enzyme to produce glucose and fructose (invert sugar).\n$$C_{12}H_{22}O_{11} (aq) + H_2O (l) \\xrightarrow{Invertase} C_6H_{12}O_6 (aq) + C_6H_{12}O_6 (aq)$$\n\n**Step 2: Alcoholic Fermentation**\nGlucose is fermented using zymase enzyme (from yeast) to produce ethanol.\n$$C_6H_{12}O_6 (aq) \\xrightarrow{Zymase} 2C_2H_5OH (aq) + 2CO_2 (g)$$\n\n**Step 3: Acetic Acid Fermentation**\nEthanol is oxidized by atmospheric oxygen in the presence of Acetobacter bacteria to produce ethanoic acid or acetic acid.\n$$C_2H_5OH (aq) + O_2 (g) \\xrightarrow{Acetobacter} CH_3COOH (aq) + H_2O (l)$$"
+                    }
+                ]
+            }
+        ]
+    },
+    "vc-vinegar-role": {
+        "title": "খাদ্য সংরক্ষণে ভিনেগারের ভূমিকা",
+        "blocks": [
+            {
+                "type": "important",
+                "title": "আদর্শ খাদ্য সংরক্ষক হিসেবে ভিনেগারের সুবিধা",
+                "text_bn": "১. **pH হ্রাস:** এটি খাদ্যের pH কমিয়ে ৪.৫ এর নিচে নামিয়ে আনে, যা অনুজীবের বৃদ্ধি ও এনজাইমের কার্যকারিতা সম্পূর্ণ বন্ধ করে দেয়।\n২. **নিরাপদ ও ভোজ্য:** ভিনেগার একটি খাবারযোগ্য (edible) ও হালাল পদার্থ, যার তেমন কোনো পার্শ্বপ্রতিক্রিয়া নেই।\n৩. **দ্রবণীয়তা:** এটি পানিতে অত্যন্ত দ্রবণীয়, ফলে খাবারের সাথে সহজে মিশে যেতে পারে।\n৪. **স্বাদের পরিবর্তন:** মৃদু অম্ল হওয়ায় এটি খাদ্যের মূল স্বাদের বড় কোনো পরিবর্তন ঘটায় না, বরং আচার জাতীয় খাবারে কাঙ্ক্ষিত টক স্বাদ যোগ করে।",
+                "text_en": "1. **pH Reduction:** It lowers the food's pH to below 4.5, which completely halts microbial growth and enzyme activity.\n2. **Safe & Edible:** Vinegar is an edible and halal substance with no significant side effects.\n3. **Solubility:** It is highly soluble in water, allowing it to mix easily with food.\n4. **Taste Alteration:** Being a mild acid, it does not drastically change the original taste of food; rather, it adds a desirable sour taste to items like pickles."
+            },
+            {
+                "type": "important",
+                "title": "ব্যাকটেরিয়ার বৃদ্ধিতে সহায়ক পদার্থ",
+                "text_bn": "ভিনেগার প্রস্তুতির সময় (ফার্মেন্টেশন প্রক্রিয়ায়) ইস্টের দ্রুত বংশবৃদ্ধির জন্য অনেক সময় অ্যামোনিয়াম ফসফেট ($$(NH_4)_3PO_4$$) বা অ্যামোনিয়াম সালফেট ($$(NH_4)_2SO_4$$) যোগ করা হয়। এরা ইস্টের খাদ্য হিসেবে কাজ করে এবং জাইমেজ এনজাইমের উৎপাদন বাড়ায়।",
+                "text_en": "During vinegar preparation (in the fermentation process), ammonium phosphate ($$(NH_4)_3PO_4$$) or ammonium sulfate ($$(NH_4)_2SO_4$$) is sometimes added to promote the rapid growth of yeast. These act as nutrients for the yeast, increasing the production of the zymase enzyme."
+            }
+        ]
+    }
+}

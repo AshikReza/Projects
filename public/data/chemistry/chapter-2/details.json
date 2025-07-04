@@ -1,0 +1,71 @@
+{
+  "chapterId": "chapter-2",
+  "chapterTitle": "গুণগত রসায়ন (Qualitative Chemistry)",
+  "topics": [
+    {
+      "title": "পরমাণু ও পরমাণু মডেল -",
+      "subtopics": [
+        {
+          "title": "মৌলের কণা, পারমাণবিক সংখ্যা ও ভর সংখ্যা",
+          "contentId": "atomic-number-mass"
+        },
+        {
+          "title": "পরমাণু মডেল ও আধুনিক তত্ত্বসমূহ",
+          "contentId": "atomic-models"
+        }
+      ]
+    },
+    {
+      "title": "কোয়ান্টাম সংখ্যা ও ইলেকট্রন বিন্যাস -",
+      "subtopics": [
+        {
+          "title": "কোয়ান্টাম সংখ্যা ও অরবিটালের ধারণা",
+          "contentId": "quantum-numbers-orbitals"
+        },
+        {
+          "title": "ইলেকট্রন বিন্যাসের নীতিসমূহ",
+          "contentId": "electron-config-principles"
+        }
+      ]
+    },
+    {
+      "title": "পারমাণবিক বর্ণালী -",
+      "subtopics": [
+        {
+          "title": "হাইড্রোজেন পারমাণবিক বর্ণালী",
+          "contentId": "hydrogen-spectrum"
+        },
+        {
+          "title": "রিডবার্গ সমীকরণ ও এর প্রয়োগ",
+          "contentId": "rydberg-equation"
+        }
+      ]
+    },
+    {
+      "title": "দ্রাব্যতা ও অধঃক্ষেপণ (Solubility & Precipitation) -",
+      "subtopics": [
+        {
+          "title": "দ্রাব্যতা ও দ্রাব্যতা গুণফল (Ksp)",
+          "contentId": "solubility-product"
+        },
+        {
+          "title": "আয়নিক গুণফল (Kip) ও অধঃক্ষেপণের শর্ত",
+          "contentId": "ionic-product"
+        },
+        {
+          "title": "সম-আয়ন প্রভাব",
+          "contentId": "common-ion-effect"
+        }
+      ]
+    },
+    {
+      "title": "আয়ন শনাক্তকরণ (Ion Identification) -",
+      "subtopics": [
+        {
+          "title": "শিক্ত ও শুষ্ক পরীক্ষা",
+          "contentId": "ion-identification"
+        }
+      ]
+    }
+  ]
+}
