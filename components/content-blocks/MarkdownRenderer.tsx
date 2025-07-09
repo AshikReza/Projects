@@ -1,15 +1,14 @@
 "use client";
 
 import ReactMarkdown from "react-markdown";
-import remarkGfm from "remark-gfm"; // For GitHub Flavored Markdown (tables, etc.)
-import remarkMath from "remark-math"; // To understand the math syntax
-import rehypeKatex from "rehype-katex"; // To render the math using KaTeX
+import remarkGfm from "remark-gfm"; // Handles tables, strikethrough, etc.
+import remarkMath from "remark-math"; // Recognizes math syntax ($...$ and $$...$$)
+import rehypeKatex from "rehype-katex"; // Renders the math using the KaTeX library
 
-// We must import the KaTeX CSS for the math to be styled correctly
+// This CSS is essential for the math to look correct
 import "katex/dist/katex.min.css";
 import { cn } from "@/lib/utils";
 
-// This component will now be the single source of truth for rendering markdown
 export const MarkdownRenderer = ({
   content,
   className,
@@ -17,11 +16,9 @@ export const MarkdownRenderer = ({
   content: string;
   className?: string;
 }) => (
+  // The 'prose-p:my-1' class reduces extra vertical space around paragraphs, making lists look tighter.
   <div
-    className={cn(
-      "prose dark:prose-invert max-w-none leading-relaxed",
-      className
-    )}
+    className={cn("prose dark:prose-invert max-w-none prose-p:my-1", className)}
   >
     <ReactMarkdown
       remarkPlugins={[remarkGfm, remarkMath]}

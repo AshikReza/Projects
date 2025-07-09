@@ -1,9 +1,9 @@
+// Base types for subjects and chapters remain the same
 export interface SubjectPaper {
   id: string;
   name: string;
   slug: string;
 }
-
 export interface Subject {
   id: string;
   name: string;
@@ -11,12 +11,10 @@ export interface Subject {
   hasPapers: boolean;
   papers?: SubjectPaper[];
 }
-
 export interface Topic {
   id: string;
   title: string;
 }
-
 export interface Chapter {
   id: string;
   title: string;
@@ -24,24 +22,87 @@ export interface Chapter {
   topics: Topic[];
 }
 
-export interface NoteContent {
-  [topicId: string]: string; // Markdown content
+// --- NEW, POWERFUL BLOCK-BASED NOTE TYPES ---
+
+interface BlockBase {
+  type: string;
+  title: string;
 }
 
+export interface DefinitionBlockType extends BlockBase {
+  type: "definition";
+  text_bn: string;
+  text_en: string;
+}
+export interface ImportantBlockType extends BlockBase {
+  type: "important";
+  text_bn: string;
+  text_en: string;
+}
+export interface SuccessBlockType extends BlockBase {
+  type: "success";
+  text_bn: string;
+  text_en: string;
+}
+export interface TableBlockType extends BlockBase {
+  type: "table";
+  headers: string[];
+  rows: string[][];
+}
+export interface LimitationsBlockType extends BlockBase {
+  type: "limitations";
+  items: { bn: string; en: string }[];
+}
+export interface SuccessesBlockType extends BlockBase {
+  type: "successes";
+  items: { bn: string; en: string }[];
+}
+export interface ExampleBlockType extends BlockBase {
+  type: "example";
+  examples: { bn: string; en: string }[];
+}
+export interface EquationBlockType extends BlockBase {
+  type: "equation";
+  equation: string;
+  description_bn: string;
+  description_en: string;
+}
+
+// A union of all possible block types from your JSON
+export type NoteBlock =
+  | DefinitionBlockType
+  | TableBlockType
+  | LimitationsBlockType
+  | SuccessesBlockType
+  | ExampleBlockType
+  | EquationBlockType
+  | ImportantBlockType
+  | SuccessBlockType;
+
+// A single note topic now contains a title and an array of blocks
+export interface NoteTopic {
+  title: string;
+  blocks: NoteBlock[];
+}
+
+// The top-level NoteContent is a record mapping a topicId to its NoteTopic
+export interface NoteContent {
+  [topicId: string]: NoteTopic;
+}
+
+// Other content types remain the same
 export interface FlashcardContent {
   id: string;
   front: string;
   back: string;
 }
-
 export interface QuizQuestion {
   id: string;
-  type: 'mcq' | 'short-answer';
+  type: "mcq" | "short-answer";
   question: string;
   options?: string[];
   correctAnswer: string;
 }
-
 export interface QAContent {
   id: string;
   question: string;

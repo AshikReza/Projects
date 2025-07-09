@@ -7,6 +7,8 @@ import { cn } from "@/lib/utils";
 import { ThemeProvider } from "next-themes";
 import PageTransition from "@/components/PageTransition";
 
+import { LanguageProvider } from "@/components/LanguageProvider"; // <-- Import
+
 // 2. Configure the font with the necessary character subsets
 const hindSiliguri = Hind_Siliguri({
   subsets: ["bengali", "latin"], // 'latin' for English, 'bengali' for Bangla
@@ -33,16 +35,19 @@ export default function RootLayout({
           hindSiliguri.variable
         )}
       >
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="dark"
-          enableSystem
-          disableTransitionOnChange
-        >
-          <div className="relative flex min-h-screen flex-col">
-            <PageTransition>{children}</PageTransition>
-          </div>
-        </ThemeProvider>
+        {/* Wrap ThemeProvider with LanguageProvider */}
+        <LanguageProvider>
+          <ThemeProvider
+            attribute="class"
+            defaultTheme="dark"
+            enableSystem
+            disableTransitionOnChange
+          >
+            <div className="relative flex min-h-screen flex-col">
+              <PageTransition>{children}</PageTransition>
+            </div>
+          </ThemeProvider>
+        </LanguageProvider>
       </body>
     </html>
   );

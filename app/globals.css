@@ -1,6 +1,44 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
+/* ========================================= */
+/* === MINIMALIST SCROLLBAR (NO TRACK) === */
+/* ========================================= */
+
+/* --- Webkit Browsers (Chrome, Safari, Edge) --- */
+
+/* Define the scrollbar's size first */
+::-webkit-scrollbar {
+  width: 8px; /* for vertical scrollbars */
+  height: 8px; /* for horizontal scrollbars */
+}
+
+/* 1. Make the track (the background) completely invisible */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* 2. Style ONLY the handle (the thumb) */
+::-webkit-scrollbar-thumb {
+  background: hsl(var(--primary) / 0.6); /* Use your theme's primary color */
+  border-radius: 8px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+/* 3. Make the handle slightly more prominent on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--primary));
+}
+
+/* --- Firefox --- */
+
+/* For Firefox, we set the track color to transparent */
+* {
+  scrollbar-width: thin;
+  /* Syntax: <thumb-color> <track-color> */
+  scrollbar-color: hsl(var(--primary) / 0.6) transparent;
+}
+
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {

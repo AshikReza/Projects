@@ -1,300 +1,280 @@
 {
-  "topic1": [
-    { "type": "heading", "content": "Introduction to Physics" },
-    {
-      "type": "definition",
-      "content": "Physics is the natural science that studies matter, its fundamental constituents, its motion and behavior through space and time, and the related entities of energy and force. It is one of the most fundamental scientific disciplines."
-    }
-  ],
-  "topic2": [
-    { "type": "heading", "content": "Units and Dimensions" },
-    {
-      "type": "markdown",
-      "content": "- **Physical Quantity:** Any quantity that can be measured.\n- **Unit:** A standard used for measurement of a physical quantity."
-    },
-    {
-      "type": "definition",
-      "content": "**Dimensions:** The powers to which the fundamental units are raised to represent a derived unit of a quantity."
-    }
-  ],
-  "topic3": [
-    { "type": "heading", "content": "Measurement Errors" },
-    {
-      "type": "important",
-      "content": "No measurement is perfectly accurate. The difference between the true value and the measured value is called an error."
-    },
-    {
-      "type": "markdown",
-      "content": "- **Systematic Errors:** Errors that tend to be in one direction, either positive or negative.\n- **Random Errors:** Errors that occur irregularly and are random in magnitude and direction."
-    }
-  ],
-  "vec_intro_resultant": [
-    {
-      "type": "heading",
-      "content": "ভেক্টর পরিচিতি ও লব্ধি (Introduction to Vectors & Resultant)"
-    },
-    {
-      "type": "definition",
-      "content": "**ভেক্টর রাশি (Vector Quantity):** যে সকল ভৌত রাশির মান ও দিক উভয়ই আছে এবং যারা ভেক্টর যোগের নিয়ম মেনে চলে, তাদের ভেক্টর রাশি বলে। যেমন: সরণ, বেগ, ত্বরণ, বল ইত্যাদি।"
-    },
-    {
-      "type": "markdown",
-      "content": "- **আদিবিন্দু (Initial Point):** ভেক্টরের শুরু।\n- **শীর্ষবিন্দু (Final Point):** ভেক্টরের শেষ।"
-    },
-    {
-      "type": "definition",
-      "content": "**লব্ধি (Resultant):** দুই বা ততোধিক ভেক্টরের সম্মিলিত ক্রিয়ার ফলে যে নতুন একক ভেক্টর পাওয়া যায়, যা ওই ভেক্টরগুলোর সম্মিলিত ক্রিয়ার সমান ও অভিন্ন ফল তৈরি করে, তাকে ওই ভেক্টরগুলোর লব্ধি বলে।"
-    },
-    {
-      "type": "markdown",
-      "content": "### ভেক্টর যোজনের সামান্তরিক সূত্র (Parallelogram Law)\nযদি একটি কণার উপর একই সময়ে ক্রিয়ারত দুটি ভেক্টরকে (P ও Q) কোনো সামান্তরিকের একটি কৌণিক বিন্দু থেকে অঙ্কিত দুটি সন্নিহিত বাহু দ্বারা মানে ও দিকে সূচিত করা হয়, তবে ওই কৌণিক বিন্দু থেকে অঙ্কিত সামান্তরিকের কর্ণটি (R) ভেক্টরদ্বয়ের লব্ধির মান ও দিক নির্দেশ করবে।"
-    },
-    { "type": "heading", "content": "লব্ধির মান (Magnitude of Resultant)" },
-    {
-      "type": "formula",
-      "content": "R = \\sqrt{P^2 + Q^2 + 2PQ \\cos \\alpha}"
-    },
-    {
-      "type": "important",
-      "content": "**সঠিক কোণ (α) নির্ণয়:** `α` কোণটি অবশ্যই ভেক্টর দুটির আদিবিন্দুকে একই বিন্দুতে এনে তাদের মধ্যবর্তী **ক্ষুদ্রতর কোণ** হতে হবে।"
-    },
-    { "type": "heading", "content": "লব্ধির দিক (Direction of Resultant)" },
-    {
-      "type": "formula",
-      "content": "\\tan \\theta = \\frac{Q \\sin \\alpha}{P + Q \\cos \\alpha}"
-    },
-    {
-      "type": "success",
-      "content": "**কৌশল:** লব্ধির দিক (`θ`) যে ভেক্টরের (P) সাথে নির্ণয় করা হচ্ছে, সেই ভেক্টরটি (P) সূত্রে নিচে একা থাকবে।"
-    }
-  ],
-  "vec_special_cases": [
-    {
-      "type": "heading",
-      "content": "লব্ধির বিশেষ ক্ষেত্রসমূহ (Special Cases of Resultant)"
-    },
-    {
-      "type": "markdown",
-      "content": "ভেক্টরদ্বয়ের মধ্যবর্তী কোণ (`α`) এর উপর ভিত্তি করে লব্ধির মানের কিছু বিশেষ অবস্থা নিচে দেওয়া হলো:"
-    },
-    {
-      "type": "dataTable",
-      "headers": ["অবস্থা (Condition)", "কোণ (α)", "লব্ধির মান (R)", "দিক (θ)"],
-      "rows": [
-        ["সর্বোচ্চ লব্ধি (Maximum)", "0°", "`R_max = P + Q`", "0°"],
-        [
-          "সর্বনিম্ন লব্ধি (Minimum)",
-          "180°",
-          "`R_min = |P - Q|`",
-          "0° বা 180°"
+  "vec_intro_resultant": {
+    "title": "ভেক্টর পরিচিতি ও লব্ধি",
+    "blocks": [
+      {
+        "type": "definition",
+        "title": "ভেক্টর রাশি (Vector Quantity)",
+        "text_bn": "যে সকল ভৌত রাশির মান ও দিক উভয়ই আছে এবং যারা ভেক্টর যোগের নিয়ম মেনে চলে, তাদের ভেক্টর রাশি বলে। যেমন: সরণ, বেগ, ত্বরণ, বল ইত্যাদি। একটি ভেক্টরের দৈর্ঘ্য তার মান নির্দেশ করে।",
+        "text_en": "A physical quantity that has both magnitude and direction and obeys the laws of vector addition is called a vector quantity. Examples: displacement, velocity, acceleration, force, etc. The length of a vector represents its magnitude."
+      },
+      {
+        "type": "definition",
+        "title": "লব্ধি (Resultant)",
+        "text_bn": "দুই বা ততোধিক ভেক্টরের সম্মিলিত ক্রিয়ার ফলে যে নতুন একক ভেক্টর পাওয়া যায়, যা ওই ভেক্টরগুলোর সম্মিলিত ক্রিয়ার সমান ও অভিন্ন ফল তৈরি করে, তাকে ওই ভেক্টরগুলোর লব্ধি বলে।",
+        "text_en": "The resultant is the single vector that produces the same effect as the combined effect of two or more individual vectors acting together."
+      },
+      {
+        "type": "definition",
+        "title": "ভেক্টর যোজনের সামান্তরিক সূত্র",
+        "text_bn": "যদি কোনো কণার উপর একই সময়ে ক্রিয়ারত দুটি ভেক্টরকে কোনো সামান্তরিকের একটি কৌণিক বিন্দু থেকে অঙ্কিত দুটি সন্নিহিত বাহু দ্বারা মানে ও দিকে সূচিত করা হয়, তবে ওই কৌণিক বিন্দু থেকে অঙ্কিত সামান্তরিকের কর্ণটি ভেক্টরদ্বয়ের লব্ধির মান ও দিক নির্দেশ করবে।",
+        "text_en": "If two vectors acting simultaneously on a particle are represented in magnitude and direction by the two adjacent sides of a parallelogram drawn from a point, then their resultant is represented in magnitude and direction by the diagonal of the parallelogram passing through that point."
+      },
+      {
+        "type": "equation",
+        "title": "লব্ধির মান (Magnitude of Resultant)",
+        "equation": "R = \\sqrt{P^2 + Q^2 + 2PQ \\cos \\alpha}",
+        "description_bn": "যদি দুটি ভেক্টর P ও Q কোনো কণার উপর α কোণে ক্রিয়া করে, তবে তাদের লব্ধি R-এর মান এই সূত্র দ্বারা নির্ণয় করা হয়। এখানে P ও Q শুধুমাত্র ভেক্টরের মান।",
+        "description_en": "If two vectors, P and Q, act on a particle at an angle α, the magnitude of their resultant, R, is determined by this formula. Here P and Q are the magnitudes of the vectors."
+      },
+      {
+        "type": "equation",
+        "title": "লব্ধির দিক (Direction of Resultant)",
+        "equation": "\\tan \\theta = \\frac{Q \\sin \\alpha}{P + Q \\cos \\alpha}",
+        "description_bn": "এখানে, θ হলো লব্ধি R এবং P ভেক্টরের মধ্যবর্তী কোণ, যা লব্ধির দিক নির্দেশ করে।",
+        "description_en": "Here, θ is the angle between the resultant R and the vector P, which indicates the direction of the resultant."
+      },
+      {
+        "type": "important",
+        "title": "সঠিক কোণ (α) নির্ণয়",
+        "text_bn": "লব্ধি নির্ণয়ের সময়, দুটি ভেক্টরের আদিবিন্দু (Initial Point) একই বিন্দুতে এনে তাদের মধ্যবর্তী **ক্ষুদ্রতর কোণটিকেই** α হিসেবে ধরতে হবে। ভেক্টর দুটি যদি head-to-tail ভাবে সাজানো থাকে, তবে একটিকে সমান্তরালে সরিয়ে আদিবিন্দু মেলাতে হবে।",
+        "text_en": "When calculating the resultant, the angle α must be the **smaller angle** between the two vectors after bringing their initial points to a common point. If the vectors are arranged head-to-tail, one must be shifted parallely to align the initial points."
+      }
+    ]
+  },
+  "vec_special_cases": {
+    "title": "লব্ধির বিশেষ ক্ষেত্রসমূহ ও সম্পর্ক",
+    "blocks": [
+      {
+        "type": "table",
+        "title": "কোণের উপর ভিত্তি করে লব্ধির বিশেষ মান",
+        "headers": [
+          "অবস্থা (Condition)",
+          "কোণ (α)",
+          "লব্ধির মান (R)",
+          "বিশেষ মন্তব্য"
         ],
-        [
-          "ভেক্টরদ্বয় লম্ব (Perpendicular)",
-          "90°",
-          "`R = \\sqrt{P² + Q²}`",
-          "`\\theta = \\tan^{-1}(Q/P)`"
-        ],
-        [
-          "P = Q হলে",
-          "যেকোনো α",
-          "`R = 2P \\cos(\\alpha/2)`",
-          "`\\theta = \\alpha/2`"
-        ],
-        ["P = Q এবং α = 120°", "120°", "`R = P`", "60°"]
-      ]
-    },
-    {
-      "type": "important",
-      "content": "**MCQ এর জন্য:** দুটি সমান মানের ভেক্টর যদি 120° কোণে ক্রিয়া করে, তবে তাদের লব্ধির মান যেকোনো একটি ভেক্টরের মানের সমান হয়। এটি খুবই সাধারণ একটি প্রশ্ন।"
-    }
-  ],
-  "vec_resolution": [
-    {
-      "type": "heading",
-      "content": "ভেক্টরের বিভাজন বা উপাংশ (Vector Resolution)"
-    },
-    {
-      "type": "definition",
-      "content": "**ভেক্টর বিভাজন (Vector Resolution):** একটি ভেক্টর রাশিকে দুই বা ততোধিক ভেক্টর রাশিতে বিভক্ত করার প্রক্রিয়াকে ভেক্টর বিভাজন বলে। বিভক্ত অংশগুলোকে মূল ভেক্টরের **উপাংশ (Component)** বলা হয়।"
-    },
-    { "type": "heading", "content": "লম্ব উপাংশ (Perpendicular Components)" },
-    {
-      "type": "markdown",
-      "content": "একটি ভেক্টরকে তার সাথে লম্বভাবে অবস্থিত দুটি দিকে বিভক্ত করা সবচেয়ে বেশি কার্যকর। যদি একটি ভেক্টর `R` আনুভূমিকের সাথে `θ` কোণ তৈরি করে, তবে:"
-    },
-    {
-      "type": "formula",
-      "content": "R_x = R \\cos \\theta \\quad (আনুভূমিক উপাংশ)"
-    },
-    {
-      "type": "formula",
-      "content": "R_y = R \\sin \\theta \\quad (উল্লম্ব উপাংশ)"
-    },
-    {
-      "type": "success",
-      "content": "**কৌশল:** উপাংশটি যার **'সাথে'** কোণ করে থাকে, তার জন্য **'cos'** ব্যবহৃত হয়। অপর লম্ব উপাংশটির জন্য **'sin'** ব্যবহৃত হয়।"
-    }
-  ],
-  "vec_component_resultant": [
-    {
-      "type": "heading",
-      "content": "লম্বাংশ উপপাদ্য (Theorem of Perpendicular Components)"
-    },
-    {
-      "type": "markdown",
-      "content": "দুইয়ের অধিক ভেক্টরের লব্ধি সহজে নির্ণয়ের জন্য এই উপপাদ্য ব্যবহার করা হয়। এর মূলনীতি হলো লব্ধির যেকোনো দিকের উপাংশ হবে ঐ দিকে মূল ভেক্টরগুলোর উপাংশের বীজগাণিতিক যোগফলের সমান।"
-    },
-    { "type": "heading", "content": "পদ্ধতি (Methodology)" },
-    {
-      "type": "markdown",
-      "content": "1. সকল ভেক্টরের আদিবিন্দু একটি সাধারণ মূলবিন্দুতে (`O`) স্থাপন করুন।\n2. ধনাত্মক X-অক্ষের সাপেক্ষে ঘড়ির কাঁটার বিপরীতে (anti-clockwise) প্রতিটি ভেক্টরের কোণ (`θ₁, θ₂, ...`) নির্ণয় করুন।\n3. X-অক্ষ বরাবর উপাংশের যোগফল (`R_x`) নির্ণয় করুন: `R_x = P₁cosθ₁ + P₂cosθ₂ + ...`\n4. Y-অক্ষ বরাবর উপাংশের যোগফল (`R_y`) নির্ণয় করুন: `R_y = P₁sinθ₁ + P₂sinθ₂ + ...`\n5. লব্ধির মান (`R`) ও দিক (`θ`) নির্ণয় করুন।"
-    },
-    { "type": "formula", "content": "R = \\sqrt{R_x^2 + R_y^2}" },
-    {
-      "type": "formula",
-      "content": "\\theta = \\tan^{-1} \\left( \\frac{R_y}{R_x} \\right)"
-    },
-    {
-      "type": "important",
-      "content": "**চতুর্ভাগ নির্ণয়:** `R_x` ও `R_y` এর চিহ্ন (+/-) দেখে লব্ধিটি কোন চতুর্ভাগে (Quadrant) অবস্থিত তা নির্ণয় করতে হবে।"
-    }
-  ],
-  "vec_river_boat": [
-    {
-      "type": "heading",
-      "content": "নদী ও নৌকা সংক্রান্ত সমস্যা (River-Boat Problems)"
-    },
-    {
-      "type": "markdown",
-      "content": "এটি সৃজনশীল প্রশ্নের জন্য অত্যন্ত গুরুত্বপূর্ণ একটি টপিক।\n- **d:** নদীর প্রস্থ (width)\n- **u:** স্রোতের বেগ (velocity of current)\n- **v:** স্থির পানিতে নৌকার বেগ (velocity of boat)\n- **α:** `u` ও `v` এর মধ্যবর্তী কোণ"
-    },
-    {
-      "type": "heading",
-      "content": "ন্যূনতম দূরত্বে নদী পারাপার (Shortest Path Crossing)"
-    },
-    {
-      "type": "markdown",
-      "content": "ন্যূনতম দূরত্ব হলো নদীর প্রস্থ (`d`) বরাবর সোজাসুজি পার হওয়া।\n- **শর্ত:** নৌকাকে স্রোতের উজানে এমন কোণে (`α`) চালাতে হবে যেন লব্ধি বেগ (`w`) স্রোতের সাথে 90° কোণে থাকে।\n- **প্রয়োজনীয় কোণ:** `α = cos⁻¹(-u/v)`\n- **প্রয়োজনীয় সময়:** `t = d / \\sqrt{v² - u²}`"
-    },
-    {
-      "type": "limitation",
-      "content": "**সম্ভাবনার শর্ত:** এই ঘটনা কেবল তখনই সম্ভব যদি নৌকার বেগ স্রোতের বেগের চেয়ে বেশি বা সমান হয় (`v ≥ u`)।"
-    },
-    {
-      "type": "heading",
-      "content": "ন্যূনতম সময়ে নদী পারাপার (Shortest Time Crossing)"
-    },
-    {
-      "type": "markdown",
-      "content": "- **শর্ত:** নৌকাকে সরাসরি আড়াআড়িভাবে অর্থাৎ স্রোতের সাথে 90° কোণে (`α = 90°`) চালাতে হবে।\n- **ন্যূনতম সময়:** `t_min = d / v`\n- **পার্শ্বীয় সরণ (Drift):** এই সময়ে নৌকাটি স্রোতের কারণে ভাটির দিকে কিছুদূর ভেসে যাবে। এই দূরত্ব, `x = u * t_min`"
-    }
-  ],
-  "vec_relative_velocity": [
-    { "type": "heading", "content": "আপেক্ষিক বেগ (Relative Velocity)" },
-    {
-      "type": "definition",
-      "content": "**আপেক্ষিক বেগ:** একটি গতিশীল বস্তুর সাপেক্ষে অন্য একটি গতিশীল বস্তুর বেগের পরিমাপ।"
-    },
-    {
-      "type": "formula",
-      "content": "\\vec{v}_{BA} = \\vec{v}_B - \\vec{v}_A = \\vec{v}_B + (-\\vec{v}_A)"
-    },
-    {
-      "type": "markdown",
-      "content": "এখানে, `v_BA` হলো `A` এর সাপেক্ষে `B` এর আপেক্ষিক বেগ। ভেক্টর বিয়োগ করার জন্য, `v_A` কে উল্টো দিকে নিয়ে `v_B` এর সাথে যোগ করতে হয়।"
-    },
-    {
-      "type": "heading",
-      "content": "উদাহরণ: বৃষ্টি ও ছাতার সমস্যা (Example: Rain-Umbrella Problem)"
-    },
-    {
-      "type": "markdown",
-      "content": "- **প্রেক্ষাপট:** বৃষ্টি উল্লম্বভাবে নিচে পড়ছে (`v_R`) এবং একজন ব্যক্তি আনুভূমিকভাবে হেঁটে যাচ্ছেন (`v_M`)।\n- **সমাধান:** ব্যক্তিকে বৃষ্টির আপেক্ষিক বেগের (`v_RM`) বিপরীতে ছাতা ধরতে হবে।\n- **আপেক্ষিক বেগ:** `v_RM = v_R - v_M`"
-    },
-    { "type": "formula", "content": "\\tan \\theta = \\frac{v_M}{v_R}" },
-    { "type": "markdown", "content": "এখানে `θ` হলো উল্লম্বের সাথে ছাতার কোণ।" }
-  ],
-  "vec_multiplication": [
-    { "type": "heading", "content": "ভেক্টর গুণন (Vector Multiplication)" },
-    {
-      "type": "heading",
-      "content": "১. স্কেলার বা ডট গুণন (Scalar / Dot Product)"
-    },
-    {
-      "type": "markdown",
-      "content": "দুটি ভেক্টরের যে গুণনে একটি **স্কেলার** রাশি পাওয়া যায়। এটি বিনিময় সূত্র (`A·B = B·A`) মেনে চলে।"
-    },
-    {
-      "type": "formula",
-      "content": "\\vec{A} \\cdot \\vec{B} = AB \\cos \\theta"
-    },
-    {
-      "type": "markdown",
-      "content": "**ব্যবহার:**\n- **দুটি ভেক্টরের মধ্যবর্তী কোণ নির্ণয়:** `cos θ = (A · B) / (AB)`\n- **লম্ব অভিক্ষেপ (Projection) নির্ণয়:** `A` এর উপর `B` এর অভিক্ষেপ = `B cos θ = (A · B) / A`\n- **দুটি ভেক্টর লম্ব কিনা তা পরীক্ষা:** যদি `A · B = 0` হয়, তবে ভেক্টর দুটি পরস্পর লম্ব।"
-    },
-    {
-      "type": "success",
-      "content": "**কৌশল:** 'লম্ব' শব্দটি দেখলেই 'ডট গুণন শূন্য' হবে - এই ধারণাটি অনেক সমস্যা সমাধানে সাহায্য করে।"
-    },
-    {
-      "type": "heading",
-      "content": "২. ভেক্টর বা ক্রস গুণন (Vector / Cross Product)"
-    },
-    {
-      "type": "markdown",
-      "content": "দুটি ভেক্টরের যে গুণনে একটি নতুন **ভেক্টর** রাশি পাওয়া যায়। এর দিক ডানহাতি স্ক্রু নিয়ম দ্বারা নির্ণয় করা হয়।"
-    },
-    {
-      "type": "formula",
-      "content": "\\vec{A} \\times \\vec{B} = (AB \\sin \\theta) \\hat{n}"
-    },
-    {
-      "type": "markdown",
-      "content": "**ব্যবহার:**\n- **সমান্তরাল ভেক্টর পরীক্ষা:** যদি `A × B = 0` হয়, তবে ভেক্টর দুটি পরস্পর সমান্তরাল।\n- **সামান্তরিকের ক্ষেত্রফল:** `Area = |A × B|`\n- **ত্রিভুজের ক্ষেত্রফল:** `Area = ½ |A × B|`\n- **একক লম্ব ভেক্টর:** `n̂ = ± (A × B) / |A × B|`"
-    },
-    {
-      "type": "limitation",
-      "content": "**সতর্কতা:** ক্রস গুণন বিনিময় সূত্র মানে না। অর্থাৎ, `A × B = -(B × A)`।"
-    }
-  ],
-  "vec_calculus": [
-    { "type": "heading", "content": "ভেক্টর ক্যালকুলাস (Vector Calculus)" },
-    {
-      "type": "definition",
-      "content": "**ন্যাবলা অপারেটর (Nabla Operator):** এটি একটি ভেক্টর ডিফারেনশিয়াল অপারেটর। `∇ = î(∂/∂x) + ĵ(∂/∂y) + k̂(∂/∂z)`"
-    },
-    {
-      "type": "dataTable",
-      "headers": [
-        "অপারেশন (Operation)",
-        "প্রয়োগ (On)",
-        "ফলাফল (Result)",
-        "ভৌত তাৎপর্য (Physical Meaning)"
-      ],
-      "rows": [
-        [
-          "**গ্রেডিয়েন্ট (Gradient)**<br>`grad Φ = ∇Φ`",
-          "স্কেলার ক্ষেত্র",
-          "ভেক্টর ক্ষেত্র",
-          "স্কেলার রাশির সর্বোচ্চ পরিবর্তনের হার ও দিক নির্দেশ করে।"
-        ],
-        [
-          "**ডাইভারজেন্স (Divergence)**<br>`div A = ∇ ⋅ A`",
-          "ভেক্টর ক্ষেত্র",
-          "স্কেলার ক্ষেত্র",
-          "কোনো বিন্দু থেকে ভেক্টর ক্ষেত্রের প্রবাহ বা নির্গমন বোঝায়। `>0` হলে উৎস (source), `<0` হলে সিংক (sink), `=0` হলে সলিনয়েডাল (solenoidal)।"
-        ],
-        [
-          "**কার্ল (Curl)**<br>`curl A = ∇ × A`",
-          "ভেক্টর ক্ষেত্র",
-          "ভেক্টর ক্ষেত্র",
-          "কোনো বিন্দুতে ভেক্টর ক্ষেত্রের ঘূর্ণন প্রবণতা নির্দেশ করে। `=0` হলে অঘূর্ণনশীল (irrotational), `≠0` হলে ঘূর্ণনশীল (rotational)।"
+        "rows": [
+          [
+            "সর্বোচ্চ লব্ধি (Maximum)",
+            "0°",
+            "$$R_{max} = P + Q$$",
+            "ভেক্টর দুটি একই দিকে ক্রিয়াশীল।"
+          ],
+          [
+            "সর্বনিম্ন লব্ধি (Minimum)",
+            "180°",
+            "$$R_{min} = |P - Q|$$",
+            "ভেক্টর দুটি বিপরীত দিকে ক্রিয়াশীল।"
+          ],
+          [
+            "ভেক্টরদ্বয় লম্ব (Perpendicular)",
+            "90°",
+            "$$R = \\sqrt{P^2 + Q^2}$$",
+            "পিথাগোরাসের উপপাদ্য প্রযোজ্য হয়।"
+          ],
+          [
+            "সমান মানের ভেক্টর (P = Q)",
+            "যেকোনো α",
+            "$$R = 2P \\cos(\\alpha/2)$$",
+            "লব্ধিটি কোণের সমদ্বিখন্ডক বরাবর ক্রিয়া করে।"
+          ],
+          [
+            "সমান মানের ভেক্টর ১২০° কোণে",
+            "120°",
+            "$$R = P$$",
+            "লব্ধির মান যেকোনো একটি ভেক্টরের মানের সমান হয়।"
+          ]
         ]
-      ]
-    },
-    {
-      "type": "success",
-      "content": "**সংক্ষেপে:**\n- **Gradient:** স্কেলারকে ভেক্টর বানায় (দিক দেখায়)।\n- **Divergence:** ভেক্টরকে স্কেলার বানায় (ছড়িয়ে পড়া মাপে)।\n- **Curl:** ভেক্টরকে ভেক্টর বানায় (ঘূর্ণন মাপে)।"
-    }
-  ]
+      },
+      {
+        "type": "important",
+        "title": "কোণ বনাম লব্ধির মান",
+        "text_bn": "দুটি ভেক্টরের মধ্যবর্তী কোণ (α) যত বাড়ে, তাদের লব্ধির মান তত কমে। যেমন, α=0° তে লব্ধি সর্বোচ্চ এবং α=180° তে সর্বনিম্ন হয়।",
+        "text_en": "As the angle (α) between two vectors increases, the magnitude of their resultant decreases. For instance, the resultant is maximum at α=0° and minimum at α=180°."
+      },
+      {
+        "type": "important",
+        "title": "মান বনাম লব্ধির দিক",
+        "text_bn": "যদি দুটি ভেক্টরের মান অসমান হয়, তবে তাদের লব্ধি সবসময় বৃহত্তর মানের ভেক্টরটির দিকে বেশি ঝুঁকে থাকবে। অর্থাৎ, বৃহত্তর ভেক্টরের সাথে লব্ধির কোণ ক্ষুদ্রতর হবে।",
+        "text_en": "If two vectors have unequal magnitudes, their resultant will always lean towards the vector with the larger magnitude. This means the angle between the resultant and the larger vector will be smaller."
+      }
+    ]
+  },
+  "vec_resolution": {
+    "title": "ভেক্টরের বিভাজন বা উপাংশ",
+    "blocks": [
+      {
+        "type": "definition",
+        "title": "ভেক্টর বিভাজন (Vector Resolution)",
+        "text_bn": "একটি ভেক্টর রাশিকে দুই বা ততোধিক ভেক্টর রাশিতে বিভক্ত করার প্রক্রিয়াকে ভেক্টর বিভাজন বলে। এই বিভক্ত অংশগুলোকে মূল ভেক্টরের উপাংশ (Component) বলা হয়, যাদের ভেক্টর যোগফল মূল ভেক্টরের সমান।",
+        "text_en": "The process of splitting a single vector into two or more vectors is called vector resolution. These split parts are known as the components, and their vector sum equals the original vector."
+      },
+      {
+        "type": "important",
+        "title": "লম্ব উপাংশ (Perpendicular Components)",
+        "text_bn": "একটি ভেক্টরকে তার সাথে লম্বভাবে অবস্থিত দুটি দিকে বিভক্ত করা সবচেয়ে বেশি কার্যকর। যদি একটি ভেক্টর R আনুভূমিকের সাথে θ কোণ তৈরি করে, তবে: \nআনুভূমিক উপাংশ: $$R_x = R \\cos \\theta$$ \nউল্লম্ব উপাংশ: $$R_y = R \\sin \\theta$$",
+        "text_en": "The most useful form of resolution is splitting a vector into two perpendicular components. If a vector R makes an angle θ with the horizontal, then: \nHorizontal Component: $$R_x = R \\cos \\theta$$ \nVertical Component: $$R_y = R \\sin \\theta$$"
+      },
+      {
+        "type": "success",
+        "title": "সূত্র মনে রাখার কৌশল",
+        "text_bn": "উপাংশটি যার 'সাথে' কোণ করে থাকে, তার জন্য 'cos' ব্যবহৃত হয়। অপর লম্ব উপাংশটির জন্য 'sin' ব্যবহৃত হয়।",
+        "text_en": "The component 'with' the angle uses 'cos', and the other perpendicular component uses 'sin'."
+      },
+      {
+        "type": "definition",
+        "title": "ভেক্টর বিভাজনের উদ্দেশ্য",
+        "text_bn": "ভেক্টর বিভাজন কোনো নির্দিষ্ট দিকে একটি ভেক্টরের প্রভাব বা অংশ বুঝতে সাহায্য করে। একবার একটি ভেক্টরকে তার উপাংশে বিভক্ত করা হলে, মূল ভেক্টরটিকে তার উপাংশ দ্বারা প্রতিস্থাপিত বলে মনে করা হয়।",
+        "text_en": "Vector resolution helps to understand the effect or influence of a vector along a specific direction. Once a vector is resolved into its components, the original vector is considered to be replaced by them."
+      }
+    ]
+  },
+  "vec_component_resultant": {
+    "title": "উপাংশ পদ্ধতি বা লম্বাংশ উপপাদ্য",
+    "blocks": [
+      {
+        "type": "definition",
+        "title": "লম্বাংশ উপপাদ্য (Perpendicular Component Theorem)",
+        "text_bn": "দুইয়ের অধিক ভেক্টরের লব্ধি সহজে নির্ণয়ের জন্য এই উপপাদ্য ব্যবহার করা হয়। এর মূলনীতি হলো, লব্ধির যেকোনো দিকের উপাংশ হবে ঐ দিকে মূল ভেক্টরগুলোর উপাংশের বীজগাণিতিক যোগফলের সমান।",
+        "text_en": "This theorem is used to easily find the resultant of more than two vectors. Its principle states that the component of the resultant in any direction is equal to the algebraic sum of the components of the individual vectors in that same direction."
+      },
+      {
+        "type": "equation",
+        "title": "উপাংশ নির্ণয়",
+        "equation": "R_x = \\sum F_x \\quad \\text{and} \\quad R_y = \\sum F_y",
+        "description_bn": "লব্ধির x-উপাংশ (Rₓ) হলো সকল ভেক্টরের x-উপাংশের যোগফল। একইভাবে, লব্ধির y-উপাংশ (Rᵧ) হলো সকল ভেক্টরের y-উপাংশের যোগফল।",
+        "description_en": "The x-component of the resultant (Rₓ) is the sum of the x-components of all vectors. Similarly, the y-component of the resultant (Rᵧ) is the sum of the y-components of all vectors."
+      },
+      {
+        "type": "equation",
+        "title": "লব্ধির মান ও দিক নির্ণয়",
+        "equation": "R = \\sqrt{R_x^2 + R_y^2} \\quad \\text{and} \\quad \\theta = \\tan^{-1} \\left( \\frac{|R_y|}{|R_x|} \\right)",
+        "description_bn": "উপাংশগুলো থেকে পিথাগোরাসের সূত্র ব্যবহার করে লব্ধির মান এবং ত্রিকোণমিতি ব্যবহার করে এর দিক নির্ণয় করা হয়। Rₓ ও Rᵧ এর চিহ্ন থেকে লব্ধির সঠিক চতুর্ভাগ (quadrant) নির্ণয় করতে হয়।",
+        "description_en": "From the components, the magnitude of the resultant is found using the Pythagorean theorem, and its direction is found using trigonometry. The signs of Rₓ and Rᵧ must be used to determine the correct quadrant of the resultant."
+      }
+    ]
+  },
+  "vec_river_boat": {
+    "title": "নদী ও নৌকা সংক্রান্ত সমস্যা",
+    "blocks": [
+      {
+        "type": "definition",
+        "title": "গুরুত্বপূর্ণ রাশি",
+        "text_bn": "D = নদীর প্রস্থ, u = স্রোতের বেগ, v = স্থির পানিতে নৌকার বেগ, α = u ও v এর মধ্যবর্তী কোণ, w = লব্ধি বেগ, θ = w ও u এর মধ্যবর্তী কোণ।",
+        "text_en": "D = River width, u = Current velocity, v = Boat velocity in still water, α = Angle between u and v, w = Resultant velocity, θ = Angle between w and u."
+      },
+      {
+        "type": "important",
+        "title": "ন্যূনতম দূরত্বে নদী পারাপার (Shortest Distance Crossing)",
+        "text_bn": "ন্যূনতম দূরত্বে নদী পার হতে হলে নৌকাকে স্রোতের উজানে $$α = \\cos^{-1}(-u/v)$$ কোণে চালাতে হবে। এর জন্য শর্ত হলো $$v \\ge u$$।\nপারাপারের সময়: $$t = \\frac{d}{\\sqrt{v^2 - u^2}}$$",
+        "text_en": "To cross the river in the shortest distance, the boat must be steered upstream at an angle $$α = \\cos^{-1}(-u/v)$$. The condition for this is $$v \\ge u$$۔\nTime to cross: $$t = \\frac{d}{\\sqrt{v^2 - u^2}}$$"
+      },
+      {
+        "type": "important",
+        "title": "ন্যূনতম সময়ে নদী পারাপার (Shortest Time Crossing)",
+        "text_bn": "ন্যূনতম সময়ে নদী পার হতে হলে নৌকাকে সরাসরি নদীর পাড়ের সাথে লম্বভাবে ($$\\alpha = 90°$$) চালাতে হবে।\nন্যূনতম সময়: $$t_{min} = \\frac{d}{v}$$ \nএই সময়ে নৌকাটি স্রোতের দিকে ভেসে যাবে, যাকে পার্শ্বীয় সরণ বলে: $$x = u \\times t_{min} = \\frac{ud}{v}$$",
+        "text_en": "To cross the river in the shortest time, the boat must be steered directly perpendicular to the river bank ($$\\alpha = 90°$$).\nMinimum time: $$t_{min} = \\frac{d}{v}$$ \nDuring this time, the boat will drift downstream by a distance known as sideways displacement: $$x = u \\times t_{min} = \\frac{ud}{v}$$"
+      }
+    ]
+  },
+  "vec_relative_velocity": {
+    "title": "আপেক্ষিক বেগ",
+    "blocks": [
+      {
+        "type": "definition",
+        "title": "আপেক্ষিক বেগ (Relative Velocity)",
+        "text_bn": "একটি গতিশীল পর্যবেক্ষকের সাপেক্ষে অন্য একটি গতিশীল বস্তুর বেগের পরিমাপ। A বস্তুর সাপেক্ষে B বস্তুর আপেক্ষিক বেগ হলো $$ \\vec{v}_{BA} = \\vec{v}_B - \\vec{v}_A $$। ভেক্টর বিয়োগ মানে হলো, পর্যবেক্ষকের বেগকে উল্টো করে অন্য ভেক্টরের সাথে যোগ করা।",
+        "text_en": "The velocity of a moving object as measured by a moving observer. The relative velocity of object B with respect to object A is $$ \\vec{v}_{BA} = \\vec{v}_B - \\vec{v}_A $$. Vector subtraction means adding the negative of the observer's vector to the other vector."
+      },
+      {
+        "type": "example",
+        "title": "উদাহরণ: বৃষ্টি ও ছাতার সমস্যা",
+        "examples": [
+          {
+            "bn": "প্রশ্ন: বৃষ্টি খাড়া নিচের দিকে $$v_R$$ বেগে পড়ছে। একজন ব্যক্তি আনুভূমিকভাবে $$v_M$$ বেগে চললে তাকে কোন দিকে ছাতা ধরতে হবে?\nউত্তর: ব্যক্তিকে বৃষ্টির আপেক্ষিক বেগের বিপরীতে ছাতা ধরতে হবে। আপেক্ষিক বেগ হলো $$ \\vec{v}_{RM} = \\vec{v}_R + (-\\vec{v}_M) $$। উল্লম্বের সাথে ছাতার কোণ $$ \\theta $$ হলে, $$ \\tan \\theta = v_M / v_R $$।",
+            "en": "Question: Rain is falling vertically with velocity $$v_R$$. A person is moving horizontally with velocity $$v_M$$. In which direction should they hold their umbrella?\nAnswer: The person must hold the umbrella against the relative velocity of the rain. The relative velocity is $$ \\vec{v}_{RM} = \\vec{v}_R + (-\\vec{v}_M) $$. If $$ \\theta $$ is the angle with the vertical, then $$ \\tan \\theta = v_M / v_R $$."
+          }
+        ]
+      }
+    ]
+  },
+  "vec_multiplication": {
+    "title": "ভেক্টর গুণন",
+    "blocks": [
+      {
+        "type": "definition",
+        "title": "স্কেলার বা ডট গুণন (Scalar / Dot Product)",
+        "text_bn": "দুটি ভেক্টরের যে গুণনে একটি স্কেলার রাশি পাওয়া যায়। এর জ্যামিতিক ব্যাখ্যা হলো একটি ভেক্টরের মান এবং তার উপর অন্য ভেক্টরের লম্ব অভিক্ষেপের গুণফল। দুটি ভেক্টর লম্ব হলে তাদের ডট গুণফল শূন্য হয়।",
+        "text_en": "The product of two vectors that results in a scalar quantity. Its geometric interpretation is the product of the magnitude of one vector and the scalar projection of the other vector onto it. The dot product of two perpendicular vectors is zero."
+      },
+      {
+        "type": "equation",
+        "title": "ডট গুণনের সূত্র",
+        "equation": "\\vec{A} \\cdot \\vec{B} = AB \\cos \\theta = A_xB_x + A_yB_y + A_zB_z",
+        "description_bn": "এই সূত্র ব্যবহার করে দুটি ভেক্টরের মধ্যবর্তী কোণ নির্ণয় করা যায়।",
+        "description_en": "This formula is used to find the angle between two vectors."
+      },
+      {
+        "type": "definition",
+        "title": "ভেক্টর বা ক্রস গুণন (Vector / Cross Product)",
+        "text_bn": "দুটি ভেক্টরের যে গুণনে একটি নতুন ভেক্টর রাশি পাওয়া যায়। এর দিক ডানহাতি স্ক্রু নিয়ম দ্বারা নির্ণয় করা হয় এবং এটি উভয় ভেক্টরের তলের উপর লম্ব। দুটি ভেক্টর সমান্তরাল হলে তাদের ক্রস গুণফল শূন্য হয়।",
+        "text_en": "The product of two vectors that results in a new vector quantity. Its direction is determined by the right-hand rule and is perpendicular to the plane of both vectors. The cross product of two parallel vectors is zero."
+      },
+      {
+        "type": "equation",
+        "title": "ক্রস গুণনের মান ও ব্যবহার",
+        "equation": "|\\vec{A} \\times \\vec{B}| = AB \\sin \\theta",
+        "description_bn": "এর মান দ্বারা দুটি ভেক্টর দ্বারা গঠিত সামান্তরিকের ক্ষেত্রফল নির্ণয় করা যায়। ত্রিভুজের ক্ষেত্রফল এর অর্ধেক।",
+        "description_en": "Its magnitude can be used to calculate the area of the parallelogram formed by the two vectors. The area of a triangle is half of this value."
+      },
+      {
+        "type": "definition",
+        "title": "স্কেলার ট্রিপল প্রোডাক্ট",
+        "text_bn": "তিনটি ভেক্টরের স্কেলার ট্রিপল প্রোডাক্ট $$|\\vec{A} \\cdot (\\vec{B} \\times \\vec{C})|$$ দ্বারা তাদের দ্বারা গঠিত সামন্তরিক ঘনবস্তুর (parallelepiped) আয়তন নির্ণয় করা হয়। এর মান শূন্য হলে, ভেক্টর তিনটি একই তলে (coplanar) অবস্থান করে।",
+        "text_en": "The scalar triple product of three vectors, $$|\\vec{A} \\cdot (\\vec{B} \\times \\vec{C})|$$, determines the volume of the parallelepiped formed by them. If its value is zero, the three vectors are coplanar."
+      }
+    ]
+  },
+  "vec_calculus": {
+    "title": "ভেক্টর ক্যালকুলাস",
+    "blocks": [
+      {
+        "type": "definition",
+        "title": "ন্যাবলা অপারেটর (Nabla Operator, ∇)",
+        "text_bn": "এটি একটি ভেক্টর ডিফারেনশিয়াল অপারেটর, যা স্কেলার ও ভেক্টর ক্ষেত্রের উপর কাজ করে। $$∇ = \\hat{i} \\frac{\\partial}{\\partial x} + \\hat{j} \\frac{\\partial}{\\partial y} + \\hat{k} \\frac{\\partial}{\\partial z}$$",
+        "text_en": "This is a vector differential operator that acts on scalar and vector fields. $$∇ = \\hat{i} \\frac{\\partial}{\\partial x} + \\hat{j} \\frac{\\partial}{\\partial y} + \\hat{k} \\frac{\\partial}{\\partial z}$$"
+      },
+      {
+        "type": "table",
+        "title": "ভেক্টর অপারেটরসমূহ ও তাদের তাৎপর্য",
+        "headers": [
+          "অপারেশন (Operation)",
+          "প্রয়োগ (On)",
+          "ফলাফল (Result)",
+          "ভৌত তাৎপর্য (Physical Meaning)"
+        ],
+        "rows": [
+          [
+            "গ্রেডিয়েন্ট (Gradient)<br> `grad Φ = ∇Φ`",
+            "স্কেলার ক্ষেত্র",
+            "ভেক্টর ক্ষেত্র",
+            "স্কেলার রাশির সর্বোচ্চ বৃদ্ধির হার ও দিক নির্দেশ করে।"
+          ],
+          [
+            "ডাইভারজেন্স (Divergence)<br> `div A = ∇ ⋅ A`",
+            "ভেক্টর ক্ষেত্র",
+            "স্কেলার ক্ষেত্র",
+            "কোনো বিন্দু থেকে ক্ষেত্রের নির্গমন বা প্রবাহ (flux) বোঝায়। শূন্য হলে সলিনয়েডাল (অসংকোচনীয়)।"
+          ],
+          [
+            "কার্ল (Curl)<br> `curl A = ∇ × A`",
+            "ভেক্টর ক্ষেত্র",
+            "ভেক্টর ক্ষেত্র",
+            "কোনো বিন্দুতে ক্ষেত্রের ঘূর্ণন প্রবণতা নির্দেশ করে। শূন্য হলে অঘূর্ণনশীল (irrotational) বা সংরক্ষণশীল।"
+          ]
+        ]
+      }
+    ]
+  }
 }
