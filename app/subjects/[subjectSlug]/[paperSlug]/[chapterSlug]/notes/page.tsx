@@ -1,7 +1,3 @@
-// app/subjects/[subjectSlug]/[paperSlug]/[chapterSlug]/notes/page.tsx
-
-import path from "path";
-import { promises as fs } from "fs";
 import NotesView from "@/components/NotesView";
 import { getChapterContent, getChapterDetails } from "@/lib/data-loader";
 
@@ -29,9 +25,11 @@ export default async function NotesPage({
       chapterSlug,
       "notes"
     );
-  } catch (err: any) {
+  } catch (err) {
     // If the underlying fs.readFile failed with ENOENT, we assume no notes yet.
-    if (err?.code === "ENOENT") {
+    // Safely check the error type before accessing properties.
+    const error = err as { code?: string };
+    if (error?.code === "ENOENT") {
       console.warn(
         `No notes.json for ${subjectSlug}/${paperSlug}/${chapterSlug} — rendering empty notes.`
       );

@@ -2,18 +2,11 @@
 
 import { useState } from "react";
 import { cn } from "@/lib/utils";
-import { Chapter, NoteTopic, Topic } from "@/lib/types";
+// Import the specific block type 'NoteBlock' from your types file
+import { Chapter, NoteTopic, Topic, NoteBlock } from "@/lib/types";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import {
-  Menu,
-  Hash,
-  CheckCircle,
-  XCircle,
-  Beaker,
-  FunctionSquare,
-  Lightbulb,
-} from "lucide-react";
+import { Menu, Hash, CheckCircle, XCircle, Lightbulb } from "lucide-react";
 import {
   Sheet,
   SheetContent,
@@ -23,7 +16,7 @@ import {
 } from "@/components/ui/sheet";
 import { useLanguage } from "@/components/LanguageProvider";
 
-// Import all block components, including the new CalloutBlock
+// Import all block components
 import { DefinitionBlock } from "./content-blocks/DefinitionBlock";
 import { ListBlock } from "./content-blocks/ListBlock";
 import { ExampleBlock } from "./content-blocks/ExampleBlock";
@@ -78,7 +71,6 @@ export default function NotesView({ chapter, notes }: NotesViewProps) {
     setIsSheetOpen(false);
   };
 
-  // This now correctly accesses the nested topic data object
   const activeTopicData = notes[activeTopicId];
 
   return (
@@ -87,16 +79,14 @@ export default function NotesView({ chapter, notes }: NotesViewProps) {
       <aside className="hidden md:block sticky top-24 self-start">
         <Card>
           <CardHeader>
-            {" "}
-            <CardTitle className="text-xl">Chapter Topics</CardTitle>{" "}
+            <CardTitle className="text-xl">Chapter Topics</CardTitle>
           </CardHeader>
           <CardContent>
-            {" "}
             <TopicList
               topics={chapter.topics}
               activeTopicId={activeTopicId}
               onTopicClick={handleTopicClick}
-            />{" "}
+            />
           </CardContent>
         </Card>
       </aside>
@@ -104,8 +94,7 @@ export default function NotesView({ chapter, notes }: NotesViewProps) {
         <Sheet open={isSheetOpen} onOpenChange={setIsSheetOpen}>
           <SheetTrigger asChild>
             <Button variant="outline" className="w-full justify-start">
-              {" "}
-              <Menu className="h-5 w-5 mr-3" /> View Topics{" "}
+              <Menu className="h-5 w-5 mr-3" /> View Topics
             </Button>
           </SheetTrigger>
           <SheetContent side="left" className="p-4">
@@ -113,12 +102,11 @@ export default function NotesView({ chapter, notes }: NotesViewProps) {
               <SheetTitle className="p-4 text-xl">Chapter Topics</SheetTitle>
             </SheetHeader>
             <div className="py-4">
-              {" "}
               <TopicList
                 topics={chapter.topics}
                 activeTopicId={activeTopicId}
                 onTopicClick={handleTopicClick}
-              />{" "}
+              />
             </div>
           </SheetContent>
         </Sheet>
@@ -127,7 +115,6 @@ export default function NotesView({ chapter, notes }: NotesViewProps) {
       {/* Main Content Area */}
       <main className="space-y-2 min-w-0">
         <div className="flex justify-between items-center mb-4 min-h-[40px]">
-          {/* Renders the title from within your new JSON structure */}
           <h1 className="text-2xl font-bold">{activeTopicData?.title}</h1>
           <div className="flex items-center gap-2 p-1 rounded-md border bg-muted">
             <Button
@@ -148,8 +135,9 @@ export default function NotesView({ chapter, notes }: NotesViewProps) {
         </div>
 
         {activeTopicData?.blocks && activeTopicData.blocks.length > 0 ? (
-          activeTopicData.blocks.map((block: any, index: number) => {
-            // This switch statement now handles ALL your defined block types
+          // Use your project's 'NoteBlock' type here. This is the key change.
+          activeTopicData.blocks.map((block: NoteBlock, index: number) => {
+            // The switch statement now works perfectly without any errors.
             switch (block.type) {
               case "definition":
                 return <DefinitionBlock key={index} {...block} />;

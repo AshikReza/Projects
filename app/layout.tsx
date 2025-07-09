@@ -1,19 +1,19 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-// 1. Import the new font that supports both Bangla and English
-import { Hind_Siliguri } from "next/font/google";
+import { Baloo_Da_2 } from "next/font/google"; // Correct font import
 import "./globals.css";
 import { cn } from "@/lib/utils";
 import { ThemeProvider } from "next-themes";
 import PageTransition from "@/components/PageTransition";
+import { LanguageProvider } from "@/components/LanguageProvider";
 
-import { LanguageProvider } from "@/components/LanguageProvider"; // <-- Import
-
-// 2. Configure the font with the necessary character subsets
-const hindSiliguri = Hind_Siliguri({
-  subsets: ["bengali", "latin"], // 'latin' for English, 'bengali' for Bangla
-  weight: ["300", "400", "500", "600", "700"], // Include various font weights
-  variable: "--font-sans", // Assign it to the same CSS variable
+// --- UPDATED FONT CONFIGURATION ---
+const balooDa2 = Baloo_Da_2({
+  // 1. You MUST specify the subsets you need.
+  subsets: ["bengali", "latin"],
+  // 2. Define a CSS variable for Tailwind to use.
+  variable: "--font-sans",
+  // You can keep weights if you need them, but this is the minimal setup.
+  weight: ["400", "500", "600", "700"],
 });
 
 export const metadata: Metadata = {
@@ -29,13 +29,13 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
+        // --- UPDATED CLASSNAME ---
         className={cn(
           "min-h-screen bg-background font-sans antialiased",
-          // 3. Apply the font's class to the entire application
-          hindSiliguri.variable
+          // 3. Apply the font *variable* here.
+          balooDa2.variable
         )}
       >
-        {/* Wrap ThemeProvider with LanguageProvider */}
         <LanguageProvider>
           <ThemeProvider
             attribute="class"

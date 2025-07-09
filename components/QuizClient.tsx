@@ -19,8 +19,6 @@ interface QuizClientProps {
   questions: QuizQuestion[];
 }
 
-type AnswerStatus = "correct" | "incorrect" | "unanswered";
-
 export default function QuizClient({ questions }: QuizClientProps) {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [selectedAnswers, setSelectedAnswers] = useState<
