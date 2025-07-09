@@ -1,0 +1,45 @@
+[
+  {
+    "id": "ch1",
+    "title": "Physical World and Measurement",
+    "slug": "chapter-1-physical-world",
+    "topics": [
+      { "id": "topic1", "title": "Introduction to Physics" },
+      { "id": "topic2", "title": "Units and Dimensions" },
+      { "id": "topic3", "title": "Measurement Errors" }
+    ]
+  },
+  {
+    "id": "ch2",
+    "title": "Vector (ভেক্টর)",
+    "slug": "vector",
+    "topics": [
+      {
+        "id": "vec_intro_resultant",
+        "title": "Introduction to Vectors & Resultant (ভেক্টর পরিচিতি ও লব্ধি)"
+      },
+      {
+        "id": "vec_special_cases",
+        "title": "Special Cases of Resultant (লব্ধির বিশেষ ক্ষেত্র)"
+      },
+      { "id": "vec_resolution", "title": "Vector Resolution (ভেক্টর বিভাজন)" },
+      {
+        "id": "vec_component_resultant",
+        "title": "Resultant by Components (লম্বাংশ উপপাদ্য)"
+      },
+      {
+        "id": "vec_river_boat",
+        "title": "River-Boat Problems (নদী-নৌকা সমস্যা)"
+      },
+      {
+        "id": "vec_relative_velocity",
+        "title": "Relative Velocity (আপেক্ষিক বেগ)"
+      },
+      {
+        "id": "vec_multiplication",
+        "title": "Vector Multiplication (ভেক্টর গুণন)"
+      },
+      { "id": "vec_calculus", "title": "Vector Calculus (ভেক্টর ক্যালকুলাস)" }
+    ]
+  }
+]

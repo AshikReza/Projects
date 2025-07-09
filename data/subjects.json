@@ -1,0 +1,58 @@
+[
+  {
+    "id": "phy",
+    "name": "Physics",
+    "slug": "physics",
+    "hasPapers": true,
+    "papers": [
+      { "id": "paper1", "name": "Physics First Paper", "slug": "first-paper" },
+      { "id": "paper2", "name": "Physics Second Paper", "slug": "second-paper" }
+    ]
+  },
+  {
+    "id": "che",
+    "name": "Chemistry",
+    "slug": "chemistry",
+    "hasPapers": true,
+    "papers": [
+      {
+        "id": "paper1",
+        "name": "Chemistry First Paper",
+        "slug": "first-paper"
+      },
+      {
+        "id": "paper2",
+        "name": "Chemistry Second Paper",
+        "slug": "second-paper"
+      }
+    ]
+  },
+  {
+    "id": "mat",
+    "name": "Mathematics",
+    "slug": "mathematics",
+    "hasPapers": true,
+    "papers": [
+      {
+        "id": "paper1",
+        "name": "Mathematics First Paper",
+        "slug": "first-paper"
+      },
+      {
+        "id": "paper2",
+        "name": "Mathematics Second Paper",
+        "slug": "second-paper"
+      }
+    ]
+  },
+  {
+    "id": "bio",
+    "name": "Biology",
+    "slug": "biology",
+    "hasPapers": true,
+    "papers": [
+      { "id": "paper1", "name": "Biology First Paper", "slug": "first-paper" },
+      { "id": "paper2", "name": "Biology Second Paper", "slug": "second-paper" }
+    ]
+  }
+]

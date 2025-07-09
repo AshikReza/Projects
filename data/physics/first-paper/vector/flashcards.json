@@ -1,0 +1,17 @@
+[
+  {
+    "id": "fc1",
+    "front": "What is the SI unit of force?",
+    "back": "Newton (N)"
+  },
+  {
+    "id": "fc2",
+    "front": "Define a scalar quantity.",
+    "back": "A quantity that has only magnitude but no direction."
+  },
+  {
+    "id": "fc3",
+    "front": "What is the dimensional formula for Velocity?",
+    "back": "[LT⁻¹]"
+  }
+]

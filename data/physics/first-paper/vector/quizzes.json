@@ -1,0 +1,16 @@
+[
+  {
+    "id": "q1",
+    "type": "mcq",
+    "question": "Which of the following is a fundamental unit?",
+    "options": ["Newton", "Joule", "Kilogram", "Watt"],
+    "correctAnswer": "Kilogram"
+  },
+  {
+    "id": "q2",
+    "type": "mcq",
+    "question": "The dimensional formula for energy is:",
+    "options": ["[MLT⁻²]", "[ML²T⁻²]", "[ML²T⁻¹]", "[MLT⁻¹]"],
+    "correctAnswer": "[ML²T⁻²]"
+  }
+]
