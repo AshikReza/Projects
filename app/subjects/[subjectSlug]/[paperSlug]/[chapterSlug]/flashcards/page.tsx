@@ -1,14 +1,22 @@
 import { getChapterContent } from "@/lib/data-loader";
-// This is the line that has been fixed. It now points to the correct component file.
 import FlashcardsClient from "@/components/FlashcardsClient";
 
 // This is a pure Server Component. Its only job is to fetch data.
+// We are updating the props definition to match the Promise-based pattern used elsewhere in your app.
 export default async function FlashcardsPage({
-  params: { subjectSlug, paperSlug, chapterSlug },
+  params, // 1. Accept `params` as a whole object instead of destructuring it here.
 }: {
-  params: { subjectSlug: string; paperSlug: string; chapterSlug: string };
+  // 2. Type `params` as a Promise containing the slug properties.
+  params: Promise<{
+    subjectSlug: string;
+    paperSlug: string;
+    chapterSlug: string;
+  }>;
 }) {
-  // 1. Fetch the data on the server
+  // 3. Await the params promise to get the actual values.
+  const { subjectSlug, paperSlug, chapterSlug } = await params;
+
+  // 4. Fetch the data on the server with the resolved values.
   const flashcards = await getChapterContent(
     subjectSlug,
     paperSlug,
@@ -16,7 +24,6 @@ export default async function FlashcardsPage({
     "flashcards"
   );
 
-  // 2. Render the correct Client Component, passing the data as props.
-  // This will now work without any TypeScript errors.
+  // 5. Render the Client Component, passing the data as props.
   return <FlashcardsClient flashcards={flashcards} />;
 }
