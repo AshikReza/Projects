@@ -5,6 +5,7 @@ import { cn } from "@/lib/utils";
 import { ThemeProvider } from "next-themes";
 import PageTransition from "@/components/PageTransition";
 import { LanguageProvider } from "@/components/LanguageProvider";
+import { ModeToggle } from "@/components/theme-toggle";
 
 // --- GOOGLE FONT: Baloo Da 2 ---
 const balooDa2 = Baloo_Da_2({
@@ -17,14 +18,18 @@ export const metadata: Metadata = {
   description: "Your ultimate study companion for HSC.",
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="bn" suppressHydrationWarning>
       <body
         className={cn(
-          balooDa2.className,        // next/font generated class
-          "min-h-screen",          // full viewport height
-          "bg-background",         // your background color
+          balooDa2.className, // next/font generated class
+          "min-h-screen", // full viewport height
+          "bg-background", // your background color
           "antialiased"
           // no need for font-sans, since we override it in tailwind.config.js
         )}
@@ -38,6 +43,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           >
             <div className="relative flex min-h-screen flex-col">
               <PageTransition>{children}</PageTransition>
+            </div>
+            <div className="absolute top-10 right-10 sm:right-34">
+              <ModeToggle />
             </div>
           </ThemeProvider>
         </LanguageProvider>
