@@ -6,7 +6,7 @@ import { cn } from "@/lib/utils";
 import { Chapter, NoteTopic, Topic, NoteBlock } from "@/lib/types";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Menu, Hash, CheckCircle, XCircle, Lightbulb } from "lucide-react";
+import { Menu, Hash, CheckCircle, XCircle } from "lucide-react";
 import {
   Sheet,
   SheetContent,
