@@ -39,6 +39,7 @@ export interface ImportantBlockType extends BlockBase {
   type: "important";
   text_bn: string;
   text_en: string;
+  examples?: { bn: string; en: string }[]; // <-- ADD THIS LINE
 }
 export interface SuccessBlockType extends BlockBase {
   type: "success";
@@ -67,6 +68,7 @@ export interface EquationBlockType extends BlockBase {
   equation: string;
   description_bn: string;
   description_en: string;
+  examples?: { bn: string; en: string }[]; // <-- ADD THIS LINE
 }
 
 // A union of all possible block types from your JSON

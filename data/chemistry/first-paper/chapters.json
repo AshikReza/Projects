@@ -1,1 +1,45 @@
-[]
+[
+  {
+    "id": "ch2",
+    "title": "Qualitative Chemistry (গুণগত রসায়ন)",
+    "slug": "qualitative-chemistry",
+    "topics": [
+      {
+        "id": "atomic-fundamentals",
+        "title": "Atomic Fundamentals (মৌলের কণা)"
+      },
+      {
+        "id": "atomic-models",
+        "title": "Atomic Models & Theories (পরমাণু মডেল)"
+      },
+      {
+        "id": "quantum-numbers",
+        "title": "Quantum Numbers & Orbitals (কোয়ান্টাম সংখ্যা)"
+      },
+      {
+        "id": "electron-config-principles",
+        "title": "Electron Configuration (ইলেকট্রন বিন্যাস)"
+      },
+      {
+        "id": "hydrogen-spectrum",
+        "title": "Hydrogen Spectrum (হাইড্রোজেন বর্ণালী)"
+      },
+      {
+        "id": "solubility-and-ksp",
+        "title": "Solubility & Ksp (দ্রাব্যতা ও গুণফল)"
+      },
+      {
+        "id": "precipitation-and-kip",
+        "title": "Ionic Product & Precipitation (অধঃক্ষেপণ)"
+      },
+      {
+        "id": "common-ion-effect",
+        "title": "Common Ion Effect (সম-আয়ন প্রভাব)"
+      },
+      {
+        "id": "ion-identification",
+        "title": "Ion Identification (আয়ন শনাক্তকরণ)"
+      }
+    ]
+  }
+]

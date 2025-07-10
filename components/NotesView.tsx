@@ -23,6 +23,7 @@ import { ExampleBlock } from "./content-blocks/ExampleBlock";
 import { EquationBlock } from "./content-blocks/EquationBlock";
 import { TableBlock } from "./content-blocks/TableBlock";
 import { CalloutBlock } from "./content-blocks/CalloutBlock";
+import { ImportantBlock } from "./content-blocks/ImportantBlock";
 
 interface NotesViewProps {
   chapter: Chapter;
@@ -166,14 +167,7 @@ export default function NotesView({ chapter, notes }: NotesViewProps) {
               case "table":
                 return <TableBlock key={index} {...block} />;
               case "important":
-                return (
-                  <CalloutBlock
-                    key={index}
-                    {...block}
-                    Icon={Lightbulb}
-                    colorClass="border-amber-500"
-                  />
-                );
+                return <ImportantBlock key={index} {...block} />;
               case "success":
                 return (
                   <CalloutBlock

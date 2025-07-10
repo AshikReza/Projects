@@ -1,0 +1,512 @@
+{
+  "atomic-fundamentals": {
+    "title": "মৌলের কণা, পারমাণবিক সংখ্যা ও ভর সংখ্যা",
+    "blocks": [
+      {
+        "type": "definition",
+        "title": "পারমাণবিক সংখ্যা (Z)",
+        "text_bn": "কোনো মৌলের পরমাণুর নিউক্লিয়াসে উপস্থিত প্রোটনের মোট সংখ্যাকে তার পারমাণবিক সংখ্যা বলে। এটি একটি মৌলের মৌলিক পরিচয়, কারণ প্রোটন সংখ্যা পরিবর্তন হলে মৌলটিই পরিবর্তিত হয়ে যায়। একে Z দ্বারা প্রকাশ করা হয়। একটি নিস্তড়িৎ পরমাণুতে প্রোটন সংখ্যা ও ইলেকট্রন সংখ্যা সমান থাকে।",
+        "text_en": "The total number of protons present in the nucleus of an atom of an element is called its atomic number. It is the fundamental identity of an element, as changing the number of protons changes the element itself. It is denoted by Z. In a neutral atom, the number of protons is equal to the number of electrons.",
+        "examples": []
+      },
+      {
+        "type": "definition",
+        "title": "ভর সংখ্যা (A)",
+        "text_bn": "পরমাণুর নিউক্লিয়াসে উপস্থিত প্রোটন ও নিউট্রনের মোট সংখ্যাকে এর ভর সংখ্যা বলে। একে A দ্বারা প্রকাশ করা হয়। যেহেতু ইলেকট্রনের ভর প্রোটন বা নিউট্রনের তুলনায় নগণ্য, তাই পরমাণুর প্রায় সমস্ত ভর তার নিউক্লিয়াসে কেন্দ্রীভূত থাকে। সুতরাং, $$A = Z + n$$ (যেখানে n = নিউট্রন সংখ্যা)।",
+        "text_en": "The total number of protons and neutrons present in the nucleus of an atom is called its mass number. It is denoted by A. Since the mass of an electron is negligible compared to that of a proton or neutron, almost all the mass of an atom is concentrated in its nucleus. Therefore, $$A = Z + n$$ (where n = number of neutrons).",
+        "examples": []
+      },
+      {
+        "type": "table",
+        "title": "আইসোটোপ, আইসোবার, আইসোটোন ও আইসোইলেকট্রনিক",
+        "headers": [
+          "বিষয় (Term)",
+          "বৈশিষ্ট্য (Characteristic)",
+          "উদাহরণ (Example)"
+        ],
+        "rows": [
+          [
+            "আইসোটোপ (Isotope)",
+            "প্রোটন সংখ্যা (Z) সমান, ভর সংখ্যা (A) ভিন্ন।",
+            "হাইড্রোজেন: $$^{1}_{1}H, ^{2}_{1}H, ^{3}_{1}H$$"
+          ],
+          [
+            "আইসোবার (Isobar)",
+            "ভর সংখ্যা (A) সমান, প্রোটন সংখ্যা (Z) ভিন্ন।",
+            "কার্বন-১৪ ও নাইট্রোজেন-১৪: $$^{14}_{6}C, ^{14}_{7}N$$"
+          ],
+          [
+            "আইসোটোন (Isotone)",
+            "নিউট্রন সংখ্যা (n) সমান, কিন্তু Z ও A ভিন্ন।",
+            "সিলিকন-৩০ ও ফসফরাস-৩১: $$^{30}_{14}Si, ^{31}_{15}P$$ (উভয়ের n=16)"
+          ],
+          [
+            "আইসোইলেকট্রনিক (Isoelectronic)",
+            "ইলেকট্রন সংখ্যা সমান।",
+            "$$O^{2-}, F^{-}, Ne, Na^{+}$$ (সবার ১০টি ইলেকট্রন আছে)"
+          ]
+        ]
+      }
+    ]
+  },
+  "atomic-models": {
+    "title": "পরমাণু মডেল ও আধুনিক তত্ত্বসমূহ",
+    "blocks": [
+      {
+        "type": "definition",
+        "title": "রাদারফোর্ডের পরমাণু মডেল (১৯১১) - নিউক্লিয়ার মডেল",
+        "text_bn": "আলফা কণা বিচ্ছুরণ পরীক্ষার উপর ভিত্তি করে বিজ্ঞানী রাদারফোর্ড এই মডেল প্রদান করেন। এর মূল প্রস্তাবনাগুলো হলো: (১) পরমাণুর কেন্দ্রে একটি ক্ষুদ্র, ধনাত্মক চার্জযুক্ত ভারী বস্তু বিদ্যমান, যাকে নিউক্লিয়াস বলে। (২) পরমাণুর প্রায় সমস্ত ভর নিউক্লিয়াসে কেন্দ্রীভূত। (৩) পরমাণুর বেশিরভাগ স্থানই ফাঁকা। (৪) ইলেকট্রনগুলো নিউক্লিয়াসকে কেন্দ্র করে সৌরজগতের গ্রহগুলোর মতো ঘোরে এবং কেন্দ্রমুখী বল ও স্থির বৈদ্যুতিক আকর্ষণ বল পরস্পর সমান।",
+        "text_en": "Based on the alpha-particle scattering experiment, Rutherford proposed this model, also known as the Nuclear Model. Its main postulates are: (1) At the center of the atom, there is a tiny, positively charged, heavy object called the nucleus. (2) Almost all the mass of the atom is concentrated in the nucleus. (3) Most of the space in an atom is empty. (4) Electrons revolve around the nucleus like planets around the sun, where the centripetal force is balanced by the electrostatic force of attraction.",
+        "examples": []
+      },
+      {
+        "type": "limitations",
+        "title": "রাদারফোর্ড মডেলের সীমাবদ্ধতা",
+        "items": [
+          {
+            "bn": "সৌরজগতের সাথে তুলনা সঠিক নয় কারণ গ্রহগুলো চার্জবিহীন কিন্তু ইলেকট্রন ঋণাত্মক চার্জযুক্ত।",
+            "en": "The comparison with the solar system is flawed because planets are uncharged, whereas electrons are negatively charged."
+          },
+          {
+            "bn": "ম্যাক্সওয়েলের তত্ত্ব অনুযায়ী, ঘূর্ণায়মান চার্জযুক্ত ইলেকট্রন অবিরাম শক্তি বিকিরণ করে সর্পিল পথে নিউক্লিয়াসে পতিত হবে, যা পরমাণুর স্থায়িত্বকে ব্যাখ্যা করতে পারে না।",
+            "en": "According to Maxwell's theory, a revolving charged electron should continuously radiate energy, lose it in a spiral path, and eventually fall into the nucleus, which fails to explain atomic stability."
+          },
+          {
+            "bn": "এটি পরমাণু থেকে নির্গত বিচ্ছিন্ন রেখা বর্ণালী ব্যাখ্যা করতে পারে না; এই মডেল অনুসারে নিরবচ্ছিন্ন বর্ণালী পাওয়ার কথা।",
+            "en": "It cannot explain the discrete line spectra emitted by atoms; according to this model, a continuous spectrum should be observed."
+          }
+        ]
+      },
+      {
+        "type": "definition",
+        "title": "বোরের পরমাণু মডেল (১৯১৩)",
+        "text_bn": "প্লাঙ্কের কোয়ান্টাম তত্ত্বের উপর ভিত্তি করে বোর এই মডেল দেন। এর মূল স্বীকার্যগুলো হলো: (১) ইলেকট্রনগুলো নির্দিষ্ট শক্তির বৃত্তাকার কক্ষপথে ঘোরে, যাদের শক্তিস্তর (Stationary Orbits) বলে। এই অবস্থায় এরা শক্তি শোষণ বা বিকিরণ করে না। (২) ইলেকট্রনের কৌণিক ভরবেগ (mvr) হবে $$h/2\\pi$$ এর পূর্ণসংখ্যক সরল গুণিতক, অর্থাৎ, $$mvr = \\frac{nh}{2\\pi}$$, যেখানে $$n = 1, 2, 3,...$$ (৩) যখন ইলেকট্রন এক শক্তিস্তর থেকে অন্য শক্তিস্তরে যায়, তখন নির্দিষ্ট পরিমাণ শক্তি (ফোটন) শোষিত বা বিকিরিত হয়, যার পরিমাণ $$\\Delta E = E_2 - E_1 = h\\nu$$।",
+        "text_en": "Based on Planck's quantum theory, Bohr proposed this model. Its main postulates are: (1) Electrons revolve in circular orbits of fixed energy called stationary orbits, during which they do not absorb or radiate energy. (2) The angular momentum (mvr) of an electron is an integral multiple of $$h/2\\pi$$, i.e., $$mvr = \\frac{nh}{2\\pi}$$, where $$n = 1, 2, 3,...$$ (3) When an electron transitions between energy levels, a specific amount of energy (photon) is absorbed or emitted, given by $$\\Delta E = E_2 - E_1 = h\\nu$$",
+        "examples": []
+      },
+      {
+        "type": "successes",
+        "title": "বোর মডেলের সাফল্য",
+        "items": [
+          {
+            "bn": "পরমাণুর স্থায়িত্ব সফলভাবে ব্যাখ্যা করে।",
+            "en": "Successfully explains the stability of the atom."
+          },
+          {
+            "bn": "হাইড্রোজেন ও হাইড্রোজেন-সদৃশ এক-ইলেকট্রন সিস্টেমের ($$He^{+}, Li^{2+}$$) পারমাণবিক বর্ণালী সফলভাবে ব্যাখ্যা করে।",
+            "en": "Successfully explains the atomic spectra of hydrogen and hydrogen-like single-electron systems ($$He^{+}, Li^{2+}$$)."
+          },
+          {
+            "bn": "হাইড্রোজেন পরমাণুর কক্ষপথের ব্যাসার্ধ ($$r_n = 0.53 \\times n^2 \\text{ Å}$$) এবং শক্তি ($$E_n = -\\frac{13.6}{n^2} \\text{ eV}$$) সঠিকভাবে গণনা করা যায়।",
+            "en": "Allows for the accurate calculation of the orbit radius ($$r_n = 0.53 \\times n^2 \\text{ Å}$$) and energy ($$E_n = -\\frac{13.6}{n^2} \\text{ eV}$$) for a hydrogen atom."
+          }
+        ]
+      },
+      {
+        "type": "limitations",
+        "title": "বোর মডেলের সীমাবদ্ধতা",
+        "items": [
+          {
+            "bn": "এটি শুধুমাত্র এক-ইলেকট্রন বিশিষ্ট সিস্টেমের বর্ণালী ব্যাখ্যা করতে পারে, বহু-ইলেকট্রন সিস্টেমের জন্য নয়।",
+            "en": "It can only explain the spectra of single-electron systems and is not applicable for multi-electron atoms."
+          },
+          {
+            "bn": "এটি জিম্যান প্রভাব (চুম্বক ক্ষেত্রে বর্ণালীর বিভাজন) এবং স্টার্ক প্রভাব (বিদ্যুৎ ক্ষেত্রে বিভাজন) ব্যাখ্যা করতে পারে না।",
+            "en": "It cannot explain the Zeeman effect (splitting of spectral lines in a magnetic field) or the Stark effect (splitting in an electric field)."
+          },
+          {
+            "bn": "এটি ডি ব্রগলি-র দ্বৈত সত্তা এবং হাইজেনবার্গের অনিশ্চয়তা নীতিকে সমর্থন করে না।",
+            "en": "It does not support de Broglie's wave-particle duality or Heisenberg's uncertainty principle."
+          }
+        ]
+      },
+      {
+        "type": "definition",
+        "title": "ডি ব্রগলির তত্ত্ব (১৯২৪) - কণার দ্বৈত ধর্ম",
+        "text_bn": "ডি ব্রগলি প্রস্তাব করেন যে, গতিশীল সকল বস্তুকণার (যেমন ইলেকট্রন) কণা ধর্মের পাশাপাশি তরঙ্গ ধর্মও বিদ্যমান। এই তরঙ্গ-কণা দ্বৈততার সমীকরণটি হলো: $$\\lambda = \\frac{h}{mv} = \\frac{h}{p}$$। বোরের মডেলের সাথে সমন্বয় করে দেখা যায়, একটি স্থিতিশীল কক্ষপথের পরিধি ($$2\\pi r$$) এর তরঙ্গদৈর্ঘ্যের ($$\\lambda$$) পূর্ণসংখ্যক গুণিতক হয় ($$2\\pi r = n\\lambda$$)।",
+        "text_en": "De Broglie proposed that all moving particles (like electrons) exhibit both particle and wave properties. This wave-particle duality is described by the equation: $$\\lambda = \\frac{h}{mv} = \\frac{h}{p}$$. When combined with Bohr's model, it implies that the circumference of a stable orbit ($$2\\pi r$$) must be an integral multiple of the electron's wavelength ($$\\lambda$$), i.e., $$2\\pi r = n\\lambda$$",
+        "examples": []
+      },
+      {
+        "type": "definition",
+        "title": "হাইজেনবার্গের অনিশ্চয়তা নীতি (১৯২৭)",
+        "text_bn": "এই নীতি অনুসারে, কোনো গতিশীল কণার অবস্থান এবং ভরবেগ একই সাথে সম্পূর্ণ নির্ভুলভাবে নির্ণয় করা অসম্ভব। যদি একটির অনিশ্চয়তা কমে, তবে অন্যটির অনিশ্চয়তা বাড়বে। গাণিতিকভাবে, $$\\Delta x \\cdot \\Delta p \\ge \\frac{h}{4\\pi}$$। এখানে, $$\\Delta x$$ হলো অবস্থানের অনিশ্চয়তা এবং $$\\Delta p$$ হলো ভরবেগের অনিশ্চয়তা।",
+        "text_en": "According to this principle, it is impossible to simultaneously determine with perfect accuracy both the position and momentum of a moving particle. If the uncertainty of one decreases, the uncertainty of the other must increase. Mathematically, $$\\Delta x \\cdot \\Delta p \\ge \\frac{h}{4\\pi}$$. Here, $$\\Delta x$$ is the uncertainty in position and $$\\Delta p$$ is the uncertainty in momentum.",
+        "examples": []
+      },
+      {
+        "type": "definition",
+        "title": "শ্রোডিঙ্গারের তরঙ্গ সমীকরণ (১৯২৬)",
+        "text_bn": "এটি একটি গাণিতিক সমীকরণ যা পরমাণুতে ইলেকট্রনের আচরণকে তরঙ্গ ফাংশন ($$\\Psi$$) হিসেবে বর্ণনা করে। এই সমীকরণের সমাধান থেকে কোয়ান্টাম সংখ্যা এবং অরবিটালের ধারণা পাওয়া যায়। $${\\Psi}^2$$ কোনো নির্দিষ্ট স্থানে ইলেকট্রনকে পাওয়ার সম্ভাবনা নির্দেশ করে। অরবিটাল হলো নিউক্লিয়াসের চারপাশে সেই ত্রিমাত্রিক অঞ্চল যেখানে ইলেকট্রনকে পাওয়ার সম্ভাবনা সর্বোচ্চ (সাধারণত ৯০-৯৫%)।",
+        "text_en": "This is a mathematical equation that describes the behavior of an electron in an atom as a wave function ($$\\Psi$$). The solution to this equation yields the quantum numbers and the concept of orbitals. $${\\Psi}^2$$ represents the probability density of finding an electron at a particular point. An orbital is the three-dimensional region around the nucleus where the probability of finding an electron is highest (typically 90-95%).",
+        "examples": []
+      }
+    ]
+  },
+  "quantum-numbers": {
+    "title": "কোয়ান্টাম সংখ্যা ও অরবিটালের ধারণা",
+    "blocks": [
+      {
+        "type": "definition",
+        "title": "কোয়ান্টাম সংখ্যা কী?",
+        "text_bn": "পরমাণুতে একটি ইলেকট্রনের সম্পূর্ণ পরিচয়, যেমন তার শক্তিস্তর, কক্ষপথের আকৃতি, ত্রিমাত্রিক দিকবিন্যাস এবং নিজ অক্ষের উপর ঘূর্ণনের দিক প্রকাশের জন্য যে চারটি সংখ্যার সেট ব্যবহার করা হয়, তাদের কোয়ান্টাম সংখ্যা বলে। এগুলো হলো পরমাণুতে একটি ইলেকট্রনের সঠিক 'ঠিকানা'।",
+        "text_en": "The set of four numbers used to completely describe an electron in an atom, specifying its energy level, the shape of its orbital, its spatial orientation, and its spin direction, are called quantum numbers. They act as the precise 'address' for an electron in an atom.",
+        "examples": []
+      },
+      {
+        "type": "table",
+        "title": "কোয়ান্টাম সংখ্যাসমূহের বিস্তারিত বিবরণ",
+        "headers": [
+          "কোয়ান্টাম সংখ্যা (প্রতীক)",
+          "কী নির্দেশ করে",
+          "সম্ভাব্য মান",
+          "উদাহরণ"
+        ],
+        "rows": [
+          [
+            "প্রধান কোয়ান্টাম সংখ্যা (n)",
+            "প্রধান শক্তিস্তর বা শেল (আকার ও শক্তি)",
+            "$$n = 1, 2, 3, ...$$ (ধনাত্মক পূর্ণসংখ্যা)",
+            "$$n=3$$ হলে, এটি ৩য় শক্তিস্তর (M শেল) নির্দেশ করে।"
+          ],
+          [
+            "সহকারী/অ্যাজিমুথাল (l)",
+            "উপস্তর (অরবিটালের আকৃতি)",
+            "$$0$$ থেকে $$(n-1)$$ পর্যন্ত পূর্ণ সংখ্যা",
+            "$$n=3$$ হলে, $$l=0, 1, 2$$ হতে পারে, যা 3s($$l=0$$), 3p($$l=1$$), 3d($$l=2$$) উপস্তর নির্দেশ করে।"
+          ],
+          [
+            "চৌম্বকীয় (m)",
+            "অরবিটালের ত্রিমাত্রিক দিকবিন্যাস",
+            "$$-l$$ থেকে $$+l$$ পর্যন্ত (শূন্যসহ) পূর্ণ সংখ্যা",
+            "$$l=2$$ (d-উপস্তর) হলে, $$m = -2, -1, 0, +1, +2$$; অর্থাৎ d-উপস্তরে ৫টি অরবিটাল আছে।"
+          ],
+          [
+            "স্পিন (s)",
+            "ইলেকট্রনের নিজ অক্ষের উপর ঘূর্ণন",
+            "$$+1/2 (\\uparrow)$$ এবং $$-1/2 (\\downarrow)$$",
+            "একটি অরবিটালে থাকা দুটি ইলেকট্রনের $$s$$-এর মান অবশ্যই বিপরীত হবে।"
+          ]
+        ]
+      },
+      {
+        "type": "important",
+        "title": "অরবিটালের আকার ও নোড",
+        "text_bn": "s-অরবিটাল: গোলাকার ও অদিক направক।\np-অরবিটাল: ডাম্বেল আকৃতির এবং তিনটি ($$p_x, p_y, p_z$$) অক্ষ বরাবর বিন্যস্ত।\nd-অরবিটাল: চারটি দ্বি-ডাম্বেল আকৃতির ($$d_{xy}, d_{yz}, d_{xz}, d_{x^2-y^2}$$) এবং একটি বিশেষ আকৃতির ($$d_{z^2}$$)।\nনোড: এটি এমন একটি অঞ্চল যেখানে ইলেকট্রন পাওয়ার সম্ভাবনা শূন্য। মোট নোডের সংখ্যা = $$n-1$$।",
+        "text_en": "s-orbital: Spherical and non-directional.\np-orbitals: Dumbbell-shaped and oriented along the three axes ($$p_x, p_y, p_z$$).\nd-orbitals: Four are double-dumbbell shaped ($$d_{xy}, d_{yz}, d_{xz}, d_{x^2-y^2}$$) and one has a special shape ($$d_{z^2}$$).\nNode: It is a region where the probability of finding an electron is zero. Total number of nodes = $$n-1$$."
+      },
+      {
+        "type": "example",
+        "title": "কোয়ান্টাম সংখ্যার প্রয়োগ",
+        "examples": [
+          {
+            "bn": "প্রশ্ন: সোডিয়াম (Na, Z=11) পরমাণুর ১১-তম (যোজ্যতা) ইলেকট্রনের চারটি কোয়ান্টাম সংখ্যার সেট কী?\n\nউত্তর: সোডিয়ামের ইলেকট্রন বিন্যাস: $$1s^2 2s^2 2p^6 3s^1$$। ১১-তম ইলেকট্রনটি 3s অরবিটালে আছে। তাই, $$n=3$$; 's' অরবিটালের জন্য $$l=0$$; $$l=0$$ হলে, $$m=0$$; এবং প্রথম ইলেকট্রনের জন্য স্পিন $$s=+1/2$$ (প্রচলিত রীতি)। সুতরাং, সেটটি হলো: $$n=3, l=0, m=0, s=+1/2$$।",
+            "en": "Question: What is the set of four quantum numbers for the 11th (valence) electron of a Sodium (Na, Z=11) atom?\n\nAnswer: The electron configuration of Sodium is: $$1s^2 2s^2 2p^6 3s^1$$. The 11th electron is in the 3s orbital. Therefore, $$n=3$$; for an 's' orbital, $$l=0$$; if $$l=0$$, then $$m=0$$; and for the first electron, spin is $$s=+1/2$$ (by convention). Thus, the set is: $$n=3, l=0, m=0, s=+1/2$$."
+          },
+          {
+            "bn": "প্রশ্ন: n=3 শক্তিস্তরে মোট অরবিটাল ও ইলেকট্রন সংখ্যা কত?\nউত্তর: অরবিটাল সংখ্যা = $$n^2 = 3^2 = 9$$ টি (একটি 3s, তিনটি 3p, এবং পাঁচটি 3d)। ইলেকট্রন সংখ্যা = $$2n^2 = 2 \\times 3^2 = 18$$ টি।",
+            "en": "Question: What is the total number of orbitals and electrons in the n=3 energy level?\nAnswer: Number of orbitals = $$n^2 = 3^2 = 9$$ (one 3s, three 3p, and five 3d). Number of electrons = $$2n^2 = 2 \\times 3^2 = 18$$."
+          }
+        ]
+      }
+    ]
+  },
+  "electron-config-principles": {
+    "title": "ইলেকট্রন বিন্যাসের নীতিসমূহ",
+    "blocks": [
+      {
+        "type": "definition",
+        "title": "আউফবাউ নীতি (Aufbau Principle)",
+        "text_bn": "জার্মান শব্দ 'Aufbau' অর্থ 'to build up'। এই নীতি অনুযায়ী, পরমাণুতে ইলেকট্রনগুলো প্রথমে সর্বনিম্ন শক্তির অরবিটালে প্রবেশ করে এবং ক্রমান্বয়ে উচ্চ শক্তির অরবিটালে যায়। অরবিটালের শক্তির ক্রম $$(n + l)$$ নিয়ম দ্বারা নির্ধারিত হয়। দুটি অরবিটালের $$(n+l)$$ মান সমান হলে, যার n-এর মান কম, তার শক্তি কম হবে। শক্তির ক্রম: $$1s < 2s < 2p < 3s < 3p < 4s < 3d < 4p ...$$",
+        "text_en": "The German word 'Aufbau' means 'to build up'. According to this principle, electrons first enter the orbital with the lowest energy and then progressively fill higher energy orbitals. The order of orbital energy is determined by the $$(n + l)$$ rule. If two orbitals have the same $$(n+l)$$ value, the one with the lower n value has lower energy. Energy order: $$1s < 2s < 2p < 3s < 3p < 4s < 3d < 4p ...$$",
+        "examples": []
+      },
+      {
+        "type": "definition",
+        "title": "পলির বর্জন নীতি (Pauli's Exclusion Principle)",
+        "text_bn": "একটি পরমাণুর যেকোনো দুটি ইলেকট্রনের চারটি কোয়ান্টাম সংখ্যার ($$n, l, m, s$$) সেট কখনো একই হতে পারে না। অন্তত একটি কোয়ান্টাম সংখ্যার মান অবশ্যই ভিন্ন হবে। এর সরাসরি ফল হলো, একটি অরবিটালে সর্বাধিক দুটি ইলেকট্রন থাকতে পারে এবং তাদের স্পিন অবশ্যই বিপরীতমুখী ($$+1/2$$ এবং $$-1/2$$) হবে।",
+        "text_en": "No two electrons in an atom can have the same set of all four quantum numbers ($$n, l, m, s$$). At least one quantum number must be different. A direct consequence is that an orbital can hold a maximum of two electrons, and their spins must be opposite ($$+1/2$$ and $$-1/2$$).",
+        "examples": []
+      },
+      {
+        "type": "definition",
+        "title": "হুন্ডের নীতি (Hund's Rule of Maximum Multiplicity)",
+        "text_bn": "সমশক্তিসম্পন্ন বিভিন্ন অরবিটালে (যেমন- p, d, f উপস্তরের অরবিটালগুলো) ইলেকট্রন প্রবেশের সময়, ইলেকট্রনগুলো প্রথমে প্রতিটি অরবিটালে একটি করে অযুগ্মভাবে এবং একই স্পিনে (সমান্তরাল) প্রবেশ করবে। এরপর অতিরিক্ত ইলেকট্রন থাকলে, সেগুলো বিপরীত স্পিনে এসে যুগ্ম গঠন শুরু করবে। এর ফলে পরমাণুটি সর্বাধিক সংখ্যক অযুগ্ম ইলেকট্রন লাভ করে স্থিতিশীল হয়।",
+        "text_en": "When electrons enter degenerate orbitals (orbitals of the same energy, like p, d, f sub-shells), they will first occupy each orbital singly with parallel spins. Only after all degenerate orbitals are half-filled, pairing with opposite spins begins. This results in the atom having the maximum number of unpaired electrons and greater stability.",
+        "examples": []
+      },
+      {
+        "type": "important",
+        "title": "আউফবাউ নীতির ব্যতিক্রম: স্থিতিশীলতার প্রভাব",
+        "text_bn": "অরবিটালের অর্ধপূর্ণ (half-filled, যেমন- $$d^5, p^3$$) বা সম্পূর্ণ পূর্ণ (fully-filled, যেমন- $$d^{10}, p^6$$) অবস্থা সাধারণ বিন্যাসের চেয়ে অধিক স্থিতিশীল। এই স্থিতিশীলতা অর্জনের জন্য কিছু মৌল আউফবাউ নীতি মানে না।\nক্রোমিয়াম ($$Cr, Z=24$$): প্রত্যাশিত বিন্যাস $$[Ar]4s^23d^4$$। কিন্তু প্রকৃত বিন্যাস হলো $$[Ar]4s^13d^5$$।\nকপার ($$Cu, Z=29$$): প্রত্যাশিত বিন্যাস $$[Ar]4s^23d^9$$। কিন্তু প্রকৃত বিন্যাস হলো $$[Ar]4s^13d^{10}$$।",
+        "text_en": "The half-filled (e.g., $$d^5, p^3$$) or fully-filled (e.g., $$d^{10}, p^6$$) state of orbitals is more stable than other configurations. To achieve this stability, some elements deviate from the Aufbau principle.\nChromium ($$Cr, Z=24$$): Expected configuration is $$[Ar]4s^23d^4$$. But the actual configuration is $$[Ar]4s^13d^5$$.\nCopper ($$Cu, Z=29$$): Expected configuration is $$[Ar]4s^23d^9$$. But the actual configuration is $$[Ar]4s^13d^{10}$$."
+      }
+    ]
+  },
+  "hydrogen-spectrum": {
+    "title": "হাইড্রোজেন পারমাণবিক বর্ণালী",
+    "blocks": [
+      {
+        "type": "definition",
+        "title": "সংজ্ঞা ও কারণ",
+        "text_bn": "গ্যাসপূর্ণ ডিসচার্জ টিউবে কম চাপে হাইড্রোজেন গ্যাস নিয়ে উচ্চ ভোল্টেজ প্রয়োগ করলে এর ইলেকট্রনগুলো শক্তি শোষণ করে উচ্চ শক্তিস্তরে যায়। পরে নিম্ন শক্তিস্তরে ফিরে আসার সময় নির্দিষ্ট তরঙ্গদৈর্ঘ্যের আলো বিকিরণ করে। এই বিকীর্ণ রশ্মিকে প্রিজমের মধ্য দিয়ে চালনা করলে কয়েকটি বিচ্ছিন্ন উজ্জ্বল রেখার সিরিজ পাওয়া যায়, একেই হাইড্রোজেন পারমাণবিক বর্ণালী বলে। প্রতিটি সিরিজ নির্দিষ্ট নিম্ন শক্তিস্তরে ($$n_1$$) ইলেকট্রনের প্রত্যাবর্তনের ফলে সৃষ্ট হয়।",
+        "text_en": "When high voltage is applied to hydrogen gas at low pressure in a discharge tube, its electrons absorb energy and jump to higher energy levels. When they return to lower levels, they emit light of specific wavelengths. When this radiation is passed through a prism, a series of discrete bright lines is obtained, known as the Hydrogen Atomic Spectrum. Each series is formed by electrons returning to a specific lower energy level ($$n_1$$).",
+        "examples": []
+      },
+      {
+        "type": "table",
+        "title": "হাইড্রোজেন পারমাণবিক বর্ণালী সিরিজসমূহ",
+        "headers": [
+          "সিরিজ (Series)",
+          "প্রত্যাবর্তন স্তর ($$n_1$$)",
+          "উচ্চতর স্তর ($$n_2$$)",
+          "অঞ্চল (Region)"
+        ],
+        "rows": [
+          [
+            "লাইম্যান (Lyman)",
+            "1",
+            "$$2, 3, 4, ... \\infty$$",
+            "অতিবেগুনী (UV)"
+          ],
+          [
+            "বামার (Balmer)",
+            "2",
+            "$$3, 4, 5, ... \\infty$$",
+            "দৃশ্যমান (Visible)"
+          ],
+          [
+            "প্যাশেন (Paschen)",
+            "3",
+            "$$4, 5, 6, ... \\infty$$",
+            "অবলোহিত (Near-IR)"
+          ],
+          [
+            "ব্র্যাকেট (Brackett)",
+            "4",
+            "$$5, 6, 7, ... \\infty$$",
+            "অবলোহিত (Mid-IR)"
+          ],
+          [
+            "ফুন্ড (Pfund)",
+            "5",
+            "$$6, 7, 8, ... \\infty$$",
+            "অবলোহিত (Far-IR)"
+          ],
+          [
+            "হামফ্রিস (Humphreys)",
+            "6",
+            "$$7, 8, 9, ... \\infty$$",
+            "দূর-অবলোহিত (Far-IR)"
+          ]
+        ]
+      },
+      {
+        "type": "equation",
+        "title": "রিডবার্গ সমীকরণ",
+        "equation": "\\bar{\\nu} = \\frac{1}{\\lambda} = R_H Z^2 \\left( \\frac{1}{n_1^2} - \\frac{1}{n_2^2} \\right)",
+        "description_bn": "এই সমীকরণের সাহায্যে হাইড্রোজেন ($$Z=1$$) বা হাইড্রোজেন-সদৃশ আয়নের ($$He^{+}, Li^{2+}$$) বর্ণালীর যেকোনো রেখার তরঙ্গ সংখ্যা ($$\\bar{\\nu}$$) বা তরঙ্গদৈর্ঘ্য ($$\\lambda$$) নির্ণয় করা যায়। এখানে, $$R_H$$ = রিডবার্গ ধ্রুবক ($$1.09678 \\times 10^7 \\text{ m}^{-1}$$), $$Z$$ = পারমাণবিক সংখ্যা, $$n_1$$ = নিম্ন শক্তিস্তর, $$n_2$$ = উচ্চ শক্তিস্তর ($$n_2 > n_1$$)।",
+        "description_en": "This equation calculates the wave number ($$\\bar{\\nu}$$) or wavelength ($$\\lambda$$) of any spectral line for hydrogen ($$Z=1$$) or hydrogen-like ions ($$He^{+}, Li^{2+}$$). Where, $$R_H$$ = Rydberg constant ($$1.09678 \\times 10^7 \\text{ m}^{-1}$$), $$Z$$ = Atomic number, $$n_1$$ = lower energy level, $$n_2$$ = higher energy level ($$n_2 > n_1$$)."
+      },
+      {
+        "type": "example",
+        "title": "রিডবার্গ সমীকরণের প্রয়োগ",
+        "examples": [
+          {
+            "bn": "প্রশ্ন: বামার সিরিজের প্রথম রেখার ($$H_{\\alpha}$$) তরঙ্গদৈর্ঘ্য নির্ণয় কর।\nব্যাখ্যা: বামার সিরিজের জন্য $$n_1=2$$। প্রথম রেখার জন্য $$n_2=3$$। হাইড্রোজেন পরমাণুর জন্য $$Z=1$$।\nসমাধান: $$\\frac{1}{\\lambda} = R_H \\left( \\frac{1}{2^2} - \\frac{1}{3^2} \\right) = 1.09678 \\times 10^7 \\times \\frac{5}{36} \\approx 1.5233 \\times 10^6 \\text{ m}^{-1}$$।\nসুতরাং, $$\\lambda = \\frac{1}{1.5233 \\times 10^6} \\approx 6.56 \\times 10^{-7} \\text{ m} = 656 \\text{ nm}$$ (লাল আলো)।",
+            "en": "Question: Calculate the wavelength of the first line ($$H_{\\alpha}$$) of the Balmer series.\nExplanation: For the Balmer series, $$n_1=2$$. For the first line, $$n_2=3$$. For a hydrogen atom, $$Z=1$$.\nSolution: $$\\frac{1}{\\lambda} = R_H \\left( \\frac{1}{2^2} - \\frac{1}{3^2} \\right) = 1.09678 \\times 10^7 \\times \\frac{5}{36} \\approx 1.5233 \\times 10^6 \\text{ m}^{-1}$$۔\nTherefore, $$\\lambda = \\frac{1}{1.5233 \\times 10^6} \\approx 6.56 \\times 10^{-7} \\text{ m} = 656 \\text{ nm}$$ (Red light)."
+          },
+          {
+            "bn": "প্রশ্ন: লাইম্যান সিরিজের সর্বোচ্চ শক্তি (সর্বনিম্ন তরঙ্গদৈর্ঘ্য) বিকিরণের তরঙ্গদৈর্ঘ্য কত?\nব্যাখ্যা: সর্বোচ্চ শক্তি মানে ইলেকট্রন অসীম ($$\\infty$$) থেকে $$n_1=1$$ স্তরে ফিরে আসে।\nসমাধান: $$\\frac{1}{\\lambda_{min}} = R_H \\left( \\frac{1}{1^2} - \\frac{1}{\\infty^2} \\right) = R_H$$।\nসুতরাং, $$\\lambda_{min} = \\frac{1}{R_H} = \\frac{1}{1.09678 \\times 10^7 \\text{ m}^{-1}} \\approx 9.11 \\times 10^{-8} \\text{ m} = 91.1 \\text{ nm}$$ (UV অঞ্চল)।",
+            "en": "Question: What is the wavelength of the highest energy (minimum wavelength) radiation in the Lyman series?\nExplanation: Highest energy means the electron returns from infinity ($$\\infty$$) to the $$n_1=1$$ level.\nSolution: $$\\frac{1}{\\lambda_{min}} = R_H \\left( \\frac{1}{1^2} - \\frac{1}{\\infty^2} \\right) = R_H$$۔\nTherefore, $$\\lambda_{min} = \\frac{1}{R_H} = \\frac{1}{1.09678 \\times 10^7 \\text{ m}^{-1}} \\approx 9.11 \\times 10^{-8} \\text{ m} = 91.1 \\text{ nm}$$ (UV region)."
+          }
+        ]
+      }
+    ]
+  },
+  "solubility-and-ksp": {
+    "title": "দ্রাব্যতা ও দ্রাব্যতা গুণফল (Ksp)",
+    "blocks": [
+      {
+        "type": "definition",
+        "title": "দ্রাব্যতা (Solubility, s)",
+        "text_bn": "নির্দিষ্ট তাপমাত্রায়, কোনো দ্রবের সর্বোচ্চ যে পরিমাণ কোনো নির্দিষ্ট পরিমাণ দ্রাবকে দ্রবীভূত হয়ে একটি সম্পৃক্ত দ্রবণ তৈরি করে, তাকে ঐ দ্রবের দ্রাব্যতা বলে। সাধারণত এটিকে মোল/লিটার (mol/L) এককে প্রকাশ করা হয়। তাপমাত্রা, চাপ (গ্যাসের ক্ষেত্রে), এবং দ্রব ও দ্রাবকের প্রকৃতির উপর দ্রাব্যতা নির্ভর করে।",
+        "text_en": "At a specific temperature, the maximum amount of a solute that can dissolve in a specific amount of solvent to form a saturated solution is called the solubility of that solute. It is typically expressed in units of mol/L. Solubility depends on temperature, pressure (for gases), and the nature of the solute and solvent.",
+        "examples": []
+      },
+      {
+        "type": "definition",
+        "title": "দ্রাব্যতা গুণফল (Solubility Product, Ksp)",
+        "text_bn": "নির্দিষ্ট তাপমাত্রায়, কোনো স্বল্প দ্রবণীয় লবণের সম্পৃক্ত দ্রবণে উপস্থিত ক্যাটায়ন ও অ্যানায়নের মোলার ঘনমাত্রার (নিজ নিজ সহগ দ্বারা ঘাত প্রাপ্ত) সর্বোচ্চ গুণফলকে ঐ লবণের দ্রাব্যতা গুণফল বলে। এটি একটি ধ্রুবক এবং শুধুমাত্র স্বল্প দ্রবণীয় লবণের ক্ষেত্রে প্রযোজ্য। $$A_xB_y(s) \\rightleftharpoons xA^{y+}(aq) + yB^{x-}(aq)$$ এর জন্য, $$K_{sp} = [A^{y+}]^x[B^{x-}]^y$$।",
+        "text_en": "At a specific temperature, for a sparingly soluble salt in a saturated solution, the maximum product of the molar concentrations of its constituent ions, each raised to the power of its stoichiometric coefficient, is called the solubility product (Ksp). It is a constant applicable only to sparingly soluble salts. For $$A_xB_y(s) \\rightleftharpoons xA^{y+}(aq) + yB^{x-}(aq)$$, $$K_{sp} = [A^{y+}]^x[B^{x-}]^y$$.",
+        "examples": []
+      },
+      {
+        "type": "table",
+        "title": "দ্রাব্যতা (s) ও দ্রাব্যতা গুণফলের (Ksp) সম্পর্ক",
+        "headers": [
+          "লবণের ধরণ (Salt Type)",
+          "উদাহরণ (Example)",
+          "বিয়োজন (Dissociation)",
+          "সম্পর্ক (Relation)"
+        ],
+        "rows": [
+          ["AB", "AgCl, BaSO₄", "$$s \\rightarrow s + s$$", "$$K_{sp} = s^2$$"],
+          [
+            "AB₂ বা A₂B",
+            "PbCl₂, Ca(OH)₂",
+            "$$s \\rightarrow s + 2s$$",
+            "$$K_{sp} = 4s^3$$"
+          ],
+          [
+            "AB₃ বা A₃B",
+            "AlCl₃, Fe(OH)₃",
+            "$$s \\rightarrow s + 3s$$",
+            "$$K_{sp} = 27s^4$$"
+          ],
+          [
+            "A₂B₃",
+            "Ca₃(PO₄)₂, As₂S₃",
+            "$$s \\rightarrow 2s + 3s$$",
+            "$$K_{sp} = 108s^5$$"
+          ]
+        ]
+      }
+    ]
+  },
+  "precipitation-and-kip": {
+    "title": "আয়নিক গুণফল (Kip) ও অধঃক্ষেপণের শর্ত",
+    "blocks": [
+      {
+        "type": "definition",
+        "title": "আয়নিক গুণফল (Ionic Product, Kip)",
+        "text_bn": "যেকোনো দ্রবণে (সম্পৃক্ত, অসম্পৃক্ত বা অতিপৃক্ত) উপস্থিত ক্যাটায়ন ও অ্যানায়নের মোল ঘনমাত্রার (তাদের নিজ নিজ সহগ দ্বারা ঘাত প্রাপ্ত) গুণফলকে আয়নিক গুণফল বলে। $$K_{sp}$$ একটি নির্দিষ্ট তাপমাত্রায় ধ্রুবক, কিন্তু $$K_{ip}$$ দ্রবণের ঘনমাত্রার উপর নির্ভরশীল।",
+        "text_en": "In any solution (saturated, unsaturated, or supersaturated), the product of the molar concentrations of the constituent ions, each raised to the power of its stoichiometric coefficient, is called the ionic product (Kip). $$K_{sp}$$ is a constant at a specific temperature, whereas $$K_{ip}$$ depends on the current concentrations in the solution.",
+        "examples": []
+      },
+      {
+        "type": "important",
+        "title": "অধঃক্ষেপণের শর্ত (Conditions for Precipitation)",
+        "text_bn": "১. যদি $$K_{ip} > K_{sp}$$ হয়: দ্রবণটি অতিপৃক্ত এবং অতিরিক্ত লবণ অধঃক্ষিপ্ত হবে।\n২. যদি $$K_{ip} < K_{sp}$$ হয়: দ্রবণটি অসম্পৃক্ত এবং কোনো অধঃক্ষেপ পড়বে না।\n৩. যদি $$K_{ip} = K_{sp}$$ হয়: দ্রবণটি সম্পৃক্ত এবং সাম্যাবস্থায় থাকে।",
+        "text_en": "1. If $$K_{ip} > K_{sp}$$: The solution is supersaturated and the excess salt will precipitate.\n2. If $$K_{ip} < K_{sp}$$: The solution is unsaturated and no precipitation will occur.\n3. If $$K_{ip} = K_{sp}$$: The solution is saturated and is in equilibrium."
+      },
+      {
+        "type": "example",
+        "title": "অধঃক্ষেপণ সংক্রান্ত গাণিতিক সমস্যা",
+        "examples": [
+          {
+            "bn": "প্রশ্ন: 50 mL 0.01M $$CaCl_2$$ দ্রবণের সাথে 50 mL 0.001M $$Na_2SO_4$$ দ্রবণ মেশানো হলো। $$CaSO_4$$ এর অধঃক্ষেপ পড়বে কি? ($$CaSO_4$$ এর $$K_{sp} = 2.4 \\times 10^{-5}$$)\nউত্তর: মিশ্রণের পর মোট আয়তন = 100 mL।\nনতুন ঘনমাত্রা, $$[Ca^{2+}] = \\frac{0.01 \\times 50}{100} = 0.005M$$।\nনতুন ঘনমাত্রা, $$[SO_4^{2-}] = \\frac{0.001 \\times 50}{100} = 0.0005M$$।\nআয়নিক গুণফল, $$K_{ip} = [Ca^{2+}][SO_4^{2-}] = (0.005)(0.0005) = 2.5 \\times 10^{-6}$$।\nযেহেতু $$K_{ip} (2.5 \\times 10^{-6}) < K_{sp} (2.4 \\times 10^{-5})$$, তাই অধঃক্ষেপ পড়বে না।",
+            "en": "Question: 50 mL of 0.01M $$CaCl_2$$ solution is mixed with 50 mL of 0.001M $$Na_2SO_4$$ solution. Will $$CaSO_4$$ precipitate? ($$K_{sp}$$ for $$CaSO_4 = 2.4 \\times 10^{-5}$$)\nAnswer: After mixing, total volume = 100 mL.\nNew concentration, $$[Ca^{2+}] = \\frac{0.01 \\times 50}{100} = 0.005M$$.\nNew concentration, $$[SO_4^{2-}] = \\frac{0.001 \\times 50}{100} = 0.0005M$$.\nIonic product, $$K_{ip} = [Ca^{2+}][SO_4^{2-}] = (0.005)(0.0005) = 2.5 \\times 10^{-6}$$.\nSince $$K_{ip} (2.5 \\times 10^{-6}) < K_{sp} (2.4 \\times 10^{-5})$$, no precipitate will form."
+          }
+        ]
+      }
+    ]
+  },
+  "common-ion-effect": {
+    "title": "সম-আয়ন প্রভাব",
+    "blocks": [
+      {
+        "type": "definition",
+        "title": "সম-আয়ন প্রভাব (Common Ion Effect)",
+        "text_bn": "কোনো স্বল্প দ্রবণীয় তড়িৎ বিশ্লেষ্যের সম্পৃক্ত দ্রবণে, যদি এমন কোনো তীব্র তড়িৎ বিশ্লেষ্য যোগ করা হয় যার একটি আয়ন স্বল্প দ্রবণীয় লবণটির ক্যাটায়ন বা অ্যানায়নের অনুরূপ (সম-আয়ন) হয়, তবে লা-শাতেলিয়ের নীতি অনুসারে সাম্যাবস্থা বাম দিকে সরে যায়। ফলে স্বল্প দ্রবণীয় লবণটির দ্রাব্যতা আরও হ্রাস পায়। এই ঘটনাকে সম-আয়ন প্রভাব বলে। দ্রাব্যতা ($$s$$) কমলেও দ্রাব্যতা গুণফল ($$K_{sp}$$) অপরিবর্তিত থাকে।",
+        "text_en": "In a saturated solution of a sparingly soluble electrolyte, if a strong electrolyte is added that has an ion in common with the sparingly soluble salt, the equilibrium shifts to the left according to Le Chatelier's principle. This causes a decrease in the solubility of the sparingly soluble salt. This phenomenon is called the common ion effect. While solubility ($$s$$) decreases, the solubility product ($$K_{sp}$$) remains constant.",
+        "examples": []
+      },
+      {
+        "type": "example",
+        "title": "সম-আয়ন প্রভাবের প্রয়োগ",
+        "examples": [
+          {
+            "bn": "প্রশ্ন: বিশুদ্ধ পানিতে $$AgCl$$ এর দ্রাব্যতা $$s$$। 0.1M $$NaCl$$ দ্রবণে $$AgCl$$ এর দ্রাব্যতা কত হবে? ($$AgCl$$ এর $$K_{sp} = 1.8 \\times 10^{-10}$$)\nউত্তর: ধরা যাক, 0.1M $$NaCl$$ দ্রবণে $$AgCl$$ এর নতুন দ্রাব্যতা $$s'$$ mol/L।\n$$AgCl \\rightleftharpoons Ag^+ + Cl^-$$;   $$NaCl \\rightarrow Na^+ + Cl^-$$ \nদ্রবণে $$[Ag^+] = s'$$ এবং $$[Cl^-] = s' + 0.1$$। যেহেতু $$s'$$ খুবই ক্ষুদ্র, $$s' + 0.1 \\approx 0.1$$।\n$$K_{sp} = [Ag^+][Cl^-] = (s')(0.1)$$ \n$$s' = \\frac{1.8 \\times 10^{-10}}{0.1} = 1.8 \\times 10^{-9} \\text{ mol/L}$$। \nদেখা যাচ্ছে, দ্রাব্যতা সম-আয়ন $$Cl^-$$ এর উপস্থিতিতে উল্লেখযোগ্যভাবে হ্রাস পেয়েছে।",
+            "en": "Question: The solubility of $$AgCl$$ in pure water is s. What will be its solubility in a 0.1M $$NaCl$$ solution? ($$K_{sp}$$ of $$AgCl = 1.8 \\times 10^{-10}$$)\nAnswer: Let the new solubility of AgCl in 0.1M NaCl be $$s'$$ mol/L.\n$$AgCl \\rightleftharpoons Ag^+ + Cl^-$$;   $$NaCl \\rightarrow Na^+ + Cl^-$$ \nIn the solution, $$[Ag^+] = s'$$ and $$[Cl^-] = s' + 0.1$$. Since $$s'$$ is very small, $$s' + 0.1 \\approx 0.1$$.\n$$K_{sp} = [Ag^+][Cl^-] = (s')(0.1)$$ \n$$s' = \\frac{1.8 \\times 10^{-10}}{0.1} = 1.8 \\times 10^{-9} \\text{ mol/L}$$۔ \nClearly, the solubility has decreased significantly due to the presence of the common ion $$Cl^-$$."
+          }
+        ]
+      }
+    ]
+  },
+  "ion-identification": {
+    "title": "আয়ন শনাক্তকরণ",
+    "blocks": [
+      {
+        "type": "definition",
+        "title": "শুষ্ক পরীক্ষা: শিখা পরীক্ষা (Dry Test: Flame Test)",
+        "text_bn": "কিছু ধাতব লবণকে গাঢ় $$HCl$$ সহযোগে একটি প্ল্যাটিনাম তারের মাথায় নিয়ে বুনসেন বার্নারের অনুজ্জ্বল শিখায় ধরলে বৈশিষ্ট্যপূর্ণ বর্ণ সৃষ্টি হয়। $$HCl$$ লবণটিকে উদ্বায়ী ক্লোরাইডে পরিণত করে। তাপের কারণে ইলেকট্রন উচ্চ শক্তিস্তরে যায় এবং নিম্ন শক্তিস্তরে ফিরে আসার সময় দৃশ্যমান আলো বিকিরণ করে, যা থেকে ক্যাটায়নকে শনাক্ত করা হয়।",
+        "text_en": "When some metallic salts, mixed with concentrated $$HCl$$ on a platinum wire loop, are heated in a non-luminous Bunsen flame, they produce characteristic colors. $$HCl$$ converts the salt into its volatile chloride. Due to the heat, electrons get excited to higher energy levels and emit visible light upon returning to lower levels, which helps identify the cation.",
+        "examples": []
+      },
+      {
+        "type": "table",
+        "title": "বিভিন্ন ক্যাটায়নের শিখা পরীক্ষার বর্ণ",
+        "headers": ["ক্যাটায়ন (Cation)", "শিখার বর্ণ (Flame Color)"],
+        "rows": [
+          ["সোডিয়াম ($$Na^+$$)", "সোনালী হলুদ (Golden Yellow)"],
+          ["পটাশিয়াম ($$K^+$$)", "হালকা বেগুনী (Lilac/Pale Violet)"],
+          ["ক্যালসিয়াম ($$Ca^{2+}$$)", "ইটের মতো লাল (Brick Red)"],
+          [
+            "স্ট্রনশিয়াম ($$Sr^{2+}$$)",
+            "উজ্জ্বল ক্রিমসন লাল (Bright Crimson Red)"
+          ],
+          ["কপার ($$Cu^{2+}$$)", "নীলাভ সবুজ (Bluish Green)"]
+        ]
+      },
+      {
+        "type": "definition",
+        "title": "শিক্ত পরীক্ষা (Wet Test)",
+        "text_bn": "লবণের জলীয় দ্রবণে নির্দিষ্ট বিকারক যোগ করে সৃষ্ট অধঃক্ষেপের বর্ণ বা দ্রবীভূত হয়ে উৎপন্ন রঙিন যৌগ দেখে আয়ন শনাক্ত করার পদ্ধতিকে শিক্ত পরীক্ষা বলে। এটি ক্যাটায়ন ও অ্যানায়ন উভয় শনাক্তকরণে ব্যবহৃত হয়।",
+        "text_en": "The method of identifying ions by adding specific reagents to an aqueous solution of a salt and observing the color of the precipitate formed or the colored compound produced upon dissolution is called a wet test. It is used to identify both cations and anions.",
+        "examples": []
+      },
+      {
+        "type": "table",
+        "title": "কিছু গুরুত্বপূর্ণ আয়নের শিক্ত পরীক্ষা",
+        "headers": [
+          "আয়ন (Ion)",
+          "বিকারক (Reagent)",
+          "পর্যবেক্ষণ (Observation)"
+        ],
+        "rows": [
+          [
+            "কপার ($$Cu^{2+}$$)",
+            "অ্যামোনিয়াম হাইড্রোক্সাইড ($$NH_4OH$$)",
+            "হালকা নীল অধঃক্ষেপ, অতিরিক্ত বিকারকে দ্রবীভূত হয়ে গাঢ় নীল দ্রবণ ($$[Cu(NH_3)_4]^{2+}$$) তৈরি করে।"
+          ],
+          [
+            "জিংক ($$Zn^{2+}$$)",
+            "সোডিয়াম হাইড্রোক্সাইড ($$NaOH$$)",
+            "সাদা অধঃক্ষেপ, অতিরিক্ত বিকারকে দ্রবীভূত হয়ে বর্ণহীন দ্রবণ ($$[Zn(OH)_4]^{2-}$$) তৈরি করে।"
+          ],
+          [
+            "অ্যালুমিনিয়াম ($$Al^{3+}$$)",
+            "অ্যামোনিয়াম হাইড্রোক্সাইড ($$NH_4OH$$)",
+            "সাদা জেলির মতো অধঃক্ষেপ ($$Al(OH)_3$$) তৈরি হয়।"
+          ],
+          [
+            "আয়রন (II) ($$Fe^{2+}$$)",
+            "পটাসিয়াম ফেরিসায়ানাইড ($$K_3[Fe(CN)_6]$$)",
+            "গাঢ় নীল অধঃক্ষেপ (টার্নবুলের নীল) তৈরি হয়।"
+          ],
+          [
+            "আয়রন (III) ($$Fe^{3+}$$)",
+            "পটাসিয়াম ফেরোসায়ানাইড ($$K_4[Fe(CN)_6]$$)",
+            "গাঢ় নীল অধঃক্ষেপ (প্রুশিয়ান ব্লু) তৈরি হয়।"
+          ],
+          [
+            "ক্লোরাইড ($$Cl^-$$)",
+            "সিলভার নাইট্রেট ($$AgNO_3$$) দ্রবণ",
+            "সাদা অধঃক্ষেপ ($$AgCl$$), যা $$NH_4OH$$-এ দ্রবণীয়।"
+          ],
+          [
+            "সালফেট ($$SO_4^{2-}$$)",
+            "বেরিয়াম ক্লোরাইড ($$BaCl_2$$) দ্রবণ",
+            "সাদা অধঃক্ষেপ ($$BaSO_4$$), যা অ্যাসিডে অদ্রবণীয়।"
+          ],
+          [
+            "কার্বনেট ($$CO_3^{2-}$$)",
+            "লঘু $$HCl$$",
+            "বুদবুদসহ বর্ণহীন, গন্ধহীন $$CO_2$$ গ্যাস নির্গত হয়, যা চুনের পানিকে ঘোলা করে।"
+          ]
+        ]
+      }
+    ]
+  }
+}
