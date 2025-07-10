@@ -115,8 +115,10 @@ export interface QuizQuestion {
   options?: BilingualString[];
   correctAnswer: BilingualString;
 }
+// Update the QAContent interface
 export interface QAContent {
   id: string;
-  question: string;
-  answer: string;
+  topicId: string; // <-- ADD THIS
+  question: BilingualString; // <-- UPDATE THIS
+  answer: BilingualString; // <-- UPDATE THIS
 }

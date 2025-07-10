@@ -1,0 +1,1622 @@
+[
+  {
+    "id": "ch2-atomic-fundamentals-q1",
+    "topicId": "atomic-fundamentals",
+    "question": {
+      "bn": "পরমাণুর মূল কণিকা কী কী?",
+      "en": "What are the fundamental particles of an atom?"
+    },
+    "answer": {
+      "bn": "পরমাণুর মূল কণিকা তিনটি: ইলেকট্রন (Electron), প্রোটন (Proton) এবং নিউট্রন (Neutron)।",
+      "en": "The three fundamental particles of an atom are: Electron, Proton, and Neutron."
+    }
+  },
+  {
+    "id": "ch2-atomic-fundamentals-q2",
+    "topicId": "atomic-fundamentals",
+    "question": {
+      "bn": "আলফা কণা কী?",
+      "en": "What is an alpha particle?"
+    },
+    "answer": {
+      "bn": "আলফা কণা হলো একটি হিলিয়াম নিউক্লিয়াস (He²⁺), যা দুটি প্রোটন এবং দুটি নিউট্রন দ্বারা গঠিত। এর চার্জ +2 এবং ভর 4 amu।",
+      "en": "An alpha particle is a helium nucleus (He²⁺), consisting of two protons and two neutrons. Its charge is +2 and its mass is 4 amu."
+    }
+  },
+  {
+    "id": "ch2-atomic-fundamentals-q3",
+    "topicId": "atomic-fundamentals",
+    "question": {
+      "bn": "আইসোটোপ কাকে বলে?",
+      "en": "What is an isotope?"
+    },
+    "answer": {
+      "bn": "একই মৌলের যে সকল পরমাণুর প্রোটন সংখ্যা (পারমাণবিক সংখ্যা) সমান কিন্তু নিউট্রন সংখ্যা ভিন্ন, ফলে ভরসংখ্যা ভিন্ন হয়, তাদের পরস্পরের আইসোটোপ বলে। যেমন: ¹H, ²H, ³H।",
+      "en": "Isotopes are atoms of the same element that have the same number of protons (atomic number) but different numbers of neutrons, resulting in a different mass number. For example: ¹H, ²H, ³H."
+    }
+  },
+  {
+    "id": "ch2-atomic-fundamentals-q4",
+    "topicId": "atomic-fundamentals",
+    "question": {
+      "bn": "আইসোবার ও আইসোটোনের মধ্যে পার্থক্য কী?",
+      "en": "What is the difference between isobar and isotone?"
+    },
+    "answer": {
+      "bn": "আইসোবার হলো ভিন্ন মৌলের পরমাণু যাদের ভরসংখ্যা সমান কিন্তু প্রোটন সংখ্যা ভিন্ন। অন্যদিকে, আইসোটোন হলো ভিন্ন মৌলের পরমাণু যাদের নিউট্রন সংখ্যা সমান।",
+      "en": "Isobars are atoms of different elements with the same mass number but different proton numbers. On the other hand, isotones are atoms of different elements with the same number of neutrons."
+    }
+  },
+  {
+    "id": "ch2-atomic-fundamentals-q5",
+    "topicId": "atomic-fundamentals",
+    "question": {
+      "bn": "পারমাণবিক সংখ্যা ও ভরসংখ্যার সংজ্ঞা দাও।",
+      "en": "Define atomic number and mass number."
+    },
+    "answer": {
+      "bn": "কোনো মৌলের নিউক্লিয়াসে বিদ্যমান প্রোটনের সংখ্যাকে পারমাণবিক সংখ্যা (Z) বলে। আর নিউক্লিয়াসে বিদ্যমান প্রোটন ও নিউট্রনের মোট সংখ্যাকে ভরসংখ্যা (A) বলে।",
+      "en": "The number of protons in the nucleus of an element is called the atomic number (Z). The total number of protons and neutrons in the nucleus is called the mass number (A)."
+    }
+  },
+  {
+    "id": "ch2-atomic-fundamentals-q6",
+    "topicId": "atomic-fundamentals",
+    "question": {
+      "bn": "ক্যাথোড রশ্মি কী?",
+      "en": "What are cathode rays?"
+    },
+    "answer": {
+      "bn": "ক্যাথোড রশ্মি হলো দ্রুতগতি সম্পন্ন ইলেকট্রনের প্রবাহ, যা ডিসচার্জ টিউবের ক্যাথোডে উচ্চ বিভব পার্থক্য প্রয়োগ করলে উৎপন্ন হয়।",
+      "en": "Cathode rays are a stream of high-velocity electrons that are produced in a discharge tube when a high voltage is applied to the cathode."
+    }
+  },
+  {
+    "id": "ch2-atomic-fundamentals-q7",
+    "topicId": "atomic-fundamentals",
+    "question": {
+      "bn": "তেজস্ক্রিয়তা কী?",
+      "en": "What is radioactivity?"
+    },
+    "answer": {
+      "bn": "যেসব মৌলের নিউক্লিয়াস স্বতঃস্ফূর্তভাবে বিভাজিত হয়ে আলফা, বিটা, গামা রশ্মি নির্গত করে এবং নতুন মৌলে পরিণত হয়, সেই ধর্মকে তেজস্ক্রিয়তা বলে।",
+      "en": "The property of certain elements whose nuclei spontaneously disintegrate, emitting alpha, beta, and gamma rays and transforming into a new element, is called radioactivity."
+    }
+  },
+  {
+    "id": "ch2-atomic-fundamentals-q8",
+    "topicId": "atomic-fundamentals",
+    "question": {
+      "bn": "একটি ইলেকট্রনের চার্জ ও ভর কত?",
+      "en": "What is the charge and mass of an electron?"
+    },
+    "answer": {
+      "bn": "একটি ইলেকট্রনের চার্জ -1.602 × 10⁻¹⁹ কুলম্ব এবং এর স্থির ভর 9.11 × 10⁻³¹ কেজি।",
+      "en": "The charge of an electron is -1.602 × 10⁻¹⁹ Coulombs, and its rest mass is 9.11 × 10⁻³¹ kg."
+    }
+  },
+  {
+    "id": "ch2-atomic-fundamentals-q9",
+    "topicId": "atomic-fundamentals",
+    "question": {
+      "bn": "নিউক্লিয়ন কী?",
+      "en": "What are nucleons?"
+    },
+    "answer": {
+      "bn": "পরমাণুর নিউক্লিয়াসে অবস্থিত প্রোটন এবং নিউট্রনকে সম্মিলিতভাবে নিউক্লিয়ন বলা হয়।",
+      "en": "The protons and neutrons located in the nucleus of an atom are collectively called nucleons."
+    }
+  },
+  {
+    "id": "ch2-atomic-fundamentals-q10",
+    "topicId": "atomic-fundamentals",
+    "question": {
+      "bn": "আইসোটোপের ব্যবহার কী?",
+      "en": "What are the uses of isotopes?"
+    },
+    "answer": {
+      "bn": "আইসোটোপ চিকিৎসাক্ষেত্রে (ক্যান্সার চিকিৎসায় ⁶⁰Co), কৃষিক্ষেত্রে (খাদ্য সংরক্ষণ), ভূতাত্ত্বিক বয়স নির্ণয়ে (¹⁴C ডেটিং) এবং পারমাণবিক চুল্লিতে ব্যবহৃত হয়।",
+      "en": "Isotopes are used in medicine (⁶⁰Co in cancer therapy), agriculture (food preservation), geological dating (¹⁴C dating), and in nuclear reactors."
+    }
+  },
+  {
+    "id": "ch2-atomic-fundamentals-q11",
+    "topicId": "atomic-fundamentals",
+    "question": {
+      "bn": "পরমাণু কেন সামগ্রিকভাবে চার্জ নিরপেক্ষ?",
+      "en": "Why is an atom electrically neutral as a whole?"
+    },
+    "answer": {
+      "bn": "একটি পরমাণুতে ধনাত্মক চার্জযুক্ত প্রোটনের সংখ্যা এবং ঋণাত্মক চার্জযুক্ত ইলেকট্রনের সংখ্যা সমান থাকে। ফলে, মোট ধনাত্মক ও ঋণাত্মক চার্জ পরস্পরকে প্রশমিত করে, তাই পরমাণু সামগ্রিকভাবে চার্জ নিরপেক্ষ।",
+      "en": "In an atom, the number of positively charged protons is equal to the number of negatively charged electrons. As a result, the total positive and negative charges cancel each other out, making the atom electrically neutral."
+    }
+  },
+  {
+    "id": "ch2-atomic-fundamentals-q12",
+    "topicId": "atomic-fundamentals",
+    "question": {
+      "bn": "স্থায়ী ও অস্থায়ী মূল কণিকার মধ্যে পার্থক্য কী?",
+      "en": "What is the difference between stable and unstable fundamental particles?"
+    },
+    "answer": {
+      "bn": "স্থায়ী মূল কণিকা (ইলেকট্রন, প্রোটন, নিউট্রন) সকল মৌলের পরমাণুতে পাওয়া যায়। অস্থায়ী মূল কণিকা (পজিট্রন, মেসন, নিউট্রিনো) নিউক্লিয়ার বিক্রিয়ার সময় ক্ষণস্থায়ীভাবে তৈরি হয় এবং স্থায়ী নয়।",
+      "en": "Stable fundamental particles (electron, proton, neutron) are found in the atoms of all elements. Unstable particles (positron, meson, neutrino) are created temporarily during nuclear reactions and are not permanent."
+    }
+  },
+  {
+    "id": "ch2-atomic-fundamentals-q13",
+    "topicId": "atomic-fundamentals",
+    "question": {
+      "bn": "ভর ত্রুটি (Mass Defect) কী?",
+      "en": "What is mass defect?"
+    },
+    "answer": {
+      "bn": "একটি নিউক্লিয়াসের প্রকৃত ভর এর গাঠনিক প্রোটন ও নিউট্রনসমূহের মোট ভরের চেয়ে কিছুটা কম হয়। এই ভরের পার্থক্যকে ভর ত্রুটি বলে। এই হারানো ভর শক্তিতে রূপান্তরিত হয় (E=mc²)।",
+      "en": "The actual mass of a nucleus is slightly less than the total mass of its constituent protons and neutrons. This difference in mass is called mass defect. This lost mass is converted into energy (E=mc²)."
+    }
+  },
+  {
+    "id": "ch2-atomic-fundamentals-q14",
+    "topicId": "atomic-fundamentals",
+    "question": {
+      "bn": "পারমাণবিক ভর একক (amu) কাকে বলে?",
+      "en": "What is an atomic mass unit (amu)?"
+    },
+    "answer": {
+      "bn": "কার্বন-12 আইসোটোপের একটি পরমাণুর ভরের 1/12 অংশকে এক পারমাণবিক ভর একক (amu) বলে। 1 amu = 1.66 × 10⁻²⁴ গ্রাম।",
+      "en": "One atomic mass unit (amu) is defined as 1/12th of the mass of a single Carbon-12 atom. 1 amu = 1.66 × 10⁻²⁴ grams."
+    }
+  },
+  {
+    "id": "ch2-atomic-fundamentals-q15",
+    "topicId": "atomic-fundamentals",
+    "question": {
+      "bn": "অ্যানোড রশ্মি বা ক্যানেল রশ্মি কী?",
+      "en": "What are anode rays or canal rays?"
+    },
+    "answer": {
+      "bn": "ছিদ্রযুক্ত ক্যাথোড ব্যবহার করে পরমাণু থেকে ইলেকট্রন বের করে নেওয়ার পর যে ধনাত্মক চার্জযুক্ত কণার স্রোত ক্যাথোডের দিকে ধাবিত হয়, তাকে অ্যানোড রশ্মি বা ক্যানেল রশ্মি বলে। এটি মূলত গ্যাসীয় আয়নের স্রোত।",
+      "en": "When a perforated cathode is used, the stream of positively charged particles (created after electrons are knocked out of atoms) that moves towards the cathode is called anode rays or canal rays. It is essentially a stream of gaseous ions."
+    }
+  },
+  {
+    "id": "ch2-atomic-models-q1",
+    "topicId": "atomic-models",
+    "question": {
+      "bn": "রাদারফোর্ডের পরমাণু মডেলকে সৌর মডেল বলা হয় কেন?",
+      "en": "Why is Rutherford's atomic model called the solar model?"
+    },
+    "answer": {
+      "bn": "রাদারফোর্ডের মডেলে পরমাণুর কেন্দ্রস্থিত নিউক্লিয়াসকে ঘিরে ইলেকট্রনের ঘূর্ণনকে সৌরজগতের সূর্যের চারপাশে গ্রহগুলোর ঘূর্ণনের সাথে তুলনা করা হয়েছে, তাই একে সৌর মডেল বলা হয়।",
+      "en": "In Rutherford's model, the revolution of electrons around the central nucleus is compared to the revolution of planets around the sun in the solar system, hence it is called the solar model."
+    }
+  },
+  {
+    "id": "ch2-atomic-models-q2",
+    "topicId": "atomic-models",
+    "question": {
+      "bn": "রাদারফোর্ডের পরমাণু মডেলের দুটি সীমাবদ্ধতা লিখ।",
+      "en": "Write two limitations of Rutherford's atomic model."
+    },
+    "answer": {
+      "bn": "১. ম্যাক্সওয়েলের তত্ত্বানুসারে, এটি পরমাণুর স্থিতিশীলতা ব্যাখ্যা করতে পারে না। ২. এটি পারমাণবিক বর্ণালীর উৎপত্তি ব্যাখ্যা করতে পারে না।",
+      "en": "1. According to Maxwell's theory, it cannot explain the stability of an atom. 2. It cannot explain the origin of atomic spectra."
+    }
+  },
+  {
+    "id": "ch2-atomic-models-q3",
+    "topicId": "atomic-models",
+    "question": {
+      "bn": "বোর পরমাণু মডেলের মূল স্বীকার্যগুলো কী কী?",
+      "en": "What are the main postulates of Bohr's atomic model?"
+    },
+    "answer": {
+      "bn": "১. ইলেকট্রন নির্দিষ্ট শক্তির বৃত্তাকার কক্ষপথে ঘোরে। ২. একটি নির্দিষ্ট কক্ষপথে থাকাকালীন ইলেকট্রন শক্তি শোষণ বা বিকিরণ করে না। ৩. কৌণিক ভরবেগ (mvr) h/2π এর সরল গুণিতক হয়। ৪. ইলেকট্রন শক্তি শোষণ করে উচ্চ শক্তিস্তরে এবং বিকিরণ করে নিম্ন শক্তিস্তরে স্থানান্তরিত হয়।",
+      "en": "1. Electrons revolve in specific circular orbits of fixed energy. 2. An electron does not absorb or radiate energy while in a specific orbit. 3. The angular momentum (mvr) is an integral multiple of h/2π. 4. Electrons jump to higher energy levels by absorbing energy and to lower levels by radiating energy."
+    }
+  },
+  {
+    "id": "ch2-atomic-models-q4",
+    "topicId": "atomic-models",
+    "question": {
+      "bn": "কক্ষপথ (Orbit) এবং অরবিটাল (Orbital) এর মধ্যে পার্থক্য কী?",
+      "en": "What is the difference between an Orbit and an Orbital?"
+    },
+    "answer": {
+      "bn": "কক্ষপথ হলো নিউক্লিয়াসের চারপাশে ইলেকট্রনের দ্বিমাত্রিক, সুনির্দিষ্ট বৃত্তাকার পথ (বোর মডেল)। অরবিটাল হলো নিউক্লিয়াসের চারপাশে ত্রিমাত্রিক অঞ্চল যেখানে ইলেকট্রনকে পাওয়ার সম্ভাবনা সর্বাধিক (90-95%), যা কোয়ান্টাম মডেলের ধারণা।",
+      "en": "An orbit is a two-dimensional, well-defined circular path for an electron around the nucleus (Bohr's model). An orbital is a three-dimensional region around the nucleus where the probability of finding an electron is maximum (90-95%), a concept from the quantum model."
+    }
+  },
+  {
+    "id": "ch2-atomic-models-q5",
+    "topicId": "atomic-models",
+    "question": {
+      "bn": "বোর মডেলের সীমাবদ্ধতা কী?",
+      "en": "What are the limitations of Bohr's model?"
+    },
+    "answer": {
+      "bn": "১. এটি শুধুমাত্র এক-ইলেকট্রন বিশিষ্ট সিস্টেম (H, He⁺) ব্যাখ্যা করতে পারে, বহু-ইলেকট্রন সিস্টেম পারে না। ২. এটি জিম্যান ও স্টার্ক প্রভাব ব্যাখ্যা করতে পারে না। ৩. এটি হাইজেনবার্গের অনিশ্চয়তা নীতির পরিপন্থী।",
+      "en": "1. It can only explain one-electron systems (H, He⁺), not multi-electron systems. 2. It cannot explain the Zeeman and Stark effects. 3. It contradicts Heisenberg's uncertainty principle."
+    }
+  },
+  {
+    "id": "ch2-atomic-models-q6",
+    "topicId": "atomic-models",
+    "question": {
+      "bn": "আলফা কণা বিচ্ছুরণ পরীক্ষার সিদ্ধান্তগুলো কী ছিল?",
+      "en": "What were the conclusions of the alpha particle scattering experiment?"
+    },
+    "answer": {
+      "bn": "১. পরমাণুর বেশিরভাগ স্থান ফাঁকা। ২. পরমাণুর কেন্দ্রে একটি ক্ষুদ্র, ধনাত্মক চার্জযুক্ত ও ভারী বস্তু (নিউক্লিয়াস) আছে। ৩. পরমাণুর মোট ধনাত্মক চার্জ নিউক্লিয়াসে কেন্দ্রীভূত।",
+      "en": "1. Most of the space in an atom is empty. 2. There is a small, positively charged, and heavy object (the nucleus) at the center of the atom. 3. The total positive charge of the atom is concentrated in the nucleus."
+    }
+  },
+  {
+    "id": "ch2-atomic-models-q7",
+    "topicId": "atomic-models",
+    "question": {
+      "bn": "কেন রাদারফোর্ড মডেলে পরমাণুর স্থিতিশীলতা ব্যাখ্যা করা যায় না?",
+      "en": "Why can't the stability of an atom be explained by Rutherford's model?"
+    },
+    "answer": {
+      "bn": "ম্যাক্সওয়েলের তড়িৎ-চুম্বকীয় তত্ত্ব অনুসারে, ঘূর্ণায়মান চার্জিত কণা (ইলেকট্রন) ক্রমাগত শক্তি বিকিরণ করবে। ফলে এর গতিপথ সর্পিল হয়ে ক্রমান্বয়ে ছোট হবে এবং অবশেষে নিউক্লিয়াসে পতিত হবে। কিন্তু বাস্তবে তা হয় না।",
+      "en": "According to Maxwell's electromagnetic theory, a revolving charged particle (electron) should continuously radiate energy. As a result, its path would become spiral, gradually getting smaller, and it would eventually fall into the nucleus. But this does not happen in reality."
+    }
+  },
+  {
+    "id": "ch2-atomic-models-q8",
+    "topicId": "atomic-models",
+    "question": {
+      "bn": "জিম্যান প্রভাব ও স্টার্ক প্রভাব কী?",
+      "en": "What are the Zeeman effect and Stark effect?"
+    },
+    "answer": {
+      "bn": "চুম্বক ক্ষেত্রের প্রভাবে পারমাণবিক বর্ণালীর রেখাগুলো একাধিক সূক্ষ্ম রেখায় বিভক্ত হয়ে যাওয়ার ঘটনাকে জিম্যান প্রভাব বলে। আর তড়িৎক্ষেত্রের প্রভাবে এই বিভাজন ঘটলে তাকে স্টার্ক প্রভাব বলে।",
+      "en": "The splitting of atomic spectral lines into multiple finer lines under the influence of a magnetic field is called the Zeeman effect. If this splitting occurs under the influence of an electric field, it is called the Stark effect."
+    }
+  },
+  {
+    "id": "ch2-atomic-models-q9",
+    "topicId": "atomic-models",
+    "question": {
+      "bn": "বোর মডেল অনুসারে কৌণিক ভরবেগের সমীকরণটি লিখ।",
+      "en": "Write the equation for angular momentum according to Bohr's model."
+    },
+    "answer": {
+      "bn": "বোর মডেল অনুসারে, একটি নির্দিষ্ট কক্ষপথে ইলেকট্রনের কৌণিক ভরবেগ (mvr) হলো mvr = n(h/2π), যেখানে n একটি পূর্ণসংখ্যা (1, 2, 3...)।",
+      "en": "According to Bohr's model, the angular momentum (mvr) of an electron in a specific orbit is mvr = n(h/2π), where n is an integer (1, 2, 3...)."
+    }
+  },
+  {
+    "id": "ch2-atomic-models-q10",
+    "topicId": "atomic-models",
+    "question": {
+      "bn": "কোন শক্তিস্তরকে স্থির কক্ষপথ বা Stationary Orbit বলা হয়?",
+      "en": "Which energy level is called a stationary orbit?"
+    },
+    "answer": {
+      "bn": "বোর মডেল অনুসারে, যে নির্দিষ্ট শক্তির কক্ষপথে থাকাকালীন ইলেকট্রন কোনো শক্তি শোষণ বা বিকিরণ করে না, তাকে স্থির কক্ষপথ বা Stationary Orbit বলে।",
+      "en": "According to Bohr's model, the specific energy orbit in which an electron does not absorb or radiate any energy is called a stationary orbit."
+    }
+  },
+  {
+    "id": "ch2-atomic-models-q11",
+    "topicId": "atomic-models",
+    "question": {
+      "bn": "সোমারফিল্ডের মডেলটি বোর মডেলের কী উন্নতি সাধন করে?",
+      "en": "What improvement did Sommerfeld's model make to Bohr's model?"
+    },
+    "answer": {
+      "bn": "সোমারফিল্ড প্রস্তাব করেন যে ইলেকট্রনের কক্ষপথ শুধুমাত্র বৃত্তাকার নয়, উপবৃত্তাকারও হতে পারে। এটি পারমাণবিক বর্ণালীর সূক্ষ্ম গঠন ব্যাখ্যা করতে সাহায্য করে, যা বোর মডেল পারেনি।",
+      "en": "Sommerfeld proposed that electron orbits could be elliptical, not just circular. This helped explain the fine structure of atomic spectra, which Bohr's model could not."
+    }
+  },
+  {
+    "id": "ch2-atomic-models-q12",
+    "topicId": "atomic-models",
+    "question": {
+      "bn": "ডি ব্রগলি (de Broglie) সমীকরণটি কী?",
+      "en": "What is the de Broglie equation?"
+    },
+    "answer": {
+      "bn": "ডি ব্রগলি সমীকরণটি বস্তুর কণা ও তরঙ্গ উভয় ধর্ম প্রদর্শন করে। সমীকরণটি হলো λ = h/mv, যেখানে λ হলো তরঙ্গদৈর্ঘ্য, h প্লাঙ্কের ধ্রুবক, m ভর এবং v বেগ।",
+      "en": "The de Broglie equation shows the dual particle-wave nature of matter. The equation is λ = h/mv, where λ is the wavelength, h is Planck's constant, m is mass, and v is velocity."
+    }
+  },
+  {
+    "id": "ch2-atomic-models-q13",
+    "topicId": "atomic-models",
+    "question": {
+      "bn": "হাইজেনবার্গের অনিশ্চয়তা নীতিটি বিবৃত কর।",
+      "en": "State Heisenberg's uncertainty principle."
+    },
+    "answer": {
+      "bn": "এই নীতি অনুসারে, কোনো গতিশীল কণার অবস্থান এবং ভরবেগ একই সাথে নির্ভুলভাবে নির্ণয় করা সম্ভব নয়। যদি একটির পরিমাপ নির্ভুল হয়, তবে অন্যটির পরিমাপে অনিশ্চয়তা বেড়ে যায়। (Δx * Δp ≥ h/4π)।",
+      "en": "According to this principle, it is impossible to determine both the position and momentum of a moving particle simultaneously with absolute accuracy. If the measurement of one is precise, the uncertainty in the measurement of the other increases. (Δx * Δp ≥ h/4π)."
+    }
+  },
+  {
+    "id": "ch2-atomic-models-q14",
+    "topicId": "atomic-models",
+    "question": {
+      "bn": "কোয়ান্টাম বলবিদ্যা মডেলের ভিত্তি কী?",
+      "en": "What is the basis of the quantum mechanical model?"
+    },
+    "answer": {
+      "bn": "কোয়ান্টাম বলবিদ্যা মডেলের ভিত্তি হলো ডি ব্রগলির দ্বৈত-নীতি এবং হাইজেনবার্গের অনিশ্চয়তা নীতি। এই মডেলটি শ্রোডিঙ্গারের তরঙ্গ সমীকরণের ওপর ভিত্তি করে গড়ে উঠেছে, যা অরবিটালের ধারণা দেয়।",
+      "en": "The basis of the quantum mechanical model is de Broglie's dual-nature principle and Heisenberg's uncertainty principle. This model is built upon Schrödinger's wave equation, which gives the concept of orbitals."
+    }
+  },
+  {
+    "id": "ch2-atomic-models-q15",
+    "topicId": "atomic-models",
+    "question": {
+      "bn": "রাদারফোর্ডের পরীক্ষায় কেন সোনার পাত ব্যবহার করা হয়েছিল?",
+      "en": "Why was gold foil used in Rutherford's experiment?"
+    },
+    "answer": {
+      "bn": "সোনার নমনীয়তা অনেক বেশি, তাই একে পিটিয়ে অত্যন্ত পাতলা (প্রায় 0.00004 সেমি) পাতে পরিণত করা যায়। এতে পরমাণুর সংখ্যা কম থাকে, যা আলফা কণার গতিপথ পর্যবেক্ষণের জন্য সুবিধাজনক।",
+      "en": "Gold is highly malleable, so it can be beaten into an extremely thin foil (about 0.00004 cm). This ensures a minimal number of atomic layers, which is convenient for observing the trajectory of the alpha particles."
+    }
+  },
+  {
+    "id": "ch2-quantum-numbers-q1",
+    "topicId": "quantum-numbers",
+    "question": {
+      "bn": "কোয়ান্টাম সংখ্যা কী?",
+      "en": "What are quantum numbers?"
+    },
+    "answer": {
+      "bn": "যেসব সংখ্যা দ্বারা পরমাণুতে কোনো ইলেকট্রনের শক্তিস্তরের আকার, আকৃতি, ত্রিমাত্রিক দিকবিন্যাস এবং নিজ অক্ষের ওপর ঘূর্ণনের দিক প্রকাশ করা হয়, তাদের কোয়ান্টাম সংখ্যা বলে।",
+      "en": "The numbers that describe the size of the energy level, shape, 3D orientation, and the direction of spin of an electron in an atom are called quantum numbers."
+    }
+  },
+  {
+    "id": "ch2-quantum-numbers-q2",
+    "topicId": "quantum-numbers",
+    "question": {
+      "bn": "চার প্রকার কোয়ান্টাম সংখ্যার নাম লিখ।",
+      "en": "Name the four types of quantum numbers."
+    },
+    "answer": {
+      "bn": "১. প্রধান কোয়ান্টাম সংখ্যা (n), ২. সহকারী কোয়ান্টাম সংখ্যা (l), ৩. চৌম্বকীয় কোয়ান্টাম সংখ্যা (m), এবং ৪. স্পিন কোয়ান্টাম সংখ্যা (s)।",
+      "en": "1. Principal Quantum Number (n), 2. Azimuthal Quantum Number (l), 3. Magnetic Quantum Number (m), and 4. Spin Quantum Number (s)."
+    }
+  },
+  {
+    "id": "ch2-quantum-numbers-q3",
+    "topicId": "quantum-numbers",
+    "question": {
+      "bn": "প্রধান কোয়ান্টাম সংখ্যা (n) কী নির্দেশ করে?",
+      "en": "What does the Principal Quantum Number (n) signify?"
+    },
+    "answer": {
+      "bn": "প্রধান কোয়ান্টাম সংখ্যা (n) পরমাণুর প্রধান শক্তিস্তরের আকার ও শক্তি নির্দেশ করে। এর মান যেকোনো ধনাত্মক পূর্ণসংখ্যা (1, 2, 3, ...) হতে পারে, যা যথাক্রমে K, L, M, ... শেল নির্দেশ করে।",
+      "en": "The Principal Quantum Number (n) signifies the size and energy of the principal energy level of an atom. Its value can be any positive integer (1, 2, 3, ...), which indicates the K, L, M, ... shells respectively."
+    }
+  },
+  {
+    "id": "ch2-quantum-numbers-q4",
+    "topicId": "quantum-numbers",
+    "question": {
+      "bn": "সহকারী কোয়ান্টাম সংখ্যা (l) কী নির্দেশ করে?",
+      "en": "What does the Azimuthal Quantum Number (l) signify?"
+    },
+    "answer": {
+      "bn": "সহকারী কোয়ান্টাম সংখ্যা (l) শক্তিস্তরের উপস্তরের আকৃতি নির্দেশ করে। এর মান 0 থেকে (n-1) পর্যন্ত হয়। l = 0, 1, 2, 3 হলে যথাক্রমে s, p, d, f অরবিটাল বোঝায়।",
+      "en": "The Azimuthal Quantum Number (l) signifies the shape of the sublevels within an energy level. Its value ranges from 0 to (n-1). l = 0, 1, 2, 3 correspond to s, p, d, f orbitals respectively."
+    }
+  },
+  {
+    "id": "ch2-quantum-numbers-q5",
+    "topicId": "quantum-numbers",
+    "question": {
+      "bn": "চৌম্বকীয় কোয়ান্টাম সংখ্যা (m) কী নির্দেশ করে?",
+      "en": "What does the Magnetic Quantum Number (m) signify?"
+    },
+    "answer": {
+      "bn": "চৌম্বকীয় কোয়ান্টাম সংখ্যা (m) উপস্তরের অরবিটালগুলোর ত্রিমাত্রিক দিকবিন্যাস (orientation) নির্দেশ করে। এর মান -l থেকে +l পর্যন্ত (শূন্যসহ) হয়।",
+      "en": "The Magnetic Quantum Number (m) signifies the 3D orientation of the orbitals within a sublevel. Its value ranges from -l to +l (including zero)."
+    }
+  },
+  {
+    "id": "ch2-quantum-numbers-q6",
+    "topicId": "quantum-numbers",
+    "question": {
+      "bn": "স্পিন কোয়ান্টাম সংখ্যা (s) কী নির্দেশ করে?",
+      "en": "What does the Spin Quantum Number (s) signify?"
+    },
+    "answer": {
+      "bn": "স্পিন কোয়ান্টাম সংখ্যা (s) ইলেকট্রনের নিজ অক্ষের উপর ঘূর্ণনের দিক নির্দেশ করে। এর দুটি সম্ভাব্য মান রয়েছে: +1/2 (ঘড়ির কাঁটার দিকে) এবং -1/2 (ঘড়ির কাঁটার বিপরীত দিকে)।",
+      "en": "The Spin Quantum Number (s) signifies the direction of an electron's spin on its own axis. It has two possible values: +1/2 (clockwise) and -1/2 (counter-clockwise)."
+    }
+  },
+  {
+    "id": "ch2-quantum-numbers-q7",
+    "topicId": "quantum-numbers",
+    "question": {
+      "bn": "পলির বর্জন নীতিটি কী?",
+      "en": "What is Pauli's Exclusion Principle?"
+    },
+    "answer": {
+      "bn": "এই নীতি অনুসারে, একটি পরমাণুর যেকোনো দুটি ইলেকট্রনের চারটি কোয়ান্টাম সংখ্যার মান কখনো একই হতে পারে না। অন্তত একটি কোয়ান্টাম সংখ্যার মান ভিন্ন হবেই।",
+      "en": "According to this principle, no two electrons in an atom can have the same set of four quantum numbers. At least one quantum number must be different."
+    }
+  },
+  {
+    "id": "ch2-quantum-numbers-q8",
+    "topicId": "quantum-numbers",
+    "question": {
+      "bn": "n = 3 শক্তিস্তরে মোট অরবিটাল ও ইলেকট্রন সংখ্যা কত?",
+      "en": "For the n = 3 energy level, what is the total number of orbitals and electrons?"
+    },
+    "answer": {
+      "bn": "n = 3 শক্তিস্তরে, মোট অরবিটাল সংখ্যা হলো n² = 3² = 9 টি (একটি 3s, তিনটি 3p, এবং পাঁচটি 3d)। মোট ইলেকট্রন সংখ্যা হলো 2n² = 2 × 3² = 18 টি।",
+      "en": "For the n = 3 energy level, the total number of orbitals is n² = 3² = 9 (one 3s, three 3p, and five 3d). The total number of electrons is 2n² = 2 × 3² = 18."
+    }
+  },
+  {
+    "id": "ch2-quantum-numbers-q9",
+    "topicId": "quantum-numbers",
+    "question": {
+      "bn": "p অরবিটালের আকৃতি কীরূপ?",
+      "en": "What is the shape of a p orbital?"
+    },
+    "answer": {
+      "bn": "p অরবিটালের আকৃতি ডাম্বেল-আকৃতির। তিনটি p অরবিটাল (px, py, pz) যথাক্রমে x, y, ও z অক্ষ বরাবর বিন্যস্ত থাকে।",
+      "en": "The shape of a p orbital is dumbbell-shaped. The three p orbitals (px, py, pz) are oriented along the x, y, and z axes, respectively."
+    }
+  },
+  {
+    "id": "ch2-quantum-numbers-q10",
+    "topicId": "quantum-numbers",
+    "question": {
+      "bn": "d অরবিটালের আকৃতি কীরূপ?",
+      "en": "What is the shape of a d orbital?"
+    },
+    "answer": {
+      "bn": "d অরবিটালের আকৃতি ডাবল-ডাম্বেল আকৃতির (চারটি) এবং একটির আকৃতি ভিন্ন (dz²)। পাঁচটি d অরবিটাল হলো dxy, dyz, dzx, dx²-y², এবং dz²।",
+      "en": "The shape of a d orbital is double-dumbbell (for four of them) and one has a different shape (dz²). The five d orbitals are dxy, dyz, dzx, dx²-y², and dz²."
+    }
+  },
+  {
+    "id": "ch2-quantum-numbers-q11",
+    "topicId": "quantum-numbers",
+    "question": {
+      "bn": "n=4 এবং l=2 হলে, m এর সম্ভাব্য মানগুলো কী কী?",
+      "en": "If n=4 and l=2, what are the possible values of m?"
+    },
+    "answer": {
+      "bn": "l=2 হলে, এটি d উপস্তর নির্দেশ করে। m এর মান -l থেকে +l পর্যন্ত হয়। সুতরাং, m এর সম্ভাব্য মানগুলো হলো: -2, -1, 0, +1, +2।",
+      "en": "If l=2, it indicates a d sublevel. The value of m ranges from -l to +l. Therefore, the possible values of m are: -2, -1, 0, +1, +2."
+    }
+  },
+  {
+    "id": "ch2-quantum-numbers-q12",
+    "topicId": "quantum-numbers",
+    "question": {
+      "bn": "একটি অরবিটালে সর্বোচ্চ কয়টি ইলেকট্রন থাকতে পারে এবং তাদের স্পিন কীরূপ হবে?",
+      "en": "What is the maximum number of electrons an orbital can hold and what will be their spins?"
+    },
+    "answer": {
+      "bn": "পলির বর্জন নীতি অনুসারে, একটি অরবিটালে সর্বোচ্চ দুটি ইলেকট্রন থাকতে পারে এবং তাদের স্পিন অবশ্যই বিপরীতমুখী হবে (একটি +1/2 হলে অন্যটি -1/2)।",
+      "en": "According to Pauli's Exclusion Principle, an orbital can hold a maximum of two electrons, and their spins must be opposite (if one is +1/2, the other must be -1/2)."
+    }
+  },
+  {
+    "id": "ch2-quantum-numbers-q13",
+    "topicId": "quantum-numbers",
+    "question": {
+      "bn": "অরবিট ও অরবিটালের মধ্যে মূল পার্থক্যগুলো কী কী?",
+      "en": "What are the main differences between an orbit and an orbital?"
+    },
+    "answer": {
+      "bn": "অরবিট দ্বিমাত্রিক ও বৃত্তাকার, অরবিটাল ত্রিমাত্রিক ও বিভিন্ন আকৃতির। অরবিট ইলেকট্রনের সুনির্দিষ্ট পথ নির্দেশ করে, অরবিটাল ইলেকট্রন পাওয়ার সম্ভাবনাময় অঞ্চল নির্দেশ করে। অরবিট ধারণা বোরের, অরবিটাল ধারণা কোয়ান্টাম মেকানিক্সের।",
+      "en": "Orbits are 2D and circular; orbitals are 3D and have various shapes. Orbits indicate a definite path for an electron; orbitals indicate a region of high probability of finding an electron. The concept of an orbit is from Bohr's model, while the orbital concept is from quantum mechanics."
+    }
+  },
+  {
+    "id": "ch2-quantum-numbers-q14",
+    "topicId": "quantum-numbers",
+    "question": {
+      "bn": "কোন কোয়ান্টাম সংখ্যার সেটটি অসম্ভব এবং কেন? (n=2, l=2, m=1, s=+1/2)",
+      "en": "Which set of quantum numbers is impossible and why? (n=2, l=2, m=1, s=+1/2)"
+    },
+    "answer": {
+      "bn": "এই সেটটি অসম্ভব। কারণ সহকারী কোয়ান্টাম সংখ্যা l এর মান কখনো প্রধান কোয়ান্টাম সংখ্যা n এর সমান বা তার চেয়ে বেশি হতে পারে না। l এর সর্বোচ্চ মান (n-1)। এখানে n=2, তাই l এর সর্বোচ্চ মান হতে পারে 1।",
+      "en": "This set is impossible. Because the value of the azimuthal quantum number l can never be equal to or greater than the principal quantum number n. The maximum value of l is (n-1). Here n=2, so the maximum value of l can be 1."
+    }
+  },
+  {
+    "id": "ch2-quantum-numbers-q15",
+    "topicId": "quantum-numbers",
+    "question": {
+      "bn": "ডিজেনারেট অরবিটাল (Degenerate Orbitals) কাকে বলে?",
+      "en": "What are degenerate orbitals?"
+    },
+    "answer": {
+      "bn": "একই শক্তিস্তরের অন্তর্গত যে সকল অরবিটালের শক্তি সমান, তাদেরকে ডিজেনারেট অরবিটাল বলে। যেমন, p-উপস্তরের তিনটি অরবিটাল (px, py, pz) এবং d-উপস্তরের পাঁচটি অরবিটাল (dxy, dyz, dzx, dx²-y², dz²) ডিজেনারেট।",
+      "en": "Orbitals within the same energy sublevel that have the same energy are called degenerate orbitals. For example, the three p orbitals (px, py, pz) and the five d orbitals (dxy, dyz, dzx, dx²-y², dz²) are degenerate."
+    }
+  },
+  {
+    "id": "ch2-electron-config-principles-q1",
+    "topicId": "electron-config-principles",
+    "question": {
+      "bn": "আউফবাউ নীতিটি কী?",
+      "en": "What is the Aufbau principle?"
+    },
+    "answer": {
+      "bn": "আউফবাউ নীতি অনুসারে, পরমাণুর ইলেকট্রন বিন্যাসের সময় ইলেকট্রনসমূহ প্রথমে সর্বনিম্ন শক্তির অরবিটালে প্রবেশ করে এবং ক্রমান্বয়ে উচ্চ শক্তির অরবিটালে প্রবেশ করে।",
+      "en": "According to the Aufbau principle, during the electron configuration of an atom, electrons first enter the orbital with the lowest energy and progressively fill orbitals of higher energy."
+    }
+  },
+  {
+    "id": "ch2-electron-config-principles-q2",
+    "topicId": "electron-config-principles",
+    "question": {
+      "bn": "হুন্ডের নিয়মটি কী?",
+      "en": "What is Hund's rule?"
+    },
+    "answer": {
+      "bn": "হুন্ডের নিয়ম অনুসারে, সমশক্তিসম্পন্ন অরবিটালগুলোতে ইলেকট্রন প্রবেশের সময় প্রথমে একটি করে একমুখী স্পিনে প্রবেশ করে, এবং এরপর বিপরীতমুখী স্পিনে युग्मित (paired) হয়।",
+      "en": "According to Hund's rule, when electrons enter orbitals of equal energy (degenerate orbitals), they first occupy them singly with parallel spins, and only then do they pair up with opposite spins."
+    }
+  },
+  {
+    "id": "ch2-electron-config-principles-q3",
+    "topicId": "electron-config-principles",
+    "question": {
+      "bn": "অরবিটালের শক্তি কীভাবে (n+l) নীতির মাধ্যমে নির্ধারিত হয়?",
+      "en": "How is the energy of an orbital determined by the (n+l) rule?"
+    },
+    "answer": {
+      "bn": "যে অরবিটালের জন্য (n+l) এর মান কম, তার শক্তি কম। দুটি অরবিটালের (n+l) এর মান সমান হলে, যার n এর মান কম, তার শক্তি কম হবে। যেমন: 4s (4+0=4) এর শক্তি 3d (3+2=5) অপেক্ষা কম।",
+      "en": "The orbital with the lower value of (n+l) has lower energy. If two orbitals have the same (n+l) value, the one with the lower value of n has lower energy. For example, the energy of 4s (4+0=4) is less than 3d (3+2=5)."
+    }
+  },
+  {
+    "id": "ch2-electron-config-principles-q4",
+    "topicId": "electron-config-principles",
+    "question": {
+      "bn": "পটাশিয়ামের (K, Z=19) শেষ ইলেকট্রনটি 3d অরবিটালে না গিয়ে 4s অরবিটালে যায় কেন?",
+      "en": "Why does the last electron of Potassium (K, Z=19) enter the 4s orbital instead of the 3d orbital?"
+    },
+    "answer": {
+      "bn": "আউফবাউ নীতি ও (n+l) নিয়ম অনুসারে, 4s অরবিটালের শক্তি (n+l = 4+0=4) 3d অরবিটালের শক্তি (n+l = 3+2=5) অপেক্ষা কম। তাই ইলেকট্রন প্রথমে নিম্ন শক্তির 4s অরবিটালে প্রবেশ করে।",
+      "en": "According to the Aufbau principle and the (n+l) rule, the energy of the 4s orbital (n+l = 4+0=4) is lower than the energy of the 3d orbital (n+l = 3+2=5). Therefore, the electron first enters the lower energy 4s orbital."
+    }
+  },
+  {
+    "id": "ch2-electron-config-principles-q5",
+    "topicId": "electron-config-principles",
+    "question": {
+      "bn": "ক্রোমিয়াম (Cr, Z=24) এবং কপার (Cu, Z=29) এর ইলেকট্রন বিন্যাস ব্যতিক্রমধর্মী কেন?",
+      "en": "Why are the electron configurations of Chromium (Cr, Z=24) and Copper (Cu, Z=29) exceptional?"
+    },
+    "answer": {
+      "bn": "অর্ধপূর্ণ (d⁵) এবং সম্পূর্ণপূর্ণ (d¹⁰) অরবিটালগুলো অধিক স্থিতিশীল। তাই স্থিতিশীলতা অর্জনের জন্য Cr ([Ar] 3d⁵ 4s¹) এবং Cu ([Ar] 3d¹⁰ 4s¹) এর ক্ষেত্রে একটি ইলেকট্রন 4s থেকে 3d তে স্থানান্তরিত হয়।",
+      "en": "Half-filled (d⁵) and completely filled (d¹⁰) orbitals are more stable. Therefore, to achieve stability, one electron from the 4s orbital moves to the 3d orbital in the case of Cr ([Ar] 3d⁵ 4s¹) and Cu ([Ar] 3d¹⁰ 4s¹)."
+    }
+  },
+  {
+    "id": "ch2-electron-config-principles-q6",
+    "topicId": "electron-config-principles",
+    "question": {
+      "bn": "Fe²⁺ এবং Fe³⁺ আয়নের মধ্যে কোনটি অধিক স্থিতিশীল এবং কেন?",
+      "en": "Between Fe²⁺ and Fe³⁺ ions, which one is more stable and why?"
+    },
+    "answer": {
+      "bn": "Fe³⁺ আয়ন অধিক স্থিতিশীল। কারণ Fe³⁺ এর ইলেকট্রন বিন্যাস [Ar] 3d⁵, যেখানে 3d অরবিটাল অর্ধপূর্ণ এবং সুস্থিত। অন্যদিকে Fe²⁺ এর বিন্যাস [Ar] 3d⁶, যা কম স্থিতিশীল।",
+      "en": "The Fe³⁺ ion is more stable. This is because the electron configuration of Fe³⁺ is [Ar] 3d⁵, where the 3d orbital is half-filled and stable. On the other hand, the configuration of Fe²⁺ is [Ar] 3d⁶, which is less stable."
+    }
+  },
+  {
+    "id": "ch2-electron-config-principles-q7",
+    "topicId": "electron-config-principles",
+    "question": {
+      "bn": "নাইট্রোজেন (N, Z=7) এর ইলেকট্রন বিন্যাস হুন্ডের নিয়ম অনুসারে দেখাও।",
+      "en": "Show the electron configuration of Nitrogen (N, Z=7) according to Hund's rule."
+    },
+    "answer": {
+      "bn": "নাইট্রোজেনের ইলেকট্রন বিন্যাস হলো 1s² 2s² 2p³। হুন্ডের নিয়ম অনুসারে, 2p উপস্তরের তিনটি অরবিটালে (2px, 2py, 2pz) একটি করে ইলেকট্রন একমুখী স্পিনে প্রবেশ করে। বিন্যাস: 1s² 2s² 2px¹ 2py¹ 2pz¹।",
+      "en": "The electron configuration of Nitrogen is 1s² 2s² 2p³. According to Hund's rule, one electron enters each of the three 2p orbitals (2px, 2py, 2pz) with parallel spins. Configuration: 1s² 2s² 2px¹ 2py¹ 2pz¹."
+    }
+  },
+  {
+    "id": "ch2-electron-config-principles-q8",
+    "topicId": "electron-config-principles",
+    "question": {
+      "bn": "প্যারাম্যাগনেটিক এবং ডায়াম্যাগনেটিক পদার্থ কী?",
+      "en": "What are paramagnetic and diamagnetic substances?"
+    },
+    "answer": {
+      "bn": "যেসব পদার্থের পরমাণু বা আয়নে অযুগ্ম (unpaired) ইলেকট্রন থাকে এবং চৌম্বক ক্ষেত্র দ্বারা ক্ষীণভাবে আকৃষ্ট হয়, তারা প্যারাম্যাগনেটিক। যেসব পদার্থে কোনো অযুগ্ম ইলেকট্রন থাকে না এবং চৌম্বক ক্ষেত্র দ্বারা বিকর্ষিত হয়, তারা ডায়াম্যাগনেটিক।",
+      "en": "Substances whose atoms or ions contain unpaired electrons and are weakly attracted by a magnetic field are paramagnetic. Substances that have no unpaired electrons and are repelled by a magnetic field are diamagnetic."
+    }
+  },
+  {
+    "id": "ch2-electron-config-principles-q9",
+    "topicId": "electron-config-principles",
+    "question": {
+      "bn": "Cu⁺ (কপার(I) আয়ন) ডায়াম্যাগনেটিক কিন্তু Cu²⁺ (কপার(II) আয়ন) প্যারাম্যাগনেটিক কেন?",
+      "en": "Why is Cu⁺ (Copper(I) ion) diamagnetic but Cu²⁺ (Copper(II) ion) is paramagnetic?"
+    },
+    "answer": {
+      "bn": "Cu⁺ এর ইলেকট্রন বিন্যাস [Ar] 3d¹⁰, এখানে কোনো অযুগ্ম ইলেকট্রন নেই, তাই এটি ডায়াম্যাগনেটিক। Cu²⁺ এর ইলেকট্রন বিন্যাস [Ar] 3d⁹, এখানে একটি অযুগ্ম ইলেকট্রন আছে, তাই এটি প্যারাম্যাগনেটিক।",
+      "en": "The electron configuration of Cu⁺ is [Ar] 3d¹⁰, which has no unpaired electrons, hence it is diamagnetic. The electron configuration of Cu²⁺ is [Ar] 3d⁹, which has one unpaired electron, hence it is paramagnetic."
+    }
+  },
+  {
+    "id": "ch2-electron-config-principles-q10",
+    "topicId": "electron-config-principles",
+    "question": {
+      "bn": "3d এবং 4p অরবিটালের মধ্যে কোনটির শক্তি বেশি?",
+      "en": "Between 3d and 4p orbitals, which one has higher energy?"
+    },
+    "answer": {
+      "bn": "3d অরবিটালের জন্য, n+l = 3+2 = 5। 4p অরবিটালের জন্য, n+l = 4+1 = 5। উভয়ের n+l মান সমান হওয়ায়, যার n এর মান বেশি তার শক্তি বেশি হবে। সুতরাং, 4p অরবিটালের শক্তি 3d অরবিটালের চেয়ে বেশি।",
+      "en": "For the 3d orbital, n+l = 3+2 = 5. For the 4p orbital, n+l = 4+1 = 5. Since the n+l value is the same for both, the one with the higher value of n will have higher energy. Therefore, the 4p orbital has higher energy than the 3d orbital."
+    }
+  },
+  {
+    "id": "ch2-electron-config-principles-q11",
+    "topicId": "electron-config-principles",
+    "question": {
+      "bn": "ইলেকট্রন বিন্যাসের মাধ্যমে পর্যায় সারণিতে মৌলের অবস্থান নির্ণয় করা যায় কীভাবে?",
+      "en": "How can the position of an element in the periodic table be determined from its electron configuration?"
+    },
+    "answer": {
+      "bn": "সর্বশেষ ইলেকট্রনটি যে প্রধান শক্তিস্তরে (n) প্রবেশ করে তা পর্যায় সংখ্যা নির্দেশ করে। আর গ্রুপ সংখ্যা s-ব্লকের জন্য s-ইলেকট্রন সংখ্যা, p-ব্লকের জন্য (10 + s ও p ইলেকট্রন সংখ্যা), এবং d-ব্লকের জন্য (s ও d ইলেকট্রন সংখ্যা) দ্বারা নির্ধারিত হয়।",
+      "en": "The principal energy level (n) of the last electron indicates the period number. The group number is determined by the number of s-electrons for s-block, (10 + number of s & p electrons) for p-block, and (number of s & d electrons) for d-block."
+    }
+  },
+  {
+    "id": "ch2-electron-config-principles-q12",
+    "topicId": "electron-config-principles",
+    "question": {
+      "bn": "M শেলে (n=3) সর্বোচ্চ কতটি ইলেকট্রন থাকতে পারে? উপস্তরসহ ব্যাখ্যা কর।",
+      "en": "What is the maximum number of electrons that can be in the M shell (n=3)? Explain with sublevels."
+    },
+    "answer": {
+      "bn": "M শেলে (n=3) সর্বোচ্চ 2n² = 2(3)² = 18 টি ইলেকট্রন থাকতে পারে। এর উপস্তরগুলো হলো 3s, 3p, এবং 3d। 3s-এ ২টি, 3p-তে ৬টি, এবং 3d-তে ১০টি ইলেকট্রন থাকতে পারে। মোট: 2 + 6 + 10 = 18 টি।",
+      "en": "The M shell (n=3) can hold a maximum of 2n² = 2(3)² = 18 electrons. Its sublevels are 3s, 3p, and 3d. The 3s can hold 2 electrons, 3p can hold 6, and 3d can hold 10. Total: 2 + 6 + 10 = 18 electrons."
+    }
+  },
+  {
+    "id": "ch2-electron-config-principles-q13",
+    "topicId": "electron-config-principles",
+    "question": {
+      "bn": "স্ক্যান্ডিয়াম (Sc, Z=21) এর ইলেকট্রন বিন্যাস লিখ।",
+      "en": "Write the electron configuration of Scandium (Sc, Z=21)."
+    },
+    "answer": {
+      "bn": "স্ক্যান্ডিয়ামের ইলেকট্রন বিন্যাস হলো: 1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹। অথবা সংক্ষেপে: [Ar] 3d¹ 4s²।",
+      "en": "The electron configuration of Scandium is: 1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹. Or in short: [Ar] 3d¹ 4s²."
+    }
+  },
+  {
+    "id": "ch2-electron-config-principles-q14",
+    "topicId": "electron-config-principles",
+    "question": {
+      "bn": "অক্সিজেনের (O, Z=8) ইলেকট্রন বিন্যাসে হুন্ডের নিয়ম কীভাবে প্রযোজ্য হয়?",
+      "en": "How is Hund's rule applied in the electron configuration of Oxygen (O, Z=8)?"
+    },
+    "answer": {
+      "bn": "অক্সিজেনের বিন্যাস 1s² 2s² 2p⁴। 2p উপস্তরে ৪টি ইলেকট্রন প্রবেশের সময় প্রথমে 2px, 2py, 2pz তে একটি করে ইলেকট্রন প্রবেশ করে। চতুর্থ ইলেকট্রনটি 2px অরবিটালে বিপরীত স্পিনে যুক্ত হয়। বিন্যাস: 1s² 2s² 2px² 2py¹ 2pz¹।",
+      "en": "Oxygen's configuration is 1s² 2s² 2p⁴. When the 4 electrons enter the 2p sublevel, one electron first goes into each of 2px, 2py, and 2pz. The fourth electron then pairs up in the 2px orbital with an opposite spin. Configuration: 1s² 2s² 2px² 2py¹ 2pz¹."
+    }
+  },
+  {
+    "id": "ch2-electron-config-principles-q15",
+    "topicId": "electron-config-principles",
+    "question": {
+      "bn": "আয়নিকরণের সময় ইলেকট্রন 4s থেকে আগে অপসারিত হয় কেন, যদিও 3d তে পরে প্রবেশ করে?",
+      "en": "During ionization, why is the electron removed from 4s first, even though it is filled before 3d?"
+    },
+    "answer": {
+      "bn": "ইলেকট্রন প্রবেশের সময় 4s এর শক্তি 3d অপেক্ষা কম থাকে। কিন্তু একবার 3d অরবিটালে ইলেকট্রন প্রবেশ করলে, নিউক্লিয়াসের আকর্ষণ বেড়ে যাওয়ায় 3d অরবিটালের শক্তি 4s এর চেয়ে কমে যায়। ফলে, ইলেকট্রন অপসারণের সময় সর্ববহিঃস্থ স্তর (n=4) অর্থাৎ 4s থেকে ইলেকট্রন আগে অপসারিত হয়।",
+      "en": "During filling, the energy of 4s is lower than 3d. However, once electrons enter the 3d orbital, the increased nuclear attraction causes the energy of the 3d orbital to become lower than 4s. Consequently, during ionization, the electron is removed from the outermost shell (n=4), which is the 4s orbital."
+    }
+  },
+  {
+    "id": "ch2-hydrogen-spectrum-q1",
+    "topicId": "hydrogen-spectrum",
+    "question": {
+      "bn": "পারমাণবিক বর্ণালী কী?",
+      "en": "What is an atomic spectrum?"
+    },
+    "answer": {
+      "bn": "পরমাণুর ইলেকট্রন উচ্চ শক্তিস্তর থেকে নিম্ন শক্তিস্তরে স্থানান্তরের সময় যে নির্দিষ্ট তরঙ্গদৈর্ঘ্যের আলো বা রশ্মি বিকিরণ করে, সেই বিকিরিত রশ্মিকে প্রিজমের মাধ্যমে বিশ্লেষণ করলে যে রেখা বা পটি পাওয়া যায়, তাকে পারমাণবিক বর্ণালী বলে।",
+      "en": "When an electron in an atom transitions from a higher energy level to a lower one, it emits light of specific wavelengths. When this emitted radiation is analyzed through a prism, the resulting lines or bands are called the atomic spectrum."
+    }
+  },
+  {
+    "id": "ch2-hydrogen-spectrum-q2",
+    "topicId": "hydrogen-spectrum",
+    "question": {
+      "bn": "হাইড্রোজেন বর্ণালীতে প্রাপ্ত সিরিজগুলোর নাম লিখ।",
+      "en": "Name the series found in the hydrogen spectrum."
+    },
+    "answer": {
+      "bn": "হাইড্রোজেন বর্ণালীতে প্রাপ্ত সিরিজগুলো হলো: লাইম্যান, বামার, প্যাশেন, ব্র্যাকেট, ফুন্ড এবং হামফ্রেস সিরিজ।",
+      "en": "The series found in the hydrogen spectrum are: Lyman, Balmer, Paschen, Brackett, Pfund, and Humphreys series."
+    }
+  },
+  {
+    "id": "ch2-hydrogen-spectrum-q3",
+    "topicId": "hydrogen-spectrum",
+    "question": {
+      "bn": "লাইম্যান সিরিজ কখন সৃষ্টি হয় এবং এটি কোন অঞ্চলে দেখা যায়?",
+      "en": "When is the Lyman series created and in which region is it observed?"
+    },
+    "answer": {
+      "bn": "ইলেকট্রন যখন উচ্চতর যেকোনো শক্তিস্তর (n₂ = 2, 3, 4,...) থেকে প্রথম শক্তিস্তরে (n₁ = 1) ফিরে আসে, তখন লাইম্যান সিরিজ সৃষ্টি হয়। এটি তড়িৎচুম্বকীয় বর্ণালীর অতিবেগুনি (UV) অঞ্চলে দেখা যায়।",
+      "en": "The Lyman series is created when an electron returns from any higher energy level (n₂ = 2, 3, 4,...) to the first energy level (n₁ = 1). It is observed in the ultraviolet (UV) region of the electromagnetic spectrum."
+    }
+  },
+  {
+    "id": "ch2-hydrogen-spectrum-q4",
+    "topicId": "hydrogen-spectrum",
+    "question": {
+      "bn": "বামার সিরিজ কখন সৃষ্টি হয় এবং এটি কোন অঞ্চলে দেখা যায়?",
+      "en": "When is the Balmer series created and in which region is it observed?"
+    },
+    "answer": {
+      "bn": "ইলেকট্রন যখন উচ্চতর যেকোনো শক্তিস্তর (n₂ = 3, 4, 5,...) থেকে দ্বিতীয় শক্তিস্তরে (n₁ = 2) ফিরে আসে, তখন বামার সিরিজ সৃষ্টি হয়। এটি তড়িৎচুম্বকীয় বর্ণালীর দৃশ্যমান (Visible) অঞ্চলে দেখা যায়।",
+      "en": "The Balmer series is created when an electron returns from any higher energy level (n₂ = 3, 4, 5,...) to the second energy level (n₁ = 2). It is observed in the visible region of the electromagnetic spectrum."
+    }
+  },
+  {
+    "id": "ch2-hydrogen-spectrum-q5",
+    "topicId": "hydrogen-spectrum",
+    "question": {
+      "bn": "রিডবার্গ সমীকরণটি লিখ।",
+      "en": "Write the Rydberg equation."
+    },
+    "answer": {
+      "bn": "রিডবার্গ সমীকরণটি হলো: 1/λ = R_H * (1/n₁² - 1/n₂²), যেখানে λ হলো তরঙ্গদৈর্ঘ্য, R_H হলো রিডবার্গ ধ্রুবক (1.09678 × 10⁷ m⁻¹), n₁ নিম্ন শক্তিস্তর এবং n₂ উচ্চ শক্তিস্তর।",
+      "en": "The Rydberg equation is: 1/λ = R_H * (1/n₁² - 1/n₂²), where λ is the wavelength, R_H is the Rydberg constant (1.09678 × 10⁷ m⁻¹), n₁ is the lower energy level, and n₂ is the higher energy level."
+    }
+  },
+  {
+    "id": "ch2-hydrogen-spectrum-q6",
+    "topicId": "hydrogen-spectrum",
+    "question": {
+      "bn": "হাইড্রোজেন বর্ণালীকে রেখা বর্ণালী বলা হয় কেন?",
+      "en": "Why is the hydrogen spectrum called a line spectrum?"
+    },
+    "answer": {
+      "bn": "কারণ হাইড্রোজেন পরমাণুতে ইলেকট্রন ধাপান্তরের সময় শুধুমাত্র নির্দিষ্ট কিছু কম্পাঙ্ক বা তরঙ্গদৈর্ঘ্যের শক্তি বিকিরিত হয়। ফলে, প্রিজমের মাধ্যমে দেখলে নিরবচ্ছিন্ন পটির পরিবর্তে কয়েকটি উজ্জ্বল বর্ণের পৃথক পৃথক রেখা পাওয়া যায়।",
+      "en": "Because during electron transitions in a hydrogen atom, energy of only certain specific frequencies or wavelengths is emitted. As a result, when viewed through a prism, a few bright, distinct lines are seen instead of a continuous band."
+    }
+  },
+  {
+    "id": "ch2-hydrogen-spectrum-q7",
+    "topicId": "hydrogen-spectrum",
+    "question": {
+      "bn": "প্যাশেন, ব্র্যাকেট এবং ফুন্ড সিরিজ কোন অঞ্চলে দেখা যায়?",
+      "en": "In which regions are the Paschen, Brackett, and Pfund series observed?"
+    },
+    "answer": {
+      "bn": "এই তিনটি সিরিজই অবলোহিত বা ইনফ্রারেড (IR) অঞ্চলে দেখা যায়। প্যাশেন (n₁=3), ব্র্যাকেট (n₁=4), এবং ফুন্ড (n₁=5) সিরিজগুলো যথাক্রমে নিকট, মধ্য এবং দূরবর্তী অবলোহিত অঞ্চলে অবস্থিত।",
+      "en": "All three of these series are observed in the infrared (IR) region. The Paschen (n₁=3), Brackett (n₁=4), and Pfund (n₁=5) series are located in the near, mid, and far-infrared regions, respectively."
+    }
+  },
+  {
+    "id": "ch2-hydrogen-spectrum-q8",
+    "topicId": "hydrogen-spectrum",
+    "question": {
+      "bn": "বামার সিরিজের প্রথম রেখার (Hα) তরঙ্গদৈর্ঘ্য নির্ণয় কর।",
+      "en": "Calculate the wavelength of the first line (Hα) of the Balmer series."
+    },
+    "answer": {
+      "bn": "বামার সিরিজের প্রথম রেখার জন্য n₁=2 এবং n₂=3। রিডবার্গ সমীকরণে মান বসিয়ে পাই: 1/λ = R_H * (1/2² - 1/3²) = R_H * (5/36)। λ = 36 / (5 * R_H) ≈ 656.3 nm, যা লাল বর্ণের।",
+      "en": "For the first line of the Balmer series, n₁=2 and n₂=3. Using the Rydberg equation: 1/λ = R_H * (1/2² - 1/3²) = R_H * (5/36). λ = 36 / (5 * R_H) ≈ 656.3 nm, which is red light."
+    }
+  },
+  {
+    "id": "ch2-hydrogen-spectrum-q9",
+    "topicId": "hydrogen-spectrum",
+    "question": {
+      "bn": "শোষণ বর্ণালী ও বিকিরণ বর্ণালীর মধ্যে পার্থক্য কী?",
+      "en": "What is the difference between absorption and emission spectra?"
+    },
+    "answer": {
+      "bn": "উত্তেজিত পরমাণু থেকে শক্তি নির্গত হলে বিকিরণ বর্ণালী (উজ্জ্বল রেখা) পাওয়া যায়। আর কোনো পদার্থের মধ্য দিয়ে সাদা আলো পাঠালে যে নির্দিষ্ট তরঙ্গদৈর্ঘ্যের আলো শোষিত হয়, তার ফলে প্রাপ্ত বর্ণালী হলো শোষণ বর্ণালী (কালো রেখা)।",
+      "en": "An emission spectrum (bright lines) is obtained when energy is emitted from an excited atom. An absorption spectrum (dark lines) is obtained when white light passes through a substance and specific wavelengths are absorbed."
+    }
+  },
+  {
+    "id": "ch2-hydrogen-spectrum-q10",
+    "topicId": "hydrogen-spectrum",
+    "question": {
+      "bn": "সিরিজের সীমা (Series Limit) কী?",
+      "en": "What is a series limit?"
+    },
+    "answer": {
+      "bn": "একটি সিরিজের সর্বোচ্চ শক্তির বা সর্বনিম্ন তরঙ্গদৈর্ঘ্যের রেখাকে সিরিজের সীমা বলে। এটি তখন ঘটে যখন ইলেকট্রন অসীম (n₂=∞) দূরত্ব থেকে নির্দিষ্ট শক্তিস্তরে (n₁) ফিরে আসে।",
+      "en": "The line of highest energy or shortest wavelength in a series is called the series limit. This occurs when an electron returns from infinity (n₂=∞) to a specific energy level (n₁)."
+    }
+  },
+  {
+    "id": "ch2-hydrogen-spectrum-q11",
+    "topicId": "hydrogen-spectrum",
+    "question": {
+      "bn": "হাইড্রোজেন পারমাণবিক বর্ণালীর গুরুত্ব কী?",
+      "en": "What is the significance of the hydrogen atomic spectrum?"
+    },
+    "answer": {
+      "bn": "হাইড্রোজেন বর্ণালী বোরের পরমাণু মডেলের সফলতাকে প্রমাণ করে। এটি পরমাণুর কোয়ান্টায়িত শক্তিস্তরের ধারণা দেয় এবং পারমাণবিক গঠন বোঝার ক্ষেত্রে একটি গুরুত্বপূর্ণ ভিত্তি স্থাপন করে।",
+      "en": "The hydrogen spectrum validates the success of Bohr's atomic model. It provides the concept of quantized energy levels in an atom and establishes a crucial foundation for understanding atomic structure."
+    }
+  },
+  {
+    "id": "ch2-hydrogen-spectrum-q12",
+    "topicId": "hydrogen-spectrum",
+    "question": {
+      "bn": "He⁺ আয়নের বর্ণালী হাইড্রোজেন বর্ণালীর অনুরূপ হয় কেন?",
+      "en": "Why is the spectrum of the He⁺ ion similar to the hydrogen spectrum?"
+    },
+    "answer": {
+      "bn": "কারণ He⁺ আয়নও হাইড্রোজেন পরমাণুর মতো এক-ইলেকট্রন বিশিষ্ট সিস্টেম। বোরের মডেল এবং রিডবার্গ সমীকরণ উভয় ক্ষেত্রেই প্রযোজ্য, যদিও নিউক্লিয়ার চার্জ ভিন্ন হওয়ায় রেখাগুলোর অবস্থান ভিন্ন হয়।",
+      "en": "Because the He⁺ ion, like the hydrogen atom, is a one-electron system. Bohr's model and the Rydberg equation are applicable to both, although the line positions differ due to the different nuclear charge."
+    }
+  },
+  {
+    "id": "ch2-hydrogen-spectrum-q13",
+    "topicId": "hydrogen-spectrum",
+    "question": {
+      "bn": "কোন সিরিজের সকল রেখা দৃশ্যমান আলো অঞ্চলে থাকে?",
+      "en": "Which series has all its lines in the visible light region?"
+    },
+    "answer": {
+      "bn": "শুধুমাত্র বামার সিরিজের নির্দিষ্ট কয়েকটি রেখা (Hα, Hβ, Hγ, Hδ) দৃশ্যমান অঞ্চলে থাকে। অন্য কোনো সিরিজের কোনো রেখাই দৃশ্যমান নয়।",
+      "en": "Only a few specific lines of the Balmer series (Hα, Hβ, Hγ, Hδ) are in the visible region. No lines from any other series are visible."
+    }
+  },
+  {
+    "id": "ch2-hydrogen-spectrum-q14",
+    "topicId": "hydrogen-spectrum",
+    "question": {
+      "bn": "একটি ইলেকট্রন n=4 থেকে n=2 এ স্থানান্তরিত হলে কোন সিরিজের কোন রেখা উৎপন্ন হবে?",
+      "en": "If an electron transitions from n=4 to n=2, which line of which series will be produced?"
+    },
+    "answer": {
+      "bn": "যেহেতু ইলেকট্রনটি দ্বিতীয় শক্তিস্তরে (n₁=2) ফিরে আসছে, এটি বামার সিরিজের একটি রেখা হবে। এটি সিরিজের দ্বিতীয় রেখা, যা Hβ (এইচ-বিটা) নামে পরিচিত এবং এর বর্ণ নীলাভ-সবুজ।",
+      "en": "Since the electron is returning to the second energy level (n₁=2), it will be a line in the Balmer series. It is the second line of the series, known as Hβ (H-beta), and its color is bluish-green."
+    }
+  },
+  {
+    "id": "ch2-hydrogen-spectrum-q15",
+    "topicId": "hydrogen-spectrum",
+    "question": {
+      "bn": "বর্ণালীর কোন রেখাটি সবচেয়ে বেশি শক্তি সম্পন্ন?",
+      "en": "Which line in the spectrum has the most energy?"
+    },
+    "answer": {
+      "bn": "লাইম্যান সিরিজের সীমা (n₂=∞ থেকে n₁=1) রেখাটি সবচেয়ে বেশি শক্তি সম্পন্ন, কারণ এক্ষেত্রে শক্তির পার্থক্য সর্বাধিক। এর তরঙ্গদৈর্ঘ্য সবচেয়ে কম।",
+      "en": "The series limit line of the Lyman series (from n₂=∞ to n₁=1) has the most energy, because the energy difference is greatest in this case. Its wavelength is the shortest."
+    }
+  },
+  {
+    "id": "ch2-solubility-and-ksp-q1",
+    "topicId": "solubility-and-ksp",
+    "question": {
+      "bn": "দ্রাব্যতা (Solubility) কাকে বলে?",
+      "en": "What is solubility?"
+    },
+    "answer": {
+      "bn": "নির্দিষ্ট তাপমাত্রায়, নির্দিষ্ট পরিমাণ দ্রাবককে সম্পৃক্ত দ্রবণে পরিণত করতে যে পরিমাণ দ্রব দ্রবীভূত করার প্রয়োজন হয়, তাকে ঐ দ্রবের দ্রাব্যতা বলে। একে সাধারণত মোল/লিটার (mol L⁻¹) বা গ্রাম/লিটার (g L⁻¹) এককে প্রকাশ করা হয়।",
+      "en": "At a specific temperature, the amount of solute required to form a saturated solution in a specific amount of solvent is called the solubility of that solute. It is usually expressed in units of mol/L (mol L⁻¹) or g/L (g L⁻¹)."
+    }
+  },
+  {
+    "id": "ch2-solubility-and-ksp-q2",
+    "topicId": "solubility-and-ksp",
+    "question": {
+      "bn": "দ্রাব্যতা গুণফল (Solubility Product, Ksp) কী?",
+      "en": "What is the solubility product (Ksp)?"
+    },
+    "answer": {
+      "bn": "নির্দিষ্ট তাপমাত্রায়, কোনো স্বল্প দ্রবণীয় লবণের সম্পৃক্ত দ্রবণে তার ক্যাটায়ন ও অ্যানায়নের মোলার ঘনমাত্রার সর্বোচ্চ গুণফলকে ঐ লবণের দ্রাব্যতা গুণফল (Ksp) বলে।",
+      "en": "At a specific temperature, the maximum product of the molar concentrations of the cation and anion in a saturated solution of a sparingly soluble salt is called the solubility product (Ksp) of that salt."
+    }
+  },
+  {
+    "id": "ch2-solubility-and-ksp-q3",
+    "topicId": "solubility-and-ksp",
+    "question": {
+      "bn": "AgCl এর জন্য দ্রাব্যতা (S) ও দ্রাব্যতা গুণফল (Ksp) এর সম্পর্ক কী?",
+      "en": "What is the relationship between solubility (S) and solubility product (Ksp) for AgCl?"
+    },
+    "answer": {
+      "bn": "AgCl ⇌ Ag⁺ + Cl⁻। যদি AgCl এর দ্রাব্যতা S mol L⁻¹ হয়, তবে [Ag⁺] = S এবং [Cl⁻] = S। সুতরাং, Ksp = [Ag⁺][Cl⁻] = S * S = S²।",
+      "en": "AgCl ⇌ Ag⁺ + Cl⁻. If the solubility of AgCl is S mol L⁻¹, then [Ag⁺] = S and [Cl⁻] = S. Therefore, Ksp = [Ag⁺][Cl⁻] = S * S = S²."
+    }
+  },
+  {
+    "id": "ch2-solubility-and-ksp-q4",
+    "topicId": "solubility-and-ksp",
+    "question": {
+      "bn": "CaF₂ এর জন্য দ্রাব্যতা (S) ও দ্রাব্যতা গুণফল (Ksp) এর সম্পর্ক কী?",
+      "en": "What is the relationship between solubility (S) and solubility product (Ksp) for CaF₂?"
+    },
+    "answer": {
+      "bn": "CaF₂ ⇌ Ca²⁺ + 2F⁻। যদি CaF₂ এর দ্রাব্যতা S mol L⁻¹ হয়, তবে [Ca²⁺] = S এবং [F⁻] = 2S। সুতরাং, Ksp = [Ca²⁺][F⁻]² = S * (2S)² = 4S³।",
+      "en": "CaF₂ ⇌ Ca²⁺ + 2F⁻. If the solubility of CaF₂ is S mol L⁻¹, then [Ca²⁺] = S and [F⁻] = 2S. Therefore, Ksp = [Ca²⁺][F⁻]² = S * (2S)² = 4S³."
+    }
+  },
+  {
+    "id": "ch2-solubility-and-ksp-q5",
+    "topicId": "solubility-and-ksp",
+    "question": {
+      "bn": "কোন কোন নিয়ামক দ্রাব্যতার উপর প্রভাব ফেলে?",
+      "en": "Which factors affect solubility?"
+    },
+    "answer": {
+      "bn": "দ্রাব্যতার উপর প্রভাব বিস্তারকারী নিয়ামকগুলো হলো: তাপমাত্রা, দ্রাবক ও দ্রবের প্রকৃতি, চাপ (গ্যাসের ক্ষেত্রে), এবং দ্রবণে সম-আয়ন প্রভাব।",
+      "en": "The factors that affect solubility are: temperature, nature of the solvent and solute, pressure (for gases), and the common ion effect in the solution."
+    }
+  },
+  {
+    "id": "ch2-solubility-and-ksp-q6",
+    "topicId": "solubility-and-ksp",
+    "question": {
+      "bn": "তাপমাত্রা বৃদ্ধিতে সাধারণত কঠিন পদার্থের দ্রাব্যতা বাড়ে কেন?",
+      "en": "Why does the solubility of most solids generally increase with temperature?"
+    },
+    "answer": {
+      "bn": "অধিকাংশ কঠিন পদার্থের দ্রবীভূত হওয়া একটি তাপহারী প্রক্রিয়া। লা শাতেলিয়ার নীতি অনুসারে, তাপহারী প্রক্রিয়ায় তাপমাত্রা বাড়ালে সাম্যাবস্থা ডানদিকে সরে যায়, অর্থাৎ আরও বেশি দ্রব দ্রবীভূত হয় এবং দ্রাব্যতা বৃদ্ধি পায়।",
+      "en": "The dissolution of most solids is an endothermic process. According to Le Chatelier's principle, increasing the temperature in an endothermic process shifts the equilibrium to the right, meaning more solute dissolves and solubility increases."
+    }
+  },
+  {
+    "id": "ch2-solubility-and-ksp-q7",
+    "topicId": "solubility-and-ksp",
+    "question": {
+      "bn": "সকল তড়িৎ বিশ্লেষ্যের জন্য কি দ্রাব্যতা গুণফল প্রযোজ্য?",
+      "en": "Is the solubility product applicable to all electrolytes?"
+    },
+    "answer": {
+      "bn": "না, দ্রাব্যতা গুণফলের ধারণাটি শুধুমাত্র স্বল্প দ্রবণীয় তড়িৎ বিশ্লেষ্য বা লবণের ক্ষেত্রে প্রযোজ্য। অতি দ্রবণীয় লবণ (যেমন NaCl) এর জন্য এটি প্রযোজ্য নয়।",
+      "en": "No, the concept of solubility product is applicable only to sparingly soluble electrolytes or salts. It is not applicable to highly soluble salts (like NaCl)."
+    }
+  },
+  {
+    "id": "ch2-solubility-and-ksp-q8",
+    "topicId": "solubility-and-ksp",
+    "question": {
+      "bn": "Al₂(SO₄)₃ এর জন্য Ksp এর সমীকরণটি লিখ।",
+      "en": "Write the equation for Ksp for Al₂(SO₄)₃."
+    },
+    "answer": {
+      "bn": "Al₂(SO₄)₃ ⇌ 2Al³⁺ + 3SO₄²⁻। যদি দ্রাব্যতা S হয়, তবে [Al³⁺]=2S এবং [SO₄²⁻]=3S। Ksp = [Al³⁺]²[SO₄²⁻]³ = (2S)²(3S)³ = (4S²)(27S³) = 108S⁵।",
+      "en": "Al₂(SO₄)₃ ⇌ 2Al³⁺ + 3SO₄²⁻. If solubility is S, then [Al³⁺]=2S and [SO₄²⁻]=3S. Ksp = [Al³⁺]²[SO₄²⁻]³ = (2S)²(3S)³ = (4S²)(27S³) = 108S⁵."
+    }
+  },
+  {
+    "id": "ch2-solubility-and-ksp-q9",
+    "topicId": "solubility-and-ksp",
+    "question": {
+      "bn": "AgCl এর Ksp এর মান 1.8 × 10⁻¹⁰ হলে, এর দ্রাব্যতা (S) mol L⁻¹ এককে কত?",
+      "en": "If the Ksp of AgCl is 1.8 × 10⁻¹⁰, what is its solubility (S) in mol L⁻¹?"
+    },
+    "answer": {
+      "bn": "আমরা জানি, AgCl এর জন্য Ksp = S²। সুতরাং, S = √Ksp = √(1.8 × 10⁻¹⁰) = 1.34 × 10⁻⁵ mol L⁻¹।",
+      "en": "We know, for AgCl, Ksp = S². Therefore, S = √Ksp = √(1.8 × 10⁻¹⁰) = 1.34 × 10⁻⁵ mol L⁻¹."
+    }
+  },
+  {
+    "id": "ch2-solubility-and-ksp-q10",
+    "topicId": "solubility-and-ksp",
+    "question": {
+      "bn": "দ্রাব্যতা গুণফলের একক কী?",
+      "en": "What is the unit of solubility product?"
+    },
+    "answer": {
+      "bn": "দ্রাব্যতা গুণফলের একক লবণের ধরনের উপর নির্ভরশীল। যেমন, AgCl (AB টাইপ) এর জন্য একক (mol L⁻¹)², CaF₂ (AB₂ টাইপ) এর জন্য (mol L⁻¹)³।",
+      "en": "The unit of solubility product depends on the type of salt. For example, for AgCl (AB type) the unit is (mol L⁻¹)², and for CaF₂ (AB₂ type) it is (mol L⁻¹)³."
+    }
+  },
+  {
+    "id": "ch2-solubility-and-ksp-q11",
+    "topicId": "solubility-and-ksp",
+    "question": {
+      "bn": "সম্পৃক্ত, অসম্পৃক্ত এবং অতিপৃক্ত দ্রবণ কী?",
+      "en": "What are saturated, unsaturated, and supersaturated solutions?"
+    },
+    "answer": {
+      "bn": "সম্পৃক্ত দ্রবণ: যে দ্রবণে আর দ্রব দ্রবীভূত করা যায় না। অসম্পৃক্ত দ্রবণ: যে দ্রবণে আরও দ্রব দ্রবীভূত করা যায়। অতিপৃক্ত দ্রবণ: যে দ্রবণে স্বাভাবিকের চেয়ে বেশি দ্রব দ্রবীভূত থাকে, এটি একটি অস্থায়ী অবস্থা।",
+      "en": "Saturated solution: A solution in which no more solute can be dissolved. Unsaturated solution: A solution in which more solute can be dissolved. Supersaturated solution: A solution that contains more dissolved solute than normal, which is an unstable state."
+    }
+  },
+  {
+    "id": "ch2-solubility-and-ksp-q12",
+    "topicId": "solubility-and-ksp",
+    "question": {
+      "bn": "‘Like dissolves like’ নীতিটি ব্যাখ্যা কর।",
+      "en": "Explain the 'Like dissolves like' principle."
+    },
+    "answer": {
+      "bn": "এই নীতি অনুসারে, পোলার দ্রব পোলার দ্রাবকে এবং অপোলার দ্রব অপোলার দ্রাবকে দ্রবীভূত হয়। যেমন, পোলার যৌগ NaCl পানিতে (পোলার দ্রাবক) দ্রবীভূত হয়, কিন্তু অপোলার তেল বা গ্রিজে দ্রবীভূত হয় না।",
+      "en": "According to this principle, polar solutes dissolve in polar solvents, and non-polar solutes dissolve in non-polar solvents. For example, the polar compound NaCl dissolves in water (a polar solvent) but not in non-polar oil or grease."
+    }
+  },
+  {
+    "id": "ch2-solubility-and-ksp-q13",
+    "topicId": "solubility-and-ksp",
+    "question": {
+      "bn": "তাপমাত্রা বৃদ্ধিতে গ্যাসের দ্রাব্যতা হ্রাস পায় কেন?",
+      "en": "Why does the solubility of gases decrease with increasing temperature?"
+    },
+    "answer": {
+      "bn": "গ্যাসের দ্রবীভূত হওয়া একটি তাপ উৎপাদী প্রক্রিয়া। লা শাতেলিয়ার নীতি অনুসারে, তাপ উৎপাদী প্রক্রিয়ায় তাপমাত্রা বাড়ালে সাম্যাবস্থা বামদিকে সরে আসে, অর্থাৎ দ্রবীভূত গ্যাস পুনরায় গ্যাসীয় অবস্থায় ফিরে আসে, ফলে দ্রাব্যতা হ্রাস পায়।",
+      "en": "The dissolution of a gas is an exothermic process. According to Le Chatelier's principle, increasing the temperature in an exothermic process shifts the equilibrium to the left, meaning the dissolved gas returns to its gaseous state, thus decreasing solubility."
+    }
+  },
+  {
+    "id": "ch2-solubility-and-ksp-q14",
+    "topicId": "solubility-and-ksp",
+    "question": {
+      "bn": "দ্রাব্যতা গুণফলের একটি ব্যবহারিক প্রয়োগ উল্লেখ কর।",
+      "en": "Mention a practical application of the solubility product."
+    },
+    "answer": {
+      "bn": "গুণগত বিশ্লেষণে ক্যাটায়ন শনাক্তকরণে দ্রাব্যতা গুণফলের নীতি ব্যবহৃত হয়। নির্দিষ্ট গ্রুপ বিকারক যোগ করে избирательно (selectively) নির্দিষ্ট গ্রুপের ক্যাটায়নগুলোকে তাদের স্বল্প দ্রবণীয় লবণ হিসেবে অধঃক্ষিপ্ত করা হয়।",
+      "en": "The principle of solubility product is used in qualitative analysis for identifying cations. By adding specific group reagents, cations of a specific group are selectively precipitated as their sparingly soluble salts."
+    }
+  },
+  {
+    "id": "ch2-solubility-and-ksp-q15",
+    "topicId": "solubility-and-ksp",
+    "question": {
+      "bn": "কোনটির দ্রাব্যতা বেশি: AgCl নাকি AgI? (Ksp(AgCl) = 1.8×10⁻¹⁰, Ksp(AgI) = 8.3×10⁻¹⁷)",
+      "en": "Which has higher solubility: AgCl or AgI? (Ksp(AgCl) = 1.8×10⁻¹⁰, Ksp(AgI) = 8.3×10⁻¹⁷)"
+    },
+    "answer": {
+      "bn": "উভয়ই AB টাইপ লবণ, তাই যার Ksp বেশি, তার দ্রাব্যতাও বেশি। যেহেতু Ksp(AgCl) > Ksp(AgI), সুতরাং AgCl এর দ্রাব্যতা AgI এর চেয়ে বেশি।",
+      "en": "Both are AB-type salts, so the one with the higher Ksp will have higher solubility. Since Ksp(AgCl) > Ksp(AgI), the solubility of AgCl is greater than that of AgI."
+    }
+  },
+  {
+    "id": "ch2-precipitation-and-kip-q1",
+    "topicId": "precipitation-and-kip",
+    "question": {
+      "bn": "আয়নিক গুণফল (Ionic Product, Kip) কী?",
+      "en": "What is the Ionic Product (Kip)?"
+    },
+    "answer": {
+      "bn": "যেকোনো দ্রবণে (সম্পৃক্ত বা অসম্পৃক্ত) কোনো স্বল্প দ্রবণীয় লবণের ক্যাটায়ন ও অ্যানায়নের মোলার ঘনমাত্রার গুণফলকে ঐ লবণের আয়নিক গুণফল (Kip) বলে।",
+      "en": "In any solution (saturated or unsaturated), the product of the molar concentrations of the cation and anion of a sparingly soluble salt is called the Ionic Product (Kip) of that salt."
+    }
+  },
+  {
+    "id": "ch2-precipitation-and-kip-q2",
+    "topicId": "precipitation-and-kip",
+    "question": {
+      "bn": "দ্রাব্যতা গুণফল (Ksp) ও আয়নিক গুণফল (Kip) এর মধ্যে মূল পার্থক্য কী?",
+      "en": "What is the main difference between solubility product (Ksp) and ionic product (Kip)?"
+    },
+    "answer": {
+      "bn": "Ksp শুধুমাত্র সম্পৃক্ত দ্রবণের জন্য একটি ধ্রুবক মান। অন্যদিকে, Kip যেকোনো ঘনমাত্রার দ্রবণের জন্য প্রযোজ্য এবং এর মান পরিবর্তনশীল হতে পারে। Ksp একটি সাম্যাবস্থার ধ্রুবক, Kip নয়।",
+      "en": "Ksp is a constant value only for a saturated solution. On the other hand, Kip is applicable to solutions of any concentration and its value can vary. Ksp is an equilibrium constant, whereas Kip is not."
+    }
+  },
+  {
+    "id": "ch2-precipitation-and-kip-q3",
+    "topicId": "precipitation-and-kip",
+    "question": {
+      "bn": "কখন একটি লবণের অধঃক্ষেপ পড়বে?",
+      "en": "When will a salt precipitate?"
+    },
+    "answer": {
+      "bn": "যখন কোনো দ্রবণে একটি লবণের আয়নিক গুণফল (Kip) তার দ্রাব্যতা গুণফল (Ksp) অপেক্ষা বেশি হয় (Kip > Ksp), তখন লবণটির অধঃক্ষেপ পড়বে।",
+      "en": "A salt will precipitate from a solution when its ionic product (Kip) becomes greater than its solubility product (Ksp) (Kip > Ksp)."
+    }
+  },
+  {
+    "id": "ch2-precipitation-and-kip-q4",
+    "topicId": "precipitation-and-kip",
+    "question": {
+      "bn": "Kip = Ksp হলে দ্রবণের অবস্থা কী হবে?",
+      "en": "What is the state of the solution if Kip = Ksp?"
+    },
+    "answer": {
+      "bn": "যদি Kip = Ksp হয়, তবে দ্রবণটি সম্পৃক্ত অবস্থায় থাকে। এই অবস্থায়, দ্রবীভবন এবং অধঃক্ষেপণের হার সমান থাকে, অর্থাৎ একটি গতিশীল সাম্যাবস্থা বিরাজ করে।",
+      "en": "If Kip = Ksp, the solution is in a saturated state. In this condition, the rate of dissolution equals the rate of precipitation, meaning a dynamic equilibrium exists."
+    }
+  },
+  {
+    "id": "ch2-precipitation-and-kip-q5",
+    "topicId": "precipitation-and-kip",
+    "question": {
+      "bn": "Kip < Ksp হলে দ্রবণের অবস্থা কী হবে?",
+      "en": "What is the state of the solution if Kip < Ksp?"
+    },
+    "answer": {
+      "bn": "যদি Kip < Ksp হয়, তবে দ্রবণটি অসম্পৃক্ত। এর অর্থ হলো, দ্রবণে আরও দ্রব যোগ করলে তা দ্রবীভূত হবে এবং কোনো অধঃক্ষেপ পড়বে না।",
+      "en": "If Kip < Ksp, the solution is unsaturated. This means that if more solute is added to the solution, it will dissolve, and no precipitation will occur."
+    }
+  },
+  {
+    "id": "ch2-precipitation-and-kip-q6",
+    "topicId": "precipitation-and-kip",
+    "question": {
+      "bn": "NaCl এর জলীয় দ্রবণে AgNO₃ দ্রবণ যোগ করলে AgCl এর সাদা অধঃক্ষেপ পড়ে কেন?",
+      "en": "Why does a white precipitate of AgCl form when AgNO₃ solution is added to an aqueous solution of NaCl?"
+    },
+    "answer": {
+      "bn": "NaCl দ্রবণ Ag⁺ ও Cl⁻ আয়ন সরবরাহ করে। মিশ্রণে Ag⁺ এবং Cl⁻ আয়নের ঘনমাত্রার গুণফল (Kip) AgCl এর দ্রাব্যতা গুণফল (Ksp) কে অতিক্রম করে (Kip > Ksp), ফলে AgCl অধঃক্ষিপ্ত হয়।",
+      "en": "The NaCl solution provides Ag⁺ and Cl⁻ ions. In the mixture, the product of the concentrations of Ag⁺ and Cl⁻ ions (Kip) exceeds the solubility product (Ksp) of AgCl (Kip > Ksp), causing AgCl to precipitate."
+    }
+  },
+  {
+    "id": "ch2-precipitation-and-kip-q7",
+    "topicId": "precipitation-and-kip",
+    "question": {
+      "bn": "গুণগত বিশ্লেষণে গ্রুপ II এর ক্যাটায়ন অধঃক্ষেপণে H₂S গ্যাসের সাথে HCl ব্যবহার করা হয় কেন?",
+      "en": "In qualitative analysis, why is HCl used along with H₂S gas to precipitate Group II cations?"
+    },
+    "answer": {
+      "bn": "HCl একটি তীব্র এসিড, যা H₂S এর বিয়োজনকে সম-আয়ন (H⁺) প্রভাবের মাধ্যমে কমিয়ে দেয়। ফলে দ্রবণে S²⁻ আয়নের ঘনমাত্রা নিয়ন্ত্রিত থাকে এবং শুধুমাত্র গ্রুপ II এর ক্যাটায়নগুলোর (যাদের Ksp কম) সালফাইড অধঃক্ষিপ্ত হয়, গ্রুপ IV এর গুলো হয় না।",
+      "en": "HCl is a strong acid that suppresses the dissociation of H₂S via the common ion (H⁺) effect. This controls the concentration of S²⁻ ions in the solution, so that only the sulfides of Group II cations (which have low Ksp) precipitate, but not those of Group IV."
+    }
+  },
+  {
+    "id": "ch2-precipitation-and-kip-q8",
+    "topicId": "precipitation-and-kip",
+    "question": {
+      "bn": "0.1 M MgCl₂ এবং 0.1 M NaOH এর সমান আয়তন মিশ্রিত করলে কি Mg(OH)₂ এর অধঃক্ষেপ পড়বে? [Ksp(Mg(OH)₂) = 1.8 × 10⁻¹¹]",
+      "en": "Will a precipitate of Mg(OH)₂ form if equal volumes of 0.1 M MgCl₂ and 0.1 M NaOH are mixed? [Ksp(Mg(OH)₂) = 1.8 × 10⁻¹¹]"
+    },
+    "answer": {
+      "bn": "মিশ্রণের পর আয়তন দ্বিগুণ হওয়ায় ঘনমাত্রা অর্ধেক হবে। [Mg²⁺] = 0.05 M, [OH⁻] = 0.05 M। Kip = [Mg²⁺][OH⁻]² = (0.05)(0.05)² = 1.25 × 10⁻⁴। যেহেতু Kip (1.25 × 10⁻⁴) > Ksp (1.8 × 10⁻¹¹), তাই অধঃক্ষেপ পড়বে।",
+      "en": "After mixing, the volume doubles, so concentrations are halved. [Mg²⁺] = 0.05 M, [OH⁻] = 0.05 M. Kip = [Mg²⁺][OH⁻]² = (0.05)(0.05)² = 1.25 × 10⁻⁴. Since Kip (1.25 × 10⁻⁴) > Ksp (1.8 × 10⁻¹¹), a precipitate will form."
+    }
+  },
+  {
+    "id": "ch2-precipitation-and-kip-q9",
+    "topicId": "precipitation-and-kip",
+    "question": {
+      "bn": "সমুদ্রের পানি ও নদীর পানি যেখানে মেশে সেখানে ব-দ্বীপ সৃষ্টি হয় কেন?",
+      "en": "Why are deltas formed where river water meets sea water?"
+    },
+    "answer": {
+      "bn": "নদীর পানিতে থাকা মাটির কণা (কাদা, পলি) ঋণাত্মক চার্জযুক্ত থাকে। সমুদ্রের পানিতে থাকা বিভিন্ন লবণ (NaCl, MgCl₂) ক্যাটায়ন (Na⁺, Mg²⁺) সরবরাহ করে। এই ক্যাটায়নগুলো মাটির কণাকে চার্জ নিরপেক্ষ করে জমাট বাঁধায় এবং অধঃক্ষেপ সৃষ্টি করে, যা ব-দ্বীপ গঠন করে।",
+      "en": "The soil particles (clay, silt) in river water are negatively charged. The salts in seawater (NaCl, MgCl₂) provide cations (Na⁺, Mg²⁺). These cations neutralize the charge on the soil particles, causing them to coagulate and precipitate, which forms a delta."
+    }
+  },
+  {
+    "id": "ch2-precipitation-and-kip-q10",
+    "topicId": "precipitation-and-kip",
+    "question": {
+      "bn": "অধঃক্ষেপণ বিক্রিয়া কী?",
+      "en": "What is a precipitation reaction?"
+    },
+    "answer": {
+      "bn": "এটি এমন এক ধরনের রাসায়নিক বিক্রিয়া যেখানে দুটি দ্রবণীয় লবণের জলীয় দ্রবণকে মিশ্রিত করলে একটি অদ্রবণীয় কঠিন পদার্থ (অধঃক্ষেপ) উৎপন্ন হয়।",
+      "en": "It is a type of chemical reaction in which an insoluble solid (a precipitate) is formed when two solutions containing soluble salts are mixed."
+    }
+  },
+  {
+    "id": "ch2-precipitation-and-kip-q11",
+    "topicId": "precipitation-and-kip",
+    "question": {
+      "bn": "ফিটকিরি কীভাবে পানিকে দূষণমুক্ত করে?",
+      "en": "How does alum purify water?"
+    },
+    "answer": {
+      "bn": "ফিটকিরি (K₂SO₄.Al₂(SO₄)₃.24H₂O) পানিতে Al³⁺ আয়ন দেয়। এই Al³⁺ আয়ন পানিতে ভাসমান ঋণাত্মক চার্জযুক্ত ময়লা ও কাদার কণার সাথে যুক্ত হয়ে চার্জ নিরপেক্ষ করে এবং তাদের জমাট বাঁধিয়ে অধঃক্ষিপ্ত করে। ফলে পানি পরিষ্কার হয়।",
+      "en": "Alum (K₂SO₄.Al₂(SO₄)₃.24H₂O) provides Al³⁺ ions in water. These Al³⁺ ions neutralize the negatively charged suspended dirt and clay particles, causing them to coagulate and precipitate. This clarifies the water."
+    }
+  },
+  {
+    "id": "ch2-precipitation-and-kip-q12",
+    "topicId": "precipitation-and-kip",
+    "question": {
+      "bn": "গ্রুপ অ্যানালাইসিসে বিকারককে একটি নির্দিষ্ট ক্রমে যোগ করা হয় কেন?",
+      "en": "In group analysis, why are the reagents added in a specific order?"
+    },
+    "answer": {
+      "bn": "বিকারকগুলো নির্দিষ্ট ক্রমে যোগ করা হয় যাতে ক্যাটায়নগুলোকে избирательно (selectively) অধঃক্ষিপ্ত করা যায়। প্রতিটি গ্রুপের বিকারক এমনভাবে ডিজাইন করা হয় যেন তা শুধুমাত্র নির্দিষ্ট গ্রুপের ক্যাটায়নগুলোকে অধঃক্ষিপ্ত করে এবং অন্য গ্রুপের ক্যাটায়নগুলোকে দ্রবণে রেখে দেয়।",
+      "en": "Reagents are added in a specific order to precipitate the cations selectively. The reagent for each group is designed to precipitate only the cations of that specific group, leaving the cations of other groups in the solution."
+    }
+  },
+  {
+    "id": "ch2-precipitation-and-kip-q13",
+    "topicId": "precipitation-and-kip",
+    "question": {
+      "bn": "NaCl এর সম্পৃক্ত দ্রবণে HCl গ্যাস চালনা করলে NaCl অধঃক্ষিপ্ত হয় কেন?",
+      "en": "Why does NaCl precipitate when HCl gas is passed through a saturated solution of NaCl?"
+    },
+    "answer": {
+      "bn": "HCl গ্যাস দ্রবণে অতিরিক্ত Cl⁻ আয়ন সরবরাহ করে (সম-আয়ন প্রভাব)। ফলে, দ্রবণে Na⁺ এবং Cl⁻ এর আয়নিক গুণফল (Kip) NaCl এর দ্রাব্যতা গুণফল (Ksp) কে অতিক্রম করে এবং বিশুদ্ধ NaCl অধঃক্ষিপ্ত হয়।",
+      "en": "HCl gas provides excess Cl⁻ ions to the solution (common ion effect). As a result, the ionic product (Kip) of Na⁺ and Cl⁻ exceeds the solubility product (Ksp) of NaCl, and pure NaCl precipitates."
+    }
+  },
+  {
+    "id": "ch2-precipitation-and-kip-q14",
+    "topicId": "precipitation-and-kip",
+    "question": {
+      "bn": "অধঃক্ষেপকে ভালোভাবে ধৌত করা প্রয়োজন কেন?",
+      "en": "Why is it necessary to wash a precipitate thoroughly?"
+    },
+    "answer": {
+      "bn": "অধঃক্ষেপকে ধৌত করা হয় যাতে এর গায়ে লেগে থাকা অপদ্রব্য (অন্যান্য দ্রবণীয় আয়ন) দূর হয়ে যায়। এটি অধঃক্ষেপের বিশুদ্ধতা নিশ্চিত করে, যা সঠিক পরিমাণগত বিশ্লেষণের জন্য অপরিহার্য।",
+      "en": "A precipitate is washed to remove impurities (other soluble ions) adhering to its surface. This ensures the purity of the precipitate, which is essential for accurate quantitative analysis."
+    }
+  },
+  {
+    "id": "ch2-precipitation-and-kip-q15",
+    "topicId": "precipitation-and-kip",
+    "question": {
+      "bn": "সহ-অধঃক্ষেপণ (Co-precipitation) কী?",
+      "en": "What is co-precipitation?"
+    },
+    "answer": {
+      "bn": "সহ-অধঃক্ষেপণ হলো এমন একটি প্রক্রিয়া যেখানে একটি অধঃক্ষেপ গঠনের সময় দ্রবণ থেকে কিছু অপদ্রব্যও ঐ অধঃক্ষেপের সাথে মিশে অধঃক্ষিপ্ত হয়, যদিও অপদ্রব্যটির দ্রাব্যতা গুণফল অতিক্রম করে না।",
+      "en": "Co-precipitation is a process in which some impurities from the solution are precipitated along with the main precipitate, even though the solubility product of the impurity has not been exceeded."
+    }
+  },
+  {
+    "id": "ch2-common-ion-effect-q1",
+    "topicId": "common-ion-effect",
+    "question": {
+      "bn": "সম-আয়ন প্রভাব কী?",
+      "en": "What is the common-ion effect?"
+    },
+    "answer": {
+      "bn": "কোনো স্বল্প দ্রবণীয় তড়িৎ বিশ্লেষ্যের দ্রবণে এমন কোনো তীব্র তড়িৎ বিশ্লেষ্য যোগ করা হলে যার একটি আয়ন স্বল্প দ্রবণীয় পদার্থটির একটি আয়নের অনুরূপ (সম-আয়ন), তবে স্বল্প দ্রবণীয় পদার্থটির দ্রাব্যতা হ্রাস পায়। এই ঘটনাকে সম-আয়ন প্রভাব বলে।",
+      "en": "If a strong electrolyte, containing an ion that is common to a sparingly soluble electrolyte, is added to its solution, the solubility of the sparingly soluble electrolyte decreases. This phenomenon is called the common-ion effect."
+    }
+  },
+  {
+    "id": "ch2-common-ion-effect-q2",
+    "topicId": "common-ion-effect",
+    "question": {
+      "bn": "সম-আয়ন প্রভাব কোন নীতির উপর ভিত্তি করে কাজ করে?",
+      "en": "On which principle is the common-ion effect based?"
+    },
+    "answer": {
+      "bn": "সম-আয়ন প্রভাব লা শাতেলিয়ার নীতির উপর ভিত্তি করে কাজ করে। দ্রবণে সম-আয়ানের ঘনমাত্রা বৃদ্ধি পেলে সাম্যাবস্থা সেদিকে সরে যায় যেখানে ঐ আয়নের ঘনমাত্রা হ্রাস পায়, অর্থাৎ বিক্রিয়াটি পেছনের দিকে সরে আসে এবং দ্রাব্যতা কমে যায়।",
+      "en": "The common-ion effect is based on Le Chatelier's principle. When the concentration of a common ion increases in the solution, the equilibrium shifts in the direction that reduces the concentration of that ion, i.e., the reaction shifts backward, and solubility decreases."
+    }
+  },
+  {
+    "id": "ch2-common-ion-effect-q3",
+    "topicId": "common-ion-effect",
+    "question": {
+      "bn": "AgCl এর সম্পৃক্ত দ্রবণে NaCl যোগ করলে AgCl এর দ্রাব্যতা কমে যায় কেন?",
+      "en": "Why does the solubility of AgCl decrease when NaCl is added to its saturated solution?"
+    },
+    "answer": {
+      "bn": "AgCl এর সম্পৃক্ত দ্রবণে সাম্যাবস্থাটি হলো AgCl ⇌ Ag⁺ + Cl⁻। NaCl যোগ করলে দ্রবণে Cl⁻ (সম-আয়ন) এর ঘনমাত্রা বেড়ে যায়। লা শাতেলিয়ার নীতি অনুসারে, সাম্যাবস্থা বাম দিকে সরে আসে, ফলে আরও কিছু AgCl অধঃক্ষিপ্ত হয় এবং দ্রাব্যতা হ্রাস পায়।",
+      "en": "In a saturated solution of AgCl, the equilibrium is AgCl ⇌ Ag⁺ + Cl⁻. Adding NaCl increases the concentration of the common ion, Cl⁻. According to Le Chatelier's principle, the equilibrium shifts to the left, causing more AgCl to precipitate and thus decreasing its solubility."
+    }
+  },
+  {
+    "id": "ch2-common-ion-effect-q4",
+    "topicId": "common-ion-effect",
+    "question": {
+      "bn": "বাফার দ্রবণ কী সম-আয়ন প্রভাবের একটি প্রয়োগ?",
+      "en": "Is a buffer solution an application of the common-ion effect?"
+    },
+    "answer": {
+      "bn": "হ্যাঁ, বাফার দ্রবণ সম-আয়ন প্রভাবের একটি চমৎকার উদাহরণ। একটি দুর্বল এসিড এবং তার অনুবন্ধী ক্ষারকের লবণ (যেমন CH₃COOH ও CH₃COONa) সম-আয়ন (CH₃COO⁻) এর মাধ্যমে এসিডের বিয়োজনকে নিয়ন্ত্রণ করে, ফলে pH স্থিতিশীল থাকে।",
+      "en": "Yes, a buffer solution is an excellent example of the common-ion effect. A weak acid and the salt of its conjugate base (e.g., CH₃COOH and CH₃COONa) control the dissociation of the acid via the common ion (CH₃COO⁻), thus keeping the pH stable."
+    }
+  },
+  {
+    "id": "ch2-common-ion-effect-q5",
+    "topicId": "common-ion-effect",
+    "question": {
+      "bn": "গুণগত বিশ্লেষণে গ্রুপ III এর ক্যাটায়ন (Fe³⁺, Al³⁺) অধঃক্ষেপণে NH₄Cl এর সাথে NH₄OH ব্যবহার করা হয় কেন?",
+      "en": "In qualitative analysis, why is NH₄Cl used with NH₄OH to precipitate Group III cations (Fe³⁺, Al³⁺)?"
+    },
+    "answer": {
+      "bn": "NH₄Cl তীব্র তড়িৎ বিশ্লেষ্য হওয়ায় দ্রবণে প্রচুর NH₄⁺ (সম-আয়ন) সরবরাহ করে। এটি দুর্বল ক্ষার NH₄OH এর বিয়োজনকে কমিয়ে দেয়, ফলে দ্রবণে OH⁻ এর ঘনমাত্রা একটি নির্দিষ্ট মানে নিয়ন্ত্রিত থাকে। এই নিয়ন্ত্রিত OH⁻ ঘনমাত্রায় শুধুমাত্র গ্রুপ III এর হাইড্রোক্সাইডগুলো অধঃক্ষিপ্ত হয়।",
+      "en": "NH₄Cl, being a strong electrolyte, provides a high concentration of the common ion NH₄⁺. This suppresses the dissociation of the weak base NH₄OH, thereby controlling the concentration of OH⁻ ions at a specific level. At this controlled OH⁻ concentration, only the hydroxides of Group III precipitate."
+    }
+  },
+  {
+    "id": "ch2-common-ion-effect-q6",
+    "topicId": "common-ion-effect",
+    "question": {
+      "bn": "বিশুদ্ধ পানির চেয়ে 0.1M HCl দ্রবণে H₂S এর দ্রাব্যতা কম কেন?",
+      "en": "Why is the solubility of H₂S lower in a 0.1M HCl solution than in pure water?"
+    },
+    "answer": {
+      "bn": "H₂S একটি দুর্বল এসিড (H₂S ⇌ 2H⁺ + S²⁻)। HCl একটি তীব্র এসিড হওয়ায় দ্রবণে প্রচুর H⁺ (সম-আয়ন) সরবরাহ করে। এই অতিরিক্ত H⁺ আয়নের উপস্থিতিতে H₂S এর বিয়োজনের সাম্যাবস্থা বাম দিকে সরে আসে, ফলে এর দ্রাব্যতা কমে যায়।",
+      "en": "H₂S is a weak acid (H₂S ⇌ 2H⁺ + S²⁻). HCl, being a strong acid, provides a high concentration of the common ion H⁺. In the presence of these excess H⁺ ions, the dissociation equilibrium of H₂S shifts to the left, thus reducing its solubility."
+    }
+  },
+  {
+    "id": "ch2-common-ion-effect-q7",
+    "topicId": "common-ion-effect",
+    "question": {
+      "bn": "साबান এর দ্রবণীয়তা কমাতে লবণ ব্যবহার করা হয় কেন?",
+      "en": "Why is salt used to reduce the solubility of soap?"
+    },
+    "answer": {
+      "bn": "সাবান হলো উচ্চতর ফ্যাটি এসিডের সোডিয়াম বা পটাশিয়াম লবণ (RCOONa)। সাবানের দ্রবণে সোডিয়াম ক্লোরাইড (NaCl) যোগ করলে Na⁺ (সম-আয়ন) এর ঘনমাত্রা বৃদ্ধি পায়। ফলে, সাবানের দ্রাব্যতা কমে যায় এবং এটি কঠিন আকারে পৃথক হয়ে আসে। এই প্রক্রিয়াকে সল্টিং আউট বলে।",
+      "en": "Soap is a sodium or potassium salt of a higher fatty acid (RCOONa). Adding sodium chloride (NaCl) to a soap solution increases the concentration of the common ion Na⁺. This reduces the solubility of the soap, causing it to separate out as a solid. This process is called salting out."
+    }
+  },
+  {
+    "id": "ch2-common-ion-effect-q8",
+    "topicId": "common-ion-effect",
+    "question": {
+      "bn": "সম-আয়ন প্রভাব কি শুধুমাত্র স্বল্প দ্রবণীয় লবণের ক্ষেত্রে প্রযোজ্য?",
+      "en": "Is the common-ion effect only applicable to sparingly soluble salts?"
+    },
+    "answer": {
+      "bn": "না, এটি দুর্বল তড়িৎ বিশ্লেষ্য (যেমন দুর্বল এসিড ও দুর্বল ক্ষার) এর ক্ষেত্রেও প্রযোজ্য। যেমন, অ্যাসেটিক এসিডের দ্রবণে সোডিয়াম অ্যাসিটেট যোগ করলে অ্যাসেটিক এসিডের বিয়োজন মাত্রা কমে যায়।",
+      "en": "No, it is also applicable to weak electrolytes (like weak acids and weak bases). For example, adding sodium acetate to a solution of acetic acid decreases the degree of dissociation of acetic acid."
+    }
+  },
+  {
+    "id": "ch2-common-ion-effect-q9",
+    "topicId": "common-ion-effect",
+    "question": {
+      "bn": "বিশুদ্ধ পানির চেয়ে সোডিয়াম অ্যাসিটেট দ্রবণে অ্যাসেটিক এসিডের pH বেশি হয় কেন?",
+      "en": "Why is the pH of acetic acid higher in a sodium acetate solution than in pure water?"
+    },
+    "answer": {
+      "bn": "সোডিয়াম অ্যাসিটেট দ্রবণে অ্যাসিটেট আয়ন (CH₃COO⁻) একটি সম-আয়ন। এটি অ্যাসেটিক এসিডের (CH₃COOH ⇌ H⁺ + CH₃COO⁻) বিয়োজনকে বাধা দেয়। ফলে, H⁺ আয়নের ঘনমাত্রা কমে যায় এবং ফলস্বরূপ দ্রবণের pH বৃদ্ধি পায়।",
+      "en": "The acetate ion (CH₃COO⁻) in a sodium acetate solution is a common ion. It suppresses the dissociation of acetic acid (CH₃COOH ⇌ H⁺ + CH₃COO⁻). As a result, the concentration of H⁺ ions decreases, and consequently, the pH of the solution increases."
+    }
+  },
+  {
+    "id": "ch2-common-ion-effect-q10",
+    "topicId": "common-ion-effect",
+    "question": {
+      "bn": "বিশম-আয়ন প্রভাব (Odd-ion Effect) কী?",
+      "en": "What is the odd-ion effect?"
+    },
+    "answer": {
+      "bn": "এটি সম-আয়ন প্রভাবের বিপরীত। কোনো স্বল্প দ্রবণীয় লবণের দ্রবণে এমন কোনো লবণ যোগ করা হলে যার কোনো আয়নই সাধারণ নয়, তখন দ্রবণের আয়নিক শক্তি বৃদ্ধি পায় এবং স্বল্প দ্রবণীয় লবণের দ্রাব্যতা কিছুটা বেড়ে যায়। একে বিশম-আয়ন বা লবণ প্রভাব বলে।",
+      "en": "This is the opposite of the common-ion effect. If a salt with no common ions is added to a solution of a sparingly soluble salt, the ionic strength of the solution increases, and the solubility of the sparingly soluble salt slightly increases. This is called the odd-ion or salt effect."
+    }
+  },
+  {
+    "id": "ch2-common-ion-effect-q11",
+    "topicId": "common-ion-effect",
+    "question": {
+      "bn": "0.1 M NaCl দ্রবণে AgCl এর দ্রাব্যতা কত হবে? [Ksp(AgCl) = 1.8 × 10⁻¹⁰]",
+      "en": "What will be the solubility of AgCl in a 0.1 M NaCl solution? [Ksp(AgCl) = 1.8 × 10⁻¹⁰]"
+    },
+    "answer": {
+      "bn": "ধরি, নতুন দ্রাব্যতা S। তাহলে, [Ag⁺] = S এবং [Cl⁻] = (S + 0.1) ≈ 0.1 (যেহেতু S খুব ছোট)। Ksp = [Ag⁺][Cl⁻] => 1.8 × 10⁻¹⁰ = S * (0.1)। সুতরাং, S = 1.8 × 10⁻⁹ mol L⁻¹।",
+      "en": "Let the new solubility be S. Then, [Ag⁺] = S and [Cl⁻] = (S + 0.1) ≈ 0.1 (since S is very small). Ksp = [Ag⁺][Cl⁻] => 1.8 × 10⁻¹⁰ = S * (0.1). Therefore, S = 1.8 × 10⁻⁹ mol L⁻¹."
+    }
+  },
+  {
+    "id": "ch2-common-ion-effect-q12",
+    "topicId": "common-ion-effect",
+    "question": {
+      "bn": "Mg(OH)₂ এর অধঃক্ষেপণে NH₄Cl এর ভূমিকা কী?",
+      "en": "What is the role of NH₄Cl in the precipitation of Mg(OH)₂?"
+    },
+    "answer": {
+      "bn": "Mg²⁺ আয়ন গ্রুপ V এর ক্যাটায়ন, যা গ্রুপ III এর সাথে অধঃক্ষিপ্ত হওয়া উচিত নয়। NH₄Cl যোগ করলে NH₄OH থেকে OH⁻ এর উৎপাদন কমে যায় (সম-আয়ন প্রভাব)। ফলে OH⁻ এর ঘনমাত্রা এত কম থাকে যে তা Mg(OH)₂ এর Ksp কে অতিক্রম করতে পারে না, তাই Mg²⁺ অধঃক্ষিপ্ত হয় না।",
+      "en": "The Mg²⁺ ion is a Group V cation and should not precipitate with Group III. Adding NH₄Cl reduces the production of OH⁻ from NH₄OH (common-ion effect). As a result, the OH⁻ concentration is too low to exceed the Ksp of Mg(OH)₂, so Mg²⁺ does not precipitate."
+    }
+  },
+  {
+    "id": "ch2-common-ion-effect-q13",
+    "topicId": "common-ion-effect",
+    "question": {
+      "bn": "কোন ক্ষেত্রে সম-আয়ন প্রভাব কার্যকর হয় না?",
+      "en": "In which case is the common-ion effect not effective?"
+    },
+    "answer": {
+      "bn": "যদি স্বল্প দ্রবণীয় লবণটি সম-আয়ানের সাথে জটিল যৌগ গঠন করে, তবে সম-আয়ন প্রভাব কার্যকর হয় না, বরং দ্রাব্যতা বেড়ে যেতে পারে। যেমন, AgCl এর দ্রবণে অতিরিক্ত Cl⁻ (উচ্চ ঘনমাত্রায়) যোগ করলে দ্রবণীয় [AgCl₂]⁻ জটিল আয়ন গঠিত হয়।",
+      "en": "If the sparingly soluble salt forms a complex ion with the common ion, the common-ion effect is not effective; instead, solubility might increase. For example, adding excess Cl⁻ (at high concentration) to a solution of AgCl forms the soluble complex ion [AgCl₂]⁻."
+    }
+  },
+  {
+    "id": "ch2-common-ion-effect-q14",
+    "topicId": "common-ion-effect",
+    "question": {
+      "bn": "pH পরিবর্তনেও কি সম-আয়ন প্রভাব দেখা যায়?",
+      "en": "Can the common-ion effect also be seen with a change in pH?"
+    },
+    "answer": {
+      "bn": "হ্যাঁ। যেমন, একটি দুর্বল এসিডের দ্রবণে H⁺ যোগ করলে (pH কমালে) তা সম-আয়ন হিসেবে কাজ করে এবং এসিডের বিয়োজন কমিয়ে দেয়। বিপরীতভাবে, OH⁻ যোগ করলে (pH বাড়ালে) তা H⁺ এর সাথে বিক্রিয়া করে সাম্যাবস্থাকে ডানদিকে সরায় এবং বিয়োজন বাড়ায়।",
+      "en": "Yes. For instance, adding H⁺ to a solution of a weak acid (lowering pH) acts as a common ion and suppresses the acid's dissociation. Conversely, adding OH⁻ (raising pH) reacts with H⁺, shifting the equilibrium to the right and increasing dissociation."
+    }
+  },
+  {
+    "id": "ch2-common-ion-effect-q15",
+    "topicId": "common-ion-effect",
+    "question": {
+      "bn": "পানিতে H₂S এর চেয়ে HCl দ্রবণে CuS এর অধঃক্ষেপণ ভালো হয় কেন?",
+      "en": "Why does CuS precipitate better in an HCl solution with H₂S than in water with H₂S?"
+    },
+    "answer": {
+      "bn": "এটি একটি সাধারণ ভুল ধারণা। প্রকৃতপক্ষে, HCl দ্রবণে H₂S এর বিয়োজন কমে যাওয়ায় S²⁻ এর ঘনমাত্রা কমে যায়। CuS এর Ksp খুব কম হওয়ায় এই স্বল্প S²⁻ ঘনমাত্রাতেও এটি অধঃক্ষিপ্ত হয়। তবে মূল উদ্দেশ্য হলো ZnS (যার Ksp বেশি) কে অধঃক্ষিপ্ত হতে না দেওয়া।",
+      "en": "This is a common misconception. In fact, in an HCl solution, the dissociation of H₂S is suppressed, leading to a lower S²⁻ concentration. Since the Ksp of CuS is very low, it precipitates even at this low S²⁻ concentration. The main purpose, however, is to prevent the precipitation of ZnS (which has a higher Ksp)."
+    }
+  },
+  {
+    "id": "ch2-ion-identification-q1",
+    "topicId": "ion-identification",
+    "question": {
+      "bn": "সোডিয়াম (Na⁺) আয়ন শনাক্তকরণের পরীক্ষাটি কী?",
+      "en": "What is the test for the identification of the Sodium (Na⁺) ion?"
+    },
+    "answer": {
+      "bn": "সোডিয়াম আয়ন শনাক্তকরণের জন্য পটাশিয়াম পাইরোঅ্যান্টিমোনেট (K₂H₂Sb₂O₇) দ্রবণ ব্যবহার করা হয়। Na⁺ আয়নের উপস্থিতিতে সোডিয়াম পাইরোঅ্যান্টিমোনেটের (Na₂H₂Sb₂O₇) সাদা অধঃক্ষেপ পড়ে।",
+      "en": "Potassium pyroantimonate (K₂H₂Sb₂O₇) solution is used to identify the sodium ion. In the presence of Na⁺ ions, a white precipitate of sodium pyroantimonate (Na₂H₂Sb₂O₇) is formed."
+    }
+  },
+  {
+    "id": "ch2-ion-identification-q2",
+    "topicId": "ion-identification",
+    "question": {
+      "bn": "কপার (Cu²⁺) আয়ন শনাক্তকরণের একটি পরীক্ষা লিখ।",
+      "en": "Write a test for the identification of the Copper (Cu²⁺) ion."
+    },
+    "answer": {
+      "bn": "নমুনা দ্রবণে অ্যামোনিয়াম হাইড্রোক্সাইড (NH₄OH) যোগ করলে প্রথমে হালকা নীল অধঃক্ষেপ পড়ে যা অতিরিক্ত NH₄OH এ দ্রবীভূত হয়ে টেট্রাঅ্যামিন কপার(II) സങ്കീർണ്ണ (complex) আয়নের গাঢ় নীল দ্রবণ তৈরি করে। [Cu(NH₃)₄]²⁺।",
+      "en": "Adding ammonium hydroxide (NH₄OH) to the sample solution first forms a light blue precipitate, which dissolves in excess NH₄OH to form a deep blue solution of the tetraamminecopper(II) complex ion, [Cu(NH₃)₄]²⁺."
+    }
+  },
+  {
+    "id": "ch2-ion-identification-q3",
+    "topicId": "ion-identification",
+    "question": {
+      "bn": "ফেরাস (Fe²⁺) এবং ফেরিক (Fe³⁺) আয়নের মধ্যে পার্থক্য করার জন্য কোন বিকারক ব্যবহার করা হয়?",
+      "en": "Which reagent is used to differentiate between Ferrous (Fe²⁺) and Ferric (Fe³⁺) ions?"
+    },
+    "answer": {
+      "bn": "পটাশিয়াম ফেরোসায়ানাইড (K₄[Fe(CN)₆]) এবং পটাশিয়াম ফেরিসায়ানাইড (K₃[Fe(CN)₆]) ব্যবহার করা হয়। Fe²⁺ আয়ন K₃[Fe(CN)₆] এর সাথে গাঢ় নীল (টার্নবুলের নীল) এবং Fe³⁺ আয়ন K₄[Fe(CN)₆] এর সাথে গাঢ় নীল (প্রুশিয়ান ব্লু) অধঃক্ষেপ দেয়।",
+      "en": "Potassium ferrocyanide (K₄[Fe(CN)₆]) and potassium ferricyanide (K₃[Fe(CN)₆]) are used. The Fe²⁺ ion gives a dark blue precipitate (Turnbull's blue) with K₃[Fe(CN)₆], while the Fe³⁺ ion gives a dark blue precipitate (Prussian blue) with K₄[Fe(CN)₆]."
+    }
+  },
+  {
+    "id": "ch2-ion-identification-q4",
+    "topicId": "ion-identification",
+    "question": {
+      "bn": "অ্যামোনিয়াম (NH₄⁺) আয়ন কীভাবে শনাক্ত করা হয়?",
+      "en": "How is the Ammonium (NH₄⁺) ion identified?"
+    },
+    "answer": {
+      "bn": "নমুনা দ্রবণে নেসলার বিকারক (K₂[HgI₄] এর ক্ষারীয় দ্রবণ) যোগ করলে অ্যামোনিয়াম আয়নের উপস্থিতিতে বাদামী বর্ণের বা হলুদ-বাদামী বর্ণের অধঃক্ষেপ (মিলনের ক্ষারকের আয়োডাইড) পড়ে।",
+      "en": "Adding Nessler's reagent (an alkaline solution of K₂[HgI₄]) to the sample solution produces a brown or yellowish-brown precipitate (Iodide of Millon's base) in the presence of the ammonium ion."
+    }
+  },
+  {
+    "id": "ch2-ion-identification-q5",
+    "topicId": "ion-identification",
+    "question": {
+      "bn": "ক্লোরাইড (Cl⁻) আয়ন শনাক্তকারী পরীক্ষাটি কী?",
+      "en": "What is the confirmatory test for the Chloride (Cl⁻) ion?"
+    },
+    "answer": {
+      "bn": "নমুনা দ্রবণে সিলভার নাইট্রেট (AgNO₃) দ্রবণ যোগ করলে ক্লোরাইড আয়নের উপস্থিতিতে সিলভার ক্লোরাইডের (AgCl) সাদা দধির মতো অধঃক্ষেপ পড়ে, যা অ্যামোনিয়াম হাইড্রোক্সাইড দ্রবণে দ্রবণীয় কিন্তু নাইট্রিক এসিডে অদ্রবণীয়।",
+      "en": "Adding silver nitrate (AgNO₃) solution to the sample solution produces a white, curdy precipitate of silver chloride (AgCl) in the presence of chloride ions. This precipitate is soluble in ammonium hydroxide but insoluble in nitric acid."
+    }
+  },
+  {
+    "id": "ch2-ion-identification-q6",
+    "topicId": "ion-identification",
+    "question": {
+      "bn": "সালফেট (SO₄²⁻) আয়ন কীভাবে শনাক্ত করা হয়?",
+      "en": "How is the Sulfate (SO₄²⁻) ion identified?"
+    },
+    "answer": {
+      "bn": "নমুনা দ্রবণে বেরিয়াম ক্লোরাইড (BaCl₂) দ্রবণ যোগ করলে সালফেট আয়নের উপস্থিতিতে বেরিয়াম সালফেটের (BaSO₄) সাদা অধঃক্ষেপ পড়ে। এই অধঃক্ষেপটি গাঢ় HCl বা HNO₃ এসিডে অদ্রবণীয়।",
+      "en": "Adding barium chloride (BaCl₂) solution to the sample solution produces a white precipitate of barium sulfate (BaSO₄) in the presence of sulfate ions. This precipitate is insoluble in concentrated HCl or HNO₃ acid."
+    }
+  },
+  {
+    "id": "ch2-ion-identification-q7",
+    "topicId": "ion-identification",
+    "question": {
+      "bn": "কার্বনেট (CO₃²⁻) আয়ন শনাক্ত করার পরীক্ষাটি লিখ।",
+      "en": "Write the test for identifying the Carbonate (CO₃²⁻) ion."
+    },
+    "answer": {
+      "bn": "নমুনা লবণে লঘু HCl যোগ করলে বুদবুদসহ বর্ণহীন ও গন্ধহীন গ্যাস (CO₂) নির্গত হয়। এই গ্যাসকে চুনের পানির (Ca(OH)₂) মধ্যে চালনা করলে চুনের পানি ঘোলা হয়ে যায় (CaCO₃ এর অধঃক্ষেপ)।",
+      "en": "Adding dilute HCl to the sample salt produces effervescence with a colorless and odorless gas (CO₂). When this gas is passed through limewater (Ca(OH)₂), the limewater turns milky (due to the precipitation of CaCO₃)."
+    }
+  },
+  {
+    "id": "ch2-ion-identification-q8",
+    "topicId": "ion-identification",
+    "question": {
+      "bn": "জিংক (Zn²⁺) আয়ন শনাক্তকারী পরীক্ষাটি কী?",
+      "en": "What is the test for identifying the Zinc (Zn²⁺) ion?"
+    },
+    "answer": {
+      "bn": "নমুনা দ্রবণে পটাশিয়াম ফেরোসায়ানাইড (K₄[Fe(CN)₆]) যোগ করলে জিংক আয়নের উপস্থিতিতে সাদা বা ঈষৎ নীলাভ সাদা অধঃক্ষেপ (Zn₂[Fe(CN)₆]) পড়ে।",
+      "en": "Adding potassium ferrocyanide (K₄[Fe(CN)₆]) solution to the sample solution produces a white or slightly bluish-white precipitate (Zn₂[Fe(CN)₆]) in the presence of zinc ions."
+    }
+  },
+  {
+    "id": "ch2-ion-identification-q9",
+    "topicId": "ion-identification",
+    "question": {
+      "bn": "ক্যালসিয়াম (Ca²⁺) আয়ন শনাক্তকারী পরীক্ষাটি কী?",
+      "en": "What is the test for identifying the Calcium (Ca²⁺) ion?"
+    },
+    "answer": {
+      "bn": "নমুনা দ্রবণে অ্যামোনিয়াম অক্সালেট ((NH₄)₂C₂O₄) দ্রবণ যোগ করলে ক্যালসিয়াম আয়নের উপস্থিতিতে ক্যালসিয়াম অক্সালেটের (CaC₂O₄) সাদা অধঃক্ষেপ পড়ে।",
+      "en": "Adding ammonium oxalate ((NH₄)₂C₂O₄) solution to the sample solution produces a white precipitate of calcium oxalate (CaC₂O₄) in the presence of calcium ions."
+    }
+  },
+  {
+    "id": "ch2-ion-identification-q10",
+    "topicId": "ion-identification",
+    "question": {
+      "bn": "শিখা পরীক্ষায় বিভিন্ন আয়ন কী কী বর্ণ দেখায়?",
+      "en": "What colors do different ions show in a flame test?"
+    },
+    "answer": {
+      "bn": "শিখা পরীক্ষায় Na⁺ সোনালী হলুদ, K⁺ বেগুনী, Ca²⁺ ইটের মতো লাল, Sr²⁺ উজ্জ্বল লাল (ক্রিমসন), Ba²⁺ কাঁচা আপেলের মতো সবুজ এবং Cu²⁺ নীলাভ সবুজ বর্ণ দেখায়।",
+      "en": "In a flame test, Na⁺ shows a golden yellow color, K⁺ shows a lilac (violet) color, Ca²⁺ shows a brick-red color, Sr²⁺ shows a crimson red color, Ba²⁺ shows an apple-green color, and Cu²⁺ shows a bluish-green color."
+    }
+  },
+  {
+    "id": "ch2-ion-identification-q11",
+    "topicId": "ion-identification",
+    "question": {
+      "bn": "অ্যালুমিনিয়াম (Al³⁺) আয়ন কীভাবে শনাক্ত করা হয়?",
+      "en": "How is the Aluminum (Al³⁺) ion identified?"
+    },
+    "answer": {
+      "bn": "নমুনা দ্রবণে সোডিয়াম হাইড্রোক্সাইড (NaOH) দ্রবণ যোগ করলে অ্যালুমিনিয়াম হাইড্রোক্সাইডের (Al(OH)₃) সাদা আঠালো অধঃক্ষেপ পড়ে, যা অতিরিক্ত NaOH দ্রবণে দ্রবীভূত হয়ে সোডিয়াম অ্যালুমিনেট (Na[Al(OH)₄]) গঠন করে।",
+      "en": "Adding sodium hydroxide (NaOH) solution to the sample solution produces a white, gelatinous precipitate of aluminum hydroxide (Al(OH)₃), which dissolves in excess NaOH solution to form sodium aluminate (Na[Al(OH)₄])."
+    }
+  },
+  {
+    "id": "ch2-ion-identification-q12",
+    "topicId": "ion-identification",
+    "question": {
+      "bn": "নেসলার বিকারকের সংকেত ও প্রস্তুতি কী?",
+      "en": "What is the formula and preparation of Nessler's reagent?"
+    },
+    "answer": {
+      "bn": "নেসলার বিকারক হলো পটাশিয়াম টেট্রাআয়োডোমারকিউরেট(II) এর ক্ষারীয় দ্রবণ। এর সংকেত K₂[HgI₄]। এটি পটাশিয়াম আয়োডাইড (KI) দ্রবণে মারকিউরিক ক্লোরাইড (HgCl₂) যোগ করে এবং পরে KOH বা NaOH দ্রবণ মিশিয়ে প্রস্তুত করা হয়।",
+      "en": "Nessler's reagent is an alkaline solution of potassium tetraiodomercurate(II). Its formula is K₂[HgI₄]. It is prepared by adding mercuric chloride (HgCl₂) to a potassium iodide (KI) solution, followed by the addition of KOH or NaOH solution."
+    }
+  },
+  {
+    "id": "ch2-ion-identification-q13",
+    "topicId": "ion-identification",
+    "question": {
+      "bn": "বলয় পরীক্ষা (Ring Test) কোন আয়ন শনাক্তকরণে ব্যবহৃত হয়?",
+      "en": "The ring test is used to identify which ion?"
+    },
+    "answer": {
+      "bn": "বলয় পরীক্ষা নাইট্রেট (NO₃⁻) আয়ন শনাক্তকরণে ব্যবহৃত হয়। নমুনা দ্রবণে সদ্য প্রস্তুত FeSO₄ দ্রবণ যোগ করে টেস্টটিউবের গা বেয়ে সাবধানে গাঢ় H₂SO₄ যোগ করলে দুই স্তরের সংযোগস্থলে একটি বাদামী বলয় ([Fe(H₂O)₅NO]SO₄) তৈরি হয়।",
+      "en": "The ring test is used to identify the nitrate (NO₃⁻) ion. Freshly prepared FeSO₄ solution is added to the sample solution, and then concentrated H₂SO₄ is carefully added along the side of the test tube. A brown ring ([Fe(H₂O)₅NO]SO₄) forms at the junction of the two layers."
+    }
+  },
+  {
+    "id": "ch2-ion-identification-q14",
+    "topicId": "ion-identification",
+    "question": {
+      "bn": "HCl দ্বারা এসিডযুক্ত BaCl₂ দ্রবণ সালফেট শনাক্তকরণে ব্যবহার হয় কেন?",
+      "en": "Why is BaCl₂ solution acidified with HCl used for sulfate identification?"
+    },
+    "answer": {
+      "bn": "HCl যোগ করা হয় যাতে অন্যান্য অ্যানায়ন যেমন কার্বনেট (CO₃²⁻) বা সালফাইট (SO₃²⁻) এর উপস্থিতি দূর করা যায়। এই অ্যানায়নগুলোও Ba²⁺ এর সাথে অধঃক্ষেপ তৈরি করতে পারে, কিন্তু তাদের অধঃক্ষেপ এসিডে দ্রবণীয়। BaSO₄ এসিডে অদ্রবণীয়, তাই এটি সালফেট আয়নের উপস্থিতি নিশ্চিত করে।",
+      "en": "HCl is added to eliminate the interference of other anions like carbonate (CO₃²⁻) or sulfite (SO₃²⁻). These anions can also form precipitates with Ba²⁺, but their precipitates are soluble in acid. BaSO₄ is insoluble in acid, thus confirming the presence of the sulfate ion."
+    }
+  },
+  {
+    "id": "ch2-ion-identification-q15",
+    "topicId": "ion-identification",
+    "question": {
+      "bn": "ক্ষারীয় মূলক ও অম্লীয় মূলক কী?",
+      "en": "What are basic radicals and acidic radicals?"
+    },
+    "answer": {
+      "bn": "একটি লবণের ক্যাটায়ন অংশকে ক্ষারীয় মূলক বলা হয় কারণ এটি ক্ষার থেকে আসে (যেমন NaOH থেকে Na⁺)। লবণের অ্যানায়ন অংশকে অম্লীয় মূলক বলা হয় কারণ এটি এসিড থেকে আসে (যেমন HCl থেকে Cl⁻)।",
+      "en": "The cationic part of a salt is called a basic radical because it comes from a base (e.g., Na⁺ from NaOH). The anionic part of a salt is called an acidic radical because it comes from an acid (e.g., Cl⁻ from HCl)."
+    }
+  }
+]
