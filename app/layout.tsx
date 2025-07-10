@@ -44,7 +44,7 @@ export default function RootLayout({
             <div className="relative flex min-h-screen flex-col">
               <PageTransition>{children}</PageTransition>
             </div>
-            <div className="absolute sm:top-6 top-20 right-10 sm:right-34">
+            <div className="absolute sm:top-6 top-16 right-6 sm:right-34">
               <ModeToggle />
             </div>
           </ThemeProvider>
