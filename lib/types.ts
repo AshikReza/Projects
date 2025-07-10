@@ -33,6 +33,7 @@ export interface DefinitionBlockType extends BlockBase {
   type: "definition";
   text_bn: string;
   text_en: string;
+  examples: { bn: string; en: string }[]; // <-- Add this line
 }
 export interface ImportantBlockType extends BlockBase {
   type: "important";

@@ -5,20 +5,62 @@
       {
         "type": "definition",
         "title": "ভেক্টর রাশি (Vector Quantity)",
-        "text_bn": "যে সকল ভৌত রাশির মান ও দিক উভয়ই আছে এবং যারা ভেক্টর যোগের নিয়ম মেনে চলে, তাদের ভেক্টর রাশি বলে। যেমন: সরণ, বেগ, ত্বরণ, বল ইত্যাদি। একটি ভেক্টরের দৈর্ঘ্য তার মান নির্দেশ করে।",
-        "text_en": "A physical quantity that has both magnitude and direction and obeys the laws of vector addition is called a vector quantity. Examples: displacement, velocity, acceleration, force, etc. The length of a vector represents its magnitude."
+        "text_bn": "যে সকল ভৌত রাশির সম্পূর্ণ প্রকাশের জন্য মান ও দিক উভয়েরই প্রয়োজন হয় এবং যারা ভেক্টর যোগের নিয়ম (যেমন: ত্রিভুজ সূত্র বা সামান্তরিক সূত্র) কঠোরভাবে মেনে চলে, তাদের ভেক্টর রাশি বলে। এদেরকে সাধারণত একটি অক্ষরের উপর তীর চিহ্ন (যেমন: $$\\vec{A}$$) অথবা বোল্ড অক্ষরে (যেমন: **A**) প্রকাশ করা হয়। একটি ভেক্টরের দৈর্ঘ্য বা মডুলাস (যেমন: $$|\\vec{A}|$$ বা A) তার মান নির্দেশ করে। শুধুমাত্র মান ও দিক থাকলেই কোনো রাশি ভেক্টর হয় না, ভেক্টর যোজন বিধি মেনে চলা আবশ্যক।",
+        "text_en": "A physical quantity that requires both magnitude and direction for its complete specification and strictly obeys the laws of vector addition (e.g., Triangle Law or Parallelogram Law) is called a vector quantity. They are usually represented by an arrow over a letter (e.g., $$\\vec{A}$$) or in bold font (e.g., **A**). The length or modulus of a vector (e.g., $$|\\vec{A}|$$ or A) represents its magnitude. Just having magnitude and direction is not enough; a quantity must obey vector addition laws to be a vector.",
+        "examples": [
+          {
+            "bn": "সরণ বনাম দূরত্ব: যদি কোনো ব্যক্তি পূর্ব দিকে ৪ মিটার এবং এরপর উত্তর দিকে ৩ মিটার হাঁটেন, তবে তার অতিক্রান্ত দূরত্ব হবে (৪+৩) = ৭ মিটার (স্কেলার)। কিন্তু তার সরণ হবে প্রারম্ভিক বিন্দু থেকে শেষ বিন্দুর দিকে একটি ভেক্টর, যার মান $$ \\sqrt{4^2 + 3^2} = 5 $$ মিটার এবং এর একটি নির্দিষ্ট দিক থাকবে।",
+            "en": "Displacement vs. Distance: If a person walks 4 meters East and then 3 meters North, the distance covered is (4+3) = 7 meters (scalar). But their displacement is a vector from the start to the end point, with a magnitude of $$ \\sqrt{4^2 + 3^2} = 5 $$ meters and a specific direction."
+          },
+          {
+            "bn": "বল: একটি বস্তুর উপর ১০ নিউটন বল প্রয়োগ করলে এর ফলাফল বলের দিকের উপর সম্পূর্ণ নির্ভরশীল। ১০ নিউটন বল উত্তর দিকে প্রয়োগ করা এবং পূর্ব দিকে প্রয়োগ করা সম্পূর্ণ ভিন্ন দুটি ঘটনা তৈরি করবে। তাই বল একটি ভেক্টর রাশি, $$ \\vec{F} $$।",
+            "en": "Force: Applying a 10 N force on an object yields a result that entirely depends on the direction of the force. Applying a 10 N force northwards versus eastwards will produce two completely different outcomes. Thus, force is a vector quantity, $$ \\vec{F} $$."
+          },
+          {
+            "bn": "তড়িৎ প্রবাহ: তড়িৎ প্রবাহের মান (অ্যাম্পিয়ার) ও দিক উভয়ই আছে, কিন্তু এটি সাধারণ বীজগাণিতিক নিয়মে যোগ হয়, ভেক্টর যোগের নিয়ম মানে না। দুটি ভিন্ন তারের প্রবাহ একটি সংযোগস্থলে মিলিত হলে মোট প্রবাহ তাদের স্কেলার যোগফলের সমান হয়। তাই এটি একটি স্কেলার রাশি।",
+            "en": "Electric Current: Electric current has both magnitude (Amperes) and direction, but it adds up using simple algebraic rules, not vector addition laws. When currents from two different wires meet at a junction, the total current is their scalar sum. Therefore, it is a scalar quantity."
+          }
+        ]
       },
       {
         "type": "definition",
         "title": "লব্ধি (Resultant)",
-        "text_bn": "দুই বা ততোধিক ভেক্টরের সম্মিলিত ক্রিয়ার ফলে যে নতুন একক ভেক্টর পাওয়া যায়, যা ওই ভেক্টরগুলোর সম্মিলিত ক্রিয়ার সমান ও অভিন্ন ফল তৈরি করে, তাকে ওই ভেক্টরগুলোর লব্ধি বলে।",
-        "text_en": "The resultant is the single vector that produces the same effect as the combined effect of two or more individual vectors acting together."
+        "text_bn": "দুই বা ততোধিক সমজাতীয় ভেক্টরের সম্মিলিত ক্রিয়ার ফলে যে নতুন একক ভেক্টর পাওয়া যায়, যা ওই ভেক্টরগুলোর সম্মিলিত ক্রিয়ার সমান ও অভিন্ন ফল তৈরি করে, তাকে ওই ভেক্টরগুলোর লব্ধি (Resultant) বলে। গাণিতিকভাবে, যদি $$ \\vec{A} $$ এবং $$ \\vec{B} $$ দুটি ভেক্টর হয়, তবে তাদের লব্ধি হবে $$ \\vec{R} = \\vec{A} + \\vec{B} $$। লব্ধি ভেক্টরটি মূল ভেক্টরগুলোর ভৌত প্রভাবকে এককভাবে প্রতিস্থাপন করতে পারে।",
+        "text_en": "The resultant is the single vector that produces the same effect as the combined effect of two or more vectors of the same type acting together. Mathematically, if $$ \\vec{A} $$ and $$ \\vec{B} $$ are two vectors, their resultant is $$ \\vec{R} = \\vec{A} + \\vec{B} $$. The resultant vector can single-handedly replace the physical effects of the original vectors.",
+        "examples": [
+          {
+            "bn": "নৌকার বেগ: একটি নদীর স্রোতের বেগ $$ \\vec{u} $$ এবং নৌকার নিজস্ব বেগ $$ \\vec{v} $$ হলে, তীরে থাকা একজন পর্যবেক্ষকের কাছে নৌকার প্রকৃত বেগ হবে এই দুটি বেগের লব্ধি, $$ \\vec{w} = \\vec{u} + \\vec{v} $$।",
+            "en": "Boat Velocity: If the velocity of a river current is $$ \\vec{u} $$ and the boat's own velocity is $$ \\vec{v} $$, the actual velocity of the boat as seen by an observer on the bank will be the resultant of these two velocities, $$ \\vec{w} = \\vec{u} + \\vec{v} $$."
+          },
+          {
+            "bn": "একাধিক বল: একটি বাক্সের উপর দুইজন ব্যক্তি যথাক্রমে পূর্ব দিকে $$ \\vec{F}_1 = 10N $$ এবং উত্তর দিকে $$ \\vec{F}_2 = 5N $$ বল প্রয়োগ করলে, বাক্সটি এই দুই বলের লব্ধি বলের দিকে সরতে শুরু করবে।",
+            "en": "Multiple Forces: If two people push a box with forces $$ \\vec{F}_1 = 10N $$ East and $$ \\vec{F}_2 = 5N $$ North respectively, the box will start moving in the direction of the resultant force of these two forces."
+          },
+          {
+            "bn": "বৈদ্যুতিক ক্ষেত্র: কোনো বিন্দুতে একাধিক চার্জের জন্য সৃষ্ট বৈদ্যুতিক ক্ষেত্র $$ \\vec{E}_1, \\vec{E}_2, \\vec{E}_3, ... $$ হলে, ওই বিন্দুতে মোট বৈদ্যুতিক ক্ষেত্র হবে প্রতিটি ক্ষেত্রের ভেক্টর যোগফলের সমান, অর্থাৎ লব্ধি ক্ষেত্র $$ \\vec{E}_{total} = \\sum \\vec{E}_i $$।",
+            "en": "Electric Field: If multiple charges produce electric fields $$ \\vec{E}_1, \\vec{E}_2, \\vec{E}_3, ... $$ at a point, the total electric field at that point will be equal to the vector sum of each field, i.e., the resultant field $$ \\vec{E}_{total} = \\sum \\vec{E}_i $$."
+          }
+        ]
       },
       {
         "type": "definition",
         "title": "ভেক্টর যোজনের সামান্তরিক সূত্র",
-        "text_bn": "যদি কোনো কণার উপর একই সময়ে ক্রিয়ারত দুটি ভেক্টরকে কোনো সামান্তরিকের একটি কৌণিক বিন্দু থেকে অঙ্কিত দুটি সন্নিহিত বাহু দ্বারা মানে ও দিকে সূচিত করা হয়, তবে ওই কৌণিক বিন্দু থেকে অঙ্কিত সামান্তরিকের কর্ণটি ভেক্টরদ্বয়ের লব্ধির মান ও দিক নির্দেশ করবে।",
-        "text_en": "If two vectors acting simultaneously on a particle are represented in magnitude and direction by the two adjacent sides of a parallelogram drawn from a point, then their resultant is represented in magnitude and direction by the diagonal of the parallelogram passing through that point."
+        "text_bn": "যদি কোনো কণার উপর একই সময়ে ক্রিয়ারত দুটি ভেক্টরকে (যারা একই বিন্দু থেকে বা co-initial) কোনো সামান্তরিকের একটি কৌণিক বিন্দু থেকে অঙ্কিত দুটি সন্নিহিত বাহু দ্বারা মানে ও দিকে সূচিত করা হয়, তবে ওই কৌণিক বিন্দু থেকে অঙ্কিত সামান্তরিকের কর্ণটি ভেক্টরদ্বয়ের লব্ধির মান ও দিক নির্দেশ করবে। অন্য কর্ণটি ভেক্টর দুইটির বিয়োগফল নির্দেশ করে।",
+        "text_en": "If two co-initial vectors acting simultaneously on a particle are represented in magnitude and direction by the two adjacent sides of a parallelogram drawn from a point, then their resultant is represented in magnitude and direction by the diagonal of the parallelogram passing through that point. The other diagonal represents the vector difference.",
+        "examples": [
+          {
+            "bn": "দুটি টান: একটি খুঁটিকে দুটি দড়ি দিয়ে যথাক্রমে ৩০° কোণে ১০ নিউটন ও ২০ নিউটন বলে টানা হলে, খুঁটিটি কোন দিকে ও কী পরিমাণ বল অনুভব করবে তা সামান্তরিক সূত্র দ্বারা নির্ণয় করা যায়।",
+            "en": "Two Pulls: If a pole is pulled by two ropes with forces of 10 N and 20 N at an angle of 30° to each other, the direction and magnitude of the resultant force felt by the pole can be determined using the parallelogram law."
+          },
+          {
+            "bn": "বিমান ও বাতাস: একটি বিমান পূর্ব দিকে $$ 500 \\text{ km/h} $$ বেগে চলার চেষ্টা করছে, কিন্তু বাতাস উত্তর-পূর্ব দিকে $$ 50 \\text{ km/h} $$ বেগে বইছে। ভূমির সাপেক্ষে বিমানের প্রকৃত বেগ ও দিক হবে এই দুটি বেগের সামান্তরিক সূত্রের লব্ধি।",
+            "en": "Airplane and Wind: An airplane tries to fly east at $$ 500 \\text{ km/h} $$, but the wind is blowing northeast at $$ 50 \\text{ km/h} $$. The plane's actual velocity and direction relative to the ground will be the resultant of these two velocities, found via the parallelogram law."
+          },
+          {
+            "bn": "ভেক্টর বিয়োগ: $$ \\vec{P} $$ ও $$ \\vec{Q} $$ ভেক্টর দ্বারা নির্মিত সামান্তরিকের যে কর্ণটি তাদের সাধারণ বিন্দু দিয়ে যায় তা লব্ধি $$ \\vec{R} = \\vec{P} + \\vec{Q} $$ নির্দেশ করে। অপর কর্ণটি ভেক্টর বিয়োগফল $$ \\vec{S} = \\vec{P} - \\vec{Q} $$ ( $$ \\vec{Q} $$ এর শীর্ষ থেকে $$ \\vec{P} $$ এর শীর্ষ পর্যন্ত) নির্দেশ করে।",
+            "en": "Vector Subtraction: In a parallelogram formed by vectors $$ \\vec{P} $$ and $$ \\vec{Q} $$, the diagonal passing through their common point represents the resultant $$ \\vec{R} = \\vec{P} + \\vec{Q} $$. The other diagonal represents the vector difference $$ \\vec{S} = \\vec{P} - \\vec{Q} $$ (from the head of $$ \\vec{Q} $$ to the head of $$ \\vec{P} $$)."
+          }
+        ]
       },
       {
         "type": "equation",
@@ -96,8 +138,8 @@
       {
         "type": "important",
         "title": "মান বনাম লব্ধির দিক",
-        "text_bn": "যদি দুটি ভেক্টরের মান অসমান হয়, তবে তাদের লব্ধি সবসময় বৃহত্তর মানের ভেক্টরটির দিকে বেশি ঝুঁকে থাকবে। অর্থাৎ, বৃহত্তর ভেক্টরের সাথে লব্ধির কোণ ক্ষুদ্রতর হবে।",
-        "text_en": "If two vectors have unequal magnitudes, their resultant will always lean towards the vector with the larger magnitude. This means the angle between the resultant and the larger vector will be smaller."
+        "text_bn": "যদি দুটি ভেক্টরের মান অসমান হয় (P > Q), তবে তাদের লব্ধি সবসময় বৃহত্তর মানের ভেক্টরটির (P) দিকে বেশি ঝুঁকে থাকবে। অর্থাৎ, বৃহত্তর ভেক্টরের সাথে লব্ধির কোণ (θ) ক্ষুদ্রতর হবে।",
+        "text_en": "If two vectors have unequal magnitudes (P > Q), their resultant will always lean towards the vector with the larger magnitude (P). This means the angle (θ) between the resultant and the larger vector will be smaller."
       }
     ]
   },
@@ -107,8 +149,22 @@
       {
         "type": "definition",
         "title": "ভেক্টর বিভাজন (Vector Resolution)",
-        "text_bn": "একটি ভেক্টর রাশিকে দুই বা ততোধিক ভেক্টর রাশিতে বিভক্ত করার প্রক্রিয়াকে ভেক্টর বিভাজন বলে। এই বিভক্ত অংশগুলোকে মূল ভেক্টরের উপাংশ (Component) বলা হয়, যাদের ভেক্টর যোগফল মূল ভেক্টরের সমান।",
-        "text_en": "The process of splitting a single vector into two or more vectors is called vector resolution. These split parts are known as the components, and their vector sum equals the original vector."
+        "text_bn": "একটি ভেক্টর রাশিকে দুই বা ততোধিক ভেক্টর রাশিতে বিভক্ত করার প্রক্রিয়াকে ভেক্টর বিভাজন বলে। এই বিভক্ত অংশগুলোকে মূল ভেক্টরের উপাংশ (Component) বলা হয়। উপাংশগুলোর ভেক্টর যোগফল সর্বদা মূল ভেক্টরের সমান হয় ($$\\vec{R} = \\vec{R}_x + \\vec{R}_y$$)। এটি মূলত ভেক্টর যোগের বিপরীত প্রক্রিয়া।",
+        "text_en": "The process of splitting a single vector into two or more vectors is called vector resolution. These split parts are known as the components. The vector sum of the components is always equal to the original vector ($$\\vec{R} = \\vec{R}_x + \\vec{R}_y$$). It is essentially the reverse process of vector addition.",
+        "examples": [
+          {
+            "bn": "নত তলে ওজন: একটি নত তলের উপর রাখা $$m$$ ভরের বস্তুর ওজন $$ \\vec{W} = m\\vec{g} $$ খাড়া নিচের দিকে কাজ করে। হিসাবের সুবিধার জন্য এই ওজন ভেক্টরকে দুটি উপাংশে ভাগ করা হয়: তলের সমান্তরাল ($$mg \\sin\\theta$$) এবং তলের উপর লম্ব ($$mg \\cos\\theta$$)।",
+            "en": "Weight on an Inclined Plane: The weight $$ \\vec{W} = m\\vec{g} $$ of an object of mass $$m$$ on an inclined plane acts vertically downwards. For ease of calculation, this weight vector is resolved into two components: parallel to the plane ($$mg \\sin\\theta$$) and perpendicular to the plane ($$mg \\cos\\theta$$)."
+          },
+          {
+            "bn": "লঞ্চার টানা: ঘাস কাটার যন্ত্র বা রোলারকে ঠেলার চেয়ে টানা সহজ। কারণ টানার সময় প্রযুক্ত বলের উল্লম্ব উপাংশ বস্তুর আপাত ওজন কমিয়ে দেয়, ফলে ঘর্ষণ কমে। কিন্তু ঠেলার সময় উল্লম্ব উপাংশ আপাত ওজন বাড়িয়ে দেয়।",
+            "en": "Pulling a Lawn Mower: It's easier to pull a lawn mower or roller than to push it. This is because when pulling, the vertical component of the applied force reduces the apparent weight of the object, thus reducing friction. But when pushing, the vertical component increases the apparent weight."
+          },
+          {
+            "bn": "প্রাসের গতি: একটি প্রাসকে $$ v_0 $$ বেগে $$ \\theta $$ কোণে নিক্ষেপ করলে এর গতিপথ বিশ্লেষণের জন্য আদিবেগকে একটি আনুভূমিক উপাংশ ($$v_x = v_0 \\cos\\theta$$) এবং একটি উল্লম্ব উপাংশে ($$v_y = v_0 \\sin\\theta$$) ভাগ করে নেওয়া হয়।",
+            "en": "Projectile Motion: When a projectile is thrown with an initial velocity $$ v_0 $$ at an angle $$ \\theta $$, its initial velocity is resolved into a horizontal component ($$v_x = v_0 \\cos\\theta$$) and a vertical component ($$v_y = v_0 \\sin\\theta$$) to analyze its trajectory."
+          }
+        ]
       },
       {
         "type": "important",
@@ -119,14 +175,28 @@
       {
         "type": "success",
         "title": "সূত্র মনে রাখার কৌশল",
-        "text_bn": "উপাংশটি যার 'সাথে' কোণ করে থাকে, তার জন্য 'cos' ব্যবহৃত হয়। অপর লম্ব উপাংশটির জন্য 'sin' ব্যবহৃত হয়।",
-        "text_en": "The component 'with' the angle uses 'cos', and the other perpendicular component uses 'sin'."
+        "text_bn": "উপাংশটি যার 'সাথে' কোণ করে থাকে, তার জন্য 'cos' ব্যবহৃত হয়। অপর লম্ব উপাংশটির জন্য 'sin' ব্যবহৃত হয়। সংক্ষেপে, 'কোণের সাথের উপাংশ cos' (যার সাথে কোণ, সে-ই cos)।",
+        "text_en": "The component 'with' the angle uses 'cos', and the other perpendicular component uses 'sin'. In short, 'the component adjacent to the angle is cosine'."
       },
       {
         "type": "definition",
         "title": "ভেক্টর বিভাজনের উদ্দেশ্য",
-        "text_bn": "ভেক্টর বিভাজন কোনো নির্দিষ্ট দিকে একটি ভেক্টরের প্রভাব বা অংশ বুঝতে সাহায্য করে। একবার একটি ভেক্টরকে তার উপাংশে বিভক্ত করা হলে, মূল ভেক্টরটিকে তার উপাংশ দ্বারা প্রতিস্থাপিত বলে মনে করা হয়।",
-        "text_en": "Vector resolution helps to understand the effect or influence of a vector along a specific direction. Once a vector is resolved into its components, the original vector is considered to be replaced by them."
+        "text_bn": "ভেক্টর বিভাজন কোনো নির্দিষ্ট দিকে একটি ভেক্টরের প্রভাব বা অংশ বুঝতে সাহায্য করে। জটিল দ্বিমাত্রিক বা ত্রিমাত্রিক সমস্যাকে একাধিক একমাত্রিক সমস্যায় রূপান্তর করে সমাধানকে সহজ করাই এর মূল উদ্দেশ্য। একবার একটি ভেক্টরকে তার উপাংশে বিভক্ত করা হলে, মূল ভেক্টরটিকে তার উপাংশ দ্বারা প্রতিস্থাপিত বলে মনে করা হয়।",
+        "text_en": "Vector resolution helps to understand the effect or portion of a vector along a specific direction. Its main purpose is to simplify complex 2D or 3D problems by converting them into multiple 1D problems. Once a vector is resolved into its components, the original vector is considered to be replaced by them.",
+        "examples": [
+          {
+            "bn": "কাজ নির্ণয়: যদি বল $$ \\vec{F} $$ এবং সরণ $$ \\vec{d} $$ একই দিকে না থাকে, তবে কাজ নির্ণয়ের জন্য বলের যে উপাংশটি সরণের দিকে ক্রিয়া করে ($$ F \\cos\\theta $$), শুধু সেটিই বিবেচনা করা হয়। তাই কাজ, $$W = (F \\cos\\theta)d$$।",
+            "en": "Calculating Work: If the force $$ \\vec{F} $$ and displacement $$ \\vec{d} $$ are not in the same direction, only the component of the force that acts in the direction of displacement ($$ F \\cos\\theta $$) is considered for calculating work. Thus, work, $$W = (F \\cos\\theta)d$$."
+          },
+          {
+            "bn": "বল সাম্যাবস্থা: কোনো বিন্দুতে একাধিক বল ক্রিয়া করে যদি কণাটি স্থির থাকে, তার অর্থ হলো x-অক্ষ বরাবর সকল বলের উপাংশের যোগফল শূন্য ($$\\sum F_x = 0$$) এবং y-অক্ষ বরাবর সকল বলের উপাংশের যোগফলও শূন্য ($$\\sum F_y = 0$$)।",
+            "en": "Force Equilibrium: If multiple forces act on a point and the particle remains stationary, it means the sum of the components of all forces along the x-axis is zero ($$\\sum F_x = 0$$) and the sum of the components along the y-axis is also zero ($$\\sum F_y = 0$$)."
+          },
+          {
+            "bn": "চৌম্বক বল: একটি চৌম্বক ক্ষেত্রে $$ \\vec{B} $$ গতিশীল চার্জের উপর প্রযুক্ত বল হলো $$ \\vec{F} = q(\\vec{v} \\times \\vec{B}) $$। এখানে বলের দিক ও মান নির্ণয়ের জন্য বেগের যে উপাংশটি চৌম্বক ক্ষেত্রের উপর লম্ব, সেটিই কার্যকর ভূমিকা পালন করে।",
+            "en": "Magnetic Force: The force on a moving charge in a magnetic field $$ \\vec{B} $$ is $$ \\vec{F} = q(\\vec{v} \\times \\vec{B}) $$. To find the magnitude and direction of the force, the component of velocity perpendicular to the magnetic field is the one that plays an effective role."
+          }
+        ]
       }
     ]
   },
@@ -136,8 +206,22 @@
       {
         "type": "definition",
         "title": "লম্বাংশ উপপাদ্য (Perpendicular Component Theorem)",
-        "text_bn": "দুইয়ের অধিক ভেক্টরের লব্ধি সহজে নির্ণয়ের জন্য এই উপপাদ্য ব্যবহার করা হয়। এর মূলনীতি হলো, লব্ধির যেকোনো দিকের উপাংশ হবে ঐ দিকে মূল ভেক্টরগুলোর উপাংশের বীজগাণিতিক যোগফলের সমান।",
-        "text_en": "This theorem is used to easily find the resultant of more than two vectors. Its principle states that the component of the resultant in any direction is equal to the algebraic sum of the components of the individual vectors in that same direction."
+        "text_bn": "দুইয়ের অধিক ভেক্টরের লব্ধি সহজে নির্ণয়ের জন্য এই উপপাদ্য ব্যবহার করা হয়। এর মূলনীতি হলো, কোনো একটি নির্দিষ্ট দিকে লব্ধি ভেক্টরের উপাংশ হবে ঐ একই দিকে প্রত্যেকটি ভেক্টরের উপাংশের বীজগাণিতিক যোগফলের সমান। সাধারণত পরস্পর লম্ব দুইটি অক্ষ (x ও y) বরাবর উপপাদ্যটি প্রয়োগ করা হয়।",
+        "text_en": "This theorem is used to easily find the resultant of more than two vectors. Its principle states that the component of the resultant vector in a particular direction is equal to the algebraic sum of the components of the individual vectors in that same direction. Usually, this theorem is applied along two perpendicular axes (x and y).",
+        "examples": [
+          {
+            "bn": "তিনটি বলের লব্ধি: একটি বিন্দুতে $$F_1, F_2, F_3$$ বল তিনটি ভিন্ন ভিন্ন কোণে ক্রিয়াশীল। তাদের লব্ধি নির্ণয়ের জন্য প্রথমে প্রতিটি বলের x ও y উপাংশ বের করা হয়। এরপর $$R_x = F_{1x} + F_{2x} + F_{3x}$$ এবং $$R_y = F_{1y} + F_{2y} + F_{3y}$$ হিসাব করা হয়।",
+            "en": "Resultant of Three Forces: Three forces $$F_1, F_2, F_3$$ act on a point at different angles. To find their resultant, first the x and y components of each force are calculated. Then, $$R_x = F_{1x} + F_{2x} + F_{3x}$$ and $$R_y = F_{1y} + F_{2y} + F_{3y}$$ are computed."
+          },
+          {
+            "bn": "কেন্দ্রমুখী বল: সুষম বৃত্তাকার পথে ঘূর্ণায়মান বস্তুর উপর ক্রিয়ারত সকল বলের (যেমন: সুতার টান, মহাকর্ষ বল) কেন্দ্রমুখী উপাংশগুলোর যোগফলই বস্তুটিকে প্রয়োজনীয় কেন্দ্রমুখী বল ($$F_c = mv^2/r$$) সরবরাহ করে।",
+            "en": "Centripetal Force: For an object in uniform circular motion, the sum of the centripetal components of all forces acting on it (e.g., tension, gravity) provides the necessary centripetal force ($$F_c = mv^2/r$$)."
+          },
+          {
+            "bn": "স্থিতিবিদ্যা: একটি কাঠামো বা ব্রীজের কোনো সংযোগস্থলে একাধিক মেম্বার থেকে আগত বলগুলোর x-উপাংশের যোগফল এবং y-উপাংশের যোগফল শূন্য ধরে সংযোগটির সাম্যাবস্থা বিশ্লেষণ করা হয়।",
+            "en": "Statics: The equilibrium of a joint in a truss or bridge is analyzed by assuming the sum of the x-components and the sum of the y-components of the forces from all members at that joint are zero."
+          }
+        ]
       },
       {
         "type": "equation",
@@ -161,20 +245,34 @@
       {
         "type": "definition",
         "title": "গুরুত্বপূর্ণ রাশি",
-        "text_bn": "D = নদীর প্রস্থ, u = স্রোতের বেগ, v = স্থির পানিতে নৌকার বেগ, α = u ও v এর মধ্যবর্তী কোণ, w = লব্ধি বেগ, θ = w ও u এর মধ্যবর্তী কোণ।",
-        "text_en": "D = River width, u = Current velocity, v = Boat velocity in still water, α = Angle between u and v, w = Resultant velocity, θ = Angle between w and u."
+        "text_bn": "এখানে কিছু আদর্শ রাশি ব্যবহার করা হয়। D = নদীর প্রস্থ (এক পাড় থেকে অন্য পাড়ের লম্ব দূরত্ব), u = স্রোতের বেগ (নদীর পাড়ের সমান্তরালে), v = স্থির পানিতে নৌকার বেগ বা সাঁতারুর বেগ (স্রোতের সাপেক্ষে নৌকার বেগ), α = u ও v এর মধ্যবর্তী কোণ, w = লব্ধি বেগ (ভূমির সাপেক্ষে নৌকার প্রকৃত বেগ), θ = লব্ধি বেগ w ও স্রোতের বেগ u এর মধ্যবর্তী কোণ।",
+        "text_en": "Some standard quantities are used here. D = River width (perpendicular distance from one bank to another), u = Current velocity (parallel to the river bank), v = Boat's velocity in still water or swimmer's velocity (velocity of the boat relative to the current), α = Angle between u and v, w = Resultant velocity (actual velocity of the boat relative to the ground), θ = Angle between the resultant velocity w and the current velocity u.",
+        "examples": [
+          {
+            "bn": "স্রোতের বেগ (u): যদি বলা হয় স্রোত পূর্ব দিকে ৫ কিমি/ঘন্টা বেগে বইছে, তবে $$ \\vec{u} = 5 \\hat{i} $$ (যদি পূর্ব দিক x-অক্ষ বরাবর ধরা হয়)।",
+            "en": "Velocity of Current (u): If it is said that the current is flowing east at 5 km/h, then $$ \\vec{u} = 5 \\hat{i} $$ (if the east direction is taken along the x-axis)."
+          },
+          {
+            "bn": "নৌকার বেগ (v): যদি নৌকা ১০ কিমি/ঘন্টা বেগে স্রোতের সাথে ১২০° কোণে চালানো হয়, তবে $$ v=10 $$ এবং $$ \\alpha = 120° $$। এটি স্থির পানিতে নৌকার সক্ষমতা নির্দেশ করে।",
+            "en": "Velocity of Boat (v): If the boat is steered at 10 km/h at an angle of 120° with the current, then $$ v=10 $$ and $$ \\alpha = 120° $$. This indicates the boat's capability in still water."
+          },
+          {
+            "bn": "লব্ধি বেগ (w): উপরের উদাহরণে, নৌকার প্রকৃত বেগ (লব্ধি) হবে $$ w = \\sqrt{u^2 + v^2 + 2uv \\cos \\alpha} = \\sqrt{5^2 + 10^2 + 2(5)(10) \\cos 120°} = \\sqrt{75} $$ কিমি/ঘন্টা।",
+            "en": "Resultant Velocity (w): In the above example, the actual velocity of the boat (resultant) would be $$ w = \\sqrt{u^2 + v^2 + 2uv \\cos \\alpha} = \\sqrt{5^2 + 10^2 + 2(5)(10) \\cos 120°} = \\sqrt{75} $$ km/h."
+          }
+        ]
       },
       {
         "type": "important",
         "title": "ন্যূনতম দূরত্বে নদী পারাপার (Shortest Distance Crossing)",
-        "text_bn": "ন্যূনতম দূরত্বে নদী পার হতে হলে নৌকাকে স্রোতের উজানে $$α = \\cos^{-1}(-u/v)$$ কোণে চালাতে হবে। এর জন্য শর্ত হলো $$v \\ge u$$।\nপারাপারের সময়: $$t = \\frac{d}{\\sqrt{v^2 - u^2}}$$",
-        "text_en": "To cross the river in the shortest distance, the boat must be steered upstream at an angle $$α = \\cos^{-1}(-u/v)$$. The condition for this is $$v \\ge u$$۔\nTime to cross: $$t = \\frac{d}{\\sqrt{v^2 - u^2}}$$"
+        "text_bn": "ন্যূনতম দূরত্বে অর্থাৎ, সোজাসুজি অপর পাড়ে পৌঁছাতে হলে লব্ধি বেগের দিক ($$\\vec{w}$$) হতে হবে নদীর পাড়ের উপর লম্ব। এর জন্য নৌকাকে স্রোতের উজানে $$α = \\cos^{-1}(-u/v)$$ কোণে চালাতে হবে। এর জন্য অপরিহার্য শর্ত হলো নৌকার বেগ স্রোতের বেগের চেয়ে বেশি বা সমান হতে হবে, অর্থাৎ $$v \\ge u$$।\nপারাপারের সময়: $$t = \\frac{d}{w} = \\frac{d}{\\sqrt{v^2 - u^2}}$$",
+        "text_en": "To cross in the shortest distance, i.e., to reach the point directly opposite, the direction of the resultant velocity ($$\\vec{w}$$) must be perpendicular to the river bank. For this, the boat must be steered upstream at an angle $$α = \\cos^{-1}(-u/v)$$. The essential condition for this is that the boat's speed must be greater than or equal to the current's speed, i.e., $$v \\ge u$$۔\nTime to cross: $$t = \\frac{d}{w} = \\frac{d}{\\sqrt{v^2 - u^2}}$$"
       },
       {
         "type": "important",
         "title": "ন্যূনতম সময়ে নদী পারাপার (Shortest Time Crossing)",
-        "text_bn": "ন্যূনতম সময়ে নদী পার হতে হলে নৌকাকে সরাসরি নদীর পাড়ের সাথে লম্বভাবে ($$\\alpha = 90°$$) চালাতে হবে।\nন্যূনতম সময়: $$t_{min} = \\frac{d}{v}$$ \nএই সময়ে নৌকাটি স্রোতের দিকে ভেসে যাবে, যাকে পার্শ্বীয় সরণ বলে: $$x = u \\times t_{min} = \\frac{ud}{v}$$",
-        "text_en": "To cross the river in the shortest time, the boat must be steered directly perpendicular to the river bank ($$\\alpha = 90°$$).\nMinimum time: $$t_{min} = \\frac{d}{v}$$ \nDuring this time, the boat will drift downstream by a distance known as sideways displacement: $$x = u \\times t_{min} = \\frac{ud}{v}$$"
+        "text_bn": "ন্যূনতম সময়ে নদী পার হতে হলে নৌকাকে তার বেগের উল্লম্ব উপাংশটি ($$v \\sin \\alpha$$) সর্বোচ্চ করতে হবে, যা $$\\alpha = 90°$$ তে সম্ভব। অর্থাৎ, নৌকাকে সরাসরি নদীর পাড়ের সাথে লম্বভাবে চালাতে হবে।\nন্যূনতম সময়: $$t_{min} = \\frac{d}{v \\sin 90°} = \\frac{d}{v}$$ \nএই সময়ে নৌকাটি স্রোতের দিকে ভেসে যাবে, যাকে পার্শ্বীয় সরণ বলে: $$x = u \\times t_{min} = \\frac{ud}{v}$$",
+        "text_en": "To cross the river in the shortest time, the boat must maximize the vertical component of its velocity ($$v \\sin \\alpha$$), which is possible at $$\\alpha = 90°$$. This means the boat must be steered directly perpendicular to the river bank.\nMinimum time: $$t_{min} = \\frac{d}{v \\sin 90°} = \\frac{d}{v}$$ \nDuring this time, the boat will drift downstream by a distance known as sideways displacement: $$x = u \\times t_{min} = \\frac{ud}{v}$$"
       }
     ]
   },
@@ -184,16 +282,30 @@
       {
         "type": "definition",
         "title": "আপেক্ষিক বেগ (Relative Velocity)",
-        "text_bn": "একটি গতিশীল পর্যবেক্ষকের সাপেক্ষে অন্য একটি গতিশীল বস্তুর বেগের পরিমাপ। A বস্তুর সাপেক্ষে B বস্তুর আপেক্ষিক বেগ হলো $$ \\vec{v}_{BA} = \\vec{v}_B - \\vec{v}_A $$। ভেক্টর বিয়োগ মানে হলো, পর্যবেক্ষকের বেগকে উল্টো করে অন্য ভেক্টরের সাথে যোগ করা।",
-        "text_en": "The velocity of a moving object as measured by a moving observer. The relative velocity of object B with respect to object A is $$ \\vec{v}_{BA} = \\vec{v}_B - \\vec{v}_A $$. Vector subtraction means adding the negative of the observer's vector to the other vector."
+        "text_bn": "কোনো একটি বস্তু বা পর্যবেক্ষকের সাপেক্ষে অন্য একটি গতিশীল বস্তুর বেগকে আপেক্ষিক বেগ বলে। A বস্তুর সাপেক্ষে B বস্তুর আপেক্ষিক বেগ হলো $$ \\vec{v}_{BA} = \\vec{v}_B - \\vec{v}_A $$। এখানে A হলো পর্যবেক্ষক এবং B হলো পর্যবেক্ষণাধীন বস্তু। ভেক্টর বিয়োগের নিয়ম অনুযায়ী, এটি $$ \\vec{v}_{BA} = \\vec{v}_B + (-\\vec{v}_A) $$ এর সমান। অর্থাৎ, পর্যবেক্ষকের বেগকে উল্টো করে পর্যবেক্ষণাধীন বস্তুর বেগের সাথে যোগ করতে হয়।",
+        "text_en": "The velocity of a moving object with respect to another object or observer is called relative velocity. The relative velocity of object B with respect to object A is $$ \\vec{v}_{BA} = \\vec{v}_B - \\vec{v}_A $$. Here, A is the observer and B is the observed object. According to vector subtraction rules, this is equivalent to $$ \\vec{v}_{BA} = \\vec{v}_B + (-\\vec{v}_A) $$. This means we add the negative of the observer's vector to the vector of the observed object.",
+        "examples": [
+          {
+            "bn": "একই দিকে চলমান ট্রেন: একটি ট্রেন A, $$ 60 \\text{ km/h} $$ বেগে এবং অপর ট্রেন B, $$ 40 \\text{ km/h} $$ বেগে একই দিকে চললে, A এর সাপেক্ষে B এর আপেক্ষিক বেগ হবে $$ v_{BA} = v_B - v_A = 40 - 60 = -20 \\text{ km/h} $$। অর্থাৎ, A ট্রেনের যাত্রীর মনে হবে B ট্রেনটি ২০ কিমি/ঘন্টা বেগে পেছনে যাচ্ছে।",
+            "en": "Trains in Same Direction: If train A is moving at $$ 60 \\text{ km/h} $$ and train B at $$ 40 \\text{ km/h} $$ in the same direction, the relative velocity of B with respect to A is $$ v_{BA} = v_B - v_A = 40 - 60 = -20 \\text{ km/h} $$. To a passenger in train A, train B will appear to be moving backwards at 20 km/h."
+          },
+          {
+            "bn": "বিপরীত দিকে চলমান ট্রেন: উপরের ট্রেন দুটি বিপরীত দিকে চললে, A এর সাপেক্ষে B এর আপেক্ষিক বেগ হবে $$ v_{BA} = v_B - (-v_A) = 40 - (-60) = 100 \\text{ km/h} $$ (যদি A এর দিককে ঋণাত্মক ধরা হয়)। মনে হবে ট্রেন দুটি প্রচণ্ড বেগে পরস্পরকে অতিক্রম করছে।",
+            "en": "Trains in Opposite Directions: If the two trains above move in opposite directions, the relative velocity of B with respect to A is $$ v_{BA} = v_B - (-v_A) = 40 - (-60) = 100 \\text{ km/h} $$ (if A's direction is considered negative). They will seem to pass each other at a very high speed."
+          },
+          {
+            "bn": "বিমান ও বাতাস: একটি বিমান বাতাসের সাপেক্ষে উত্তর দিকে $$ 300 \\text{ km/h} $$ বেগে চলছে ($$\\vec{v}_{aw}$$)। বাতাস ভূমির সাপেক্ষে পূর্ব দিকে $$ 50 \\text{ km/h} $$ বেগে বইছে ($$\\vec{v}_{wg}$$)। ভূমির সাপেক্ষে বিমানের বেগ হবে $$ \\vec{v}_{ag} = \\vec{v}_{aw} + \\vec{v}_{wg} $$।",
+            "en": "Airplane and Wind: An airplane is flying North at $$ 300 \\text{ km/h} $$ relative to the wind ($$\\vec{v}_{aw}$$). The wind is blowing East at $$ 50 \\text{ km/h} $$ relative to the ground ($$\\vec{v}_{wg}$$). The velocity of the airplane relative to the ground will be $$ \\vec{v}_{ag} = \\vec{v}_{aw} + \\vec{v}_{wg} $$."
+          }
+        ]
       },
       {
         "type": "example",
         "title": "উদাহরণ: বৃষ্টি ও ছাতার সমস্যা",
         "examples": [
           {
-            "bn": "প্রশ্ন: বৃষ্টি খাড়া নিচের দিকে $$v_R$$ বেগে পড়ছে। একজন ব্যক্তি আনুভূমিকভাবে $$v_M$$ বেগে চললে তাকে কোন দিকে ছাতা ধরতে হবে?\nউত্তর: ব্যক্তিকে বৃষ্টির আপেক্ষিক বেগের বিপরীতে ছাতা ধরতে হবে। আপেক্ষিক বেগ হলো $$ \\vec{v}_{RM} = \\vec{v}_R + (-\\vec{v}_M) $$। উল্লম্বের সাথে ছাতার কোণ $$ \\theta $$ হলে, $$ \\tan \\theta = v_M / v_R $$।",
-            "en": "Question: Rain is falling vertically with velocity $$v_R$$. A person is moving horizontally with velocity $$v_M$$. In which direction should they hold their umbrella?\nAnswer: The person must hold the umbrella against the relative velocity of the rain. The relative velocity is $$ \\vec{v}_{RM} = \\vec{v}_R + (-\\vec{v}_M) $$. If $$ \\theta $$ is the angle with the vertical, then $$ \\tan \\theta = v_M / v_R $$."
+            "bn": "প্রশ্ন: বৃষ্টি খাড়া নিচের দিকে $$v_R$$ বেগে পড়ছে। একজন ব্যক্তি আনুভূমিকভাবে $$v_M$$ বেগে চললে তাকে কোন দিকে ছাতা ধরতে হবে?\nউত্তর: ব্যক্তিকে বৃষ্টির আপেক্ষিক বেগের বিপরীতে ছাতা ধরতে হবে। ব্যক্তির সাপেক্ষে বৃষ্টির আপেক্ষিক বেগ হলো $$ \\vec{v}_{RM} = \\vec{v}_R - \\vec{v}_M = \\vec{v}_R + (-\\vec{v}_M) $$। উল্লম্বের সাথে ছাতার কোণ $$ \\theta $$ হলে, $$ \\tan \\theta = \\frac{|-\\vec{v}_M|}{|\\vec{v}_R|} = \\frac{v_M}{v_R} $$।",
+            "en": "Question: Rain is falling vertically with velocity $$v_R$$. A person is moving horizontally with velocity $$v_M$$. In which direction should they hold their umbrella?\nAnswer: The person must hold the umbrella against the relative velocity of the rain with respect to them. The relative velocity is $$ \\vec{v}_{RM} = \\vec{v}_R - \\vec{v}_M = \\vec{v}_R + (-\\vec{v}_M) $$. If $$ \\theta $$ is the angle with the vertical, then $$ \\tan \\theta = \\frac{|-\\vec{v}_M|}{|\\vec{v}_R|} = \\frac{v_M}{v_R} $$."
           }
         ]
       }
@@ -205,34 +317,76 @@
       {
         "type": "definition",
         "title": "স্কেলার বা ডট গুণন (Scalar / Dot Product)",
-        "text_bn": "দুটি ভেক্টরের যে গুণনে একটি স্কেলার রাশি পাওয়া যায়। এর জ্যামিতিক ব্যাখ্যা হলো একটি ভেক্টরের মান এবং তার উপর অন্য ভেক্টরের লম্ব অভিক্ষেপের গুণফল। দুটি ভেক্টর লম্ব হলে তাদের ডট গুণফল শূন্য হয়।",
-        "text_en": "The product of two vectors that results in a scalar quantity. Its geometric interpretation is the product of the magnitude of one vector and the scalar projection of the other vector onto it. The dot product of two perpendicular vectors is zero."
+        "text_bn": "দুটি ভেক্টরের যে গুণনের ফলে একটি স্কেলার রাশি পাওয়া যায়, তাকে স্কেলার বা ডট গুণন বলে। এর মান হলো ভেক্টর দুইটির মানের গুণফল এবং তাদের মধ্যবর্তী কোণের কোসাইনের (cosine) গুণফলের সমান। অর্থাৎ, $$ \\vec{A} \\cdot \\vec{B} = AB \\cos \\theta $$। এর জ্যামিতিক ব্যাখ্যা হলো একটি ভেক্টরের মান এবং তার উপর অন্য ভেক্টরের লম্ব অভিক্ষেপের মানের গুণফল। দুটি ভেক্টর পরস্পর লম্ব হলে ($$\\theta=90°$$) তাদের ডট গুণফল শূন্য হয়।",
+        "text_en": "The product of two vectors that results in a scalar quantity is called a scalar or dot product. Its value is equal to the product of the magnitudes of the two vectors and the cosine of the angle between them, i.e., $$ \\vec{A} \\cdot \\vec{B} = AB \\cos \\theta $$. Its geometric interpretation is the product of the magnitude of one vector and the magnitude of the scalar projection of the other vector onto it. The dot product of two perpendicular vectors ($$\\theta=90°$$) is zero.",
+        "examples": [
+          {
+            "bn": "কাজ নির্ণয়: পদার্থবিজ্ঞানে, বল $$ \\vec{F} $$ দ্বারা কৃত কাজ $$ W $$ যখন বস্তুর সরণ $$ \\vec{d} $$ হয়, তা হলো $$ W = \\vec{F} \\cdot \\vec{d} = Fd \\cos\\theta $$। এটি একটি স্কেলার রাশি।",
+            "en": "Calculating Work: In physics, the work $$ W $$ done by a force $$ \\vec{F} $$ causing a displacement $$ \\vec{d} $$ is given by $$ W = \\vec{F} \\cdot \\vec{d} = Fd \\cos\\theta $$. This is a scalar quantity."
+          },
+          {
+            "bn": "লম্বতা যাচাই: দুটি ভেক্টর $$ \\vec{A} = 2\\hat{i} + 3\\hat{j} $$ এবং $$ \\vec{B} = 3\\hat{i} - 2\\hat{j} $$ পরস্পর লম্ব কিনা তা যাচাই করার জন্য তাদের ডট গুণফল বের করা হয়: $$ \\vec{A} \\cdot \\vec{B} = (2)(3) + (3)(-2) = 6 - 6 = 0 $$। যেহেতু ডট গুণফল শূন্য, ভেক্টর দুটি পরস্পর লম্ব।",
+            "en": "Checking Perpendicularity: To check if two vectors $$ \\vec{A} = 2\\hat{i} + 3\\hat{j} $$ and $$ \\vec{B} = 3\\hat{i} - 2\\hat{j} $$ are perpendicular, their dot product is calculated: $$ \\vec{A} \\cdot \\vec{B} = (2)(3) + (3)(-2) = 6 - 6 = 0 $$. Since the dot product is zero, the vectors are perpendicular."
+          },
+          {
+            "bn": "লম্ব অভিক্ষেপ নির্ণয়: $$ \\vec{A} $$ ভেক্টরের উপর $$ \\vec{B} $$ ভেক্টরের লম্ব অভিক্ষেপের মান হলো $$ B \\cos\\theta = \\frac{\\vec{A} \\cdot \\vec{B}}{A} $$।",
+            "en": "Finding Scalar Projection: The magnitude of the scalar projection of vector $$ \\vec{B} $$ onto vector $$ \\vec{A} $$ is $$ B \\cos\\theta = \\frac{\\vec{A} \\cdot \\vec{B}}{A} $$."
+          }
+        ]
       },
       {
         "type": "equation",
         "title": "ডট গুণনের সূত্র",
         "equation": "\\vec{A} \\cdot \\vec{B} = AB \\cos \\theta = A_xB_x + A_yB_y + A_zB_z",
-        "description_bn": "এই সূত্র ব্যবহার করে দুটি ভেক্টরের মধ্যবর্তী কোণ নির্ণয় করা যায়।",
-        "description_en": "This formula is used to find the angle between two vectors."
+        "description_bn": "এই সূত্র ব্যবহার করে দুটি ভেক্টরের মধ্যবর্তী কোণ নির্ণয় করা যায়: $$ \\theta = \\cos^{-1}\\left( \\frac{\\vec{A} \\cdot \\vec{B}}{AB} \\right) $$।",
+        "description_en": "This formula can be used to find the angle between two vectors: $$ \\theta = \\cos^{-1}\\left( \\frac{\\vec{A} \\cdot \\vec{B}}{AB} \\right) $$."
       },
       {
         "type": "definition",
         "title": "ভেক্টর বা ক্রস গুণন (Vector / Cross Product)",
-        "text_bn": "দুটি ভেক্টরের যে গুণনে একটি নতুন ভেক্টর রাশি পাওয়া যায়। এর দিক ডানহাতি স্ক্রু নিয়ম দ্বারা নির্ণয় করা হয় এবং এটি উভয় ভেক্টরের তলের উপর লম্ব। দুটি ভেক্টর সমান্তরাল হলে তাদের ক্রস গুণফল শূন্য হয়।",
-        "text_en": "The product of two vectors that results in a new vector quantity. Its direction is determined by the right-hand rule and is perpendicular to the plane of both vectors. The cross product of two parallel vectors is zero."
+        "text_bn": "দুটি ভেক্টরের যে গুণনে একটি নতুন ভেক্টর রাশি পাওয়া যায়, তাকে ভেক্টর বা ক্রস গুণন বলে। নতুন এই ভেক্টরের মান হলো ভেক্টর দুইটির মানের গুণফল এবং তাদের মধ্যবর্তী কোণের সাইন (sine) এর গুণফলের সমান ($$ |\\vec{A} \\times \\vec{B}| = AB \\sin \\theta $$)। এর দিক ডানহাতি স্ক্রু নিয়ম দ্বারা নির্ণয় করা হয় এবং এটি উভয় মূল ভেক্টরের উপর লম্ব। দুটি ভেক্টর সমান্তরাল বা সমরেখ হলে ($$\\theta=0°$$ বা $$180°$$) তাদের ক্রস গুণফল একটি শূন্য ভেক্টর হয়।",
+        "text_en": "The product of two vectors that results in a new vector quantity is called a vector or cross product. The magnitude of this new vector is equal to the product of the magnitudes of the two vectors and the sine of the angle between them ($$ |\\vec{A} \\times \\vec{B}| = AB \\sin \\theta $$). Its direction is determined by the right-hand rule and is perpendicular to both original vectors. The cross product of two parallel or collinear vectors ($$\\theta=0°$$ or $$180°$$) is a null vector.",
+        "examples": [
+          {
+            "bn": "টর্ক নির্ণয়: ঘূর্ণন অক্ষ থেকে বলের প্রয়োগবিন্দুর অবস্থান ভেক্টর $$ \\vec{r} $$ এবং প্রযুক্ত বল $$ \\vec{F} $$ হলে, টর্ক $$ \\vec{\\tau} $$ হলো $$ \\vec{\\tau} = \\vec{r} \\times \\vec{F} $$। টর্কের দিক ঘূর্ণন তলের উপর লম্ব।",
+            "en": "Calculating Torque: If $$ \\vec{r} $$ is the position vector from the axis of rotation to the point of force application and $$ \\vec{F} $$ is the applied force, then the torque $$ \\vec{\\tau} $$ is $$ \\vec{\\tau} = \\vec{r} \\times \\vec{F} $$. The direction of the torque is perpendicular to the plane of rotation."
+          },
+          {
+            "bn": "সামান্তরিকের ক্ষেত্রফল: দুটি ভেক্টর $$ \\vec{A} $$ ও $$ \\vec{B} $$ যদি কোনো সামান্তরিকের দুটি সন্নিহিত বাহু নির্দেশ করে, তবে সামান্তরিকের ক্ষেত্রফল হবে $$ |\\vec{A} \\times \\vec{B}| $$।",
+            "en": "Area of a Parallelogram: If two vectors $$ \\vec{A} $$ and $$ \\vec{B} $$ represent the adjacent sides of a parallelogram, then the area of the parallelogram is $$ |\\vec{A} \\times \\vec{B}| $$."
+          },
+          {
+            "bn": "সমান্তরালতা যাচাই: দুটি ভেক্টর $$ \\vec{A} = 2\\hat{i} + 4\\hat{j} $$ এবং $$ \\vec{B} = 4\\hat{i} + 8\\hat{j} $$ সমান্তরাল কিনা তা যাচাই করার জন্য তাদের ক্রস গুণফল বের করা হয়। এখানে দেখা যাচ্ছে $$ \\vec{B} = 2\\vec{A} $$। তাই $$ \\vec{A} \\times \\vec{B} = \\vec{A} \\times (2\\vec{A}) = 2(\\vec{A} \\times \\vec{A}) = 0 $$। সুতরাং ভেক্টর দুটি সমান্তরাল।",
+            "en": "Checking Parallelism: To check if two vectors $$ \\vec{A} = 2\\hat{i} + 4\\hat{j} $$ and $$ \\vec{B} = 4\\hat{i} + 8\\hat{j} $$ are parallel, their cross product is calculated. Here, we can see that $$ \\vec{B} = 2\\vec{A} $$. Therefore, $$ \\vec{A} \\times \\vec{B} = \\vec{A} \\times (2\\vec{A}) = 2(\\vec{A} \\times \\vec{A}) = 0 $$. Thus, the vectors are parallel."
+          }
+        ]
       },
       {
         "type": "equation",
         "title": "ক্রস গুণনের মান ও ব্যবহার",
         "equation": "|\\vec{A} \\times \\vec{B}| = AB \\sin \\theta",
-        "description_bn": "এর মান দ্বারা দুটি ভেক্টর দ্বারা গঠিত সামান্তরিকের ক্ষেত্রফল নির্ণয় করা যায়। ত্রিভুজের ক্ষেত্রফল এর অর্ধেক।",
-        "description_en": "Its magnitude can be used to calculate the area of the parallelogram formed by the two vectors. The area of a triangle is half of this value."
+        "description_bn": "এর মান দ্বারা দুটি ভেক্টর দ্বারা গঠিত সামান্তরিকের ক্ষেত্রফল নির্ণয় করা যায়। ওই ভেক্টর দুটি দ্বারা গঠিত ত্রিভুজের ক্ষেত্রফল এর অর্ধেক, অর্থাৎ $$ \\frac{1}{2} |\\vec{A} \\times \\vec{B}| $$।",
+        "description_en": "Its magnitude can be used to calculate the area of the parallelogram formed by the two vectors. The area of a triangle formed by those vectors is half of this value, i.e., $$ \\frac{1}{2} |\\vec{A} \\times \\vec{B}| $$."
       },
       {
         "type": "definition",
         "title": "স্কেলার ট্রিপল প্রোডাক্ট",
-        "text_bn": "তিনটি ভেক্টরের স্কেলার ট্রিপল প্রোডাক্ট $$|\\vec{A} \\cdot (\\vec{B} \\times \\vec{C})|$$ দ্বারা তাদের দ্বারা গঠিত সামন্তরিক ঘনবস্তুর (parallelepiped) আয়তন নির্ণয় করা হয়। এর মান শূন্য হলে, ভেক্টর তিনটি একই তলে (coplanar) অবস্থান করে।",
-        "text_en": "The scalar triple product of three vectors, $$|\\vec{A} \\cdot (\\vec{B} \\times \\vec{C})|$$, determines the volume of the parallelepiped formed by them. If its value is zero, the three vectors are coplanar."
+        "text_bn": "তিনটি ভেক্টরের স্কেলার ট্রিপল প্রোডাক্ট হলো একটি ভেক্টরের সাথে অপর দুটি ভেক্টরের ক্রস গুণফলের ডট গুণন, যেমন $$ \\vec{A} \\cdot (\\vec{B} \\times \\vec{C}) $$। এর মান দ্বারা ভেক্টর তিনটি দ্বারা গঠিত সামন্তরিক ঘনবস্তুর (parallelepiped) আয়তন নির্ণয় করা হয়। এর মান শূন্য হলে, ভেক্টর তিনটি একই তলে (coplanar) অবস্থান করে।",
+        "text_en": "The scalar triple product of three vectors is the dot product of one vector with the cross product of the other two, such as $$ \\vec{A} \\cdot (\\vec{B} \\times \\vec{C}) $$. Its magnitude, $$ |\\vec{A} \\cdot (\\vec{B} \\times \\vec{C})| $$, determines the volume of the parallelepiped formed by the three vectors. If its value is zero, the three vectors are coplanar.",
+        "examples": [
+          {
+            "bn": "ঘনবস্তুর আয়তন নির্ণয়: তিনটি ভেক্টর $$ \\vec{A} = \\hat{i} $$, $$ \\vec{B} = \\hat{j} $$, $$ \\vec{C} = \\hat{k} $$ দ্বারা গঠিত সামন্তরিক ঘনবস্তুর (একটি একক ঘনক) আয়তন হলো $$ |\\hat{i} \\cdot (\\hat{j} \\times \\hat{k})| = |\\hat{i} \\cdot \\hat{i}| = 1 $$ ঘন একক।",
+            "en": "Volume of a Parallelepiped: The volume of the parallelepiped (a unit cube) formed by the three vectors $$ \\vec{A} = \\hat{i} $$, $$ \\vec{B} = \\hat{j} $$, and $$ \\vec{C} = \\hat{k} $$ is $$ |\\hat{i} \\cdot (\\hat{j} \\times \\hat{k})| = |\\hat{i} \\cdot \\hat{i}| = 1 $$ cubic unit."
+          },
+          {
+            "bn": "সমতলীয়তা যাচাই: $$ \\vec{A} = \\hat{i} + \\hat{j} $$, $$ \\vec{B} = \\hat{j} + \\hat{k} $$, এবং $$ \\vec{C} = 2\\hat{j} + \\hat{k} $$ ভেক্টর তিনটি সমতলীয় কিনা যাচাই করতে $$ \\vec{A} \\cdot (\\vec{B} \\times \\vec{C}) $$ নির্ণয় করা হয়। $$ \\vec{B} \\times \\vec{C} = -\\hat{i} + 2\\hat{j} - 2\\hat{k} $$ এবং $$ \\vec{A} \\cdot (\\vec{B} \\times \\vec{C}) = -1+2 = 1 \\neq 0 $$। সুতরাং এরা সমতলীয় নয়।",
+            "en": "Checking Coplanarity: To check if the vectors $$ \\vec{A} = \\hat{i} + \\hat{j} $$, $$ \\vec{B} = \\hat{j} + \\hat{k} $$, and $$ \\vec{C} = 2\\hat{j} + \\hat{k} $$ are coplanar, $$ \\vec{A} \\cdot (\\vec{B} \\times \\vec{C}) $$ is calculated. $$ \\vec{B} \\times \\vec{C} = -\\hat{i} + 2\\hat{j} - 2\\hat{k} $$ and $$ \\vec{A} \\cdot (\\vec{B} \\times \\vec{C}) = -1+2 = 1 \\neq 0 $$. So they are not coplanar."
+          },
+          {
+            "bn": "চতুস্তলকের আয়তন: $$ \\vec{A}, \\vec{B}, \\vec{C} $$ ভেক্টর তিনটি দ্বারা গঠিত চতুস্তলকের (tetrahedron) আয়তন হলো $$ \\frac{1}{6} |\\vec{A} \\cdot (\\vec{B} \\times \\vec{C})| $$।",
+            "en": "Volume of a Tetrahedron: The volume of the tetrahedron formed by the three vectors $$ \\vec{A}, \\vec{B}, \\vec{C} $$ is $$ \\frac{1}{6} |\\vec{A} \\cdot (\\vec{B} \\times \\vec{C})| $$."
+          }
+        ]
       }
     ]
   },
@@ -242,8 +396,22 @@
       {
         "type": "definition",
         "title": "ন্যাবলা অপারেটর (Nabla Operator, ∇)",
-        "text_bn": "এটি একটি ভেক্টর ডিফারেনশিয়াল অপারেটর, যা স্কেলার ও ভেক্টর ক্ষেত্রের উপর কাজ করে। $$∇ = \\hat{i} \\frac{\\partial}{\\partial x} + \\hat{j} \\frac{\\partial}{\\partial y} + \\hat{k} \\frac{\\partial}{\\partial z}$$",
-        "text_en": "This is a vector differential operator that acts on scalar and vector fields. $$∇ = \\hat{i} \\frac{\\partial}{\\partial x} + \\hat{j} \\frac{\\partial}{\\partial y} + \\hat{k} \\frac{\\partial}{\\partial z}$$"
+        "text_bn": "এটি একটি ভেক্টর ডিফারেনশিয়াল অপারেটর, যা স্কেলার ও ভেক্টর ক্ষেত্রের উপর কাজ করে তাদের পরিবর্তন পরিমাপ করে। এটি নিজে কোনো রাশি নয়, বরং একটি গাণিতিক নির্দেশক। কার্তেসীয় স্থানাঙ্ক ব্যবস্থায়, $$∇ = \\hat{i} \\frac{\\partial}{\\partial x} + \\hat{j} \\frac{\\partial}{\\partial y} + \\hat{k} \\frac{\\partial}{\\partial z}$$।",
+        "text_en": "This is a vector differential operator that acts on scalar and vector fields to measure their variations. It is not a quantity itself, but a mathematical instruction. In Cartesian coordinates, $$∇ = \\hat{i} \\frac{\\partial}{\\partial x} + \\hat{j} \\frac{\\partial}{\\partial y} + \\hat{k} \\frac{\\partial}{\\partial z}$$",
+        "examples": [
+          {
+            "bn": "গ্রেডিয়েন্ট: একটি স্কেলার ক্ষেত্র $$ \\Phi(x,y,z) $$ এর উপর ন্যাবলা অপারেটর প্রয়োগ করলে একটি ভেক্টর ক্ষেত্র পাওয়া যায়, $$ \\text{grad} \\Phi = \\nabla \\Phi $$।",
+            "en": "Gradient: Applying the Nabla operator on a scalar field $$ \\Phi(x,y,z) $$ yields a vector field, $$ \\text{grad} \\Phi = \\nabla \\Phi $$."
+          },
+          {
+            "bn": "ডাইভারজেন্স: একটি ভেক্টর ক্ষেত্র $$ \\vec{A} $$ এর সাথে ন্যাবলা অপারেটরের ডট গুণন করলে একটি স্কেলার ক্ষেত্র পাওয়া যায়, $$ \\text{div} \\vec{A} = \\nabla \\cdot \\vec{A} $$।",
+            "en": "Divergence: The dot product of the Nabla operator with a vector field $$ \\vec{A} $$ yields a scalar field, $$ \\text{div} \\vec{A} = \\nabla \\cdot \\vec{A} $$."
+          },
+          {
+            "bn": "কার্ল: একটি ভেক্টর ক্ষেত্র $$ \\vec{A} $$ এর সাথে ন্যাবলা অপারেটরের ক্রস গুণন করলে একটি নতুন ভেক্টর ক্ষেত্র পাওয়া যায়, $$ \\text{curl} \\vec{A} = \\nabla \\times \\vec{A} $$।",
+            "en": "Curl: The cross product of the Nabla operator with a vector field $$ \\vec{A} $$ yields a new vector field, $$ \\text{curl} \\vec{A} = \\nabla \\times \\vec{A} $$."
+          }
+        ]
       },
       {
         "type": "table",
@@ -257,21 +425,21 @@
         "rows": [
           [
             "গ্রেডিয়েন্ট (Gradient)<br> `grad Φ = ∇Φ`",
-            "স্কেলার ক্ষেত্র",
-            "ভেক্টর ক্ষেত্র",
-            "স্কেলার রাশির সর্বোচ্চ বৃদ্ধির হার ও দিক নির্দেশ করে।"
+            "স্কেলার ক্ষেত্র (Scalar Field)",
+            "ভেক্টর ক্ষেত্র (Vector Field)",
+            "স্কেলার রাশির সর্বোচ্চ বৃদ্ধির হার ও দিক নির্দেশ করে। যেমন, তাপমাত্রার গ্রেডিয়েন্ট তাপ প্রবাহের দিক দেখায়।"
           ],
           [
             "ডাইভারজেন্স (Divergence)<br> `div A = ∇ ⋅ A`",
-            "ভেক্টর ক্ষেত্র",
-            "স্কেলার ক্ষেত্র",
-            "কোনো বিন্দু থেকে ক্ষেত্রের নির্গমন বা প্রবাহ (flux) বোঝায়। শূন্য হলে সলিনয়েডাল (অসংকোচনীয়)।"
+            "ভেক্টর ক্ষেত্র (Vector Field)",
+            "স্কেলার ক্ষেত্র (Scalar Field)",
+            "কোনো বিন্দু থেকে ভেক্টর ক্ষেত্রের উৎসের তীব্রতা বা প্রবাহ (flux per unit volume) বোঝায়। ধনাত্মক হলে উৎস, ঋণাত্মক হলে সিঙ্ক। শূন্য হলে সলিনয়েডাল (অসংকোচনীয়)।"
           ],
           [
             "কার্ল (Curl)<br> `curl A = ∇ × A`",
-            "ভেক্টর ক্ষেত্র",
-            "ভেক্টর ক্ষেত্র",
-            "কোনো বিন্দুতে ক্ষেত্রের ঘূর্ণন প্রবণতা নির্দেশ করে। শূন্য হলে অঘূর্ণনশীল (irrotational) বা সংরক্ষণশীল।"
+            "ভেক্টর ক্ষেত্র (Vector Field)",
+            "ভেক্টর ক্ষেত্র (Vector Field)",
+            "কোনো বিন্দুতে ভেক্টর ক্ষেত্রের ঘূর্ণন প্রবণতা (circulation per unit area) নির্দেশ করে। শূন্য হলে অঘূর্ণনশীল (irrotational) বা সংরক্ষণশীল (conservative)।"
           ]
         ]
       }
