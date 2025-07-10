@@ -1,0 +1,574 @@
+{
+  "element-positioning": {
+    "title": "পর্যায় সারণীতে মৌলের অবস্থান নির্ণয়",
+    "blocks": [
+      {
+        "type": "definition",
+        "title": "অবস্থান নির্ণয়ের মূল ভিত্তি",
+        "text_bn": "কোনো মৌলের পর্যায় ও গ্রুপ সংখ্যা তার ইলেকট্রন বিন্যাস থেকে নির্ণয় করা হয়। শেষ ইলেকট্রনটি যে অরবিটালে প্রবেশ করে, সেটি মৌলের ব্লক নির্ধারণ করে এবং এর উপর ভিত্তি করে গ্রুপ সংখ্যা নির্ণয়ের নিয়ম ভিন্ন হয়। সর্ববহিঃস্থ শক্তিস্তরের প্রধান কোয়ান্টাম সংখ্যা (n) সর্বদা পর্যায় সংখ্যা নির্দেশ করে।",
+        "text_en": "The period and group number of an element are determined from its electron configuration. The orbital where the last electron enters determines the element's block, and based on this, the rules for determining the group number vary. The principal quantum number (n) of the outermost shell always indicates the period number.",
+        "examples": []
+      },
+      {
+        "type": "table",
+        "title": "ব্লক অনুযায়ী গ্রুপ নির্ণয়ের নিয়ম",
+        "headers": [
+          "ব্লক (Block)",
+          "গ্রুপ নির্ণয়ের নিয়ম (Rule for Group)",
+          "উদাহরণ (Example)"
+        ],
+        "rows": [
+          [
+            "s-ব্লক",
+            "সর্বশেষ শক্তিস্তরের s-অরবিটালের ইলেকট্রন সংখ্যাই গ্রুপ সংখ্যা। (Group No. = No. of electrons in valence s-orbital)",
+            "Mg (12) → [Ne] 3s². পর্যায়: 3, গ্রুপ: 2"
+          ],
+          [
+            "p-ব্লক",
+            "সর্বশেষ শক্তিস্তরের s ও p অরবিটালের মোট ইলেকট্রন সংখ্যার সাথে 10 যোগ করতে হয়। (Group No. = 10 + (s-electrons + p-electrons))",
+            "S (16) → [Ne] 3s²3p⁴. পর্যায়: 3, গ্রুপ: 10 + (2+4) = 16"
+          ],
+          [
+            "d-ব্লক",
+            "সর্বশেষ শক্তিস্তরের s-অরবিটাল এবং তার আগের শক্তিস্তরের d-অরবিটালের মোট ইলেকট্রন সংখ্যা। (Group No. = (n-1)d-electrons + ns-electrons)",
+            "Fe (26) → [Ar] 3d⁶4s². পর্যায়: 4, গ্রুপ: 6 + 2 = 8"
+          ],
+          [
+            "f-ব্লক",
+            "সকল f-ব্লক মৌল গ্রুপ 3-এর অন্তর্গত। পর্যায় হয় 6 (ল্যান্থানাইড) অথবা 7 (অ্যাকটিনাইড)। (All f-block elements are in Group 3)",
+            "Ce (58) → [Xe] 4f¹5d¹6s². পর্যায়: 6, গ্রুপ: 3"
+          ]
+        ]
+      }
+    ]
+  },
+  "sp-block-elements": {
+    "title": "s-ব্লক, p-ব্লক ও তাদের অক্সাইডের ধর্ম",
+    "blocks": [
+      {
+        "type": "definition",
+        "title": "s-ব্লক মৌল (s-block Elements)",
+        "text_bn": "গ্রুপ ১ (ক্ষার ধাতু) এবং গ্রুপ ২ (মৃৎক্ষার ধাতু) এর মৌলগুলো s-ব্লক ভুক্ত। এরা সাধারণত তীব্র তড়িৎ ধনাত্মক ধাতু, নরম এবং সক্রিয়। এরা পানির সাথে তীব্রভাবে বিক্রিয়া করে ক্ষার ও হাইড্রোজেন গ্যাস তৈরি করে। যেমন: $$2Na(s) + 2H_2O(l) \\rightarrow 2NaOH(aq) + H_2(g)$$",
+        "text_en": "Elements of Group 1 (alkali metals) and Group 2 (alkaline earth metals) belong to the s-block. They are typically highly electropositive, soft, and reactive metals. They react vigorously with water to form alkalis and hydrogen gas. E.g., $$2Na(s) + 2H_2O(l) \\rightarrow 2NaOH(aq) + H_2(g)$$",
+        "examples": []
+      },
+      {
+        "type": "definition",
+        "title": "p-ব্লক মৌল (p-block Elements)",
+        "text_bn": "গ্রুপ ১৩ থেকে ১৮ পর্যন্ত মৌলগুলো p-ব্লক ভুক্ত। এই ব্লকে ধাতু, অধাতু এবং অপধাতু—তিন ধরনের মৌলই বিদ্যমান। s-ব্লক ও p-ব্লক মৌলকে একত্রে প্রতিনিধিত্বকারী মৌল (Representative Elements) বলা হয়।",
+        "text_en": "Elements from Group 13 to 18 belong to the p-block. This block contains metals, non-metals, and metalloids. Together, s-block and p-block elements are called Representative Elements.",
+        "examples": []
+      },
+      {
+        "type": "table",
+        "title": "পর্যায় ৩ এর অক্সাইডের ধর্ম (Nature of Period 3 Oxides)",
+        "headers": [
+          "অক্সাইড (Oxide)",
+          "মৌল (Element)",
+          "ধরণ (Type)",
+          "ধর্ম (Nature)"
+        ],
+        "rows": [
+          [
+            "$$Na_2O$$",
+            "সোডিয়াম (Na)",
+            "ধাতব (Metallic)",
+            " তীব্র ক্ষারীয় (Strongly Basic)"
+          ],
+          [
+            "$$MgO$$",
+            "ম্যাগনেসিয়াম (Mg)",
+            "ধাতব (Metallic)",
+            "ক্ষারীয় (Basic)"
+          ],
+          [
+            "$$Al_2O_3$$",
+            "অ্যালুমিনিয়াম (Al)",
+            "ধাতব (Metallic)",
+            "উভধর্মী (Amphoteric)"
+          ],
+          [
+            "$$SiO_2$$",
+            "সিলিকন (Si)",
+            "অপধাতু (Metalloid)",
+            "অম্লীয় (Acidic)"
+          ],
+          [
+            "$$P_4O_{10}$$",
+            "ফসফরাস (P)",
+            "অধাতু (Non-metal)",
+            "তীব্র অম্লীয় (Strongly Acidic)"
+          ],
+          [
+            "$$SO_3$$",
+            "সালফার (S)",
+            "অধাতু (Non-metal)",
+            "তীব্র অম্লীয় (Strongly Acidic)"
+          ],
+          [
+            "$$Cl_2O_7$$",
+            "ক্লোরিন (Cl)",
+            "অধাতু (Non-metal)",
+            "তীব্রতম অম্লীয় (Very Strongly Acidic)"
+          ]
+        ]
+      },
+      {
+        "type": "important",
+        "title": "উভধর্মী অক্সাইড (Amphoteric Oxide)",
+        "text_bn": "যেসব অক্সাইড এসিড ও ক্ষার উভয়ের সাথে বিক্রিয়া করে লবণ ও পানি উৎপন্ন করে, তাদের উভধর্মী অক্সাইড বলে। যেমন, $$Al_2O_3$$।\nএসিডের সাথে: $$Al_2O_3 + 6HCl \\rightarrow 2AlCl_3 + 3H_2O$$ (এখানে ক্ষারক)\nক্ষারের সাথে: $$Al_2O_3 + 2NaOH \\rightarrow 2NaAlO_2 + H_2O$$ (এখানে এসিড)",
+        "text_en": "Oxides that react with both acids and bases to form salt and water are called amphoteric oxides. For example, $$Al_2O_3$$.\nWith acid: $$Al_2O_3 + 6HCl \\rightarrow 2AlCl_3 + 3H_2O$$ (acts as a base)\nWith base: $$Al_2O_3 + 2NaOH \\rightarrow 2NaAlO_2 + H_2O$$ (acts as an acid)"
+      }
+    ]
+  },
+  "p-block-special-topics": {
+    "title": "p-ব্লক মৌলের বিশেষ আলোচনা (হাইড্রোলাইসিস, ডাইমার)",
+    "blocks": [
+      {
+        "type": "definition",
+        "title": "আর্দ্র বিশ্লেষণ বা হাইড্রোলাইসিস (Hydrolysis)",
+        "text_bn": "এটি এমন একটি বিক্রিয়া যেখানে পানির অণু কোনো যৌগের সাথে বিক্রিয়া করে নতুন যৌগ তৈরি করে। p-ব্লকের হ্যালাইড যৌগের আর্দ্র বিশ্লেষণের জন্য কেন্দ্রীয় পরমাণুর ফাঁকা d-অরবিটাল থাকা প্রয়োজন।",
+        "text_en": "This is a reaction where water molecules react with a compound to form new compounds. For hydrolysis of p-block halides, the central atom must have a vacant d-orbital.",
+        "examples": []
+      },
+      {
+        "type": "example",
+        "title": "হাইড্রোলাইসিসের উদাহরণ",
+        "examples": [
+          {
+            "bn": "প্রশ্ন: $$SiCl_4$$ আর্দ্র বিশ্লেষিত হয় কিন্তু $$CCl_4$$ হয় না কেন?\nউত্তর: $$Si$$ (সিলিকন) ৩য় পর্যায়ের মৌল হওয়ায় এর ফাঁকা 3d অরবিটাল আছে। তাই পানির নিঃসঙ্গ জোড় ইলেকট্রন $$Si$$-এর d-অরবিটালে প্রবেশ করে বিক্রিয়া শুরু করতে পারে। কিন্তু C (কার্বন) ২য় পর্যায়ের মৌল, এর কোনো d-অরবিটাল নেই। তাই $$CCl_4$$ হাইড্রোলাইসিস বিক্রিয়া দেয় না।",
+            "en": "Question: Why is $$SiCl_4$$ hydrolyzed but $$CCl_4$$ is not?\nAnswer: Si (Silicon) is a Period 3 element, so it has vacant 3d orbitals. Thus, the lone pair electrons of water can enter the d-orbital of Si to initiate the reaction. However, C (Carbon) is a Period 2 element and has no d-orbitals. Therefore, $$CCl_4$$ does not undergo hydrolysis."
+          }
+        ]
+      },
+      {
+        "type": "definition",
+        "title": "অ্যালুমিনিয়াম ক্লোরাইড ডাইমার (Aluminum Chloride Dimer)",
+        "text_bn": "সাধারণ অবস্থায় $$AlCl_3$$ একটি পলিমারিক কঠিন। কিন্তু গ্যাসীয় অবস্থায় বা অ-পোলার দ্রাবকে এটি ডাইমার ($$Al_2Cl_6$$) হিসেবে অবস্থান করে। এক্ষেত্রে, একটি $$AlCl_3$$ অণুর ক্লোরিন পরমাণু তার নিঃসঙ্গ ইলেকট্রন জোড় দিয়ে অন্য $$Al$$ পরমাণুর অষ্টক অপূর্ণতা দূর করার জন্য সন্নিবেশ সমযোজী বন্ধন গঠন করে।",
+        "text_en": "Under normal conditions, $$AlCl_3$$ is a polymeric solid. But in the gaseous state or in non-polar solvents, it exists as a dimer ($$Al_2Cl_6$$). In this structure, a chlorine atom from one $$AlCl_3$$ molecule donates its lone pair of electrons to form a coordinate covalent bond with the electron-deficient Al atom of another molecule, helping it complete its octet.",
+        "examples": []
+      }
+    ]
+  },
+  "d-block-transition-elements": {
+    "title": "d-ব্লক ও অবস্থান্তর মৌল",
+    "blocks": [
+      {
+        "type": "definition",
+        "title": "d-ব্লক মৌল (d-block Elements)",
+        "text_bn": "যেসব মৌলের ইলেকট্রন বিন্যাসে সর্বশেষ ইলেকট্রনটি (n-1)d অরবিটালে প্রবেশ করে, তাদেরকে d-ব্লক মৌল বলে। এরা পর্যায় সারণির গ্রুপ ৩ থেকে ১২ পর্যন্ত বিস্তৃত।",
+        "text_en": "Elements whose electron configuration has the last electron entering the (n-1)d orbital are called d-block elements. They span from Group 3 to 12 in the periodic table.",
+        "examples": []
+      },
+      {
+        "type": "definition",
+        "title": "অবস্থান্তর মৌল (Transition Elements)",
+        "text_bn": "d-ব্লক মৌলসমূহের মধ্যে যাদের কোনো সুস্থিত আয়নের ইলেকট্রন বিন্যাসে d-অরবিটাল আংশিকভাবে পূর্ণ থাকে (d¹ থেকে d⁹), তাদেরকে অবস্থান্তর মৌল বলে।",
+        "text_en": "Among the d-block elements, those that have a stable ion with a partially filled d-orbital (d¹ to d⁹) are called transition elements.",
+        "examples": []
+      },
+      {
+        "type": "important",
+        "title": "সকল অবস্থান্তর মৌল d-ব্লক, কিন্তু সকল d-ব্লক মৌল অবস্থান্তর নয়",
+        "text_bn": "জিংক (Zn), ক্যাডমিয়াম (Cd), মার্কারি (Hg) এবং স্ক্যান্ডিয়াম (Sc) d-ব্লক মৌল হলেও অবস্থান্তর মৌল নয়।\nকারণ: Zn, Cd, Hg-এর সুস্থিত আয়নে ($$Zn^{2+}$$, $$Cd^{2+}$$) d-অরবিটাল সম্পূর্ণ পূর্ণ ($$d^{10}$$) থাকে। অন্যদিকে, স্ক্যান্ডিয়ামের সুস্থিত আয়নে ($$Sc^{3+}$$) d-অরবিটাল সম্পূর্ণ ফাঁকা ($$d^0$$) থাকে।",
+        "text_en": "All transition elements are d-block, but not all d-block elements are transition elements.\nReason: Zinc (Zn), Cadmium (Cd), Mercury (Hg), and Scandium (Sc) are d-block elements but not transition elements. This is because the stable ions of Zn, Cd, Hg ($$Zn^{2+}$$, $$Cd^{2+}$$) have completely filled d-orbitals ($$d^{10}$$). On the other hand, the stable ion of Scandium ($$Sc^{3+}$$) has a completely empty d-orbital ($$d^0$$)."
+      }
+    ]
+  },
+  "transition-element-properties": {
+    "title": "অবস্থান্তর মৌলের বৈশিষ্ট্য",
+    "blocks": [
+      {
+        "type": "definition",
+        "title": "১. পরিবর্তনশীল জারণ অবস্থা (Variable Oxidation States)",
+        "text_bn": "অবস্থান্তর মৌলগুলোর (n-1)d এবং ns অরবিটালের শক্তির পার্থক্য খুব কম হওয়ায় এরা প্রয়োজনে উভয় অরবিটালের ইলেকট্রন বন্ধন গঠনে ব্যবহার করতে পারে। একারণে এরা একাধিক জারণ অবস্থা প্রদর্শন করে। যেমন: Fe দেখায় +2, +3; Cu দেখায় +1, +2।",
+        "text_en": "The energy difference between the (n-1)d and ns orbitals of transition elements is very small, allowing them to use electrons from both orbitals for bonding. This is why they exhibit multiple oxidation states. E.g., Fe shows +2, +3; Cu shows +1, +2.",
+        "examples": []
+      },
+      {
+        "type": "definition",
+        "title": "২. রঙিন যৌগ গঠন (Formation of Colored Compounds)",
+        "text_bn": "আংশিক পূর্ণ d-অরবিটাল থাকায় লিগ্যান্ডের প্রভাবে এদের d-অরবিটাল দুটি ভিন্ন শক্তিস্তরে (t₂g ও eg) বিভক্ত হয়। দৃশ্যমান আলোর উপস্থিতিতে ইলেকট্রন নিম্ন শক্তিস্তর (t₂g) থেকে শক্তি শোষণ করে উচ্চ শক্তিস্তরে (eg) যায় (d-d স্থানান্তর)। শোষিত আলোর পরিপূরক (complementary) বর্ণের আলো বিকিরিত হয়, ফলে যৌগকে রঙিন দেখায়। d⁰ বা d¹⁰ বিন্যাসযুক্ত আয়ন (যেমন- $$Zn^{2+}$$, $$Sc^{3+}$$) বর্ণহীন যৌগ গঠন করে।",
+        "text_en": "Due to partially filled d-orbitals, in the presence of ligands, their d-orbitals split into two different energy levels (t₂g and eg). In the presence of visible light, electrons absorb energy and jump from the lower energy level (t₂g) to the higher one (eg) (d-d transition). The complementary color of the absorbed light is emitted, making the compound appear colored. Ions with d⁰ or d¹⁰ configuration (e.g., $$Zn^{2+}$$, $$Sc^{3+}$$) form colorless compounds.",
+        "examples": []
+      },
+      {
+        "type": "definition",
+        "title": "৩. চৌম্বক ধর্ম (Magnetic Properties)",
+        "text_bn": "বিজোড় d-ইলেকট্রনের উপস্থিতির কারণে অধিকাংশ অবস্থান্তর মৌল ও তাদের যৌগ প্যারাম্যাগনেটিক (চুম্বক ক্ষেত্র দ্বারা আকর্ষিত) হয়। যে সব যৌগে সকল ইলেকট্রন জোড়বদ্ধ থাকে তারা ডায়াম্যাগনেটিক (চুম্বক ক্ষেত্র দ্বারা বিকর্ষিত) হয়। আয়রন (Fe), কোবাল্ট (Co), নিকেল (Ni) ফেরোম্যাগনেটিক (তীব্রভাবে আকর্ষিত) ধর্ম প্রদর্শন করে।",
+        "text_en": "Due to the presence of unpaired d-electrons, most transition elements and their compounds are paramagnetic (attracted by a magnetic field). Compounds where all electrons are paired are diamagnetic (repelled by a magnetic field). Iron (Fe), Cobalt (Co), and Nickel (Ni) exhibit ferromagnetism (strongly attracted).",
+        "examples": []
+      },
+      {
+        "type": "definition",
+        "title": "৪. জটিল যৌগ গঠন (Formation of Complex Compounds)",
+        "text_bn": "অবস্থান্তর মৌলের কেন্দ্রীয় ধাতব আয়নের ছোট আকার, উচ্চ চার্জ এবং ফাঁকা d-অরবিটালের উপস্থিতির কারণে এরা লিগ্যান্ড (প্রশান্তি বা অ্যানায়ন যারা ইলেকট্রন জোড় দান করে) থেকে ইলেকট্রন জোড় গ্রহণ করে সন্নিবেশ সমযোজী বন্ধনের মাধ্যমে জটিল যৌগ গঠন করে। যেমন: $$[Fe(CN)_6]^{4-}, [Cu(NH_3)_4]^{2+}$$।",
+        "text_en": "Due to the small size, high charge, and presence of vacant d-orbitals of the central metal ion, transition metals can accept electron pairs from ligands (neutral molecules or anions that donate electron pairs) to form complex compounds via coordinate covalent bonds. E.g., $$[Fe(CN)_6]^{4-}, [Cu(NH_3)_4]^{2+}$$.",
+        "examples": []
+      },
+      {
+        "type": "definition",
+        "title": "৫. প্রভাবন ধর্ম (Catalytic Activity)",
+        "text_bn": "অবস্থান্তর মৌলসমূহ তাদের পরিবর্তনশীল জারণ অবস্থা এবং পৃষ্ঠতলে সক্রিয় কেন্দ্র (active sites) সৃষ্টির ক্ষমতার জন্য উৎকৃষ্ট প্রভাবক হিসেবে কাজ করে। যেমন: হেবার-বস পদ্ধতিতে $$NH_3$$ উৎপাদনে Fe চূর্ণ, অстваল্ড পদ্ধতিতে $$HNO_3$$ উৎপাদনে Pt-Rh প্রভাবক হিসেবে ব্যবহৃত হয়।",
+        "text_en": "Transition elements act as excellent catalysts due to their variable oxidation states and the ability to provide active sites on their surface. E.g., Fe powder in the Haber-Bosch process for $$NH_3$$ production, and Pt-Rh in the Ostwald process for $$HNO_3$$ production.",
+        "examples": []
+      }
+    ]
+  },
+  "f-block-elements": {
+    "title": "f-ব্লক মৌল",
+    "blocks": [
+      {
+        "type": "definition",
+        "title": "ল্যান্থানাইড ও অ্যাকটিনাইড সিরিজ (Lanthanide & Actinide Series)",
+        "text_bn": "যেসব মৌলের ইলেকট্রন বিন্যাসে সর্বশেষ ইলেকট্রনটি f-অরবিটালে প্রবেশ করে, তারা f-ব্লক মৌল। এদেরকে পর্যায় সারণির নিচে দুটি আলাদা সারিতে দেখানো হয়।\n**ল্যান্থানাইড সিরিজ (Lanthanide Series):** পারমাণবিক সংখ্যা 58 (Ce) থেকে 71 (Lu) পর্যন্ত মৌল। এরা ৬ষ্ঠ পর্যায়ের অন্তর্গত।\n**অ্যাকটিনাইড সিরিজ (Actinide Series):** পারমাণবিক সংখ্যা 90 (Th) থেকে 103 (Lr) পর্যন্ত মৌল। এরা ৭ম পর্যায়ের অন্তর্গত এবং অধিকাংশই তেজস্ক্রিয়।",
+        "text_en": "Elements whose electron configuration has the last electron entering the f-orbital are f-block elements. They are shown in two separate rows below the main periodic table.\n**Lanthanide Series:** Elements with atomic numbers from 58 (Ce) to 71 (Lu). They belong to the 6th period.\n**Actinide Series:** Elements with atomic numbers from 90 (Th) to 103 (Lr). They belong to the 7th period and are mostly radioactive.",
+        "examples": []
+      }
+    ]
+  },
+  "periodic-atomic-size": {
+    "title": "পারমাণবিক আকার (Atomic Size)",
+    "blocks": [
+      {
+        "type": "definition",
+        "title": "সাধারণ প্রবণতা (General Trend)",
+        "text_bn": "১. **একই গ্রুপে (In a Group):** উপর থেকে নিচে গেলে নতুন শক্তিস্তর যুক্ত হওয়ায় পারমাণবিক আকার বৃদ্ধি পায়।\n২. **একই পর্যায়ে (In a Period):** বাম থেকে ডানে গেলে নিউক্লিয়াসে প্রোটন সংখ্যা বাড়ে, ফলে ইলেকট্রনের প্রতি নিউক্লিয়াসের আকর্ষণ বাড়ে এবং আকার হ্রাস পায়।",
+        "text_en": "1. **In a Group:** Atomic size increases from top to bottom as new electron shells are added.\n2. **In a Period:** Atomic size decreases from left to right as the number of protons in the nucleus increases, leading to a stronger nuclear attraction for electrons, thus shrinking the atom.",
+        "examples": []
+      },
+      {
+        "type": "example",
+        "title": "আইসোইলেকট্রনিক আয়নের আকার (Size of Isoelectronic Ions)",
+        "examples": [
+          {
+            "bn": "প্রশ্ন: $$N^{3-}, O^{2-}, F^-, Na^+, Mg^{2+}$$ আয়নগুলোকে আকারের ক্রম অনুসারে সাজাও।\nউত্তর: এরা সবাই আইসোইলেকট্রনিক (সবার 10টি ইলেকট্রন আছে)। যার নিউক্লিয়াসে প্রোটন সংখ্যা সবচেয়ে বেশি, তার আকর্ষণ বল সবচেয়ে বেশি হবে এবং আকার সবচেয়ে ছোট হবে। প্রোটন সংখ্যা: N(7), O(8), F(9), Na(11), Mg(12)।\nআকারের ক্রম: $$Mg^{2+} < Na^+ < F^- < O^{2-} < N^{3-}$$",
+            "en": "Question: Arrange the ions $$N^{3-}, O^{2-}, F^-, Na^+, Mg^{2+}$$ in order of their size.\nAnswer: They are all isoelectronic (all have 10 electrons). The ion with the highest number of protons in its nucleus will have the strongest attraction and thus the smallest size. Number of protons: N(7), O(8), F(9), Na(11), Mg(12).\nOrder of size: $$Mg^{2+} < Na^+ < F^- < O^{2-} < N^{3-}$$"
+          }
+        ]
+      }
+    ]
+  },
+  "periodic-ionization-energy": {
+    "title": "আয়নীকরণ শক্তি ও ব্যতিক্রম",
+    "blocks": [
+      {
+        "type": "definition",
+        "title": "আয়নীকরণ শক্তি (Ionization Energy)",
+        "text_bn": "গ্যাসীয় অবস্থায় কোনো মৌলের এক মোল বিচ্ছিন্ন পরমাণু থেকে এক মোল ইলেকট্রন অপসারণ করে এক মোল ধনাত্মক আয়নে পরিণত করতে যে শক্তির প্রয়োজন হয়, তাকে আয়নীকরণ শক্তি বলে। এটি সর্বদা একটি তাপহারী (endothermic) প্রক্রিয়া।",
+        "text_en": "The energy required to remove one mole of electrons from one mole of isolated gaseous atoms to form one mole of positive ions is called ionization energy. It is always an endothermic process.",
+        "examples": []
+      },
+      {
+        "type": "definition",
+        "title": "সাধারণ প্রবণতা (General Trend)",
+        "text_bn": "১. **একই গ্রুপে:** উপর থেকে নিচে পারমাণবিক আকার বাড়ায় আয়নীকরণ শক্তি হ্রাস পায়।\n২. **একই পর্যায়ে:** বাম থেকে ডানে পারমাণবিক আকার কমায় আয়নীকরণ শক্তি বৃদ্ধি পায়।",
+        "text_en": "1. **In a Group:** Ionization energy decreases from top to bottom as atomic size increases.\n2. **In a Period:** Ionization energy increases from left to right as atomic size decreases.",
+        "examples": []
+      },
+      {
+        "type": "important",
+        "title": "ব্যতিক্রম (Exceptions)",
+        "text_bn": "স্থিতিশীল ইলেকট্রন বিন্যাসের কারণে সাধারণ নিয়মের ব্যতিক্রম দেখা যায়।\n**Be বনাম B:** বেরিলিয়াম (Be) এর ইলেকট্রন বিন্যাস $$1s^22s^2$$ (পূর্ণ s-অরবিটাল), যা বোরন (B) এর $$1s^22s^22p^1$$ অপেক্ষা অধিক স্থিতিশীল। তাই Be-এর আয়নীকরণ শক্তি B অপেক্ষা বেশি। (IE: Be > B)\n**N বনাম O:** নাইট্রোজেন (N) এর ইলেকট্রন বিন্যাস $$1s^22s^22p^3$$ (অর্ধপূর্ণ p-অরবিটাল), যা অক্সিজেন (O) এর $$1s^22s^22p^4$$ অপেক্ষা অধিক স্থিতিশীল। তাই N-এর আয়নীকরণ শক্তি O অপেক্ষা বেশি। (IE: N > O)",
+        "text_en": "Exceptions to the general rule occur due to stable electron configurations.\n**Be vs. B:** Beryllium (Be) has the electron configuration $$1s^22s^2$$ (a full s-orbital), which is more stable than Boron's (B) $$1s^22s^22p^1$$. Thus, the ionization energy of Be is greater than that of B. (IE: Be > B)\n**N vs. O:** Nitrogen (N) has the electron configuration $$1s^22s^22p^3$$ (a half-filled p-orbital), which is more stable than Oxygen's (O) $$1s^22s^22p^4$$. Thus, the ionization energy of N is greater than that of O. (IE: N > O)"
+      }
+    ]
+  },
+  "periodic-electron-affinity": {
+    "title": "ইলেকট্রন আসক্তি ও ব্যতিক্রম",
+    "blocks": [
+      {
+        "type": "definition",
+        "title": "ইলেকট্রন আসক্তি (Electron Affinity)",
+        "text_bn": "গ্যাসীয় অবস্থায় কোনো মৌলের এক মোল বিচ্ছিন্ন পরমাণুতে এক মোল ইলেকট্রন যুক্ত করে এক মোল ঋণাত্মক আয়নে পরিণত করতে যে শক্তি নির্গত বা শোষিত হয়, তাকে ইলেকট্রন আসক্তি বলে। এটি সাধারণত একটি তাপ উৎপাদী (exothermic) প্রক্রিয়া।",
+        "text_en": "The energy released or absorbed when one mole of electrons is added to one mole of isolated gaseous atoms to form one mole of negative ions is called electron affinity. It is usually an exothermic process.",
+        "examples": []
+      },
+      {
+        "type": "important",
+        "title": "ব্যতিক্রম: Cl বনাম F",
+        "text_bn": "সাধারণত গ্রুপে উপর থেকে নিচে ইলেকট্রন আসক্তি কমে। কিন্তু গ্রুপ ১৭-তে ক্লোরিন (Cl) এর ইলেকট্রন আসক্তি ফ্লোরিন (F) অপেক্ষা বেশি।\n**কারণ:** ফ্লোরিনের আকার অত্যন্ত ছোট হওয়ায় এর সর্ববহিঃস্থ শক্তিস্তরে ইলেকট্রন ঘনত্ব খুব বেশি। আগত নতুন ইলেকট্রনটি এই উচ্চ ইলেকট্রন ঘনত্বের কারণে তীব্র বিকর্ষণ অনুভব করে, ফলে শক্তি কম নির্গত হয়। ক্লোরিনের আকার তুলনামূলক বড় হওয়ায় এই বিকর্ষণ কম হয় এবং বেশি শক্তি নির্গত হয়।",
+        "text_en": "Exception: Cl vs. F\nGenerally, electron affinity decreases down a group. But in Group 17, Chlorine (Cl) has a higher electron affinity than Fluorine (F).\n**Reason:** Fluorine's extremely small size results in very high electron density in its outermost shell. An incoming electron experiences strong repulsion from this high electron density, causing less energy to be released. Chlorine's larger size reduces this repulsion, allowing more energy to be released."
+      }
+    ]
+  },
+  "periodic-electronegativity": {
+    "title": "তড়িৎ ঋণাত্মকতা",
+    "blocks": [
+      {
+        "type": "definition",
+        "title": "তড়িৎ ঋণাত্মকতা (Electronegativity)",
+        "text_bn": "সমযোজী বন্ধনে আবদ্ধ থাকা অবস্থায় কোনো পরমাণুর বন্ধনের শেয়ারকৃত ইলেকট্রন জোড়কে নিজের দিকে আকর্ষণ করার আপেক্ষিক ক্ষমতাকে তড়িৎ ঋণাত্মকতা বলে। এটি পর্যায় সারণির একটি গুরুত্বপূর্ণ পর্যায়বৃত্ত ধর্ম যা বন্ধনের প্রকৃতি নির্ধারণ করে।",
+        "text_en": "The relative ability of an atom in a covalent bond to attract the shared pair of electrons towards itself is called electronegativity. It is an important periodic property that determines the nature of a bond.",
+        "examples": []
+      },
+      {
+        "type": "important",
+        "title": "প্রবণতা ও সর্বোচ্চ মান",
+        "text_bn": "**প্রবণতা:** একই পর্যায়ে বাম থেকে ডানে তড়িৎ ঋণাত্মকতা বৃদ্ধি পায় এবং একই গ্রুপে উপর থেকে নিচে হ্রাস পায়।\n**সর্বোচ্চ তড়িৎ ঋণাত্মক মৌল:** ফ্লোরিন (F), পাউলিং স্কেলে এর মান 4.0।\n**কিছু গুরুত্বপূর্ণ মান:** O (3.5), N (3.0), Cl (3.0), C (2.5), H (2.1)।",
+        "text_en": "**Trend:** Electronegativity increases from left to right across a period and decreases from top to bottom down a group.\n**Most Electronegative Element:** Fluorine (F), with a Pauling scale value of 4.0.\n**Some Important Values:** O (3.5), N (3.0), Cl (3.0), C (2.5), H (2.1)."
+      }
+    ]
+  },
+  "fajans-rule-polarization": {
+    "title": "পোলারায়ন ও ফাজানের নীতি",
+    "blocks": [
+      {
+        "type": "definition",
+        "title": "পোলারায়ন (Polarization)",
+        "text_bn": "আয়নিক যৌগে ক্যাটায়ন কর্তৃক অ্যানায়নের ইলেকট্রন মেঘের বিকৃতি ঘটানোর প্রক্রিয়াকে পোলারায়ন বলে। পোলারায়নের ফলে আয়নিক বন্ধনে সমযোজী চরিত্রের উদ্ভব হয়। ক্যাটায়নের এই ক্ষমতাকে পোলারায়ন ক্ষমতা এবং অ্যানায়নের এই বিকৃত হওয়ার প্রবণতাকে পোলারায়িতব্যতা (polarizability) বলে।",
+        "text_en": "In an ionic compound, the process of distortion of the electron cloud of an anion by a cation is called polarization. Polarization leads to the development of covalent character in an ionic bond. The ability of the cation is called polarizing power, and the tendency of the anion to get distorted is called polarizability.",
+        "examples": []
+      },
+      {
+        "type": "table",
+        "title": "ফাজানের নীতি (Fajan's Rule)",
+        "headers": [
+          "শর্ত (Condition)",
+          "ফলাফল (Result)",
+          "ব্যাখ্যা (Explanation)"
+        ],
+        "rows": [
+          [
+            "ক্যাটায়নের আকার ছোট (Smaller Cation)",
+            "পোলারায়ন বেশি, সমযোজী বৈশিষ্ট্য বেশি (Higher polarization, more covalent character)",
+            "ছোট ক্যাটায়নের চার্জ ঘনত্ব বেশি হওয়ায় অ্যানায়নকে বেশি আকর্ষণ করে।"
+          ],
+          [
+            "অ্যানায়নের আকার বড় (Larger Anion)",
+            "পোলারায়ন বেশি, সমযোজী বৈশিষ্ট্য বেশি (Higher polarization, more covalent character)",
+            "বড় অ্যানায়নের ইলেকট্রন মেঘ দুর্বলভাবে আবদ্ধ থাকায় সহজে বিকৃত হয়।"
+          ],
+          [
+            "ক্যাটায়ন ও অ্যানায়নের চার্জ বেশি (Higher charge on ions)",
+            "পোলারায়ন বেশি, সমযোজী বৈশিষ্ট্য বেশি (Higher polarization, more covalent character)",
+            "চার্জ বেশি হলে আকর্ষণ বল বেশি হয়।"
+          ]
+        ]
+      },
+      {
+        "type": "example",
+        "title": "ফাজানের নীতির প্রয়োগ",
+        "examples": [
+          {
+            "bn": "প্রশ্ন: $$NaCl, MgCl_2, AlCl_3$$ যৌগগুলোকে গলনাঙ্কের ক্রম অনুসারে সাজাও।\nউত্তর: এখানে অ্যানায়ন ($$Cl^-$$) একই, কিন্তু ক্যাটায়নের চার্জ ও আকার ভিন্ন ($$Na^+, Mg^{2+}, Al^{3+}$$)। ফাজানের নীতি অনুযায়ী, ক্যাটায়নের চার্জ যত বাড়ে (এবং আকার কমে), পোলারায়ন তত বাড়ে এবং সমযোজী বৈশিষ্ট্য তত বৃদ্ধি পায়। সমযোজী বৈশিষ্ট্য বাড়লে গলনাঙ্ক কমে।\nসমযোজী চরিত্রের ক্রম: $$AlCl_3 > MgCl_2 > NaCl$$\nগলনাঙ্কের ক্রম: $$NaCl > MgCl_2 > AlCl_3$$",
+            "en": "Question: Arrange the compounds $$NaCl, MgCl_2, AlCl_3$$ in order of their melting points.\nAnswer: Here, the anion ($$Cl^-$$) is the same, but the cation's charge and size are different ($$Na^+, Mg^{2+}, Al^{3+}$$). According to Fajan's rule, as the cation's charge increases (and size decreases), polarization increases, and so does the covalent character. An increase in covalent character leads to a decrease in melting point.\nOrder of covalent character: $$AlCl_3 > MgCl_2 > NaCl$$\nOrder of melting point: $$NaCl > MgCl_2 > AlCl_3$$"
+          }
+        ]
+      }
+    ]
+  },
+  "covalent-sigma-pi-bonds": {
+    "title": "সমযোজী বন্ধন (σ ও π বন্ধন)",
+    "blocks": [
+      {
+        "type": "definition",
+        "title": "সিগমা (σ) বন্ধন",
+        "text_bn": "দুটি পারমাণবিক অরবিটালের মুখোমুখি বা অক্ষীয় অধিক্রমণের ফলে যে শক্তিশালী সমযোজী বন্ধন গঠিত হয়, তাকে সিগমা (σ) বন্ধন বলে। এটি একক বন্ধনে সর্বদা বিদ্যমান। এটি একটি শক্তিশালী বন্ধন।",
+        "text_en": "The strong covalent bond formed by the head-on or axial overlap of two atomic orbitals is called a sigma (σ) bond. It is always present in a single bond. It is a strong bond.",
+        "examples": []
+      },
+      {
+        "type": "definition",
+        "title": "পাই (π) বন্ধন",
+        "text_bn": "দুটি পারমাণবিক অরবিটালের পাশাপাশি বা পার্শ্বীয় অধিক্রমণের ফলে যে দুর্বল সমযোজী বন্ধন গঠিত হয়, তাকে পাই (π) বন্ধন বলে। এটি সিগমা বন্ধন গঠনের পরেই গঠিত হতে পারে। এটি সিগমা বন্ধন অপেক্ষা দুর্বল।",
+        "text_en": "The weak covalent bond formed by the side-by-side or lateral overlap of two atomic orbitals is called a pi (π) bond. It can only be formed after a sigma bond is already present. It is weaker than a sigma bond.",
+        "examples": []
+      },
+      {
+        "type": "table",
+        "title": "বন্ধন সংখ্যা ও σ/π গণনা",
+        "headers": ["বন্ধনের ধরণ (Bond Type)", "গঠন (Composition)"],
+        "rows": [
+          ["একক বন্ধন (Single Bond)", "১টি σ বন্ধন"],
+          ["দ্বিবন্ধন (Double Bond)", "১টি σ বন্ধন + ১টি π বন্ধন"],
+          ["ত্রিবন্ধন (Triple Bond)", "১টি σ বন্ধন + ২টি π বন্ধন"]
+        ]
+      }
+    ]
+  },
+  "hybridization-basics": {
+    "title": "সংকরায়ন বা হাইব্রিডাইজেশন",
+    "blocks": [
+      {
+        "type": "definition",
+        "title": "সংকরায়ন (Hybridization)",
+        "text_bn": "কোনো পরমাণুর যোজ্যতা স্তরের বিভিন্ন শক্তির অরবিটালসমূহ পরস্পরের সাথে মিশ্রিত হয়ে সমশক্তি ও সম-আকৃতির নতুন অরবিটাল তৈরির প্রক্রিয়াকে সংকরায়ন বা হাইব্রিডাইজেশন বলে। এই নতুন অরবিটালগুলোকে সংকর বা হাইব্রিড অরবিটাল বলে।",
+        "text_en": "The process of mixing atomic orbitals of different energies in the valence shell of an atom to form new orbitals of equal energy and identical shape is called hybridization. These new orbitals are called hybrid orbitals.",
+        "examples": []
+      },
+      {
+        "type": "important",
+        "title": "সংকরায়ন নির্ণয়ের সহজ উপায়",
+        "text_bn": "কেন্দ্রীয় পরমাণুর সংকরায়ন নির্ণয়ের জন্য স্টেরিক সংখ্যা (Steric Number) গণনা করা হয়।\nস্টেরিক সংখ্যা = (কেন্দ্রীয় পরমাণুর সাথে যুক্ত σ বন্ধনের সংখ্যা) + (কেন্দ্রীয় পরমাণুর মুক্ত জোড় ইলেকট্রনের সংখ্যা)\nএই সংখ্যাটি মোট সংকর অরবিটালের সংখ্যা নির্দেশ করে।",
+        "text_en": "A simple way to determine hybridization is to calculate the Steric Number for the central atom.\nSteric Number = (Number of σ bonds attached to the central atom) + (Number of lone pairs on the central atom)\nThis number indicates the total number of hybrid orbitals."
+      }
+    ]
+  },
+  "hybridization-types-geometry": {
+    "title": "বিভিন্ন প্রকার সংকরায়ন ও আণবিক গঠন",
+    "blocks": [
+      {
+        "type": "table",
+        "title": "সংকরায়ন ও জ্যামিতিক গঠন",
+        "headers": [
+          "স্টেরিক সংখ্যা",
+          "সংকরায়ন",
+          "আকৃতি (মুক্তজোড়=০)",
+          "বন্ধন কোণ",
+          "উদাহরণ"
+        ],
+        "rows": [
+          ["2", "sp", "সরলরৈখিক (Linear)", "180°", "$$BeCl_2, CO_2$$"],
+          [
+            "3",
+            "sp²",
+            "ত্রিকোণাকার সমতলীয় (Trigonal Planar)",
+            "120°",
+            "$$BF_3, C_2H_4$$"
+          ],
+          [
+            "4",
+            "sp³",
+            "চতুস্তলকীয় (Tetrahedral)",
+            "109.5°",
+            "$$CH_4, CCl_4$$"
+          ],
+          [
+            "5",
+            "sp³d",
+            "ত্রিকোণাকার দ্বিপিরামিডীয় (Trigonal Bipyramidal)",
+            "90°, 120°",
+            "$$PCl_5$$"
+          ],
+          ["6", "sp³d²", "অষ্টতলকীয় (Octahedral)", "90°", "$$SF_6$$"]
+        ]
+      },
+      {
+        "type": "important",
+        "title": "মুক্ত জোড় ইলেকট্রনের প্রভাব",
+        "text_bn": "কেন্দ্রীয় পরমাণুতে মুক্ত জোড় ইলেকট্রন থাকলে VSEPR তত্ত্ব অনুসারে বিকর্ষণের কারণে অণুর প্রকৃত আকৃতি ও বন্ধন কোণ পরিবর্তিত হয়।",
+        "text_en": "The presence of lone pairs on the central atom changes the actual geometry and bond angles of the molecule due to repulsion, as explained by VSEPR theory."
+      },
+      {
+        "type": "table",
+        "title": "sp³ সংকরায়নে মুক্ত জোড়ের প্রভাব",
+        "headers": [
+          "অণু (Molecule)",
+          "মুক্ত জোড় (Lone Pairs)",
+          "আকৃতি (Shape)",
+          "বন্ধন কোণ (Bond Angle)"
+        ],
+        "rows": [
+          ["$$CH_4$$ (মিথেন)", "0", "চতুস্তলকীয় (Tetrahedral)", "109.5°"],
+          [
+            "$$NH_3$$ (অ্যামোনিয়া)",
+            "1",
+            "ত্রিকোণাকার পিরামিডীয় (Trigonal Pyramidal)",
+            "107°"
+          ],
+          [
+            "$$H_2O$$ (পানি)",
+            "2",
+            "V-আকৃতি বা কৌণিক (V-shaped / Bent)",
+            "104.5°"
+          ]
+        ]
+      }
+    ]
+  },
+  "bond-angle-factors": {
+    "title": "বন্ধন কোণের উপর প্রভাবক (VSEPR তত্ত্ব)",
+    "blocks": [
+      {
+        "type": "definition",
+        "title": "VSEPR তত্ত্বের মূলনীতি",
+        "text_bn": "যোজ্যতা স্তরের ইলেকট্রন জোড় বিকর্ষণ (Valence Shell Electron Pair Repulsion) তত্ত্ব অনুসারে, একটি অণুর কেন্দ্রীয় পরমাণুর চারপাশের ইলেকট্রন জোড়গুলো (বন্ধন জোড় ও মুক্ত জোড়) একে অপরকে বিকর্ষণ করে এমনভাবে অবস্থান করে যেন তাদের মধ্যে দূরত্ব সর্বোচ্চ এবং বিকর্ষণ সর্বনিম্ন হয়।",
+        "text_en": "According to the Valence Shell Electron Pair Repulsion (VSEPR) theory, the electron pairs (bonding pairs and lone pairs) around the central atom of a molecule repel each other and arrange themselves in such a way that the distance between them is maximized and repulsion is minimized.",
+        "examples": []
+      },
+      {
+        "type": "important",
+        "title": "বিকর্ষণের ক্রম",
+        "text_bn": "বিকর্ষণের তীব্রতার ক্রম হলো:\nমুক্ত জোড় - মুক্ত জোড় > মুক্ত জোড় - বন্ধন জোড় > বন্ধন জোড় - বন্ধন জোড়\n(LP-LP > LP-BP > BP-BP)\nএই কারণে মুক্ত জোড়ের সংখ্যা বাড়লে বন্ধন কোণ সংকুচিত হয়।",
+        "text_en": "The order of repulsion strength is:\nLone Pair - Lone Pair > Lone Pair - Bond Pair > Bond Pair - Bond Pair\n(LP-LP > LP-BP > BP-BP)\nThis is why the bond angle decreases as the number of lone pairs increases."
+      },
+      {
+        "type": "example",
+        "title": "তড়িৎ ঋণাত্মকতার প্রভাব",
+        "examples": [
+          {
+            "bn": "প্রশ্ন: $$NH_3$$ (107°) এবং $$NF_3$$ (102°) এর বন্ধন কোণ ভিন্ন কেন?\nউত্তর: উভয় ক্ষেত্রেই sp³ সংকরায়ন এবং একটি মুক্ত জোড় আছে। কিন্তু F-এর তড়িৎ ঋণাত্মকতা H-এর চেয়ে বেশি হওয়ায়, F পরমাণু N-F বন্ধন জোড়কে নিজের দিকে বেশি টেনে নেয়। ফলে কেন্দ্রীয় N পরমাণুর চারপাশে ইলেকট্রন ঘনত্ব কমে যায় এবং বন্ধন জোড়গুলোর মধ্যে বিকর্ষণ হ্রাস পায়। তাই $$NF_3$$-এর বন্ধন কোণ কমে যায়।",
+            "en": "Question: Why are the bond angles of $$NH_3$$ (107°) and $$NF_3$$ (102°) different?\nAnswer: Both have sp³ hybridization and one lone pair. But since F is more electronegative than H, the F atoms pull the N-F bonding pairs more towards themselves. This reduces the electron density around the central N atom, decreasing the repulsion between the bonding pairs. Therefore, the bond angle in $$NF_3$$ is smaller."
+          }
+        ]
+      }
+    ]
+  },
+  "hydrogen-bonding-basics": {
+    "title": "হাইড্রোজেন বন্ধন ও এর প্রকারভেদ",
+    "blocks": [
+      {
+        "type": "definition",
+        "title": "হাইড্রোজেন বন্ধন (Hydrogen Bond)",
+        "text_bn": "যখন একটি হাইড্রোজেন পরমাণু দুটি তীব্র তড়িৎ ঋণাত্মক পরমাণুর (সাধারণত F, O, N) মাঝে অবস্থান করে, তখন একটি দুর্বল স্থির বৈদ্যুতিক আকর্ষণ বলের সৃষ্টি হয়, যাকে হাইড্রোজেন বন্ধন বলে। এটি একটি পোলারিত অণুর H(δ+) প্রান্ত এবং অন্য অণুর তড়িৎ ঋণাত্মক পরমাণুর (F, O, N) মুক্ত জোড় ইলেকট্রনের মধ্যে গঠিত হয়।",
+        "text_en": "When a hydrogen atom is located between two highly electronegative atoms (usually F, O, N), a weak electrostatic force of attraction is created, which is called a hydrogen bond. It is formed between the H(δ+) end of a polar molecule and the lone pair of electrons on the electronegative atom (F, O, N) of another molecule.",
+        "examples": []
+      },
+      {
+        "type": "table",
+        "title": "হাইড্রোজেন বন্ধনের প্রকারভেদ",
+        "headers": [
+          "প্রকারভেদ (Type)",
+          "সংজ্ঞা (Definition)",
+          "উদাহরণ (Example)"
+        ],
+        "rows": [
+          [
+            "আন্তঃআণবিক হাইড্রোজেন বন্ধন (Intermolecular H-bond)",
+            "ভিন্ন ভিন্ন অণুর মধ্যে গঠিত হয়। (Forms between different molecules)",
+            "পানি ($$H_2O$$), অ্যামোনিয়া ($$NH_3$$), ইথানল ($$C_2H_5OH$$)"
+          ],
+          [
+            "অন্তঃআণবিক হাইড্রোজেন বন্ধন (Intramolecular H-bond)",
+            "একই অণুর দুটি গ্রুপের মধ্যে গঠিত হয়। (Forms within the same molecule)",
+            "অর্থো-নাইট্রোফেনল, স্যালিসাইলিক এসিড"
+          ]
+        ]
+      }
+    ]
+  },
+  "hydrogen-bonding-effects": {
+    "title": "হাইড্রোজেন বন্ধনের প্রভাব ও গুরুত্ব",
+    "blocks": [
+      {
+        "type": "important",
+        "title": "ভৌত ধর্মের উপর প্রভাব",
+        "text_bn": "১. **গলনাঙ্ক ও স্ফুটনাঙ্ক বৃদ্ধি:** হাইড্রোজেন বন্ধনের কারণে অণুগুলো দৃঢ়ভাবে যুক্ত থাকে, তাই এদেরকে পৃথক করতে বেশি শক্তির প্রয়োজন হয়। ফলে গলনাঙ্ক ও স্ফুটনাঙ্ক অস্বাভাবিকভাবে বেশি হয়। যেমন, পানির ($$H_2O$$) স্ফুটনাঙ্ক (100°C) $$H_2S$$ (-60°C) থেকে অনেক বেশি।\n২. **পানিতে দ্রবণীয়তা:** যে সকল যৌগ পানির সাথে হাইড্রোজেন বন্ধন গঠন করতে পারে (যেমন- অ্যালকোহল, চিনি), তারা পানিতে দ্রবণীয়।\n৩. **বরফ পানিতে ভাসে:** বরফের কেলাস গঠনে পানির অণুগুলো হাইড্রোজেন বন্ধনের মাধ্যমে একটি ফাঁপা ও সুবিন্যস্ত কাঠামো তৈরি করে। ফলে বরফের আয়তন বেড়ে যায় এবং ঘনত্ব কমে যায়, তাই বরফ পানিতে ভাসে।",
+        "text_en": "1. **Increased Melting & Boiling Points:** Due to hydrogen bonds, molecules are held together strongly, requiring more energy to separate them. This leads to abnormally high melting and boiling points. For example, the boiling point of water ($$H_2O$$, 100°C) is much higher than that of $$H_2S$$ (-60°C).\n2. **Solubility in Water:** Compounds that can form hydrogen bonds with water (e.g., alcohol, sugar) are soluble in water.\n3. **Ice Floats on Water:** In the crystal structure of ice, water molecules form an open, ordered structure through hydrogen bonds. This increases the volume of ice and decreases its density, which is why ice floats on water."
+      }
+    ]
+  },
+  "van-der-waals-forces": {
+    "title": "ভ্যান ডার ওয়ালস বল",
+    "blocks": [
+      {
+        "type": "definition",
+        "title": "ভ্যান ডার ওয়ালস আকর্ষণ বল (Van der Waals Force)",
+        "text_bn": "অপোলার অণু বা নিষ্ক্রিয় গ্যাসের পরমাণুসমূহের মধ্যে বিদ্যমান একমাত্র দুর্বল আকর্ষণ বলকে ভ্যান ডার ওয়ালস বল বলে। এটি অণুর আকার, ভর বা পৃষ্ঠতলের ক্ষেত্রফল বাড়ার সাথে সাথে বৃদ্ধি পায়।",
+        "text_en": "The only weak attractive force existing between non-polar molecules or atoms of inert gases is called the Van der Waals force. It increases with the increase in the size, mass, or surface area of the molecule.",
+        "examples": []
+      },
+      {
+        "type": "example",
+        "title": "ভৌত অবস্থার উপর প্রভাব",
+        "examples": [
+          {
+            "bn": "প্রশ্ন: হ্যালোজেন গ্রুপের ভৌত অবস্থা ভিন্ন কেন? ($$F_2$$, $$Cl_2$$ গ্যাস; $$Br_2$$ তরল; $$I_2$$ কঠিন)\nউত্তর: গ্রুপ ১৭-তে উপর থেকে নিচে পারমাণবিক ভর ও আকার বৃদ্ধি পায়। ফলে ভ্যান ডার ওয়ালস আকর্ষণ বলও ক্রমান্বয়ে বৃদ্ধি পায়। এই আকর্ষণ বল বাড়ার কারণে অণুগুলো কাছাকাছি আসে, ফলে ফ্লোরিন ও ক্লোরিন গ্যাসীয়, ব্রোমিন তরল এবং আয়োডিন কঠিন অবস্থায় থাকে।",
+            "en": "Question: Why are the physical states of the halogens different? ($$F_2$$, $$Cl_2$$ are gases; $$Br_2$$ is a liquid; $$I_2$$ is a solid)\nAnswer: Down Group 17, atomic mass and size increase. Consequently, the Van der Waals force of attraction also increases progressively. Due to this increasing attraction, the molecules come closer, resulting in fluorine and chlorine being gaseous, bromine being a liquid, and iodine being a solid."
+          }
+        ]
+      }
+    ]
+  }
+}

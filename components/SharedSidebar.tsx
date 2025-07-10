@@ -108,7 +108,6 @@ export default function SharedSidebar({
 }: SharedSidebarProps) {
   const [isSheetOpen, setIsSheetOpen] = useState(false);
 
-  // The click handler now also closes the sheet on mobile
   const handleTopicSelection = (topicId: string) => {
     onTopicClick(topicId);
     setIsSheetOpen(false);
@@ -128,7 +127,7 @@ export default function SharedSidebar({
 
   return (
     <>
-      {/* 1. DESKTOP SIDEBAR (Static Card) */}
+      {/* 1. DESKTOP SIDEBAR (No changes here) */}
       <aside className="hidden md:block sticky top-24 self-start">
         <Card>
           <CardHeader>
@@ -145,7 +144,7 @@ export default function SharedSidebar({
         </Card>
       </aside>
 
-      {/* 2. MOBILE SIDEBAR (Sheet) */}
+      {/* --- 2. MOBILE SIDEBAR (Sheet) - THIS PART IS FIXED --- */}
       <div className="md:hidden mb-4">
         <Sheet open={isSheetOpen} onOpenChange={setIsSheetOpen}>
           <SheetTrigger asChild>
@@ -153,18 +152,20 @@ export default function SharedSidebar({
               <Menu className="h-5 w-5 mr-3" /> View Topics
             </Button>
           </SheetTrigger>
-          <SheetContent side="left" className="p-2">
-            <SheetHeader>
-              <SheetTitle className="p-4 text-xl border-b mb-2">
-                {title}
-              </SheetTitle>
+          {/* We turn the SheetContent into a flex column */}
+          <SheetContent side="left" className="flex flex-col p-0">
+            <SheetHeader className="p-4 border-b">
+              <SheetTitle className="text-xl text-left">{title}</SheetTitle>
             </SheetHeader>
-            <TopicList
-              topics={displayTopics}
-              activeTopicId={activeTopicId}
-              onTopicClick={handleTopicSelection}
-              items={items}
-            />
+            {/* This div grows to fill remaining space and becomes scrollable */}
+            <div className="flex-1 overflow-y-auto p-2">
+              <TopicList
+                topics={displayTopics}
+                activeTopicId={activeTopicId}
+                onTopicClick={handleTopicSelection}
+                items={items}
+              />
+            </div>
           </SheetContent>
         </Sheet>
       </div>

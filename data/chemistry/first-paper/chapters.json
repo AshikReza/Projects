@@ -41,5 +41,85 @@
         "title": "Ion Identification (আয়ন শনাক্তকরণ)"
       }
     ]
+  },
+
+  {
+    "id": "ch3",
+    "title": "Periodic Properties and Chemical Bonding (মৌলের পর্যায়বৃত্ত ধর্ম ও রাসায়নিক বন্ধন)",
+    "slug": "periodic-properties-and-chemical-bonding",
+    "topics": [
+      {
+        "id": "element-positioning",
+        "title": "Element Positioning (মৌলের অবস্থান নির্ণয়)"
+      },
+      {
+        "id": "sp-block-elements",
+        "title": "s & p-Block Elements (s ও p-ব্লক মৌল)"
+      },
+      {
+        "id": "p-block-special-topics",
+        "title": "p-Block Special Topics (p-ব্লক বিশেষ আলোচনা)"
+      },
+      {
+        "id": "d-block-transition-elements",
+        "title": "d-Block & Transition Elements (d-ব্লক ও অবস্থান্তর মৌল)"
+      },
+      {
+        "id": "transition-element-properties",
+        "title": "Properties of Transition Elements (অবস্থান্তর মৌলের বৈশিষ্ট্য)"
+      },
+      {
+        "id": "f-block-elements",
+        "title": "f-Block Elements (f-ব্লক মৌল)"
+      },
+      {
+        "id": "periodic-atomic-size",
+        "title": "Atomic Size (পারমাণবিক আকার)"
+      },
+      {
+        "id": "periodic-ionization-energy",
+        "title": "Ionization Energy (আয়নীকরণ শক্তি)"
+      },
+      {
+        "id": "periodic-electron-affinity",
+        "title": "Electron Affinity (ইলেকট্রন আসক্তি)"
+      },
+      {
+        "id": "periodic-electronegativity",
+        "title": "Electronegativity (তড়িৎ ঋণাত্মকতা)"
+      },
+      {
+        "id": "fajans-rule-polarization",
+        "title": "Fajan's Rule & Polarization (ফাজানের নীতি ও পোলারায়ন)"
+      },
+      {
+        "id": "covalent-sigma-pi-bonds",
+        "title": "Sigma & Pi Bonds (σ ও π বন্ধন)"
+      },
+      {
+        "id": "hybridization-basics",
+        "title": "Hybridization (সংকরায়ন)"
+      },
+      {
+        "id": "hybridization-types-geometry",
+        "title": "Hybridization & Geometry (সংকরায়ন ও আণবিক গঠন)"
+      },
+      {
+        "id": "bond-angle-factors",
+        "title": "VSEPR & Bond Angle (VSEPR ও বন্ধন কোণ)"
+      },
+      {
+        "id": "hydrogen-bonding-basics",
+        "title": "Hydrogen Bonding (হাইড্রোজেন বন্ধন)"
+      },
+      {
+        "id": "hydrogen-bonding-effects",
+        "title": "Effects of Hydrogen Bonding (হাইড্রোজেন বন্ধনের প্রভাব)"
+      },
+      {
+        "id": "van-der-waals-forces",
+        "title": "Van der Waals Forces (ভ্যান ডার ওয়ালস বল)"
+      }
+    ]
   }
 ]
