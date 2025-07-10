@@ -1,0 +1,254 @@
+[
+  {
+    "id": "af-q1",
+    "topicId": "atomic-fundamentals",
+    "type": "mcq",
+    "question": {
+      "bn": "একটি মৌলের পারমাণবিক সংখ্যা (Z) কী নির্দেশ করে?",
+      "en": "What does the atomic number (Z) of an element represent?"
+    },
+    "options": [
+      {
+        "bn": "প্রোটন ও নিউট্রনের মোট সংখ্যা",
+        "en": "Total number of protons and neutrons"
+      },
+      { "bn": "মোট নিউট্রন সংখ্যা", "en": "Total number of neutrons" },
+      { "bn": "মোট প্রোটন সংখ্যা", "en": "Total number of protons" },
+      {
+        "bn": "একটি আয়নে ইলেকট্রনের মোট সংখ্যা",
+        "en": "Total number of electrons in an ion"
+      }
+    ],
+    "correctAnswer": {
+      "bn": "মোট প্রোটন সংখ্যা",
+      "en": "Total number of protons"
+    }
+  },
+  {
+    "id": "af-q2",
+    "topicId": "atomic-fundamentals",
+    "type": "mcq",
+    "question": {
+      "bn": "একটি পরমাণুর ভর সংখ্যা (A) কোন কণাগুলোর যোগফল?",
+      "en": "The mass number (A) of an atom is the sum of which particles?"
+    },
+    "options": [
+      { "bn": "প্রোটন ও ইলেকট্রন", "en": "Protons and electrons" },
+      { "bn": "প্রোটন ও নিউট্রন", "en": "Protons and neutrons" },
+      { "bn": "নিউট্রন ও ইলেকট্রন", "en": "Neutrons and electrons" },
+      { "bn": "শুধুমাত্র প্রোটন", "en": "Only protons" }
+    ],
+    "correctAnswer": { "bn": "প্রোটন ও নিউট্রন", "en": "Protons and neutrons" }
+  },
+  {
+    "id": "af-q3",
+    "topicId": "atomic-fundamentals",
+    "type": "mcq",
+    "question": {
+      "bn": "নিচের কোনটি আইসোটোপের জোড়া?",
+      "en": "Which of the following pairs are isotopes?"
+    },
+    "options": [
+      { "bn": "¹⁴C এবং ¹⁴N", "en": "¹⁴C and ¹⁴N" },
+      { "bn": "³⁰Si এবং ³¹P", "en": "³⁰Si and ³¹P" },
+      { "bn": "¹H এবং ²H", "en": "¹H and ²H" },
+      { "bn": "Na⁺ এবং Ne", "en": "Na⁺ and Ne" }
+    ],
+    "correctAnswer": { "bn": "¹H এবং ²H", "en": "¹H and ²H" }
+  },
+  {
+    "id": "af-q4",
+    "topicId": "atomic-fundamentals",
+    "type": "mcq",
+    "question": {
+      "bn": "O²⁻, F⁻, এবং Na⁺ প্রজাতিগুলোকে কী হিসাবে বর্ণনা করা হয়?",
+      "en": "The species O²⁻, F⁻, and Na⁺ are described as:"
+    },
+    "options": [
+      { "bn": "আইসোটোপ", "en": "Isotopes" },
+      { "bn": "আইসোবার", "en": "Isobars" },
+      { "bn": "আইসোটোন", "en": "Isotones" },
+      { "bn": "আইসোইলেকট্রনিক", "en": "Isoelectronic" }
+    ],
+    "correctAnswer": { "bn": "আইসোইলেকট্রনিক", "en": "Isoelectronic" }
+  },
+  {
+    "id": "af-q5",
+    "topicId": "atomic-fundamentals",
+    "type": "mcq",
+    "question": {
+      "bn": "একটি পরমাণুতে ১৭টি প্রোটন এবং ১৮টি নিউট্রন আছে। এর ভর সংখ্যা (A) কত?",
+      "en": "An atom has 17 protons and 18 neutrons. What is its mass number (A)?"
+    },
+    "options": [
+      { "bn": "১৭", "en": "17" },
+      { "bn": "১৮", "en": "18" },
+      { "bn": "৩৫", "en": "35" },
+      { "bn": "১", "en": "1" }
+    ],
+    "correctAnswer": { "bn": "৩৫", "en": "35" }
+  },
+  {
+    "id": "af-q6",
+    "topicId": "atomic-fundamentals",
+    "type": "mcq",
+    "question": {
+      "bn": "আইসোবারের প্রধান বৈশিষ্ট্য কী?",
+      "en": "What is the defining characteristic of isobars?"
+    },
+    "options": [
+      { "bn": "একই সংখ্যক প্রোটন", "en": "Same number of protons" },
+      { "bn": "একই সংখ্যক নিউট্রন", "en": "Same number of neutrons" },
+      { "bn": "একই ভর সংখ্যা", "en": "Same mass number" },
+      { "bn": "একই সংখ্যক ইলেকট্রন", "en": "Same number of electrons" }
+    ],
+    "correctAnswer": { "bn": "একই ভর সংখ্যা", "en": "Same mass number" }
+  },
+  {
+    "id": "af-q7",
+    "topicId": "atomic-fundamentals",
+    "type": "mcq",
+    "question": {
+      "bn": "³¹₁₅P পরমাণুর নিউক্লিয়াসে কয়টি নিউট্রন আছে?",
+      "en": "How many neutrons are in the nucleus of a ³¹₁₅P atom?"
+    },
+    "options": [
+      { "bn": "১৫", "en": "15" },
+      { "bn": "৩১", "en": "31" },
+      { "bn": "১৬", "en": "16" },
+      { "bn": "৪৬", "en": "46" }
+    ],
+    "correctAnswer": { "bn": "১৬", "en": "16" }
+  },
+  {
+    "id": "af-q8",
+    "topicId": "atomic-fundamentals",
+    "type": "mcq",
+    "question": {
+      "bn": "³⁰₁₄Si এবং ³¹₁₅P জোড়াটি কিসের উদাহরণ?",
+      "en": "The pair ³⁰₁₄Si and ³¹₁₅P are examples of what?"
+    },
+    "options": [
+      { "bn": "আইসোটোপ", "en": "Isotopes" },
+      { "bn": "আইসোবার", "en": "Isobars" },
+      { "bn": "আইসোটোন", "en": "Isotones" },
+      { "bn": "আইসোইলেকট্রনিক প্রজাতি", "en": "Isoelectronic species" }
+    ],
+    "correctAnswer": { "bn": "আইসোটোন", "en": "Isotones" }
+  },
+  {
+    "id": "af-q9",
+    "topicId": "atomic-fundamentals",
+    "type": "mcq",
+    "question": {
+      "bn": "একটি নিস্তড়িৎ পরমাণুতে ইলেকট্রন সংখ্যা কিসের সমান?",
+      "en": "In a neutral atom, the number of electrons is equal to the number of:"
+    },
+    "options": [
+      { "bn": "নিউট্রন", "en": "Neutrons" },
+      { "bn": "প্রোটন", "en": "Protons" },
+      { "bn": "নিউক্লিয়ন", "en": "Nucleons" },
+      { "bn": "ভর সংখ্যা", "en": "Mass number" }
+    ],
+    "correctAnswer": { "bn": "প্রোটন", "en": "Protons" }
+  },
+  {
+    "id": "af-q10",
+    "topicId": "atomic-fundamentals",
+    "type": "mcq",
+    "question": {
+      "bn": "প্রোটন ও নিউট্রনের তুলনায় কোন কণার ভর নগণ্য?",
+      "en": "Which particle has a negligible mass compared to protons and neutrons?"
+    },
+    "options": [
+      { "bn": "আলফা কণা", "en": "Alpha particle" },
+      { "bn": "নিউক্লিয়াস", "en": "Nucleus" },
+      { "bn": "নিউট্রিনো", "en": "Neutrino" },
+      { "bn": "ইলেকট্রন", "en": "Electron" }
+    ],
+    "correctAnswer": { "bn": "ইলেকট্রন", "en": "Electron" }
+  },
+  {
+    "id": "af-q11",
+    "topicId": "atomic-fundamentals",
+    "type": "mcq",
+    "question": {
+      "bn": "কোন কণার সংখ্যা পরিবর্তন হলে মৌল নিজেই পরিবর্তিত হয়ে যায়?",
+      "en": "Changing the number of which particle changes the element itself?"
+    },
+    "options": [
+      { "bn": "ইলেকট্রন", "en": "Electron" },
+      { "bn": "নিউট্রন", "en": "Neutron" },
+      { "bn": "প্রোটন", "en": "Proton" },
+      { "bn": "ফোটন", "en": "Photon" }
+    ],
+    "correctAnswer": { "bn": "প্রোটন", "en": "Proton" }
+  },
+  {
+    "id": "af-q12",
+    "topicId": "atomic-fundamentals",
+    "type": "mcq",
+    "question": {
+      "bn": "নিচের কোনটি হাইড্রোজেনের আইসোটোপ নয়?",
+      "en": "Which of the following is NOT an isotope of Hydrogen?"
+    },
+    "options": [
+      { "bn": "প্রোটিয়াম (¹H)", "en": "Protium (¹H)" },
+      { "bn": "ডিউটেরিয়াম (²H)", "en": "Deuterium (²H)" },
+      { "bn": "ট্রিটিয়াম (³H)", "en": "Tritium (³H)" },
+      { "bn": "হিলিয়াম (⁴He)", "en": "Helium (⁴He)" }
+    ],
+    "correctAnswer": { "bn": "হিলিয়াম (⁴He)", "en": "Helium (⁴He)" }
+  },
+  {
+    "id": "af-q13",
+    "topicId": "atomic-fundamentals",
+    "type": "mcq",
+    "question": {
+      "bn": "Al³⁺ আয়নে (Z=13) কয়টি ইলেকট্রন আছে?",
+      "en": "How many electrons are present in an Al³⁺ ion (Z=13)?"
+    },
+    "options": [
+      { "bn": "১৩", "en": "13" },
+      { "bn": "১৬", "en": "16" },
+      { "bn": "১০", "en": "10" },
+      { "bn": "২৭", "en": "27" }
+    ],
+    "correctAnswer": { "bn": "১০", "en": "10" }
+  },
+  {
+    "id": "af-q14",
+    "topicId": "atomic-fundamentals",
+    "type": "mcq",
+    "question": {
+      "bn": "⁴⁰Ar (Z=18) এবং ⁴⁰Ca (Z=20) জোড়াটি হলো:",
+      "en": "The pair ⁴⁰Ar (Z=18) and ⁴⁰Ca (Z=20) are:"
+    },
+    "options": [
+      { "bn": "আইসোটোন", "en": "Isotones" },
+      { "bn": "আইসোবার", "en": "Isobars" },
+      { "bn": "আইসোটোপ", "en": "Isotopes" },
+      { "bn": "আইসোইলেকট্রনিক", "en": "Isoelectronic" }
+    ],
+    "correctAnswer": { "bn": "আইসোবার", "en": "Isobars" }
+  },
+  {
+    "id": "af-q15",
+    "topicId": "atomic-fundamentals",
+    "type": "mcq",
+    "question": {
+      "bn": "আইসোটোনের মূল বৈশিষ্ট্য কী?",
+      "en": "What is the key characteristic of isotones?"
+    },
+    "options": [
+      { "bn": "একই Z, ভিন্ন A", "en": "Same Z, different A" },
+      { "bn": "একই A, ভিন্ন Z", "en": "Same A, different Z" },
+      { "bn": "একই সংখ্যক ইলেকট্রন", "en": "Same number of electrons" },
+      { "bn": "একই সংখ্যক নিউট্রন", "en": "Same number of neutrons" }
+    ],
+    "correctAnswer": {
+      "bn": "একই সংখ্যক নিউট্রন",
+      "en": "Same number of neutrons"
+    }
+  }
+]

@@ -99,12 +99,20 @@ export interface FlashcardContent {
   front: string;
   back: string;
 }
+
+export interface BilingualString {
+  bn: string;
+  en: string;
+}
+
+// Update the QuizQuestion interface
 export interface QuizQuestion {
   id: string;
+  topicId: string; // <-- ADD THIS LINE
   type: "mcq" | "short-answer";
-  question: string;
-  options?: string[];
-  correctAnswer: string;
+  question: BilingualString;
+  options?: BilingualString[];
+  correctAnswer: BilingualString;
 }
 export interface QAContent {
   id: string;
