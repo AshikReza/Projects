@@ -8,6 +8,8 @@ import {
 } from "@/lib/data-loader";
 import { ChevronRight } from "lucide-react";
 import Link from "next/link";
+import { notFound } from "next/navigation";
+import ChapterHeader from "@/components/ChapterHeader"; // <-- 1. Import the new component
 
 export async function generateStaticParams() {
   const subjects = await getSubjects();
@@ -20,7 +22,6 @@ export async function generateStaticParams() {
   for (const subject of subjects) {
     if (subject.hasPapers && subject.papers) {
       for (const paper of subject.papers) {
-        // Build‑time load to skip missing chapter files
         const chapters = await getChapters(subject.slug, paper.slug, true);
         for (const chapter of chapters) {
           allPaths.push({
@@ -32,7 +33,6 @@ export async function generateStaticParams() {
       }
     }
   }
-
   return allPaths;
 }
 
@@ -41,14 +41,12 @@ export default async function ChapterLayout({
   params,
 }: {
   children: React.ReactNode;
-  // NEXT 15 requires params to be async
   params: Promise<{
     subjectSlug: string;
     paperSlug: string;
     chapterSlug: string;
   }>;
 }) {
-  // await before using
   const { subjectSlug, paperSlug, chapterSlug } = await params;
 
   const [subject, chapter] = await Promise.all([
@@ -58,8 +56,16 @@ export default async function ChapterLayout({
 
   const paper = subject.papers?.find((p) => p.slug === paperSlug);
 
+  if (!paper) {
+    notFound();
+  }
+
+  // --- 2. Define the base path for the chapter ---
+  const chapterBasePath = `/subjects/${subjectSlug}/${paper.slug}/${chapterSlug}`;
+
   return (
     <div className="container mx-auto max-w-7xl py-8 px-4">
+      {/* Breadcrumbs remain here as they don't need client-side logic */}
       <div className="flex items-center space-x-2 text-md sm:text-xl text-muted-foreground mb-6">
         <Link href="/subjects" className="hover:text-primary">
           Subjects
@@ -69,13 +75,16 @@ export default async function ChapterLayout({
           {subject.name}
         </Link>
         <ChevronRight className="h-4 w-4" />
-        <span className="font-medium text-foreground">{paper?.name}</span>
+        <span className="font-medium text-foreground">{paper.name}</span>
       </div>
 
-      <h1 className="text-4xl font-bold mb-2">{chapter.title}</h1>
-      <p className="text-lg text-muted-foreground mb-8">
-        Chapter from {subject.name} – {paper?.name}
-      </p>
+      {/* --- 3. Replace the old header with the new client component --- */}
+      <ChapterHeader
+        chapterTitle={chapter.title}
+        subjectName={subject.name}
+        paperName={paper.name}
+        basePath={chapterBasePath}
+      />
 
       {children}
     </div>
