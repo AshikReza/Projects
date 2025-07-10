@@ -60,7 +60,7 @@ export default async function ChapterLayout({
 
   return (
     <div className="container mx-auto max-w-7xl py-8 px-4">
-      <div className="flex items-center space-x-2 text-sm text-muted-foreground mb-6">
+      <div className="flex items-center space-x-2 text-md sm:text-xl text-muted-foreground mb-6">
         <Link href="/subjects" className="hover:text-primary">
           Subjects
         </Link>

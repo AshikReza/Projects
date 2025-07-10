@@ -3,6 +3,7 @@
 import { getChapters, getSubjectBySlug, getSubjects } from "@/lib/data-loader";
 import { Card, CardContent } from "@/components/ui/card";
 import Link from "next/link";
+import { ChevronRight } from "lucide-react";
 
 // Tell Next.js which subject slugs to prerender
 export async function generateStaticParams() {
@@ -35,6 +36,19 @@ export default async function SubjectDetailsPage({
 
   return (
     <div className="container mx-auto max-w-6xl py-12 px-4">
+      <div className="flex items-center space-x-2 text-md sm:text-xl text-muted-foreground mb-6">
+        <Link href="/subjects" className="hover:text-primary">
+          Subjects
+        </Link>
+        <ChevronRight className="h-4 w-4" />
+        <Link
+          href={`/subjects/${subjectSlug}`}
+          className="ont-medium text-foreground"
+        >
+          {subject.name}
+        </Link>
+      </div>
+
       <h1 className="text-4xl font-bold mb-8">{subject.name}</h1>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
         {papersWithChapters.map(({ paper, chapters }) => (
