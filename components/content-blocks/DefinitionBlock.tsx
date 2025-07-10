@@ -1,6 +1,5 @@
 import { BookOpen } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Separator } from "@/components/ui/separator";
 import { BilingualText } from "./BilingualText";
 
 // Define the component's props based on the updated type
