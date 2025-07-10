@@ -25,7 +25,7 @@ export default function ChapterHeader({
   const showBackButton = pathname !== basePath;
 
   return (
-    <div className="flex justify-between items-start">
+    <div className="flex flex-col-reverse sm:flex-row justify-between items-start">
       <div>
         <h1 className="text-4xl font-bold mb-2">{chapterTitle}</h1>
         <p className="text-lg text-muted-foreground mb-8">
@@ -35,7 +35,7 @@ export default function ChapterHeader({
 
       {/* Conditionally render the button */}
       {showBackButton && (
-        <Button asChild>
+        <Button className="mb-5" asChild>
           <Link href={basePath}>Back to Chapter</Link>
         </Button>
       )}
