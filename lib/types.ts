@@ -93,11 +93,12 @@ export interface NoteContent {
   [topicId: string]: NoteTopic;
 }
 
-// Other content types remain the same
+// Update the FlashcardContent interface
 export interface FlashcardContent {
   id: string;
-  front: string;
-  back: string;
+  topicId: string; // <-- Add this
+  front: BilingualString; // <-- Change to BilingualString
+  back: BilingualString; // <-- Change to BilingualString
 }
 
 export interface BilingualString {

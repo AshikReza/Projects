@@ -1,29 +1,25 @@
-import { getChapterContent } from "@/lib/data-loader";
+import { getChapterContent, getChapterDetails } from "@/lib/data-loader";
 import FlashcardsClient from "@/components/FlashcardsClient";
 
-// This is a pure Server Component. Its only job is to fetch data.
-// We are updating the props definition to match the Promise-based pattern used elsewhere in your app.
+interface FlashcardsPageParams {
+  subjectSlug: string;
+  paperSlug: string;
+  chapterSlug: string;
+}
+
 export default async function FlashcardsPage({
-  params, // 1. Accept `params` as a whole object instead of destructuring it here.
+  params,
 }: {
-  // 2. Type `params` as a Promise containing the slug properties.
-  params: Promise<{
-    subjectSlug: string;
-    paperSlug: string;
-    chapterSlug: string;
-  }>;
+  params: Promise<FlashcardsPageParams>;
 }) {
-  // 3. Await the params promise to get the actual values.
   const { subjectSlug, paperSlug, chapterSlug } = await params;
 
-  // 4. Fetch the data on the server with the resolved values.
-  const flashcards = await getChapterContent(
-    subjectSlug,
-    paperSlug,
-    chapterSlug,
-    "flashcards"
-  );
+  // Fetch both chapter details (for topics) and flashcards
+  const [chapter, flashcards] = await Promise.all([
+    getChapterDetails(subjectSlug, paperSlug, chapterSlug),
+    getChapterContent(subjectSlug, paperSlug, chapterSlug, "flashcards"),
+  ]);
 
-  // 5. Render the Client Component, passing the data as props.
-  return <FlashcardsClient flashcards={flashcards} />;
+  // Render the FlashcardsClient, passing both chapter and flashcards
+  return <FlashcardsClient chapter={chapter} flashcards={flashcards} />;
 }
