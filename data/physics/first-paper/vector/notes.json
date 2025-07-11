@@ -514,8 +514,8 @@
             "en": "Gradient: Applying the Nabla operator on a scalar field $$ \\Phi(x,y,z) $$ yields a vector field, $$ \\text{grad} \\Phi = \\nabla \\Phi $$."
           },
           {
-            "bn": "ডাইভারজেন্স: একটি ভেক্টর ক্ষেত্র $$ \\vec{A} $$ এর সাথে ন্যাবলা অপারেটরের ডট গুণন করলে একটি স্কেলার ক্ষেত্র পাওয়া যায়, $$ \\text{div} \\vec{A} = \\nabla \\cdot \\vec{A} $$।",
-            "en": "Divergence: The dot product of the Nabla operator with a vector field $$ \\vec{A} $$ yields a scalar field, $$ \\text{div} \\vec{A} = \\nabla \\cdot \\vec{A} $$."
+            "bn": "ডাইভারজেন্স: একটি ভেক্টর ক্ষেত্র $$ \\vec{A} $$ এর সাথে ন্যাবলা অপারেটরের ডট গুণন করলে একটি স্কেলার ক্ষেত্র পাওয়া যায়, $$ \\vec{A} = \\nabla \\cdot \\vec{A} $$।",
+            "en": "Divergence: The dot product of the Nabla operator with a vector field $$ \\vec{A} $$ yields a scalar field, $$ \\vec{A} = \\nabla \\cdot \\vec{A} $$."
           },
           {
             "bn": "কার্ল: একটি ভেক্টর ক্ষেত্র $$ \\vec{A} $$ এর সাথে ন্যাবলা অপারেটরের ক্রস গুণন করলে একটি নতুন ভেক্টর ক্ষেত্র পাওয়া যায়, $$ \\text{curl} \\vec{A} = \\nabla \\times \\vec{A} $$।",
@@ -534,19 +534,19 @@
         ],
         "rows": [
           [
-            "গ্রেডিয়েন্ট (Gradient)<br> `grad Φ = ∇Φ`",
+            "গ্রেডিয়েন্ট (Gradient) `grad Φ = ∇Φ`",
             "স্কেলার ক্ষেত্র (Scalar Field)",
             "ভেক্টর ক্ষেত্র (Vector Field)",
             "স্কেলার রাশির সর্বোচ্চ বৃদ্ধির হার ও দিক নির্দেশ করে। যেমন, তাপমাত্রার গ্রেডিয়েন্ট তাপ প্রবাহের দিক দেখায়।"
           ],
           [
-            "ডাইভারজেন্স (Divergence)<br> `div A = ∇ ⋅ A`",
+            "ডাইভারজেন্স (Divergence) ` A = ∇ ⋅ A`",
             "ভেক্টর ক্ষেত্র (Vector Field)",
             "স্কেলার ক্ষেত্র (Scalar Field)",
             "কোনো বিন্দু থেকে ভেক্টর ক্ষেত্রের উৎসের তীব্রতা বা প্রবাহ (flux per unit volume) বোঝায়। ধনাত্মক হলে উৎস, ঋণাত্মক হলে সিঙ্ক। শূন্য হলে সলিনয়েডাল (অসংকোচনীয়)।"
           ],
           [
-            "কার্ল (Curl)<br> `curl A = ∇ × A`",
+            "কার্ল (Curl) `curl A = ∇ × A`",
             "ভেক্টর ক্ষেত্র (Vector Field)",
             "ভেক্টর ক্ষেত্র (Vector Field)",
             "কোনো বিন্দুতে ভেক্টর ক্ষেত্রের ঘূর্ণন প্রবণতা (circulation per unit area) নির্দেশ করে। শূন্য হলে অঘূর্ণনশীল (irrotational) বা সংরক্ষণশীল (conservative)।"
