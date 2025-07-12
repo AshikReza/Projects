@@ -8,7 +8,6 @@ import {
 } from "@/components/ui/table";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { MarkdownRenderer } from "./MarkdownRenderer";
-import { cn } from "@/lib/utils";
 
 export const TableBlock = ({
   title,
@@ -20,7 +19,6 @@ export const TableBlock = ({
   rows: string[][];
 }) => (
   <Card className="my-4 overflow-hidden">
-    {" "}
     {/* Add overflow-hidden to respect Card's border-radius */}
     <CardHeader>
       <CardTitle className="text-base font-semibold">{title}</CardTitle>
