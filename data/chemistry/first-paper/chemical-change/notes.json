@@ -1,0 +1,622 @@
+{
+  "cc-green-chem": {
+    "title": "গ্রীন কেমিস্ট্রি ও এটম ইকোনমি",
+    "blocks": [
+      {
+        "type": "definition",
+        "title": "গ্রীন কেমিস্ট্রি (Green Chemistry)",
+        "text_bn": "গ্রীন কেমিস্ট্রি হলো রসায়নের এমন একটি শাখা যা এমন রাসায়নিক পণ্য এবং প্রক্রিয়া ডিজাইন করার উপর গুরুত্ব আরোপ করে যা বিপজ্জনক পদার্থের ব্যবহার এবং উৎপাদন হ্রাস বা নির্মূল করে। এর মূল উদ্দেশ্য হলো পরিবেশের উপর রাসায়নিক ক্রিয়াকলাপের নেতিবাচক প্রভাব হ্রাস করা।",
+        "text_en": "Green Chemistry is a branch of chemistry focused on designing chemical products and processes that reduce or eliminate the use and generation of hazardous substances. Its main goal is to minimize the negative impact of chemical activities on the environment.",
+        "examples": [
+          {
+            "bn": "উদাহরণ: প্রচলিত পদ্ধতিতে ইবুপ্রোফেন নামক ব্যথানাশক ওষুধ তৈরি করতে ৬টি ধাপ লাগত এবং প্রচুর বর্জ্য উৎপন্ন হতো। সবুজ রসায়নের নতুন পদ্ধতিতে মাত্র ৩টি ধাপে এবং প্রায় কোনো বর্জ্য ছাড়াই এটি তৈরি করা সম্ভব হয়েছে। এটি সবুজ রসায়নের একটি সফল প্রয়োগ।",
+            "en": "Example: The traditional method for producing the painkiller Ibuprofen involved 6 steps and generated a lot of waste. A new green chemistry method makes it possible in just 3 steps with almost no waste. This is a successful application of green chemistry."
+          }
+        ]
+      },
+      {
+        "type": "definition",
+        "title": "এটম ইকোনমি (Atom Economy)",
+        "text_bn": "এটম ইকোনমি (AE) একটি রাসায়নিক বিক্রিয়ার কার্যকারিতা পরিমাপ করে। এটি হিসাব করে যে বিক্রিয়কের মোট পরমাণুর কত অংশ কাঙ্ক্ষিত উৎপাদে রূপান্তরিত হয়েছে। এর সূত্র হলো: \n$$AE = \\frac{\\text{কাঙ্ক্ষিত উৎপাদের আণবিক ভর}}{\\text{সকল বিক্রিয়কের মোট আণবিক ভর}} \\times 100\\%$$",
+        "text_en": "Atom Economy (AE) measures the efficiency of a chemical reaction. It calculates what fraction of the total atoms from the reactants are incorporated into the desired product. The formula is: \n$$AE = \\frac{\\text{Molecular mass of desired product}}{\\text{Total molecular mass of all reactants}} \\times 100\\%$$",
+        "examples": [
+          {
+            "bn": "উদাহরণ: হেবার-বস পদ্ধতিতে অ্যামোনিয়া ($$NH_3$$) উৎপাদনে, $$N_2 + 3H_2 \\rightarrow 2NH_3$$ বিক্রিয়ায় সকল বিক্রিয়ক পরমাণুই কাঙ্ক্ষিত উৎপাদে পরিণত হয়। তাই এর এটম ইকোনমি ১০০%, যা একটি আদর্শ সবুজ প্রক্রিয়া নির্দেশ করে।",
+            "en": "Example: In the Haber-Bosch process for ammonia ($$NH_3$$) production via $$N_2 + 3H_2 \\rightarrow 2NH_3$$, all reactant atoms are converted into the desired product. Thus, its atom economy is 100%, indicating an ideal green process."
+          }
+        ]
+      },
+      {
+        "type": "example",
+        "title": "এটম ইকোনমির উদাহরণ",
+        "examples": [
+          {
+            "bn": "প্রশ্ন: $$CaCO_3 \\rightarrow CaO + CO_2$$ বিক্রিয়ায় এটম ইকোনমি কত?\n\n**উত্তর:** **এখানে কাঙ্ক্ষিত উৎপাদ $$CaO$$।\n$$CaO$$ এর আণবিক ভর = 40 + 16 = 56\n$$CaCO_3$$ এর আণবিক ভর = 40 + 12 + 3(16) = 100\n$$AE = \\frac{56}{100} \\times 100\\% = 56\\%**",
+            "en": "Question: What is the Atom Economy for the reaction $$CaCO_3 \\rightarrow CaO + CO_2$$?\nAnswer: Here, the desired product is $$CaO$$.\nMolecular mass of $$CaO$$ = 40 + 16 = 56\nMolecular mass of $$CaCO_3$$ = 40 + 12 + 3(16) = 100\n$$AE = \\frac{56}{100} \\times 100\\% = 56\\%$$"
+          }
+        ]
+      },
+      {
+        "type": "important",
+        "title": "সবুজতর প্রক্রিয়া (Greener Process)",
+        "text_bn": "একটি প্রক্রিয়াকে তখনই \"সবুজতর\" বা অধিক পরিবেশবান্ধব বলা হয় যখন তার এটম ইকোনমি (AE) বেশি এবং E-ফ্যাক্টর (বর্জ্যের পরিমাণ) কম হয়। এটি উপকরণের সর্বোচ্চ ব্যবহার এবং সর্বনিম্ন বর্জ্য উৎপাদন নির্দেশ করে।",
+        "text_en": "A process is considered \"greener\" or more environmentally friendly when it has a high Atom Economy (AE) and a low E-Factor (amount of waste). This indicates maximum utilization of materials and minimal waste generation.",
+        "examples": [
+          {
+            "bn": "উদাহরণ: দুটি ভিন্ন পদ্ধতিতে একই উৎপাদ A তৈরি করা হলে, যে পদ্ধতির এটম ইকোনমি বেশি (যেমন: ৯০% বনাম ৬০%) এবং কম বর্জ্য (E-ফ্যাক্টর কম) উৎপন্ন হয়, সেই পদ্ধতিটিকে সবুজতর প্রক্রিয়া হিসেবে বেছে নেওয়া হবে।",
+            "en": "Example: If product A can be made by two different methods, the method with the higher atom economy (e.g., 90% vs 60%) and less waste (lower E-factor) will be chosen as the greener process."
+          }
+        ]
+      }
+    ]
+  },
+  "cc-reaction-rate": {
+    "title": "বিক্রিয়ার হার ও হার ধ্রুবক",
+    "blocks": [
+      {
+        "type": "definition",
+        "title": "বিক্রিয়ার হার (Rate of Reaction)",
+        "text_bn": "সময়ের সাথে বিক্রিয়ক বা উৎপাদের ঘনত্বের পরিবর্তনের হারকে বিক্রিয়ার হার বলে।\nবিক্রিয়কের সাপেক্ষে হার: $$Rate = -\\frac{\\Delta[Reactant]}{\\Delta t}$$\nউৎপাদের সাপেক্ষে হার: $$Rate = +\\frac{\\Delta[Product]}{\\Delta t}$$\nঋণাত্মক চিহ্ন বিক্রিয়কের ঘনত্ব হ্রাস এবং ধনাত্মক চিহ্ন উৎপাদের ঘনত্ব বৃদ্ধি নির্দেশ করে। এর একক সাধারণত $$mol L^{-1}s^{-1}$$।",
+        "text_en": "The rate of reaction is the change in concentration of a reactant or product with time.\nRate w.r.t. Reactant: $$Rate = -\\frac{\\Delta[Reactant]}{\\Delta t}$$\nRate w.r.t. Product: $$Rate = +\\frac{\\Delta[Product]}{\\Delta t}$$\nThe negative sign indicates a decrease in reactant concentration, and the positive sign indicates an increase in product concentration. Its unit is typically $$mol L^{-1}s^{-1}$$。",
+        "examples": [
+          {
+            "bn": "উদাহরণ: লোহায় মরিচা পড়া একটি ধীর গতির বিক্রিয়া, যা সংঘটিত হতে কয়েক মাস বা বছর সময় লাগতে পারে। অন্যদিকে, একটি গ্যাস সিলিন্ডারে বিস্ফোরণ একটি অত্যন্ত দ্রুত বিক্রিয়া, যা মুহূর্তের মধ্যে ঘটে যায়। উভয়ই বিক্রিয়ার হারের উদাহরণ।",
+            "en": "Example: The rusting of iron is a slow reaction that can take months or years. On the other hand, an explosion in a gas cylinder is an extremely fast reaction that occurs in an instant. Both are examples of reaction rates."
+          }
+        ]
+      },
+      {
+        "type": "definition",
+        "title": "হার সূত্র বা রেট ল (Rate Law)",
+        "text_bn": "হার সূত্র একটি সমীকরণ যা বিক্রিয়ার হারকে বিক্রিয়কের ঘনত্বের সাথে সম্পর্কিত করে। একটি সাধারণ বিক্রিয়ার জন্য ($$A \\rightarrow Products$$), হার সূত্রটি হলো: $$R = k[A]^n$$\nএখানে, R = বিক্রিয়ার হার, k = হার ধ্রুবক (Rate Constant), [A] = বিক্রিয়কের ঘনত্ব, এবং n = বিক্রিয়ার ক্রম (Order of Reaction)।",
+        "text_en": "The rate law is an equation that relates the reaction rate to the concentrations of reactants. For a general reaction ($$A \\rightarrow Products$$), the rate law is: $$R = k[A]^n$$\nHere, R = Rate of reaction, k = Rate Constant, [A] = Concentration of reactant, and n = Order of the reaction.",
+        "examples": [
+          {
+            "bn": "উদাহরণ: $$2NO(g) + O_2(g) \\rightarrow 2NO_2(g)$$ বিক্রিয়ার জন্য পরীক্ষালব্ধ হার সূত্রটি হলো $$R = k[NO]^2[O_2]$$। এটি দেখায় যে, বিক্রিয়ার হার NO এর ঘনত্বের বর্গের এবং O₂ এর ঘনত্বের প্রথম ঘাতের সমানুপাতিক।",
+            "en": "Example: For the reaction $$2NO(g) + O_2(g) \\rightarrow 2NO_2(g)$$, the experimentally determined rate law is $$R = k[NO]^2[O_2]$$. This shows that the reaction rate is proportional to the square of the concentration of NO and the first power of the concentration of O₂."
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "title": "হার ধ্রুবক (k) এর একক",
+        "headers": ["বিক্রিয়ার ক্রম (Order, n)", "k এর একক (Unit of k)"],
+        "rows": [
+          ["0 (শূন্য ক্রম)", "$$mol L^{-1}s^{-1}$$"],
+          ["1 (প্রথম ক্রম)", "$$s^{-1}$$"],
+          ["2 (দ্বিতীয় ক্রম)", "$$L mol^{-1}s^{-1}$$"]
+        ],
+        "examples": [
+          {
+            "bn": "উদাহরণ: যদি কোনো বিক্রিয়ার হার ধ্রুবকের মান $$k = 3 \\times 10^{-4} s^{-1}$$ হয়, তবে এর একক ($$s^{-1}$$) দেখে আমরা সহজেই বলতে পারি যে এটি একটি প্রথম ক্রমের বিক্রিয়া।",
+            "en": "Example: If the rate constant for a reaction is $$k = 3 \\times 10^{-4} s^{-1}$$, we can easily identify it as a first-order reaction based on its unit ($$s^{-1}$$)."
+          }
+        ]
+      }
+    ]
+  },
+  "cc-activation-energy": {
+    "title": "সক্রিয়ন শক্তি ও আরহেনিয়াসের সমীকরণ",
+    "blocks": [
+      {
+        "type": "definition",
+        "title": "সক্রিয়ন শক্তি (Activation Energy, Ea)",
+        "text_bn": "বিক্রিয়ক অণুগুলোকে বিক্রিয়া করে উৎপাদে পরিণত হওয়ার জন্য প্রয়োজনীয় ন্যূনতম শক্তিকে সক্রিয়ন শক্তি বলে। এটি হলো একটি শক্তি বাধা যা বিক্রিয়ককে অতিক্রম করতে হয়। শক্তি লেখচিত্রে এটি বিক্রিয়কের শক্তিস্তর এবং অবস্থান্তর অবস্থার (transition state) শক্তিস্তরের পার্থক্য। $$E_a = E_{transition} - E_{reactant}$$",
+        "text_en": "Activation energy is the minimum amount of energy required for reactant molecules to react and transform into products. It is an energy barrier that reactants must overcome. On an energy profile diagram, it is the difference between the energy level of the reactants and the transition state. $$E_a = E_{transition} - E_{reactant}$$",
+        "examples": [
+          {
+            "bn": "উদাহরণ: একটি দিয়াশলাই কাঠি জ্বালানোর জন্য বাক্সের পাশে ঘষা দিতে হয়। এই ঘর্ষণের ফলে উৎপন্ন তাপই কাঠিটির দহন বিক্রিয়া শুরু করার জন্য প্রয়োজনীয় সক্রিয়ন শক্তি জোগান দেয়।",
+            "en": "Example: To light a matchstick, you have to strike it on the side of the box. The heat generated by this friction provides the necessary activation energy to start the combustion reaction of the matchstick."
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "title": "তাপ উৎপাদী বনাম তাপহারী বিক্রিয়া",
+        "headers": [
+          "বৈশিষ্ট্য",
+          "তাপ উৎপাদী (Exothermic)",
+          "তাপহারী (Endothermic)"
+        ],
+        "rows": [
+          [
+            "এনথালপির পরিবর্তন ($$\\Delta H$$)",
+            "ঋণাত্মক ($$\\Delta H < 0$$)",
+            "ধনাত্মক ($$\\Delta H > 0$$)"
+          ],
+          [
+            "শক্তির সম্পর্ক",
+            "উৎপাদের শক্তি < বিক্রিয়কের শক্তি",
+            "উৎপাদের শক্তি > বিক্রিয়কের শক্তি"
+          ],
+          [
+            "উদাহরণ",
+            "$$N_2 + 3H_2 \\rightarrow 2NH_3$$",
+            "$$N_2 + O_2 \\rightarrow 2NO$$"
+          ]
+        ],
+        "examples": [
+          {
+            "bn": "উদাহরণ: মোমবাতির দহন একটি তাপ উৎপাদী প্রক্রিয়া কারণ এটি পরিবেশে তাপ ও আলো ছড়ায় ($$\\Delta H < 0$$)। অন্যদিকে, বরফ গলার সময় পরিবেশ থেকে তাপ শোষণ করে, তাই এটি একটি তাপহারী প্রক্রিয়া ($$\\Delta H > 0$$)।",
+            "en": "Example: The burning of a candle is an exothermic process because it releases heat and light into the surroundings ($$\\Delta H < 0$$). On the other hand, the melting of ice is an endothermic process as it absorbs heat from the environment ($$\\Delta H > 0$$)."
+          }
+        ]
+      },
+      {
+        "type": "definition",
+        "title": "আরহেনিয়াসের সমীকরণ (Arrhenius Equation)",
+        "text_bn": "এই সমীকরণটি তাপমাত্রা এবং সক্রিয়ন শক্তির সাথে হার ধ্রুবক (k) এর সম্পর্ক স্থাপন করে।\n$$k = Ae^{-E_a/RT}$$\nযেখানে, k = হার ধ্রুবক, A = আরহেনিয়াস ধ্রুবক, Ea = সক্রিয়ন শক্তি, R = মোলার গ্যাস ধ্রুবক, T = কেলভিন এককে তাপমাত্রা।",
+        "text_en": "This equation establishes the relationship of the rate constant (k) with temperature and activation energy.\n$$k = Ae^{-E_a/RT}$$\nWhere, k = Rate constant, A = Arrhenius constant, Ea = Activation energy, R = Molar gas constant, T = Temperature in Kelvin.",
+        "examples": [
+          {
+            "bn": "উদাহরণ: ফ্রিজের ভেতরে তাপমাত্রা কম থাকায় খাবারের পচন সৃষ্টিকারী ব্যাকটেরিয়াদের বিক্রিয়ার হার কমে যায়। আরহেনিয়াসের সমীকরণ অনুযায়ী, তাপমাত্রা (T) কমলে হার ধ্রুবক (k) ও কমে, ফলে খাবার dugo সময় ভালো থাকে।",
+            "en": "Example: Inside a refrigerator, the lower temperature reduces the rate of reactions caused by food-spoiling bacteria. According to the Arrhenius equation, as temperature (T) decreases, the rate constant (k) also decreases, keeping food fresh for longer."
+          }
+        ]
+      },
+      {
+        "type": "important",
+        "title": "গণনার জন্য আরহেনিয়াসের সমীকরণ",
+        "text_bn": "দুটি ভিন্ন তাপমাত্রায় ($$T_1$$ ও $$T_2$$) দুটি ভিন্ন হার ধ্রুবকের ($$k_1$$ ও $$k_2$$) জন্য সমীকরণটি হলো:\n$$ln(\\frac{k_2}{k_1}) = \\frac{E_a}{R} (\\frac{1}{T_1} - \\frac{1}{T_2})$$\nএই রূপটি গাণিতিক সমস্যা সমাধানের জন্য ব্যাপকভাবে ব্যবহৃত হয়।",
+        "text_en": "For two different rate constants ($$k_1$$ & $$k_2$$) at two different temperatures ($$T_1$$ & $$T_2$$), the equation is:\n$$ln(\\frac{k_2}{k_1}) = \\frac{E_a}{R} (\\frac{1}{T_1} - \\frac{1}{T_2})$$\nThis form is widely used for solving mathematical problems.",
+        "examples": [
+          {
+            "bn": "উদাহরণ: যদি কোনো একটি বিক্রিয়ার হার ৩০০K তাপমাত্রার চেয়ে ৩১০K তাপমাত্রায় দ্বিগুণ হয়ে যায়, তবে এই সমীকরণ ব্যবহার করে আমরা ওই বিক্রিয়ার সক্রিয়ন শক্তি (Ea) এর মান নির্ণয় করতে পারব।",
+            "en": "Example: If the rate of a certain reaction doubles when the temperature is increased from 300K to 310K, we can use this equation to calculate the activation energy (Ea) for that reaction."
+          }
+        ]
+      }
+    ]
+  },
+  "cc-le-chatelier": {
+    "title": "ভূমিকা ও লা-শাতেলিয়ার নীতি",
+    "blocks": [
+      {
+        "type": "definition",
+        "title": "রাসায়নিক সাম্যাবস্থা (Chemical Equilibrium)",
+        "text_bn": "উভমুখী বিক্রিয়ার যে অবস্থায় সম্মুখবর্তী বিক্রিয়ার হার ($$R_f$$) এবং পশ্চাৎবর্তী বিক্রিয়ার হার ($$R_b$$) সমান হয়, তাকে রাসায়নিক সাম্যাবস্থা বলে। এই অবস্থায়, বিক্রিয়ক ও উৎপাদের ঘনত্ব স্থির থাকে, কিন্তু বিক্রিয়া বন্ধ হয় না; এটি একটি গতিশীল অবস্থা। $$R_f = R_b$$",
+        "text_en": "Chemical equilibrium is the state in a reversible reaction where the rate of the forward reaction ($$R_f$$) equals the rate of the backward reaction ($$R_b$$). At this state, the concentrations of reactants and products remain constant, but the reaction does not stop; it is a dynamic state. $$R_f = R_b$$",
+        "examples": [
+          {
+            "bn": "উদাহরণ: একটি বন্ধ বোতলে থাকা সোডা ওয়াটার একটি সাম্যাবস্থার উদাহরণ। এখানে, দ্রবীভূত কার্বন ডাই অক্সাইড ($$CO_2(aq)$$) এবং গ্যাসীয় কার্বন ডাই অক্সাইড ($$CO_2(g)$$) এর মধ্যে একটি গতিশীল সাম্যাবস্থা বিরাজ করে। $$CO_2(g) \\rightleftharpoons CO_2(aq)$$",
+            "en": "Example: Soda water in a sealed bottle is an example of equilibrium. A dynamic equilibrium exists between the dissolved carbon dioxide ($$CO_2(aq)$$) and the gaseous carbon dioxide ($$CO_2(g)$$). $$CO_2(g) \\rightleftharpoons CO_2(aq)$$"
+          }
+        ]
+      },
+      {
+        "type": "definition",
+        "title": "লা-শাতেলিয়ার নীতি (Le Chatelier's Principle)",
+        "text_bn": "যদি কোনো সাম্যাবস্থায় থাকা সিস্টেমের উপর কোনো নিয়ামক (যেমন তাপমাত্রা, চাপ বা ঘনমাত্রা) পরিবর্তন করা হয়, তবে সাম্যাবস্থা এমন দিকে সরে যাবে যা ঐ পরিবর্তনের ফলাফলকে প্রশমিত করে।",
+        "text_en": "If a change of condition (a stress like temperature, pressure, or concentration) is applied to a system in equilibrium, the system will shift in a direction that counteracts the effect of that change.",
+        "examples": [
+          {
+            "bn": "উদাহরণ: যখন আমরা সোডার বোতল খুলি, তখন চাপ কমে যায়। লা-শাতেলিয়ার নীতি অনুযায়ী, সাম্যাবস্থাটি চাপ বাড়ানোর চেষ্টা করবে। তাই, দ্রবীভূত $$CO_2$$ গ্যাস আকারে বুদবুদ হয়ে বেরিয়ে আসে এবং সাম্যাবস্থা বাম দিকে সরে যায়।",
+            "en": "Example: When we open a soda bottle, the pressure decreases. According to Le Chatelier's principle, the equilibrium will try to increase the pressure. Therefore, dissolved $$CO_2$$ comes out as gas bubbles, shifting the equilibrium to the left."
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "title": "সাম্যাবস্থার উপর নিয়ামকের প্রভাব",
+        "headers": [
+          "নিয়ামক (Factor)",
+          "পরিবর্তন (Change)",
+          "সাম্যাবস্থার সরণ (Shift of Equilibrium)"
+        ],
+        "rows": [
+          [
+            "তাপমাত্রা (Temp.)",
+            "তাপ বৃদ্ধি (তাপ উৎপাদী বিক্রিয়ায়)",
+            "পশ্চাৎ দিকে (বাম দিকে)"
+          ],
+          [
+            "তাপমাত্রা (Temp.)",
+            "তাপ বৃদ্ধি (তাপহারী বিক্রিয়ায়)",
+            "সম্মুখ দিকে (ডান দিকে)"
+          ],
+          ["চাপ (Pressure)", "চাপ বৃদ্ধি", "যেদিকে মোল সংখ্যা কম, সেদিকে"],
+          ["চাপ (Pressure)", "চাপ হ্রাস", "যেদিকে মোল সংখ্যা বেশি, সেদিকে"],
+          [
+            "ঘনমাত্রা (Conc.)",
+            "বিক্রিয়কের ঘনত্ব বৃদ্ধি",
+            "সম্মুখ দিকে (ডান দিকে)"
+          ],
+          ["ঘনমাত্রা (Conc.)", "উৎপাদের ঘনত্ব বৃদ্ধি", "পশ্চাৎ দিকে (বাম দিকে)"]
+        ],
+        "examples": [
+          {
+            "bn": "উদাহরণ: হেবার-বস পদ্ধতিতে অ্যামোনিয়া উৎপাদন ($$N_2(g) + 3H_2(g) \\rightleftharpoons 2NH_3(g) + \\text{Heat}$$) একটি তাপ উৎপাদী বিক্রিয়া। বেশি অ্যামোনিয়া পাওয়ার জন্য (সাম্যাবস্থা ডানে সরাতে) তাপমাত্রা কমাতে হবে এবং চাপ বাড়াতে হবে (কারণ উৎপাদের মোল সংখ্যা কম)।",
+            "en": "Example: Ammonia production by the Haber-Bosch process ($$N_2(g) + 3H_2(g) \\rightleftharpoons 2NH_3(g) + \\text{Heat}$$) is an exothermic reaction. To get more ammonia (shift equilibrium to the right), the temperature should be decreased and the pressure should be increased (as there are fewer moles of product)."
+          }
+        ]
+      }
+    ]
+  },
+  "cc-kp-kc-basics": {
+    "title": "সাম্য ধ্রুবক Kc ও Kp",
+    "blocks": [
+      {
+        "type": "definition",
+        "title": "সাম্য ধ্রুবক (Equilibrium Constant, K)",
+        "text_bn": "একটি নির্দিষ্ট তাপমাত্রায়, কোনো উভমুখী বিক্রিয়ার সাম্যাবস্থায় উৎপাদসমূহের মোলার ঘনমাত্রার গুণফল এবং বিক্রিয়কসমূহের মোলার ঘনমাত্রার গুণফলের অনুপাতকে সাম্য ধ্রুবক বলে।\n$$aA + bB \\rightleftharpoons cC + dD$$ বিক্রিয়ার জন্য,\n$$K_c = \\frac{[C]^c [D]^d}{[A]^a [B]^b}$$",
+        "text_en": "At a specific temperature, the ratio of the product of the molar concentrations of the products to the product of the molar concentrations of the reactants in a reversible reaction at equilibrium is called the equilibrium constant.\nFor the reaction $$aA + bB \\rightleftharpoons cC + dD$$,\n$$K_c = \\frac{[C]^c [D]^d}{[A]^a [B]^b}$$",
+        "examples": [
+          {
+            "bn": "উদাহরণ: אם Kc এর মান খুব বড় হয় (যেমন, > 1000), তার মানে সাম্যাবস্থায় উৎপাদের পরিমাণ বিক্রিয়কের চেয়ে অনেক বেশি। যদি Kc খুব ছোট হয় (যেমন, < 0.001), তার মানে বিক্রিয়াটি প্রায় ঘটেইনি।",
+            "en": "Example: If the value of Kc is very large (e.g., > 1000), it means that at equilibrium, the amount of product is much greater than the amount of reactant. If Kc is very small (e.g., < 0.001), it means the reaction has barely occurred."
+          }
+        ]
+      },
+      {
+        "type": "definition",
+        "title": "Kp (আংশিক চাপের সাম্য ধ্রুবক)",
+        "text_bn": "যখন বিক্রিয়ক এবং উৎপাদ গ্যাসীয় হয়, তখন তাদের মোলার ঘনত্বের পরিবর্তে আংশিক চাপ ব্যবহার করে যে সাম্য ধ্রুবক পাওয়া যায় তাকে Kp বলে।\n$$K_p = \\frac{(P_C)^c (P_D)^d}{(P_A)^a (P_B)^b}$$",
+        "text_en": "When the reactants and products are gaseous, the equilibrium constant expressed in terms of partial pressures instead of molar concentrations is called Kp.\n$$K_p = \\frac{(P_C)^c (P_D)^d}{(P_A)^a (P_B)^b}$$",
+        "examples": [
+          {
+            "bn": "উদাহরণ: অ্যামোনিয়া উৎপাদনের গ্যাসীয় বিক্রিয়ায় ($$N_2(g) + 3H_2(g) \\rightleftharpoons 2NH_3(g)$$), সাম্য ধ্রুবকটি গ্যাসগুলোর আংশিক চাপ দিয়ে প্রকাশ করা সুবিধাজনক, যা Kp। $$K_p = \\frac{(P_{NH_3})^2}{(P_{N_2})(P_{H_2})^3}$$",
+            "en": "Example: In the gaseous reaction for ammonia production ($$N_2(g) + 3H_2(g) \\rightleftharpoons 2NH_3(g)$$), it is convenient to express the equilibrium constant using the partial pressures of the gases, which is Kp. $$K_p = \\frac{(P_{NH_3})^2}{(P_{N_2})(P_{H_2})^3}$$"
+          }
+        ]
+      },
+      {
+        "type": "important",
+        "title": "Kp ও Kc এর মান",
+        "text_bn": "Kp বা Kc এর মান কখনো শূন্য বা অসীম হতে পারে না। কারণ সাম্যাবস্থায়, কোনো বিক্রিয়ক বা উৎপাদের ঘনত্ব বা আংশিক চাপ শূন্য হয় না। উভয়ই একটি নির্দিষ্ট পরিমাণে উপস্থিত থাকে।",
+        "text_en": "The value of Kp or Kc can never be zero or infinite. This is because at equilibrium, the concentration or partial pressure of any reactant or product is never zero. Both are present in certain amounts.",
+        "examples": [
+          {
+            "bn": "উদাহরণ: যদি একটি উভমুখী বিক্রিয়ার জন্য $$K_c = 0$$ হতো, তার মানে উৎপাদের ঘনত্ব শূন্য, অর্থাৎ কোনো বিক্রিয়াই ঘটেনি। এটি সাম্যাবস্থার সংজ্ঞার পরিপন্থী। একইভাবে, $$K_c = \\infty$$ হলে বিক্রিয়কের ঘনত্ব শূন্য হতো, যা অসম্ভব।",
+            "en": "Example: If $$K_c = 0$$ for a reversible reaction, it would mean the product concentration is zero, i.e., no reaction has occurred. This contradicts the definition of equilibrium. Similarly, if $$K_c = \\infty$$, the reactant concentration would have to be zero, which is impossible."
+          }
+        ]
+      }
+    ]
+  },
+  "cc-dissociation-degree": {
+    "title": "বিয়োজন মাত্রা ও সাম্য ধ্রুবক",
+    "blocks": [
+      {
+        "type": "definition",
+        "title": "বিয়োজন মাত্রা (Degree of Dissociation, α)",
+        "text_bn": "সাম্যাবস্থায় কোনো বিক্রিয়কের প্রতি মোল যত অংশ বিয়োজিত হয়ে উৎপাদে পরিণত হয়, তাকে ঐ পদার্থের বিয়োজন মাত্রা বলে।\n$$α = \\frac{\\text{বিয়োজিত মোল সংখ্যা}}{\\text{প্রাথমিক মোল সংখ্যা}}$$\nএর কোনো একক নেই এবং এর মান সাধারণত ১ এর চেয়ে কম হয়।",
+        "text_en": "The fraction of one mole of a reactant that dissociates into products at equilibrium is called its degree of dissociation.\n$$α = \\frac{\\text{Moles dissociated}}{\\text{Initial moles}}$$\nIt has no unit and its value is generally less than 1.",
+        "examples": [
+          {
+            "bn": "উদাহরণ: যদি আমরা ১০ মোল PCl₅ নিয়ে বিক্রিয়া শুরু করি এবং সাম্যাবস্থায় ২ মোল PCl₅ বিয়োজিত হয়, তবে বিয়োজন মাত্রা হবে $$α = \\frac{2}{10} = 0.2$$। একে শতকরা হিসেবে প্রকাশ করলে, বিয়োজনের হার ২০%।",
+            "en": "Example: If we start a reaction with 10 moles of PCl₅ and at equilibrium, 2 moles of PCl₅ have dissociated, then the degree of dissociation is $$α = \\frac{2}{10} = 0.2$$. Expressed as a percentage, the dissociation is 20%."
+          }
+        ]
+      },
+      {
+        "type": "example",
+        "title": "PCl₅ এর বিয়োজন ও Kc নির্ণয়",
+        "examples": [
+          {
+            "bn": "বিক্রিয়া: $$PCl_5(g) \\rightleftharpoons PCl_3(g) + Cl_2(g)$$\nধরি, প্রাথমিক মোল = 1, বিয়োজন মাত্রা = α, পাত্রের আয়তন = V লিটার।\nসাম্যাবস্থায় মোল সংখ্যা:\n$$[PCl_5] = 1-α$$ \n$$[PCl_3] = α$$ \n$$[Cl_2] = α$$ \nসাম্যাবস্থায় ঘনমাত্রা:\n$$[PCl_5] = \\frac{1-α}{V}$$ \n$$[PCl_3] = \\frac{α}{V}$$ \n$$[Cl_2] = \\frac{α}{V}$$ \n$$K_c = \\frac{[PCl_3][Cl_2]}{[PCl_5]} = \\frac{(\\frac{α}{V}) (\\frac{α}{V})}{(\\frac{1-α}{V})} = \\frac{α^2}{(1-α)V}$$",
+            "en": "Reaction: $$PCl_5(g) \\rightleftharpoons PCl_3(g) + Cl_2(g)$$\nLet, Initial moles = 1, Degree of dissociation = α, Volume = V Liters.\nMoles at equilibrium:\n$$[PCl_5] = 1-α$$ \n$$[PCl_3] = α$$ \n$$[Cl_2] = α$$ \nConcentration at equilibrium:\n$$[PCl_5] = \\frac{1-α}{V}$$ \n$$[PCl_3] = \\frac{α}{V}$$ \n$$[Cl_2] = \\frac{α}{V}$$ \n$$K_c = \\frac{[PCl_3][Cl_2]}{[PCl_5]} = \\frac{(\\frac{α}{V}) (\\frac{α}{V})}{(\\frac{1-α}{V})} = \\frac{α^2}{(1-α)V}$$"
+          }
+        ]
+      }
+    ]
+  },
+  "cc-kp-kc-relation": {
+    "title": "Kp ও Kc এর সম্পর্ক",
+    "blocks": [
+      {
+        "type": "definition",
+        "title": "Kp ও Kc এর সম্পর্ক",
+        "text_bn": "Kp এবং Kc এর মধ্যে সম্পর্কটি হলো: $$K_p = K_c(RT)^{\\Delta n}$$\nযেখানে, R = মোলার গ্যাস ধ্রুবক (0.0821 L atm mol⁻¹K⁻¹), T = কেলভিন তাপমাত্রা, এবং $${\\Delta n}$$ = (উৎপাদের মোট গ্যাসীয় মোল সংখ্যা) - (বিক্রিয়কের মোট গ্যাসীয় মোল সংখ্যা)।",
+        "text_en": "The relationship between Kp and Kc is: $$K_p = K_c(RT)^{\\Delta n}$$\nWhere, R = Molar gas constant (0.0821 L atm mol⁻¹K⁻¹), T = Temperature in Kelvin, and $${\\Delta n}$$ = (Total moles of gaseous products) - (Total moles of gaseous reactants).",
+        "examples": [
+          {
+            "bn": "উদাহরণ: যদি কোনো বিক্রিয়ায় গ্যাসীয় মোল সংখ্যার কোনো পরিবর্তন না হয়, অর্থাৎ $${\\Delta n} = 0$$ হয়, তবে $$K_p = K_c(RT)^0 = K_c$$ হবে।",
+            "en": "Example: If there is no change in the number of moles of gas in a reaction, meaning $${\\Delta n} = 0$$, then $$K_p = K_c(RT)^0 = K_c$$."
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Δn এর মানের উপর ভিত্তি করে সম্পর্ক",
+        "headers": ["বিক্রিয়া", "Δn এর মান", "সম্পর্ক"],
+        "rows": [
+          [
+            "$$H_2(g) + I_2(g) \\rightleftharpoons 2HI(g)$$",
+            "$$2 - (1+1) = 0$$",
+            "$$K_p = K_c$$"
+          ],
+          [
+            "$$N_2(g) + 3H_2(g) \\rightleftharpoons 2NH_3(g)$$",
+            "$$2 - (1+3) = -2$$",
+            "$$K_p = K_c(RT)^{-2}$$"
+          ],
+          [
+            "$$PCl_5(g) \\rightleftharpoons PCl_3(g) + Cl_2(g)$$",
+            "$$(1+1) - 1 = 1$$",
+            "$$K_p = K_c(RT)^{1}$$"
+          ]
+        ],
+        "examples": [
+          {
+            "bn": "উদাহরণ: PCl₅ এর বিয়োজনে ($$\\Delta n = 1$$), Kp এর মান Kc এর চেয়ে বড় হবে (কারণ RT > 1 সাধারণত)। অন্যদিকে, অ্যামোনিয়া সংশ্লেষণে ($$\\Delta n = -2$$), Kp এর মান Kc এর চেয়ে ছোট হবে।",
+            "en": "Example: For the dissociation of PCl₅ ($$\\Delta n = 1$$), the value of Kp will be greater than Kc (since RT is usually > 1). Conversely, for ammonia synthesis ($$\\Delta n = -2$$), the value of Kp will be smaller than Kc."
+          }
+        ]
+      }
+    ]
+  },
+  "cc-acid-base-strength": {
+    "title": "অ্যাসিড ও ক্ষারকের ধারণা ও শক্তি",
+    "blocks": [
+      {
+        "type": "definition",
+        "title": "অ্যাসিড ও ক্ষারকের শক্তি",
+        "text_bn": "** তীব্র অ্যাসিড:** যে সকল অ্যাসিড জলীয় দ্রবণে সম্পূর্ণরূপে আয়নিত হয়। যেমন: $$HCl, H_2SO_4, HNO_3$$।\n** দুর্বল অ্যাসিড:** যে সকল অ্যাসিড জলীয় দ্রবণে আংশিকভাবে আয়নিত হয়। যেমন: $$CH_3COOH, H_2CO_3$$।",
+        "text_en": "**Strong Acid:** Acids that completely ionize in aqueous solution. E.g., $$HCl, H_2SO_4, HNO_3$$.\n**Weak Acid:** Acids that partially ionize in aqueous solution. E.g., $$CH_3COOH, H_2CO_3$$.",
+        "examples": [
+          {
+            "bn": "উদাহরণ: 100টি HCl অণু পানিতে যোগ করলে প্রায় 100টিই $$H^+$$ ও $$Cl^-$$ আয়নে বিভক্ত হয়ে যায়। কিন্তু 100টি অ্যাসিটিক অ্যাসিড ($$CH_3COOH$$) অণু যোগ করলে হয়তো মাত্র ১-২টি অণু আয়নে বিভক্ত হয়। তাই HCl তীব্র এবং অ্যাসিটিক অ্যাসিড দুর্বল।",
+            "en": "Example: If you add 100 molecules of HCl to water, almost all 100 will dissociate into $$H^+$$ and $$Cl^-$$ ions. But if you add 100 molecules of acetic acid ($$CH_3COOH$$), perhaps only 1-2 molecules will dissociate. Thus, HCl is strong and acetic acid is weak."
+          }
+        ]
+      },
+      {
+        "type": "important",
+        "title": "Ka ও pKa দ্বারা শক্তি পরিমাপ",
+        "text_bn": "অ্যাসিডের বিয়োজন ধ্রুবক ($$K_a$$) এর মান যত বেশি, অ্যাসিডটি তত শক্তিশালী।\n$$pK_a = -log(K_a)$$\n$$pK_a$$ এর মান যত কম, অ্যাসিডটি তত শক্তিশালী।",
+        "text_en": "The higher the value of the acid dissociation constant ($$K_a$$), the stronger the acid.\n$$pK_a = -log(K_a)$$\nThe lower the value of $$pK_a$$, the stronger the acid.",
+        "examples": [
+          {
+            "bn": "উদাহরণ: HCl এর Ka মান খুবই বড় এবং pKa ঋণাত্মক, যা এর তীব্র শক্তি নির্দেশ করে। অন্যদিকে, অ্যাসিটিক অ্যাসিডের Ka মান ছোট (প্রায় $$1.8 \\times 10^{-5}$$) এবং pKa ধনাত্মক (4.74), যা এর দুর্বল প্রকৃতি নির্দেশ করে।",
+            "en": "Example: The Ka value of HCl is very large and its pKa is negative, indicating its strong nature. In contrast, acetic acid has a small Ka value (around $$1.8 \\times 10^{-5}$$) and a positive pKa (4.74), indicating its weak nature."
+          }
+        ]
+      },
+      {
+        "type": "example",
+        "title": "অ্যাসিডের শক্তির তুলনা",
+        "examples": [
+          {
+            "bn": "প্রশ্ন: $$HCOOH (pK_a = 3.74)$$ এবং $$CH_3COOH (pK_a = 4.74)$$ এর মধ্যে কোনটি বেশি শক্তিশালী?\n\n**উত্তর:** **যেহেতু ফরমিক অ্যাসিড ($$HCOOH$$) এর $$pK_a$$ মান অ্যাসিটিক অ্যাসিড ($$CH_3COOH$$) এর চেয়ে কম, তাই ফরমিক অ্যাসিড বেশি শক্তিশালী।**",
+            "en": "Question: Which is stronger between $$HCOOH (pK_a = 3.74)$$ and $$CH_3COOH (pK_a = 4.74)$$?\nAnswer: Since formic acid ($$HCOOH$$) has a lower $$pK_a$$ value than acetic acid ($$CH_3COOH$$), formic acid is the stronger acid."
+          }
+        ]
+      }
+    ]
+  },
+  "cc-ionic-product-water": {
+    "title": "পানির আয়নিক গুণফল (Kw)",
+    "blocks": [
+      {
+        "type": "definition",
+        "title": "পানির আয়নিক গুণফল (Ionic Product of Water, Kw)",
+        "text_bn": "নির্দিষ্ট তাপমাত্রায় বিশুদ্ধ পানিতে উপস্থিত হাইড্রোজেন আয়ন ($$H^+$$) এবং হাইড্রোক্সাইড আয়ন ($$OH^-$$) এর মোলার ঘনমাত্রার গুণফলকে পানির আয়নিক গুণফল বলে।\n$$K_w = [H^+][OH^-]$$\n২৫°C তাপমাত্রায়, $$K_w = 1.0 \\times 10^{-14} mol^2L^{-2}$$।",
+        "text_en": "At a specific temperature, the product of the molar concentrations of hydrogen ions ($$H^+$$) and hydroxide ions ($$OH^-$$) present in pure water is called the ionic product of water.\n$$K_w = [H^+][OH^-]$$\nAt 25°C, $$K_w = 1.0 \\times 10^{-14} mol^2L^{-2}$$。",
+        "examples": [
+          {
+            "bn": "উদাহরণ: ২৫°C তাপমাত্রায় বিশুদ্ধ পানিতে, $$[H^+] = 1.0 \\times 10^{-7} M$$ এবং $$[OH^-] = 1.0 \\times 10^{-7} M$$ হয়। সুতরাং, $$K_w = (10^{-7}) \\times (10^{-7}) = 10^{-14}$$। তাপমাত্রা বাড়লে পানির বিয়োজন বাড়ে, তাই Kw এর মানও বৃদ্ধি পায়।",
+            "en": "Example: In pure water at 25°C, $$[H^+] = 1.0 \\times 10^{-7} M$$ and $$[OH^-] = 1.0 \\times 10^{-7} M$$. Therefore, $$K_w = (10^{-7}) \\times (10^{-7}) = 10^{-14}$$. If the temperature increases, the dissociation of water increases, and so does the value of Kw."
+          }
+        ]
+      },
+      {
+        "type": "important",
+        "title": "Kw, Ka, এবং Kb এর সম্পর্ক",
+        "text_bn": "একটি অনুবন্ধী অম্ল-ক্ষারক জোড়ের জন্য, তাদের বিয়োজন ধ্রুবকের গুণফল পানির আয়নিক গুণফলের সমান।\n$$K_w = K_a \\times K_b$$",
+        "text_en": "For a conjugate acid-base pair, the product of their dissociation constants is equal to the ionic product of water.\n$$K_w = K_a \\times K_b$$",
+        "examples": [
+          {
+            "bn": "উদাহরণ: অ্যাসিটিক অ্যাসিড ($$CH_3COOH$$) এর অনুবন্ধী ক্ষারক হলো অ্যাসিটেট আয়ন ($$CH_3COO^-$$)। যদি আমরা অ্যাসিটিক অ্যাসিডের Ka এবং অ্যাসিটেট আয়নের Kb জানি, তবে তাদের গুণফল সর্বদা $$K_w (1.0 \\times 10^{-14})$$ এর সমান হবে।",
+            "en": "Example: The conjugate base of acetic acid ($$CH_3COOH$$) is the acetate ion ($$CH_3COO^-$$). If we know the Ka of acetic acid and the Kb of the acetate ion, their product will always be equal to $$K_w (1.0 \\times 10^{-14})$$."
+          }
+        ]
+      }
+    ]
+  },
+  "cc-ph-calculation": {
+    "title": "pH ও pOH নির্ণয়",
+    "blocks": [
+      {
+        "type": "definition",
+        "title": "pH ও pOH",
+        "text_bn": "কোনো দ্রবণের হাইড্রোজেন আয়নের ($$H^+$$) মোলার ঘনমাত্রার ঋণাত্মক লগারিদমকে pH বলে।\n$$pH = -log[H^+]$$\nএকইভাবে, হাইড্রোক্সাইড আয়নের ($$OH^-$$) মোলার ঘনমাত্রার ঋণাত্মক লগারিদমকে pOH বলে।\n$$pOH = -log[OH^-]$$\n২৫°C তাপমাত্রায়, $$pH + pOH = 14$$।",
+        "text_en": "pH is the negative logarithm of the molar concentration of hydrogen ions ($$H^+$$) in a solution.\n$$pH = -log[H^+]$$\nSimilarly, pOH is the negative logarithm of the molar concentration of hydroxide ions ($$OH^-$$).\n$$pOH = -log[OH^-]$$\nAt 25°C, $$pH + pOH = 14$$。",
+        "examples": [
+          {
+            "bn": "উদাহরণ: লেবুর রসের $$[H^+]$$ প্রায় $$10^{-2} M$$। সুতরাং এর pH হবে $$pH = -log(10^{-2}) = 2$$। এটি একটি অম্লীয় দ্রবণ।",
+            "en": "Example: The $$[H^+]$$ of lemon juice is approximately $$10^{-2} M$$. Therefore, its pH will be $$pH = -log(10^{-2}) = 2$$. This is an acidic solution."
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "title": "বিভিন্ন দ্রবণের pH নির্ণয়ের সূত্র",
+        "headers": ["দ্রবণের ধরণ", "pH নির্ণয়ের সূত্র"],
+        "rows": [
+          [
+            "তীব্র অ্যাসিড",
+            "$$pH = -log(C \\times n)$$ (n = প্রতি অণুতে H+ সংখ্যা)"
+          ],
+          ["দুর্বল অ্যাসিড", "$$pH = \\frac{1}{2}(pK_a - logC)$$"],
+          [
+            "তীব্র ক্ষারক",
+            "$$pOH = -log(C \\times n)$$ (n = প্রতি অণুতে OH- সংখ্যা), তারপর $$pH = 14 - pOH$$"
+          ],
+          [
+            "দুর্বল ক্ষারক",
+            "$$pOH = \\frac{1}{2}(pK_b - logC)$$ তারপর $$pH = 14 - pOH$$"
+          ]
+        ],
+        "examples": [
+          {
+            "bn": "উদাহরণ: 0.01M HCl (তীব্র অ্যাসিড) দ্রবণের pH হবে $$pH = -log(0.01) = 2$$। কিন্তু 0.01M $$CH_3COOH$$ (দুর্বল অ্যাসিড, pKa=4.74) দ্রবণের pH হবে $$pH = \\frac{1}{2}(4.74 - log(0.01)) = 3.37$$।",
+            "en": "Example: The pH of a 0.01M HCl (strong acid) solution is $$pH = -log(0.01) = 2$$. But the pH of a 0.01M $$CH_3COOH$$ (weak acid, pKa=4.74) solution will be $$pH = \\frac{1}{2}(4.74 - log(0.01)) = 3.37$$."
+          }
+        ]
+      },
+      {
+        "type": "important",
+        "title": "অতি লঘু দ্রবণের ক্ষেত্রে বিশেষ নিয়ম",
+        "text_bn": "যদি কোনো অ্যাসিড থেকে প্রাপ্ত $$[H^+]$$ এর মান $$10^{-7} M$$ বা তার কম হয়, তবে pH গণনার সময় পানির বিয়োজন থেকে প্রাপ্ত $$10^{-7} M$$ $$[H^+]$$ যোগ করতে হবে।\n$$pH = -log([H^+]_{acid} + 10^{-7})$$",
+        "text_en": "If the $$[H^+]$$ concentration from an acid is $$10^{-7} M$$ or less, the $$10^{-7} M$$ $$[H^+]$$ from the autoionization of water must be added when calculating pH.\n$$pH = -log([H^+]_{acid} + 10^{-7})$$",
+        "examples": [
+          {
+            "bn": "উদাহরণ: $$10^{-8} M$$ HCl দ্রবণের pH শুধু $$-log(10^{-8}) = 8$$ হবে না, কারণ এটি ক্ষারীয় নির্দেশ করে যা অসম্ভব। এখানে পানির $$H^+$$ বিবেচনা করতে হবে: $$pH = -log(10^{-8} + 10^{-7}) \\approx 6.96$$।",
+            "en": "Example: The pH of a $$10^{-8} M$$ HCl solution is not simply $$-log(10^{-8}) = 8$$, as that would imply it's basic, which is impossible. Here, the $$H^+$$ from water must be considered: $$pH = -log(10^{-8} + 10^{-7}) \\approx 6.96$$."
+          }
+        ]
+      }
+    ]
+  },
+  "cc-ostwald-law": {
+    "title": "অসওয়াল্ডের লঘুকরণ সূত্র",
+    "blocks": [
+      {
+        "type": "definition",
+        "title": "অসওয়াল্ডের লঘুকরণ সূত্র (Ostwald's Dilution Law)",
+        "text_bn": "এই সূত্রটি শুধুমাত্র দুর্বল তড়িৎ বিশ্লেষ্য (weak electrolytes) এর জন্য প্রযোজ্য। সূত্রানুসারে, স্থির তাপমাত্রায় একটি দুর্বল তড়িৎ বিশ্লেষ্যের বিয়োজন মাত্রা (α) তার ঘনমাত্রার (C) বর্গমূলের ব্যস্তানুপাতিক।\n$$α \\propto \\frac{1}{\\sqrt{C}}$$\nঅর্থাৎ, দ্রবণ যত লঘু করা হয়, বিয়োজন মাত্রা তত বৃদ্ধি পায়।",
+        "text_en": "This law applies only to weak electrolytes. According to the law, at a constant temperature, the degree of dissociation (α) of a weak electrolyte is inversely proportional to the square root of its concentration (C).\n$$α \\propto \\frac{1}{\\sqrt{C}}$$\nThis means that as the solution is diluted, the degree of dissociation increases.",
+        "examples": [
+          {
+            "bn": "উদাহরণ: একটি দুর্বল অ্যাসিডের দ্রবণে পানি যোগ করে আয়তন ১০ গুণ বাড়ালে, এর ঘনমাত্রা ১০ গুণ কমে যাবে। অসওয়াল্ডের সূত্র অনুযায়ী, এর বিয়োজন মাত্রা $$ \\sqrt{10} \\approx 3.16 $$ গুণ বৃদ্ধি পাবে।",
+            "en": "Example: If you dilute a solution of a weak acid by adding water to increase its volume 10 times, its concentration decreases 10 times. According to Ostwald's law, its degree of dissociation will increase by a factor of $$ \\sqrt{10} \\approx 3.16 $$."
+          }
+        ]
+      },
+      {
+        "type": "example",
+        "title": "সূত্রের প্রতিপাদন (দুর্বল অ্যাসিডের জন্য)",
+        "examples": [
+          {
+            "bn": "দুর্বল অ্যাসিড $$HA$$ এর বিয়োজন: $$HA \\rightleftharpoons H^+ + A^-$$ \nধরি, প্রাথমিক ঘনত্ব = C, বিয়োজন মাত্রা = α \nসাম্যাবস্থায় ঘনত্ব: \n$$[HA] = C(1-α)$$, $$[H^+] = Cα$$, $$[A^-] = Cα$$ \nঅ্যাসিডের বিয়োজন ধ্রুবক, $$K_a = \\frac{[H^+][A^-]}{[HA]} = \\frac{(Cα)(Cα)}{C(1-α)} = \\frac{Cα^2}{1-α}$$ \nযেহেতু অ্যাসিডটি দুর্বল, α খুব ছোট, তাই $$1-α ≈ 1$$ \nসুতরাং, $$K_a ≈ Cα^2$$ বা $$α = \\sqrt{\\frac{K_a}{C}}$$",
+            "en": "Dissociation of weak acid $$HA$$: $$HA \\rightleftharpoons H^+ + A^-$$ \nLet, initial concentration = C, degree of dissociation = α \nEquilibrium concentrations: \n$$[HA] = C(1-α)$$, $$[H^+] = Cα$$, $$[A^-] = Cα$$ \nAcid dissociation constant, $$K_a = \\frac{[H^+][A^-]}{[HA]} = \\frac{(Cα)(Cα)}{C(1-α)} = \\frac{Cα^2}{1-α}$$ \nSince the acid is weak, α is very small, so $$1-α ≈ 1$$ \nTherefore, $$K_a ≈ Cα^2$$ or $$α = \\sqrt{\\frac{K_a}{C}}$$ "
+          }
+        ]
+      }
+    ]
+  },
+  "cc-buffer-intro": {
+    "title": "বাফার দ্রবণের পরিচিতি ও প্রকারভেদ",
+    "blocks": [
+      {
+        "type": "definition",
+        "title": "বাফার দ্রবণ (Buffer Solution)",
+        "text_bn": "যে দ্রবণে সামান্য পরিমাণ অ্যাসিড বা ক্ষারক যোগ করলেও তার pH মানের উল্লেখযোগ্য কোনো পরিবর্তন হয় না, তাকে বাফার দ্রবণ বলে। এটি pH পরিবর্তনে বাধা দেয়।",
+        "text_en": "A solution that resists significant changes in its pH value upon the addition of a small amount of an acid or a base is called a buffer solution. It resists changes in pH.",
+        "examples": [
+          {
+            "bn": "উদাহরণ: মানুষের রক্ত একটি চমৎকার বাফার দ্রবণ। আমরা বিভিন্ন ধরনের খাবার খাই যা অম্লীয় বা ক্ষারীয় হতে পারে, কিন্তু রক্তের pH প্রায় ৭.৪ এ স্থির থাকে। এটি সম্ভব হয় রক্তের বাইকার্বোনেট বাফার সিস্টেমের জন্য।",
+            "en": "Example: Human blood is an excellent buffer solution. We eat various foods that can be acidic or basic, but the pH of our blood remains constant at about 7.4. This is possible due to the bicarbonate buffer system in the blood."
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "title": "বাফার দ্রবণের প্রকারভেদ",
+        "headers": [
+          "প্রকারভেদ (Type)",
+          "উপাদান (Components)",
+          "উদাহরণ (Example)"
+        ],
+        "rows": [
+          [
+            "অম্লীয় বাফার (Acidic Buffer)",
+            "একটি দুর্বল অ্যাসিড + ঐ অ্যাসিডের সাথে তীব্র ক্ষারকের লবণ",
+            "$$CH_3COOH + CH_3COONa$$"
+          ],
+          [
+            "ক্ষারীয় বাফার (Basic Buffer)",
+            "একটি দুর্বল ক্ষারক + ঐ ক্ষারকের সাথে তীব্র অ্যাসিডের লবণ",
+            "$$NH_4OH + NH_4Cl$$"
+          ]
+        ],
+        "examples": [
+          {
+            "bn": "উদাহরণ: অম্লীয় বাফারের pH ৭ এর কম হয় এবং এটি ক্ষারক যোগ করলে pH পরিবর্তন প্রতিরোধ করে। ক্ষারীয় বাফারের pH ৭ এর বেশি হয় এবং এটি অ্যাসিড যোগ করলে pH পরিবর্তন প্রতিরোধ করে।",
+            "en": "Example: An acidic buffer has a pH of less than 7 and it resists changes in pH upon the addition of a base. A basic buffer has a pH of more than 7 and it resists changes in pH upon the addition of an acid."
+          }
+        ]
+      }
+    ]
+  },
+  "cc-henderson-hasselbalch": {
+    "title": "হেন্ডারসন-হ্যাসেলবাখ সমীকরণ",
+    "blocks": [
+      {
+        "type": "definition",
+        "title": "অম্লীয় বাফারের জন্য সমীকরণ",
+        "text_bn": "অম্লীয় বাফার দ্রবণের pH নির্ণয়ের জন্য হেন্ডারসন-হ্যাসেলবাখ সমীকরণটি হলো:\n$$pH = pK_a + log \\frac{[লবণ]}{[অ্যাসিড]}$$\nএখানে, $$pK_a$$ হলো দুর্বল অ্যাসিডের $$pK_a$$ মান এবং ব্র্যাকেটের মধ্যে লবণ ও অ্যাসিডের মোলার ঘনত্ব বোঝানো হয়েছে।",
+        "text_en": "The Henderson-Hasselbalch equation for calculating the pH of an acidic buffer solution is:\n$$pH = pK_a + log \\frac{[Salt]}{[Acid]}$$\nHere, $$pK_a$$ is the $$pK_a$$ value of the weak acid, and the brackets denote the molar concentrations of the salt and acid.",
+        "examples": [
+          {
+            "bn": "উদাহরণ: যদি একটি বাফার দ্রবণে লবণ ও অ্যাসিডের ঘনত্ব সমান হয়, তবে $$log \\frac{[লবণ]}{[অ্যাসিড]} = log(1) = 0$$ হবে। সেক্ষেত্রে, বাফারের pH সরাসরি অ্যাসিডের pKa এর সমান হবে ($$pH = pK_a$$)। এই অবস্থায় বাফারের কার্যকারিতা সর্বোচ্চ হয়।",
+            "en": "Example: If the concentrations of the salt and acid in a buffer solution are equal, then $$log \\frac{[Salt]}{[Acid]} = log(1) = 0$$. In that case, the pH of the buffer will be equal to the pKa of the acid ($$pH = pK_a$$). The buffer is most effective at this point."
+          }
+        ]
+      },
+      {
+        "type": "definition",
+        "title": "ক্ষারীয় বাফারের জন্য সমীকরণ",
+        "text_bn": "ক্ষারীয় বাফার দ্রবণের pOH নির্ণয়ের জন্য হেন্ডারসন-হ্যাসেলবাখ সমীকরণটি হলো:\n$$pOH = pK_b + log \\frac{[লবণ]}{[ক্ষারক]}$$\nএই সমীকরণ থেকে pOH বের করার পর, $$pH = 14 - pOH$$ সূত্র ব্যবহার করে pH নির্ণয় করা হয়।",
+        "text_en": "The Henderson-Hasselbalch equation for calculating the pOH of a basic buffer solution is:\n$$pOH = pK_b + log \\frac{[Salt]}{[Base]}$$\nAfter finding pOH from this equation, pH is calculated using the formula $$pH = 14 - pOH$$。",
+        "examples": [
+          {
+            "bn": "উদাহরণ: একটি ক্ষারীয় বাফারে অ্যামোনিয়াম হাইড্রক্সাইড ($$NH_4OH$$) এবং অ্যামোনিয়াম ক্লোরাইড ($$NH_4Cl$$) এর একটি মিশ্রণ ব্যবহার করে এর pOH ও pH নির্ণয় করা যায়, যা বিভিন্ন রাসায়নিক পরীক্ষায় pH নিয়ন্ত্রণে ব্যবহৃত হয়।",
+            "en": "Example: In a basic buffer, a mixture of ammonium hydroxide ($$NH_4OH$$) and ammonium chloride ($$NH_4Cl$$) can be used to calculate its pOH and pH, which is useful for controlling pH in various chemical experiments."
+          }
+        ]
+      }
+    ]
+  },
+  "cc-buffer-mechanism": {
+    "title": "বাফার দ্রবণের ক্রিয়াকৌশল",
+    "blocks": [
+      {
+        "type": "definition",
+        "title": "অম্লীয় বাফারের ক্রিয়াকৌশল",
+        "text_bn": "উদাহরণ: $$CH_3COOH / CH_3COONa$$ বাফার।\n**অ্যাসিড যোগ করলে:** যোগ করা $$H^+$$ আয়ন দ্রবণে থাকা অ্যাসিটেট আয়ন ($$CH_3COO^-$$) এর সাথে বিক্রিয়া করে দুর্বল অ্যাসিড $$CH_3COOH$$ তৈরি করে। ফলে $$H^+$$ এর ঘনত্ব বাড়ে না।\n$$CH_3COO^-(aq) + H^+(aq) \\rightarrow CH_3COOH(aq)$$\n**ক্ষারক যোগ করলে:** যোগ করা $$OH^-$$ আয়ন দ্রবণে থাকা দুর্বল অ্যাসিড ($$CH_3COOH$$) এর সাথে বিক্রিয়া করে পানি ও অ্যাসিটেট আয়ন তৈরি করে। ফলে $$OH^-$$ এর ঘনত্ব বাড়ে না।\n$$CH_3COOH(aq) + OH^-(aq) \\rightarrow CH_3COO^-(aq) + H_2O(l)$$",
+        "text_en": "Example: $$CH_3COOH / CH_3COONa$$ buffer.\n**On adding acid:** The added $$H^+$$ ions react with the acetate ions ($$CH_3COO^-$$) present in the solution to form the weak acid $$CH_3COOH$$. Thus, the concentration of $$H^+$$ does not increase.\n$$CH_3COO^-(aq) + H^+(aq) \\rightarrow CH_3COOH(aq)$$\n**On adding base:** The added $$OH^-$$ ions react with the weak acid ($$CH_3COOH$$) present in the solution to form water and acetate ions. Thus, the concentration of $$OH^-$$ does not increase.\n$$CH_3COOH(aq) + OH^-(aq) \\rightarrow CH_3COO^-(aq) + H_2O(l)$$ ",
+        "examples": [
+          {
+            "bn": "এখানে বাফারের দুর্বল অ্যাসিডটি একটি \"OH⁻ গ্রহণকারী\" এবং লবণ থেকে প্রাপ্ত অনুবন্ধী ক্ষারকটি একটি \"H⁺ গ্রহণকারী\" হিসেবে কাজ করে pH এর পরিবর্তনকে বাধা দেয়।",
+            "en": "Here, the weak acid of the buffer acts as an \"OH⁻ acceptor\" and the conjugate base from the salt acts as an \"H⁺ acceptor\", resisting the change in pH."
+          }
+        ]
+      },
+      {
+        "type": "definition",
+        "title": "ক্ষারীয় বাফারের ক্রিয়াকৌশল",
+        "text_bn": "উদাহরণ: $$NH_4OH / NH_4Cl$$ বাফার।\n**অ্যাসিড যোগ করলে:** যোগ করা $$H^+$$ আয়ন দ্রবণে থাকা দুর্বল ক্ষারক ($$NH_4OH$$) এর সাথে বিক্রিয়া করে পানি ও অ্যামোনিয়াম আয়ন তৈরি করে।\n$$NH_4OH(aq) + H^+(aq) \\rightarrow NH_4^+(aq) + H_2O(l)$$\n**ক্ষারক যোগ করলে:** যোগ করা $$OH^-$$ আয়ন দ্রবণে থাকা অ্যামোনিয়াম আয়ন ($$NH_4^+$$) এর সাথে বিক্রিয়া করে দুর্বল ক্ষারক $$NH_4OH$$ তৈরি করে।\n$$NH_4^+(aq) + OH^-(aq) \\rightarrow NH_4OH(aq)$$",
+        "text_en": "Example: $$NH_4OH / NH_4Cl$$ buffer.\n**On adding acid:** The added $$H^+$$ ions react with the weak base ($$NH_4OH$$) to form water and ammonium ions.\n$$NH_4OH(aq) + H^+(aq) \\rightarrow NH_4^+(aq) + H_2O(l)$$\n**On adding base:** The added $$OH^-$$ ions react with the ammonium ions ($$NH_4^+$$) to form the weak base $$NH_4OH$$.\n$$NH_4^+(aq) + OH^-(aq) \\rightarrow NH_4OH(aq)$$ ",
+        "examples": [
+          {
+            "bn": "এখানে বাফারের দুর্বল ক্ষারকটি একটি \"H⁺ গ্রহণকারী\" এবং লবণ থেকে প্রাপ্ত অনুবন্ধী অ্যাসিডটি একটি \"OH⁻ গ্রহণকারী\" হিসেবে কাজ করে pH এর পরিবর্তনকে প্রতিরোধ করে।",
+            "en": "Here, the weak base of the buffer acts as an \"H⁺ acceptor\" and the conjugate acid from the salt acts as an \"OH⁻ acceptor\", resisting the change in pH."
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "title": "মানবদেহের গুরুত্বপূর্ণ বাফার সিস্টেম",
+        "headers": [
+          "বাফার সিস্টেম (Buffer System)",
+          "প্রধান অবস্থান (Primary Location)"
+        ],
+        "rows": [
+          ["বাইকার্বোনেট বাফার (Bicarbonate Buffer)", "রক্ত (Blood)"],
+          [
+            "ফসফেট বাফার (Phosphate Buffer)",
+            "কোষের অভ্যন্তরীণ তরল (Intracellular Fluid)"
+          ],
+          ["প্রোটিন বাফার (Protein Buffer)", "রক্ত এবং কোষ (Blood and Cells)"]
+        ],
+        "examples": [
+          {
+            "bn": "উদাহরণ: কঠোর ব্যায়ামের সময় আমাদের পেশীতে ল্যাকটিক অ্যাসিড তৈরি হয়, যা রক্তের pH কমাতে চায়। কিন্তু রক্তের বাইকার্বোনেট বাফার ($$H_2CO_3/HCO_3^-$$) এই অতিরিক্ত অ্যাসিডকে প্রশমিত করে pH স্থির রাখে।",
+            "en": "Example: During strenuous exercise, our muscles produce lactic acid, which tends to lower the blood's pH. However, the bicarbonate buffer ($$H_2CO_3/HCO_3^-$$) in the blood neutralizes this excess acid, keeping the pH stable."
+          }
+        ]
+      }
+    ]
+  }
+}

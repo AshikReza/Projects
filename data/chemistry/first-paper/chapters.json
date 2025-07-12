@@ -121,5 +121,68 @@
         "title": "Van der Waals Forces (ভ্যান ডার ওয়ালস বল)"
       }
     ]
+  },
+  {
+    "id": "ch4",
+    "title": "Chemical Change (রাসায়নিক পরিবর্তন)",
+    "slug": "chemical-change",
+    "topics": [
+      {
+        "id": "cc-green-chem",
+        "title": "Green Chemistry & Atom Economy (গ্রীন কেমিস্ট্রি ও এটম ইকোনমি)"
+      },
+      {
+        "id": "cc-reaction-rate",
+        "title": "Rate of Reaction & Rate Constant (বিক্রিয়ার হার ও হার ধ্রুবক)"
+      },
+      {
+        "id": "cc-activation-energy",
+        "title": "Activation Energy & Arrhenius Equation (সক্রিয়ন শক্তি ও আরহেনিয়াসের সমীকরণ)"
+      },
+      {
+        "id": "cc-le-chatelier",
+        "title": "Intro & Le Chatelier's Principle (ভূমিকা ও লা-শাতেলিয়ার নীতি)"
+      },
+      {
+        "id": "cc-kp-kc-basics",
+        "title": "Equilibrium Constants Kc & Kp (সাম্য ধ্রুবক Kc ও Kp)"
+      },
+      {
+        "id": "cc-dissociation-degree",
+        "title": "Degree of Dissociation & Equilibrium Constant (বিয়োজন মাত্রা ও সাম্য ধ্রুবক)"
+      },
+      {
+        "id": "cc-kp-kc-relation",
+        "title": "Relation between Kp & Kc (Kp ও Kc এর সম্পর্ক)"
+      },
+      {
+        "id": "cc-acid-base-strength",
+        "title": "Concepts & Strength of Acids & Bases (অ্যাসিড ও ক্ষারকের ধারণা ও শক্তি)"
+      },
+      {
+        "id": "cc-ionic-product-water",
+        "title": "Ionic Product of Water Kw (পানির আয়নিক গুণফল Kw)"
+      },
+      {
+        "id": "cc-ph-calculation",
+        "title": "pH & pOH Calculation (pH ও pOH নির্ণয়)"
+      },
+      {
+        "id": "cc-ostwald-law",
+        "title": "Ostwald's Dilution Law (অসওয়াল্ডের লঘুকরণ সূত্র)"
+      },
+      {
+        "id": "cc-buffer-intro",
+        "title": "Intro & Types of Buffer Solutions (বাফার দ্রবণের পরিচিতি ও প্রকারভেদ)"
+      },
+      {
+        "id": "cc-henderson-hasselbalch",
+        "title": "Henderson-Hasselbalch Equation (হেন্ডারসন-হ্যাসেলবাখ সমীকরণ)"
+      },
+      {
+        "id": "cc-buffer-mechanism",
+        "title": "Mechanism of Buffer Solutions (বাফার দ্রবণের ক্রিয়াকৌশল)"
+      }
+    ]
   }
 ]
