@@ -5,8 +5,8 @@
     "slug": "physics",
     "hasPapers": true,
     "papers": [
-      { "id": "paper1", "name": "Physics First Paper", "slug": "first-paper" },
-      { "id": "paper2", "name": "Physics Second Paper", "slug": "second-paper" }
+      { "id": "paper1", "name": "First Paper", "slug": "first-paper" },
+      { "id": "paper2", "name": "Second Paper", "slug": "second-paper" }
     ]
   },
   {
@@ -17,12 +17,12 @@
     "papers": [
       {
         "id": "paper1",
-        "name": "Chemistry First Paper",
+        "name": "First Paper",
         "slug": "first-paper"
       },
       {
         "id": "paper2",
-        "name": "Chemistry Second Paper",
+        "name": "Second Paper",
         "slug": "second-paper"
       }
     ]
@@ -35,12 +35,12 @@
     "papers": [
       {
         "id": "paper1",
-        "name": "Mathematics First Paper",
+        "name": "First Paper",
         "slug": "first-paper"
       },
       {
         "id": "paper2",
-        "name": "Mathematics Second Paper",
+        "name": "Second Paper",
         "slug": "second-paper"
       }
     ]
@@ -51,8 +51,8 @@
     "slug": "biology",
     "hasPapers": true,
     "papers": [
-      { "id": "paper1", "name": "Biology First Paper", "slug": "first-paper" },
-      { "id": "paper2", "name": "Biology Second Paper", "slug": "second-paper" }
+      { "id": "paper1", "name": "First Paper", "slug": "first-paper" },
+      { "id": "paper2", "name": "Second Paper", "slug": "second-paper" }
     ]
   }
 ]
