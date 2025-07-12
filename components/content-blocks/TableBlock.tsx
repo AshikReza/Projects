@@ -32,7 +32,7 @@ export const TableBlock = ({
                 <TableHead
                   key={index}
                   // Header text is bold and uses a brighter color in dark mode for contrast.
-                  className="whitespace-nowrap px-4 font-bold text-slate-700 dark:text-slate-200"
+                  className="whitespace-nowrap px-4 font-extrabold text-slate-700 dark:text-slate-200"
                 >
                   <MarkdownRenderer content={header} />
                 </TableHead>
