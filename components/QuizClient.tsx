@@ -152,7 +152,8 @@ function QuizInstance({ questions }: { questions: QuizQuestion[] }) {
             </CardDescription>
           </CardHeader>
           <CardFooter className="flex justify-center">
-            <Button onClick={resetQuiz}>
+            {/* --- FIX APPLIED --- */}
+            <Button onClick={resetQuiz} className="whitespace-normal">
               {getText({ bn: "আবার চেষ্টা করুন", en: "Try Again" })}
             </Button>
           </CardFooter>
@@ -233,7 +234,6 @@ function QuizInstance({ questions }: { questions: QuizQuestion[] }) {
                   })}
                 </CardContent>
 
-                {/* This section is now clean and type-safe */}
                 {q.explanation && !isCorrect && (
                   <CardFooter className="bg-yellow-100/80 dark:bg-yellow-900/40 py-3">
                     <p className="text-sm text-yellow-800 dark:text-yellow-200">
@@ -271,7 +271,8 @@ function QuizInstance({ questions }: { questions: QuizQuestion[] }) {
             variant={
               selectedAnswerForCurrentQ === option.en ? "default" : "outline"
             }
-            className="w-full justify-start h-auto py-3"
+            // --- FIX APPLIED ---
+            className="w-full justify-start h-auto py-3 whitespace-normal text-left"
             onClick={() => handleAnswerSelect(option.en)}
           >
             {getText(option)}
@@ -279,18 +280,25 @@ function QuizInstance({ questions }: { questions: QuizQuestion[] }) {
         ))}
       </CardContent>
       <CardFooter className="flex justify-between">
+        {/* --- FIX APPLIED --- */}
         <Button
           onClick={handlePrevious}
           variant="outline"
           disabled={currentQuestionIndex === 0}
+          className="whitespace-normal"
         >
           {getText({ bn: "পূর্ববর্তী", en: "Previous" })}
         </Button>
-        <Button onClick={handleNext} disabled={!selectedAnswerForCurrentQ}>
+        {/* --- FIX APPLIED --- */}
+        <Button
+          onClick={handleNext}
+          disabled={!selectedAnswerForCurrentQ}
+          className="whitespace-normal"
+        >
           {currentQuestionIndex < questions.length - 1
             ? getText({ bn: "পরবর্তী", en: "Next" })
             : getText({ bn: "শেষ করুন", en: "Finish" })}
-          <ArrowRight className="h-4 w-4 ml-2" />
+          <ArrowRight className="h-4 w-4 ml-2 flex-shrink-0" />
         </Button>
       </CardFooter>
     </Card>
