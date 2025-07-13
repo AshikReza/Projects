@@ -42,7 +42,6 @@
       }
     ]
   },
-
   {
     "id": "ch3",
     "title": "Periodic Properties and Chemical Bonding (মৌলের পর্যায়বৃত্ত ধর্ম ও রাসায়নিক বন্ধন)",
@@ -182,6 +181,37 @@
       {
         "id": "cc-buffer-mechanism",
         "title": "Mechanism of Buffer Solutions (বাফার দ্রবণের ক্রিয়াকৌশল)"
+      }
+    ]
+  },
+  {
+    "id": "ch5",
+    "title": "Working Chemistry (কর্মমুখী রসায়ন)",
+    "slug": "working-chemistry",
+    "topics": [
+      {
+        "id": "food-preservatives",
+        "title": "Food Preservatives (খাদ্য সংরক্ষক)"
+      },
+      {
+        "id": "mixtures-and-colloids",
+        "title": "Mixtures & Colloids (মিশ্রণ ও কলোয়েড)"
+      },
+      {
+        "id": "vinegar-preparation-action",
+        "title": "Vinegar: Preparation & Action (ভিনেগার প্রস্তুতি ও ক্রিয়া)"
+      },
+      {
+        "id": "household-cleaners",
+        "title": "Household Cleaners (ক্লিনার)"
+      },
+      {
+        "id": "chemistry-of-milk",
+        "title": "Chemistry of Milk (দুধের রসায়ন)"
+      },
+      {
+        "id": "curing-and-pickling",
+        "title": "Curing & Pickling (কিউরিং ও পিকলিং)"
       }
     ]
   }

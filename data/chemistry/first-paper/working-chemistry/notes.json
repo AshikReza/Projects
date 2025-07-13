@@ -1,0 +1,447 @@
+{
+  "food-preservatives": {
+    "title": "খাদ্য সংরক্ষক (Food Preservatives)",
+    "blocks": [
+      {
+        "type": "definition",
+        "title": "খাদ্য সংরক্ষক কী?",
+        "text_bn": "যেসব রাসায়নিক পদার্থ খাদ্যবস্তুর সাথে অল্প পরিমাণে মিশিয়ে খাদ্যকে অণুজীবের (যেমন: ব্যাকটেরিয়া, यीস্ট, মোল্ড) আক্রমণ থেকে রক্ষা করা হয়, খাদ্যের জারণ প্রক্রিয়াকে বাধাগ্রস্ত করে এবং খাদ্যের পুষ্টিগুণ, স্বাদ, গন্ধ ও বর্ণ অক্ষুণ্ণ রাখা হয়, তাদের খাদ্য সংরক্ষক বা প্রিজারভেটিভস বলে। এর মূল উদ্দেশ্য হলো খাদ্যের শেলফ লাইফ বা সংরক্ষণকাল বৃদ্ধি করা।",
+        "text_en": "Preservatives are chemical substances added to food in small amounts to protect it from microbial (e.g., bacteria, yeast, mold) attack, inhibit oxidation, and maintain its nutritional value, taste, smell, and color. The main purpose is to increase the shelf life of food.",
+        "examples": [
+          {
+            "bn": "আচার, জ্যাম বা জেলি তৈরিতে ভিনেগার ($$CH_3COOH$$) ও চিনি ব্যবহার করা হয়, যা অণুজীবের বৃদ্ধি রোধ করে।",
+            "en": "Vinegar ($$CH_3COOH$$) and sugar are used in making pickles, jams, or jellies to prevent microbial growth."
+          },
+          {
+            "bn": "লবণ ($$NaCl$$) দিয়ে মাছ ও মাংস সংরক্ষণ করা হয়, যা অসমোসিস প্রক্রিয়ায় অণুজীবের কোষ থেকে পানি বের করে দেয়।",
+            "en": "Fish and meat are preserved with salt ($$NaCl$$), which draws water out of microbial cells through osmosis."
+          },
+          {
+            "bn": "সফট ড্রিঙ্কস ও ফলের রসে সোডিয়াম বেনজোয়েট ($$C_6H_5COONa$$) ব্যবহার করা হয় यीস্ট ও মোল্ডের বৃদ্ধি ঠেকাতে।",
+            "en": "Sodium benzoate ($$C_6H_5COONa$$) is used in soft drinks and fruit juices to prevent the growth of yeast and mold."
+          },
+          {
+            "bn": "চিপস ও তেলে ভাজা খাবারে অ্যান্টিঅক্সিডেন্ট হিসেবে BHT (বিউটাইলেটেড হাইড্রক্সিটোউইন) ব্যবহার করা হয় যা তেল ও চর্বির জারণ রোধ করে।",
+            "en": "BHT (Butylated Hydroxytoluene) is used as an antioxidant in chips and fried foods to prevent the oxidation of oils and fats."
+          },
+          {
+            "bn": "সসেজ ও প্রক্রিয়াজাত মাংসে নাইট্রাইট ও নাইট্রেট লবণ ব্যবহার করা হয় যা ক্লস্ট্রিডিয়াম বটুলিনাম ব্যাকটেরিয়ার বৃদ্ধি রোধ করে এবং মাংসের गुलाबी বর্ণ বজায় রাখে।",
+            "en": "Nitrite and nitrate salts are used in sausages and processed meats to inhibit the growth of Clostridium botulinum bacteria and maintain the pink color of the meat. [49]"
+          }
+        ]
+      },
+      {
+        "type": "important",
+        "title": "প্রকারভেদ (Classification)",
+        "text_bn": "উৎস এবং কার্যকারিতার উপর ভিত্তি করে খাদ্য সংরক্ষক প্রধানত দুই প্রকার: প্রাকৃতিক এবং কৃত্রিম। কৃত্রিম সংরক্ষকগুলোকে আবার তাদের ক্রিয়াকৌশল অনুসারে ভাগ করা হয়।",
+        "text_en": "Based on source and functionality, preservatives are mainly of two types: Natural and Artificial. Artificial preservatives are further classified according to their mechanism of action."
+      },
+      {
+        "type": "definition",
+        "title": "প্রাকৃতিক প্রিজারভেটিভ (Natural Preservatives)",
+        "text_bn": "প্রাকৃতিকভাবে প্রাপ্ত উপাদান যা খাদ্য সংরক্ষণে হাজার হাজার বছর ধরে ব্যবহৃত হয়ে আসছে। ഇവ অণুজীবের বৃদ্ধি ব্যাহত করে এবং খাবারের পানি শোষণ করে নেয়।",
+        "text_en": "Naturally occurring substances that have been used for food preservation for thousands of years. They inhibit microbial growth and absorb water from the food.",
+        "examples": [
+          {
+            "bn": "সোডিয়াম ক্লোরাইড ($$NaCl$$) বা সাধারণ লবণ।",
+            "en": "Sodium Chloride ($$NaCl$$) or common salt."
+          },
+          {
+            "bn": "চিনি (সুক্রোজ, $$C_{12}H_{22}O_{11}$$)।",
+            "en": "Sugar (Sucrose, $$C_{12}H_{22}O_{11}$$)."
+          },
+          {
+            "bn": "সরিষার তেল, যা এর ঝাঁঝালো উপাদানের জন্য অণুজীবেরোধী।",
+            "en": "Mustard Oil, which is antimicrobial due to its pungent components."
+          },
+          {
+            "bn": "হলুদ (টারমারিক), যার মধ্যে কারকিউমিন নামক অ্যান্টিমাইক্রোবিয়াল ও অ্যান্টিঅক্সিডেন্ট উপাদান রয়েছে।",
+            "en": "Turmeric, which contains curcumin, an antimicrobial and antioxidant compound."
+          },
+          {
+            "bn": "সাইট্রিক এসিড (লেবুর রসে প্রাপ্ত), যা পরিবেশের pH কমিয়ে অণুজীবের বৃদ্ধি প্রতিহত করে।",
+            "en": "Citric Acid (found in lemon juice), which lowers the environmental pH, inhibiting microbial growth."
+          }
+        ]
+      },
+      {
+        "type": "definition",
+        "title": "কৃত্রিম প্রিজারভেটিভ (Artificial Preservatives)",
+        "text_bn": "শিল্পকারখানায় রাসায়নিকভাবে প্রস্তুতকৃত প্রিজারভেটিভ যা খুব অল্প পরিমাণে ব্যবহার করেও অত্যন্ত কার্যকর। এদেরকে ক্রিয়াকৌশলের উপর ভিত্তি করে তিন ভাগে ভাগ করা হয়।",
+        "text_en": "Chemically synthesized preservatives used in industries, which are highly effective even in small quantities. They are divided into three categories based on their mechanism of action."
+      },
+      {
+        "type": "table",
+        "title": "কৃত্রিম প্রিজারভেটিভের প্রকারভেদ ও উদাহরণ",
+        "headers": ["প্রকার (Type)", "কাজ (Function)", "উদাহরণ (Examples)"],
+        "rows": [
+          [
+            "অ্যান্টিমাইক্রোবিয়াল (Antimicrobial)",
+            "ব্যাকটেরিয়া, यीস্ট ও মোল্ডের মতো অণুজীবের বৃদ্ধি ও বংশবিস্তার প্রতিহত করে।",
+            "বেনজোয়েট (যেমন, সোডিয়াম বেনজোয়েট), সরবেটস (যেমন, পটাসিয়াম সরবেট), নাইট্রেটস ও নাইট্রাইটস, সালফাইটস, প্রোপিওনেটস, অ্যাসিটিক এসিড (ভিনেগার)।"
+          ],
+          [
+            "অ্যান্টিঅক্সিডেন্ট (Antioxidant)",
+            "খাদ্যে বিদ্যমান তেল ও চর্বির জারণ রোধ করে, जिससे दुर्गंध সৃষ্টি (Rancidity) হয় না এবং খাদ্যের বর্ণ ঠিক থাকে।",
+            "BHA (Butylated Hydroxyanisole), BHT (Butylated Hydroxytoluene), TBHQ (Tertiary Butylhydroquinone), অ্যাসকরবিক এসিড (ভিটামিন সি), টোকোফেরল (ভিটামিন ই)।"
+          ],
+          [
+            "কিলেটিং এজেন্ট (Chelating Agent)",
+            "খাদ্যে উপস্থিত কপার (Cu) ও আয়রনের (Fe) মতো ধাতব আয়নের সাথে যুক্ত হয়ে নিষ্ক্রিয় জটিল যৌগ গঠন করে। এই ধাতব আয়নগুলো জারণ বিক্রিয়ার প্রভাবক হিসেবে কাজ করে, তাই এদের আবদ্ধ করে জারণ রোধ করা হয়।",
+            "EDTA (Ethylenediaminetetraacetic acid), সাইট্রিক এসিড (Citric Acid), পলিফসফেটস (Polyphosphates)।"
+          ]
+        ]
+      }
+    ]
+  },
+  "mixtures-and-colloids": {
+    "title": "মিশ্রণ ও কলোয়েড (Mixtures & Colloids)",
+    "blocks": [
+      {
+        "type": "definition",
+        "title": "মিশ্রণ কাকে বলে?",
+        "text_bn": "দুই বা ততোধিক পদার্থ যখন তাদের নিজ নিজ রাসায়নিক সত্তা বজায় রেখে পরস্পরের সাথে মেশে, তখন তাকে মিশ্রণ বলে। মিশ্রণ দুই প্রকার: সমসত্ব (Homogeneous) ও অসমসত্ব (Heterogeneous)। অসমসত্ব মিশ্রণকে কণার আকারের উপর ভিত্তি করে কলোয়েড এবং সাসপেনশন-এ ভাগ করা হয়।",
+        "text_en": "A mixture is a combination of two or more substances where each retains its own chemical identity. There are two types of mixtures: Homogeneous and Heterogeneous. Heterogeneous mixtures are further divided into colloids and suspensions based on particle size.",
+        "examples": [
+          {
+            "bn": "বাতাস বিভিন্ন গ্যাসের একটি সমসত্ব মিশ্রণ।",
+            "en": "Air is a homogeneous mixture of various gases."
+          },
+          {
+            "bn": "চিনির শরবত হলো পানি ও চিনির একটি সমসত্ব মিশ্রণ (দ্রবণ)।",
+            "en": "Sugar syrup is a homogeneous mixture (solution) of water and sugar."
+          },
+          {
+            "bn": "দুধ একটি কলোয়েড, যেখানে চর্বির কণা পানিতে ভাসমান থাকে।",
+            "en": "Milk is a colloid, where fat particles are dispersed in water."
+          },
+          {
+            "bn": "নদীর ঘোলা পানি একটি সাসপেনশন, যেখানে মাটির কণা পানিতে অস্থায়ীভাবে ঝুলে থাকে।",
+            "en": "Muddy river water is a suspension, where soil particles are temporarily suspended in water."
+          },
+          {
+            "bn": "সালাদ ড্রেসিং (তেল ও ভিনেগার) একটি ইমালশন, যা এক ধরনের কলোয়েড।",
+            "en": "Salad dressing (oil and vinegar) is an emulsion, which is a type of colloid. [14]"
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "title": "দ্রবণ, কলোয়েড ও সাসপেনশনের মধ্যে পার্থক্য",
+        "headers": [
+          "বৈশিষ্ট্য",
+          "দ্রবণ (Solution)",
+          "কলোয়েড (Colloid)",
+          "সাসপেনশন (Suspension)"
+        ],
+        "rows": [
+          ["কণার আকার", "< 1 nm", "1 nm - 1000 nm", "> 1000 nm"],
+          ["প্রকৃতি", "সমসত্ব", "অসমসত্ব", "অসমসত্ব"],
+          [
+            "দৃশ্যমানতা",
+            "খালি চোখে বা মাইক্রোস্কোপে अदृश्य",
+            "খালি চোখে অদৃশ্য কিন্তু আল্ট্রামাইক্রোস্কোপে দৃশ্যমান",
+            "খালি চোখে দৃশ্যমান"
+          ],
+          ["টিন্ডাল প্রভাব", "দেখায় না", "দেখায়", "দেখাতে পারে"],
+          ["ব্রাউনিয়ান গতি", "দেখায় না", "দেখায়", "দেখায় না"],
+          [
+            "থিতিয়ে পড়া",
+            "থিতিয়ে পড়ে না",
+            "সাধারণত থিতিয়ে পড়ে না",
+            "অল্প সময়েই থিতিয়ে পড়ে"
+          ],
+          [
+            "উদাহরণ",
+            "লবণ পানি, বায়ু",
+            "দুধ, কুয়াশা, জেলি, রক্ত",
+            "কাদা পানি, চকের গুঁড়ার দ্রবণ"
+          ]
+        ]
+      },
+      {
+        "type": "important",
+        "title": "টিন্ডাল প্রভাব ও ব্রাউনিয়ান গতি",
+        "text_bn": "টিন্ডাল প্রভাব হলো কলোয়েড কণার মধ্য দিয়ে আলোকরশ্মি যাওয়ার সময় আলোর বিচ্ছুরণের ঘটনা, যার ফলে আলোর পথ দৃশ্যমান হয়। [43] ব্রাউনিয়ান গতি হলো কলোয়েড কণাগুলোর অবিরাম, এলোমেলো বা জিগজ্যাগ গতি, যা বিস্তার মাধ্যমের অণুগুলোর সাথে সংঘর্ষের কারণে ঘটে। [36, 15] এই দুটি ধর্ম কলোয়েডকে প্রকৃত দ্রবণ থেকে পৃথক করে।",
+        "text_en": "The Tyndall effect is the scattering of a light beam by colloid particles as it passes through, making the path of light visible. [43] Brownian motion is the continuous, random, or zigzag movement of colloidal particles caused by collisions with the molecules of the dispersion medium. [36, 15] These two properties distinguish colloids from true solutions."
+      },
+      {
+        "type": "definition",
+        "title": "কোয়াগুলেশন বা তঞ্চন (Coagulation)",
+        "text_bn": "এটি এমন একটি প্রক্রিয়া যার মাধ্যমে কলোয়েডাল কণাগুলো তাদের চার্জ হারিয়ে একত্রিত হয়ে বৃহৎ কণায় পরিণত হয় এবং অবশেষে থিতিয়ে পড়ে। [16] এই প্রক্রিয়াটি বিদ্যুৎ বিশ্লেষণ (electrophoresis), বিপরীত চার্জযুক্ত সল যোগ করে, ফুটিয়ে বা উপযুক্ত তড়িৎ বিশ্লেষ্য (electrolyte) যোগ করে ঘটানো যায়। [5, 7, 20]",
+        "text_en": "It is a process by which colloidal particles lose their charge, aggregate to form larger particles, and eventually settle down as a precipitate. [16] This process can be induced by electrophoresis, adding oppositely charged sols, boiling, or by adding a suitable electrolyte. [5, 7, 20]",
+        "examples": [
+          {
+            "bn": "নদীর মোহনায় কাদা পানির (ঋণাত্মক চার্জযুক্ত কলোয়েড) সাথে সমুদ্রের পানির (লবণাক্ত, ধনাত্মক আয়ন সমৃদ্ধ) মিশ্রণে কাদা থিতিয়ে পড়ে ব-দ্বীপ সৃষ্টি হয়।",
+            "en": "At a river mouth, the mixing of muddy water (negatively charged colloid) with seawater (salty, rich in positive ions) causes the mud to coagulate and form a delta."
+          },
+          {
+            "bn": "গরম দুধে লেবুর রস (এসিড) যোগ করলে কেসিন প্রোটিন জমাট বেঁধে ছানা তৈরি হয়।",
+            "en": "Adding lemon juice (acid) to hot milk coagulates the casein protein to form cheese (chhana)."
+          },
+          {
+            "bn": "রক্তক্ষরণ হলে ফিটকিরি (পটাশ অ্যালাম) লাগালে রক্তকণিকাগুলো (কলোয়েড) জমাট বেঁধে রক্তপাত বন্ধ করে।",
+            "en": "Applying alum to a cut coagulates the blood corpuscles (colloids), stopping the bleeding."
+          },
+          {
+            "bn": "পানি বিশুদ্ধকরণে অ্যালাম ($$K_2SO_4 cdot Al_2(SO_4)_3 cdot 24H_2O$$) যোগ করলে পানির ময়লা কণাগুলো জমাট বেঁধে নিচে পড়ে যায়।",
+            "en": "In water purification, adding alum ($$K_2SO_4 cdot Al_2(SO_4)_3 cdot 24H_2O$$) causes dirt particles to coagulate and settle down."
+          },
+          {
+            "bn": "ল্যাটেক্স (রাবারের কলোয়েডাল দ্রবণ) থেকে রাবার আহরণের জন্য অ্যাসিটিক অ্যাসিড যোগ করে রাবারকে তঞ্চিত করা হয়।",
+            "en": "To extract rubber from latex (a colloidal solution of rubber), acetic acid is added to coagulate the rubber."
+          }
+        ]
+      }
+    ]
+  },
+  "vinegar-preparation-action": {
+    "title": "ভিনেগার: প্রস্তুতি ও ক্রিয়া (Vinegar: Preparation & Action)",
+    "blocks": [
+      {
+        "type": "definition",
+        "title": "ভিনেগার কী?",
+        "text_bn": "ভিনেগার হলো অ্যাসিটিক এসিড বা ইথানোয়িক এসিডের ($$CH_3COOH$$) ৪% থেকে ১০% জলীয় দ্রবণ। এটি গাঁজন বা ফার্মেন্টেশন নামক একটি জৈব-রাসায়নিক প্রক্রিয়ার মাধ্যমে তৈরি হয়, যেখানে অণুজীব (यीস্ট ও ব্যাকটেরিয়া) শর্করা জাতীয় পদার্থকে প্রথমে অ্যালকোহল এবং পরে অ্যাসিটিক এসিডে রূপান্তরিত করে।",
+        "text_en": "Vinegar is a 4% to 10% aqueous solution of acetic acid or ethanoic acid ($$CH_3COOH$$). It is produced through a biochemical process called fermentation, where microorganisms (yeast and bacteria) convert sugary substances first into alcohol and then into acetic acid.",
+        "examples": [
+          {
+            "bn": "আপেল থেকে তৈরি ভিনেগারকে অ্যাপেল সাইডার ভিনেগার বলে।",
+            "en": "Vinegar made from apples is called apple cider vinegar."
+          },
+          {
+            "bn": "আখের রস বা গুড় থেকে ভিনেগার তৈরি করা হয়।",
+            "en": "Vinegar is made from sugarcane juice or molasses."
+          },
+          {
+            "bn": "চালের গাঁজন প্রক্রিয়ায় রাইস ভিনেগার তৈরি হয়।",
+            "en": "Rice vinegar is produced by the fermentation of rice."
+          },
+          {
+            "bn": "अंगूर থেকে তৈরি ভিনেগার ওয়াইন ভিনেগার নামে পরিচিত।",
+            "en": "Vinegar made from grapes is known as wine vinegar."
+          },
+          {
+            "bn": "মল্ট বা বার্লি থেকে মল্ট ভিনেগার তৈরি হয়।",
+            "en": "Malt vinegar is made from malt or barley."
+          }
+        ]
+      },
+      {
+        "type": "important",
+        "title": "ভিনেগার প্রস্তুতির ধাপসমূহ",
+        "text_bn": "ভিনেগার প্রস্তুতি প্রধানত দুটি ধাপে সম্পন্ন হয়: অ্যালকোহলীয় গাঁজন এবং অ্যাসিটিক এসিড গাঁজন।",
+        "text_en": "Vinegar production is mainly completed in two steps: Alcoholic Fermentation and Acetic Acid Fermentation."
+      },
+      {
+        "type": "equation",
+        "title": "ধাপ ১: অ্যালকোহলীয় গাঁজন (Alcoholic Fermentation)",
+        "equation": "C_6H_{12}O_6 \\text{ (শর্করা)} \\xrightarrow[\\text{অক্সিজেনের অনুপস্থিতিতে}]{\\text{Yeast (Zymase)}} 2C_2H_5OH \\text{ (ইথানল)} + 2CO_2",
+        "description_bn": "यीস্টের জাইমেজ নামক এনজাইম শর্করাকে (যেমন গ্লুকোজ) ভেঙে ইথানল বা অ্যালকোহল এবং কার্বন ডাইঅক্সাইড তৈরি করে। [24] এই প্রক্রিয়াটি অবাত শ্বসনের মাধ্যমে ঘটে।",
+        "description_en": "The zymase enzyme from yeast breaks down sugar (like glucose) into ethanol or alcohol and carbon dioxide. [24] This process occurs through anaerobic respiration."
+      },
+      {
+        "type": "equation",
+        "title": "ধাপ ২: অ্যাসিটিক এসিড গাঁজন (Acetic Acid Fermentation)",
+        "equation": "C_2H_5OH \\text{ (ইথানল)} + O_2 \\xrightarrow[\\text{অক্সিজেনের উপস্থিতিতে}]{\\text{Acetobacter}} CH_3COOH \\text{ (অ্যাসিটিক এসিড)} + H_2O",
+        "description_bn": "এসিটোব্যাক্টর (Acetobacter) নামক ব্যাকটেরিয়া বাতাসের অক্সিজেনের উপস্থিতিতে ইথানলকে জারিত করে অ্যাসিটিক এসিড এবং পানিতে পরিণত করে। [17, 30] এই ব্যাকটেরিয়া ভিনেগার উৎপাদনে মুখ্য ভূমিকা পালন করে।",
+        "description_en": "Acetobacter bacteria oxidize ethanol into acetic acid and water in the presence of atmospheric oxygen. [17, 30] This bacterium plays a key role in vinegar production."
+      },
+      {
+        "type": "definition",
+        "title": "ভিনেগারের খাদ্য সংরক্ষণ ক্রিয়াকৌশল",
+        "text_bn": "ভিনেগার খাদ্যে একটি অম্লীয় পরিবেশ তৈরি করে, যার ফলে অণুজীবের বৃদ্ধি ও কার্যকারিতা ব্যাহত হয়। ভিনেগার (অ্যাসিটিক এসিড) পানিতে বিয়োজিত হয়ে হাইড্রোজেন আয়ন ($$H^+$$) প্রদান করে, যা খাদ্যের pH কমিয়ে দেয় (সাধারণত ৪.৭৪ এর নিচে)। এই নিম্ন pH-এ ব্যাকটেরিয়ার কোষ প্রাচীরের প্রোটিন তার স্বাভাবিক গঠন হারিয়ে ফেলে, যাকে প্রোটিন ডিন্যাচুরেশন (Protein Denaturation) বলে। [19, 25] এর ফলে ব্যাকটেরিয়ার কোষীয় কার্যক্রম বন্ধ হয়ে যায় এবং ব্যাকটেরিয়া ধ্বংস হয়, ফলে খাদ্য সংরক্ষিত থাকে।",
+        "text_en": "Vinegar creates an acidic environment in food, which inhibits the growth and activity of microorganisms. Vinegar (acetic acid) dissociates in water to provide hydrogen ions ($$H^+$$), which lowers the pH of the food (usually below 4.74). At this low pH, the proteins in the bacterial cell wall lose their natural structure, a process called protein denaturation. [19, 25] This halts the cellular activities of the bacteria, leading to their destruction and thus preserving the food.",
+        "examples": [
+          {
+            "bn": "মাছ বা মাংস ভিনেগারে মেরিনেট করলে ভিনেগারের এসিড মাংসপেশীর প্রোটিনকে ভেঙে নরম করে এবং ব্যাকটেরিয়ার সংক্রমণ রোধ করে। [25]",
+            "en": "Marinating fish or meat in vinegar causes the acid to break down muscle proteins, tenderizing it and preventing bacterial infection. [25]"
+          },
+          {
+            "bn": "আচার তৈরিতে ভিনেগার ব্যবহার করলে তা সবজির কোষ থেকে পানি বের করে দেয় এবং অম্লীয় পরিবেশ সৃষ্টির মাধ্যমে পচনকারী ব্যাকটেরিয়াকে জন্মাতে দেয় না।",
+            "en": "When used in pickling, vinegar draws water out of vegetable cells and creates an acidic environment that prevents the growth of spoilage bacteria."
+          },
+          {
+            "bn": "ডিম সেদ্ধ করার সময় পানিতে সামান্য ভিনেগার দিলে ডিম ফেটে গেলে সাদা অংশ দ্রুত জমাট বাঁধতে সাহায্য করে, যা প্রোটিন কোয়াগুলেশনের উদাহরণ। [48]",
+            "en": "Adding a little vinegar to the water when boiling an egg helps the egg white to coagulate quickly if the egg cracks, which is an example of protein coagulation. [48]"
+          }
+        ]
+      }
+    ]
+  },
+  "household-cleaners": {
+    "title": "গৃহস্থালীর ক্লিনার (Household Cleaners)",
+    "blocks": [
+      {
+        "type": "definition",
+        "title": "টয়লেট ক্লিনার (Toilet Cleaner)",
+        "text_bn": "এর প্রধান উপাদান হলো শক্তিশালী এসিড (যেমন, হাইড্রোক্লোরিক এসিড, $$HCl$$) বা শক্তিশালী ক্ষার (যেমন, সোডিয়াম হাইড্রোক্সাইড, $$NaOH$$)। এসিডভিত্তিক ক্লিনারগুলো পানির শক্ত দাগ (Limescale) ও মরিচার দাগ দূর করে, আর ক্ষারভিত্তিক ক্লিনারগুলো গ্রিজ ও জৈব পদার্থ দূর করে। এর সাথে প্রায়ই ব্লিচিং পাউডার ($$Ca(OCl)Cl$$) বা সোডিয়াম হাইপোক্লোরাইট ($$NaOCl$$) মেশানো হয় যা জীবাণুনাশক ও দাগ দূরকারী হিসেবে কাজ করে।",
+        "text_en": "Its main component is a strong acid (e.g., Hydrochloric Acid, $$HCl$$) or a strong base (e.g., Sodium Hydroxide, $$NaOH$$). Acid-based cleaners remove hard water stains (limescale) and rust stains, while alkali-based cleaners remove grease and organic matter. They are often mixed with bleaching powder ($$Ca(OCl)Cl$$) or sodium hypochlorite ($$NaOCl$$), which act as disinfectants and stain removers."
+      },
+      {
+        "type": "equation",
+        "title": "ব্লিচিং পাউডারের জীবাণুনাশক ক্রিয়া",
+        "equation": "Ca(OCl)Cl + H_2O \\rightarrow Ca(OH)_2 + Cl_2 \\\\ Cl_2 + H_2O \\rightleftharpoons HCl + HOCl \\\\ HOCl \\rightarrow HCl + [O]",
+        "description_bn": "ব্লিচিং পাউডার পানির সাথে বিক্রিয়া করে ক্লোরিন গ্যাস ($$Cl_2$$) তৈরি করে। এই ক্লোরিন আবার পানির সাথে বিক্রিয়া করে অস্থায়ী হাইপোক্লোরাস এসিড ($$HOCl$$) গঠন করে। হাইপোক্লোরাস এসিড ভেঙে গিয়ে অত্যন্ত সক্রিয় জাইমান অক্সিজেন ($$[O]$$) উৎপন্ন করে। এই জাইমান অক্সিজেনই রঙিন ময়লাকে জারিত করে বর্ণহীন করে এবং জীবাণুকে ধ্বংস করে।",
+        "description_en": "Bleaching powder reacts with water to produce chlorine gas ($$Cl_2$$). This chlorine, in turn, reacts with water to form unstable hypochlorous acid ($$HOCl$$). Hypochlorous acid decomposes to produce highly reactive nascent oxygen ($$[O]$$). This nascent oxygen oxidizes colored dirt, making it colorless, and destroys germs."
+      },
+      {
+        "type": "definition",
+        "title": "গ্লাস ক্লিনার (Glass Cleaner)",
+        "text_bn": "এর প্রধান উপাদান হলো অ্যামোনিয়া ($$NH_3$$) দ্রবণ এবং আইসোপ্রোপাইল অ্যালকোহল ($$C_3H_7OH$$)। [4, 26, 47] অ্যামোনিয়া গ্রিজ ও ময়লা দূর করে এবং দ্রুত বাষ্পীভূত হয়। আইসোপ্রোপাইল অ্যালকোহল তেলজাতীয় পদার্থ দ্রবীভূত করে এবং এটিও দ্রুত উবে যায়, ফলে কাঁচের উপর কোনো দাগ বা রেখা (streak) থাকে না। [51] অনেক সময় সারফেকট্যান্টও (যেমন, SLS) যোগ করা হয়।",
+        "text_en": "Its main components are an ammonia ($$NH_3$$) solution and isopropyl alcohol ($$C_3H_7OH$$). [4, 26, 47] Ammonia cuts through grease and grime and evaporates quickly. Isopropyl alcohol dissolves oily substances and also evaporates rapidly, leaving no streaks on the glass. [51] Sometimes, surfactants (like SLS) are also added."
+      },
+      {
+        "type": "important",
+        "title": "সোডিয়াম লরাইল সালফেট (SLS) এর ভূমিকা",
+        "text_bn": "SLS একটি বহুল ব্যবহৃত সারফেকট্যান্ট (Surfactant) যা অনেক ক্লিনিং পণ্যে পাওয়া যায়। [8, 13] এর অণুর দুটি প্রান্ত থাকে: একটি পানি-আকর্ষী (hydrophilic) মাথা এবং একটি তেল-আকর্ষী (hydrophobic/lipophilic) লেজ। লেজটি তেল ও ময়লার কণার সাথে যুক্ত হয় এবং মাথাটি পানির সাথে যুক্ত হয়। যখন পানি দিয়ে ধোয়া হয়, তখন পানির অণুগুলো মাথাকে আকর্ষণ করে এবং ময়লাসহ পুরো SLS অণুটি পৃষ্ঠ থেকে উঠে আসে। [2]",
+        "text_en": "SLS is a widely used surfactant found in many cleaning products. [8, 13] Its molecule has two ends: a water-attracting (hydrophilic) head and an oil-attracting (hydrophobic/lipophilic) tail. The tail attaches to oil and dirt particles, and the head attaches to water. When rinsed with water, the water molecules pull on the head, lifting the entire SLS molecule, along with the dirt, away from the surface. [2]"
+      }
+    ]
+  },
+  "chemistry-of-milk": {
+    "title": "দুধের রসায়ন (Chemistry of Milk)",
+    "blocks": [
+      {
+        "type": "definition",
+        "title": "দুধের রাসায়নিক পরিচিতি",
+        "text_bn": "দুধ একটি জটিল কলয়েডাল সিস্টেম যা ইমালশন (চর্বির কণা) এবং সাসপেনশন (কেসিন মাইসেল) উভয় ধর্মই প্রদর্শন করে। এটি পানি, প্রোটিন, ফ্যাট, কার্বোহাইড্রেট (ল্যাকটোজ), ভিটামিন এবং খনিজ লবণের একটি পুষ্টিকর মিশ্রণ। [33, 18] গরুর দুধের pH সাধারণত ৬.৭ থেকে ৬.৯ এর মধ্যে থাকে, যা এটিকে সামান্য অম্লীয় করে তোলে।",
+        "text_en": "Milk is a complex colloidal system exhibiting properties of both an emulsion (fat globules) and a suspension (casein micelles). It is a nutritious mixture of water, protein, fat, carbohydrates (lactose), vitamins, and minerals. [33, 18] The pH of cow's milk is typically between 6.7 and 6.9, making it slightly acidic."
+      },
+      {
+        "type": "table",
+        "title": "গরুর দুধের প্রধান উপাদান (গড়ে)",
+        "headers": [
+          "উপাদান (Component)",
+          "শতাংশ (Percentage)",
+          "রাসায়নিক প্রকৃতি ও বিবরণ"
+        ],
+        "rows": [
+          ["পানি (Water)", "৮৭.৫%", "প্রধান দ্রাবক মাধ্যম।"],
+          [
+            "ল্যাকটোজ (Lactose)",
+            "৪.৮%",
+            "প্রধান কার্বোহাইড্রেট; এটি গ্লুকোজ ও গ্যালাকটোজ দিয়ে গঠিত একটি ডাইস্যাকারাইড ($$C_{12}H_{22}O_{11}$$)। [11]"
+          ],
+          [
+            "ফ্যাট (Fat)",
+            "৩.৯%",
+            "ট্রাইগ্লিসারাইড হিসেবে থাকে, যা গ্লিসারল ও ফ্যাটি এসিডের এস্টার। এটি একটি ইমালশন আকারে থাকে।"
+          ],
+          [
+            "প্রোটিন (Protein)",
+            "৩.২%",
+            "প্রধানত দুই প্রকার: কেসিন (Casein, ~৮০%) এবং হুই প্রোটিন (Whey Protein, ~২০%)। [10]"
+          ],
+          [
+            "খনিজ লবণ (Minerals)",
+            "০.৬%",
+            "ক্যালসিয়াম, ফসফরাস, পটাসিয়াম, সোডিয়াম, ক্লোরাইড ইত্যাদি।"
+          ]
+        ]
+      },
+      {
+        "type": "definition",
+        "title": "দুধ নষ্ট হওয়া (Milk Spoilage)",
+        "text_bn": "দুধ নষ্ট হওয়ার প্রধান কারণ হলো অণুজীবের বৃদ্ধি। ল্যাকটিক এসিড ব্যাকটেরিয়া (যেমন, ল্যাকটোব্যাসিলাস) দুধের ল্যাকটোজকে ভেঙে ল্যাকটিক এসিড ($$C_3H_6O_3$$) তৈরি করে। এই এসিড দুধের pH কমিয়ে দেয়, যার ফলে কেসিন প্রোটিনগুলো তঞ্চিত (coagulate) হয়ে দই বা ছানায় পরিণত হয় এবং দুধ টক হয়ে যায়। [45] অন্যান্য ব্যাকটেরিয়া প্রোটিন ও ফ্যাট ভেঙে দুর্গন্ধযুক্ত যৌগ তৈরি করতে পারে।",
+        "text_en": "The primary cause of milk spoilage is microbial growth. Lactic acid bacteria (e.g., Lactobacillus) break down lactose into lactic acid ($$C_3H_6O_3$$). This acid lowers the milk's pH, causing the casein proteins to coagulate into curd or cheese, making the milk sour. [45] Other bacteria can break down proteins and fats, producing foul-smelling compounds."
+      },
+      {
+        "type": "important",
+        "title": "দুধ সংরক্ষণ পদ্ধতি",
+        "text_bn": "দুধের সংরক্ষণকাল বাড়ানোর জন্য বিভিন্ন পদ্ধতি ব্যবহার করা হয়।",
+        "text_en": "Various methods are used to extend the shelf life of milk."
+      },
+      {
+        "type": "table",
+        "title": "দুধ সংরক্ষণের বিভিন্ন পদ্ধতি",
+        "headers": ["পদ্ধতি", "বর্ণনা"],
+        "rows": [
+          [
+            "রেফ্রিজারেশন (Refrigeration)",
+            "৪° সেলসিয়াসের নিচে তাপমাত্রা অণুজীবের বৃদ্ধিকে ধীর করে দেয়। [35]"
+          ],
+          [
+            "পাস্তুরীকরণ (Pasteurization)",
+            "নির্দিষ্ট তাপমাত্রায় নির্দিষ্ট সময় ধরে দুধকে গরম করে রোগ সৃষ্টিকারী ও পচনকারী অণুজীব ধ্বংস করা হয় (যেমন, ৭২° সে. এ ১৫ সেকেন্ড)। [37, 40]"
+          ],
+          [
+            "স্টেরিলাইজেশন (UHT)",
+            "অতি উচ্চ তাপমাত্রায় (১৩৮° সে.) ২ সেকেন্ডের জন্য গরম করে দুধকে সম্পূর্ণ জীবাণুমুক্ত করা হয়, যা দীর্ঘদিন সাধারণ তাপমাত্রায় সংরক্ষণযোগ্য। [35]"
+          ],
+          [
+            "হোমোজেনাইজেশন (Homogenization)",
+            "উচ্চ চাপে দুধকে একটি সূক্ষ্ম ছিদ্রের মধ্য দিয়ে চালনা করে ফ্যাট গ্লোবিউলগুলোকে ভেঙে ছোট করা হয়, ফলে চর্বির স্তর উপরে জমতে পারে না।"
+          ]
+        ]
+      }
+    ]
+  },
+  "curing-and-pickling": {
+    "title": "কিউরিং ও পিকলিং (Curing & Pickling)",
+    "blocks": [
+      {
+        "type": "definition",
+        "title": "কিউরিং (Curing)",
+        "text_bn": "কিউরিং হলো লবণ, চিনি, নাইট্রেট বা নাইট্রাইট ব্যবহার করে খাদ্য, বিশেষত মাংস ও মাছ, সংরক্ষণ করার একটি পদ্ধতি। [21] এর মূল ভিত্তি হলো অসমোসিস (Osmosis) প্রক্রিয়ার মাধ্যমে খাদ্য থেকে পানি অপসারণ করা। পানি কমে যাওয়ায় অণুজীবের বেঁচে থাকা এবং বংশবৃদ্ধি করা কঠিন হয়ে পড়ে। [44, 46]",
+        "text_en": "Curing is a method of preserving food, particularly meat and fish, using salt, sugar, nitrates, or nitrites. [21] Its fundamental principle is the removal of water from the food through the process of osmosis. The reduced water content makes it difficult for microorganisms to survive and reproduce. [44, 46]",
+        "examples": [
+          {
+            "bn": "লবণ দিয়ে ইলিশ মাছ সংরক্ষণ।",
+            "en": "Preserving Hilsa fish with salt."
+          },
+          {
+            "bn": "বেকন এবং হ্যাম তৈরিতে লবণ ও সোডিয়াম নাইট্রাইট ব্যবহার করা হয়।",
+            "en": "Salt and sodium nitrite are used to make bacon and ham."
+          },
+          {
+            "bn": "শুটকি মাছ তৈরি মূলত একটি ডিহাইড্রেশন বা কিউরিং প্রক্রিয়া।",
+            "en": "Making dried fish is essentially a dehydration or curing process."
+          }
+        ]
+      },
+      {
+        "type": "definition",
+        "title": "পিকলিং (Pickling)",
+        "text_bn": "পিকলিং বা আচার তৈরি হলো খাদ্যকে কোনো অম্লীয় তরলে (সাধারণত ভিনেগার) বা লবণাক্ত পানিতে (Brine) ডুবিয়ে রেখে সংরক্ষণ করার প্রক্রিয়া। এই প্রক্রিয়ায় অম্লীয় পরিবেশ (কম pH) তৈরি হয় যা অধিকাংশ অণুজীবের বৃদ্ধিকে বাধা দেয়। প্রায়শই এর সাথে তেল ও বিভিন্ন মশলা যোগ করা হয় যা অতিরিক্ত সংরক্ষক হিসেবে কাজ করে এবং স্বাদ বৃদ্ধি করে।",
+        "text_en": "Pickling is the process of preserving food by immersing it in an acidic liquid (usually vinegar) or a saltwater solution (brine). This process creates an acidic environment (low pH) that inhibits the growth of most microorganisms. Often, oil and various spices are added, which act as additional preservatives and enhance flavor.",
+        "examples": [
+          {
+            "bn": "ভিনেগার ও তেলে আমের আচার তৈরি।",
+            "en": "Making mango pickle in vinegar and oil."
+          },
+          {
+            "bn": "জলপাইয়ের আচার তৈরি।",
+            "en": "Making olive pickle."
+          },
+          {
+            "bn": "লবণ পানিতে শসা ডুবিয়ে রেখে ডিল পিকলস (Dill Pickles) তৈরি করা।",
+            "en": "Making dill pickles by soaking cucumbers in brine."
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "title": "কিউরিং ও পিকলিং এর মধ্যে পার্থক্য",
+        "headers": ["বৈশিষ্ট্য", "কিউরিং (Curing)", "পিকলিং (Pickling)"],
+        "rows": [
+          [
+            "প্রধান সংরক্ষক",
+            "লবণ, চিনি, নাইট্রেট/নাইট্রাইট",
+            "অম্লীয় তরল (ভিনেগার), লবণাক্ত পানি (Brine)"
+          ],
+          [
+            "মূলনীতি",
+            "অসমোসিস প্রক্রিয়ায় পানি অপসারণ ও অণুজীবের বৃদ্ধি ব্যাহত করা।",
+            "নিম্ন pH (অম্লীয় পরিবেশ) সৃষ্টি করে অণুজীবের বৃদ্ধি প্রতিহত করা।"
+          ],
+          ["প্রয়োগ", "প্রধানত মাংস ও মাছ।", "প্রধানত সবজি ও ফল।"],
+          [
+            "ফলাফল",
+            "খাদ্য শুষ্ক ও লবণাক্ত হয় (যেমন, শুটকি, বেকন)।",
+            "খাদ্য নরম, রসালো এবং টক স্বাদযুক্ত হয় (যেমন, আচার)।"
+          ]
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,1082 @@
+[
+  {
+    "id": "fp-qa1",
+    "topicId": "food-preservatives",
+    "question": {
+      "bn": "খাদ্য সংরক্ষক (Food Preservative) কাকে বলে?",
+      "en": "What are food preservatives?"
+    },
+    "answer": {
+      "bn": "খাদ্য সংরক্ষক হলো এমন রাসায়নিক পদার্থ যা অণুজীবের বৃদ্ধি রোধ করে বা খাদ্যের জারণ প্রক্রিয়াকে धीमा করে পচন থেকে খাদ্যকে রক্ষা করে।",
+      "en": "Food preservatives are chemical substances that prevent food from spoiling by inhibiting the growth of microorganisms or slowing down the oxidation process."
+    }
+  },
+  {
+    "id": "fp-qa2",
+    "topicId": "food-preservatives",
+    "question": {
+      "bn": "খাদ্য সংরক্ষণের দুটি প্রধান উপায় কী?",
+      "en": "What are the two main methods of food preservation?"
+    },
+    "answer": {
+      "bn": "খাদ্য সংরক্ষণের দুটি প্রধান উপায় হলো ভৌত পদ্ধতি (যেমন- হিমায়িত করা, শুকানো) এবং রাসায়নিক পদ্ধতি (সংরক্ষক যোগ করা)।",
+      "en": "The two main methods of food preservation are physical methods (e.g., freezing, drying) and chemical methods (adding preservatives)."
+    }
+  },
+  {
+    "id": "fp-qa3",
+    "topicId": "food-preservatives",
+    "question": {
+      "bn": "একটি প্রাকৃতিক খাদ্য সংরক্ষকের উদাহরণ দিন।",
+      "en": "Give an example of a natural food preservative."
+    },
+    "answer": {
+      "bn": "লবণ একটি সাধারণ প্রাকৃতিক খাদ্য সংরক্ষক যা মাংস ও মাছ সংরক্ষণে যুগ যুগ ধরে ব্যবহৃত হয়ে আসছে।",
+      "en": "Salt is a common natural food preservative that has been used for centuries to preserve meat and fish."
+    }
+  },
+  {
+    "id": "fp-qa4",
+    "topicId": "food-preservatives",
+    "question": {
+      "bn": "সোডিয়াম বেনজোয়েট (Sodium Benzoate) কোন ধরনের খাবারে ব্যবহৃত হয়?",
+      "en": "In what types of food is Sodium Benzoate used?"
+    },
+    "answer": {
+      "bn": "সোডিয়াম বেনজোয়েট সাধারণত আম্লিক খাবার যেমন ফলের রস, জ্যাম, জেলি এবং কোমল পানীয় সংরক্ষণে ব্যবহৃত হয়।",
+      "en": "Sodium benzoate is commonly used to preserve acidic foods such as fruit juices, jams, jellies, and soft drinks."
+    }
+  },
+  {
+    "id": "fp-qa5",
+    "topicId": "food-preservatives",
+    "question": {
+      "bn": "অ্যান্টিঅক্সিডেন্ট (Antioxidant) সংরক্ষক কীভাবে কাজ করে?",
+      "en": "How do antioxidant preservatives work?"
+    },
+    "answer": {
+      "bn": "অ্যান্টিঅক্সিডেন্ট সংরক্ষকগুলি বাতাসের অক্সিজেনের সাথে খাবারের বিক্রিয়াকে বাধা দেয়, যা খাবারের চর্বি ও তেলের জারণ রোধ করে এবং স্বাদ ও গন্ধ ঠিক রাখে।",
+      "en": "Antioxidant preservatives prevent the reaction of food with atmospheric oxygen, which inhibits the oxidation of fats and oils, thus maintaining flavor and aroma."
+    }
+  },
+  {
+    "id": "fp-qa6",
+    "topicId": "food-preservatives",
+    "question": {
+      "bn": "পাস্তুরাইজেশন (Pasteurization) প্রক্রিয়াটি কী?",
+      "en": "What is the process of pasteurization?"
+    },
+    "answer": {
+      "bn": "পাস্তুরাইজেশন হলো একটি তাপীয় প্রক্রিয়া যেখানে তরল খাবারকে (যেমন দুধ) একটি নির্দিষ্ট তাপমাত্রায় উত্তপ্ত করে ক্ষতিকারক অণুজীব ধ্বংস করা হয়, কিন্তু খাবারের পুষ্টিগুণ অক্ষুণ্ণ থাকে।",
+      "en": "Pasteurization is a thermal process where liquid foods (like milk) are heated to a specific temperature to destroy harmful microorganisms while keeping the nutritional value of the food intact."
+    }
+  },
+  {
+    "id": "fp-qa7",
+    "topicId": "food-preservatives",
+    "question": {
+      "bn": "কিউরিং (Curing) বলতে কী বোঝায়?",
+      "en": "What is meant by curing?"
+    },
+    "answer": {
+      "bn": "কিউরিং হলো লবণ, চিনি, নাইট্রেট বা নাইট্রাইটের সংমিশ্রণ ব্যবহার করে মাংস ও মাছ থেকে জল বের করে দিয়ে সংরক্ষণ করার একটি পদ্ধতি।",
+      "en": "Curing is a preservation method that involves drawing moisture out of meat and fish using a combination of salt, sugar, nitrates, or nitrites."
+    }
+  },
+  {
+    "id": "fp-qa8",
+    "topicId": "food-preservatives",
+    "question": {
+      "bn": "খাদ্য সংরক্ষণে চিনির ভূমিকা কী?",
+      "en": "What is the role of sugar in food preservation?"
+    },
+    "answer": {
+      "bn": "চিনি অসমোসিস প্রক্রিয়ার মাধ্যমে খাদ্য থেকে জল শোষণ করে নেয়, ফলে অণুজীবের বৃদ্ধির জন্য প্রয়োজনীয় পরিবেশ থাকে না। এটি জ্যাম ও জেলি তৈরিতে ব্যবহৃত হয়।",
+      "en": "Sugar absorbs water from food through osmosis, creating an environment unsuitable for microbial growth. It is used in making jams and jellies."
+    }
+  },
+  {
+    "id": "fp-qa9",
+    "topicId": "food-preservatives",
+    "question": {
+      "bn": "ভিনেগার কীভাবে খাদ্য সংরক্ষণ করে?",
+      "en": "How does vinegar preserve food?"
+    },
+    "answer": {
+      "bn": "ভিনেগারে থাকা অ্যাসিটিক অ্যাসিড খাবারের অম্লতা বাড়িয়ে দেয়, যা অনেক অণুজীবের বৃদ্ধিকে বাধা দেয়। এটি আচার তৈরিতে ব্যাপকভাবে ব্যবহৃত হয়।",
+      "en": "The acetic acid in vinegar increases the acidity of the food, which inhibits the growth of many microorganisms. It is widely used in pickling."
+    }
+  },
+  {
+    "id": "fp-qa10",
+    "topicId": "food-preservatives",
+    "question": {
+      "bn": "বায়োপ্রিজারভেশন (Biopreservation) কী?",
+      "en": "What is biopreservation?"
+    },
+    "answer": {
+      "bn": "বায়োপ্রিজারভেশন হলো খাদ্য সংরক্ষণের জন্য প্রাকৃতিক বা নিয়ন্ত্রিত অণুজীব (যেমন ল্যাকটিক অ্যাসিড ব্যাকটেরিয়া) বা তাদের উপজাত ব্যবহার করার একটি কৌশল।",
+      "en": "Biopreservation is a technique of using natural or controlled microorganisms (like lactic acid bacteria) or their byproducts to preserve food."
+    }
+  },
+  {
+    "id": "fp-qa11",
+    "topicId": "food-preservatives",
+    "question": {
+      "bn": "ক্যানিং (Canning) কীভাবে খাদ্যকে পচনের হাত থেকে রক্ষা করে?",
+      "en": "How does canning protect food from spoilage?"
+    },
+    "answer": {
+      "bn": "ক্যানিং প্রক্রিয়ায় খাবারকে বায়ুরোধী পাত্রে সিল করে উচ্চ তাপে গরম করা হয়। তাপ অণুজীবকে ধ্বংস করে এবং বায়ুরোধী সিল পুনরায় সংক্রমণ প্রতিরোধ করে।",
+      "en": "In canning, food is sealed in an airtight container and heated to a high temperature. The heat destroys microorganisms, and the airtight seal prevents re-contamination."
+    }
+  },
+  {
+    "id": "fp-qa12",
+    "topicId": "food-preservatives",
+    "question": {
+      "bn": "মাংস সংরক্ষণে নাইট্রাইট (Nitrite) ব্যবহারের দুটি কারণ কী?",
+      "en": "What are two reasons for using nitrite in meat preservation?"
+    },
+    "answer": {
+      "bn": "নাইট্রাইট প্রথমত, বিপজ্জনক ব্যাকটেরিয়া ক্লোস্ট্রিডিয়াম বোটুলিনামের বৃদ্ধি রোধ করে এবং দ্বিতীয়ত, মাংসের গোলাপী রঙ এবং বিশেষ স্বাদ বজায় রাখে।",
+      "en": "Nitrite, firstly, prevents the growth of the dangerous bacterium Clostridium botulinum, and secondly, it maintains the pink color and characteristic flavor of the meat."
+    }
+  },
+  {
+    "id": "fp-qa13",
+    "topicId": "food-preservatives",
+    "question": {
+      "bn": "খাবার শুকিয়ে (Drying) সংরক্ষণ করার মূলনীতি কী?",
+      "en": "What is the principle behind preserving food by drying?"
+    },
+    "answer": {
+      "bn": "খাবার থেকে জল অপসারণ করলে অণুজীবদের বেঁচে থাকার এবং বংশবৃদ্ধি করার জন্য প্রয়োজনীয় পরিবেশ থাকে না, ফলে খাবার সংরক্ষিত থাকে।",
+      "en": "Removing water from food eliminates the necessary environment for microorganisms to survive and reproduce, thus preserving the food."
+    }
+  },
+  {
+    "id": "fp-qa14",
+    "topicId": "food-preservatives",
+    "question": {
+      "bn": "সালফাইট (Sulfite) কোন ধরনের খাদ্য সংরক্ষণে ব্যবহৃত হয়?",
+      "en": "In what type of food preservation are sulfites used?"
+    },
+    "answer": {
+      "bn": "সালফাইট প্রধানত ওয়াইন, শুকনো ফল এবং কিছু প্রক্রিয়াজাত আলুতে ব্যবহৃত হয়। এটি বাদামী হওয়া রোধ করে এবং অণুজীবের বৃদ্ধি বাধা দেয়।",
+      "en": "Sulfites are mainly used in wine, dried fruits, and some processed potatoes. It prevents browning and inhibits microbial growth."
+    }
+  },
+  {
+    "id": "fp-qa15",
+    "topicId": "food-preservatives",
+    "question": {
+      "bn": "খাদ্য সংরক্ষক ব্যবহারের প্রধান সুবিধা কী?",
+      "en": "What is the main advantage of using food preservatives?"
+    },
+    "answer": {
+      "bn": "খাদ্য সংরক্ষক ব্যবহারের প্রধান সুবিধা হলো এটি খাদ্যের শেলফ-লাইফ বাড়ায়, খাদ্যবাহিত রোগ প্রতিরোধ করে এবং মৌসুমের বাইরেও বিভিন্ন খাবারের জোগান নিশ্চিত করে।",
+      "en": "The main advantage of using food preservatives is that it extends the shelf-life of food, prevents foodborne illnesses, and ensures the availability of various foods out of season."
+    }
+  },
+  {
+    "id": "mc-qa1",
+    "topicId": "mixtures-and-colloids",
+    "question": {
+      "bn": "মিশ্রণ (Mixture) কাকে বলে?",
+      "en": "What is a mixture?"
+    },
+    "answer": {
+      "bn": "দুই বা ততোধিক পদার্থ যখন তাদের নিজ নিজ ধর্ম বজায় রেখে যেকোনো অনুপাতে একত্রে মেশানো হয়, কিন্তু রাসায়নিকভাবে সংযুক্ত হয় না, তখন তাকে মিশ্রণ বলে।",
+      "en": "A mixture is a substance made by combining two or more different materials in such a way that no chemical reaction occurs."
+    }
+  },
+  {
+    "id": "mc-qa2",
+    "topicId": "mixtures-and-colloids",
+    "question": {
+      "bn": "কলোয়েড (Colloid) কী?",
+      "en": "What is a colloid?"
+    },
+    "answer": {
+      "bn": "কলোয়েড হলো এক ধরনের মিশ্রণ যেখানে একটি পদার্থের অতি ক্ষুদ্র কণা (১ থেকে ১০০০ ন্যানোমিটার) অন্য একটি পদার্থে বিস্তৃত থাকে। এটি দেখতে সমসত্ত্ব মনে হলেও আসলে অসমসত্ত্ব।",
+      "en": "A colloid is a type of mixture in which one substance of microscopically dispersed insoluble particles (ranging from 1 to 1000 nanometers in size) is suspended throughout another substance."
+    }
+  },
+  {
+    "id": "mc-qa3",
+    "topicId": "mixtures-and-colloids",
+    "question": {
+      "bn": "সমসত্ত্ব এবং অসমসত্ত্ব মিশ্রণের মধ্যে পার্থক্য কী?",
+      "en": "What is the difference between homogeneous and heterogeneous mixtures?"
+    },
+    "answer": {
+      "bn": "সমসত্ত্ব মিশ্রণে উপাদানগুলি সুষমভাবে মিশ্রিত থাকে এবং পুরো মিশ্রণ জুড়ে এর গঠন একই থাকে (যেমন- চিনির শরবত)। অসমসত্ত্ব মিশ্রণে উপাদানগুলি সুষমভাবে মিশ্রিত থাকে না এবং এর বিভিন্ন অংশে বিভিন্ন গঠন দেখা যায় (যেমন- বালি ও জলের মিশ্রণ)।",
+      "en": "In a homogeneous mixture, the components are uniformly distributed, and the composition is the same throughout (e.g., sugar solution). In a heterogeneous mixture, the components are not uniformly distributed, and different parts have different compositions (e.g., a mixture of sand and water)."
+    }
+  },
+  {
+    "id": "mc-qa4",
+    "topicId": "mixtures-and-colloids",
+    "question": {
+      "bn": "টিন্ডাল প্রভাব (Tyndall Effect) কী?",
+      "en": "What is the Tyndall Effect?"
+    },
+    "answer": {
+      "bn": "কলোয়েডাল দ্রবণের মধ্যে দিয়ে আলোকরশ্মি পাঠালে কলোয়েডের কণা দ্বারা আলোর বিচ্ছুরণ ঘটে, যার ফলে আলোর গতিপথ দৃশ্যমান হয়। এই ঘটনাকে টিন্ডাল প্রভাব বলে।",
+      "en": "The Tyndall effect is the scattering of a beam of light by particles in a colloid, which makes the light beam's path visible."
+    }
+  },
+  {
+    "id": "mc-qa5",
+    "topicId": "mixtures-and-colloids",
+    "question": {
+      "bn": "একটি ইমালসন (Emulsion) এর উদাহরণ দিন।",
+      "en": "Give an example of an emulsion."
+    },
+    "answer": {
+      "bn": "দুধ হলো একটি ইমালসনের উৎকৃষ্ট উদাহরণ, যেখানে চর্বির ক্ষুদ্র কণা জলে বিস্তৃত থাকে। মেয়োনিজও একটি ইমালসন।",
+      "en": "Milk is an excellent example of an emulsion, where tiny globules of fat are dispersed in water. Mayonnaise is also an emulsion."
+    }
+  },
+  {
+    "id": "mc-qa6",
+    "topicId": "mixtures-and-colloids",
+    "question": {
+      "bn": "ব্রাউনীয় গতি (Brownian Motion) বলতে কী বোঝায়?",
+      "en": "What is meant by Brownian Motion?"
+    },
+    "answer": {
+      "bn": "কলোয়েডাল দ্রবণে ভাসমান কণাগুলির ইতস্তত ও অবিরাম এলোমেলো গতিকে ব্রাউনীয় গতি বলা হয়। এটি বিস্তার মাধ্যমের অণুগুলির সাথে কণাগুলির সংঘর্ষের ফলে ঘটে।",
+      "en": "Brownian motion refers to the random, uncontrolled movement of particles in a fluid as they constantly collide with other molecules in the medium."
+    }
+  },
+  {
+    "id": "mc-qa7",
+    "topicId": "mixtures-and-colloids",
+    "question": {
+      "bn": "একটি সল (Sol) এবং একটি জেল (Gel) এর মধ্যে পার্থক্য কী?",
+      "en": "What is the difference between a sol and a gel?"
+    },
+    "answer": {
+      "bn": "সল হলো একটি কলোয়েড যেখানে কঠিন কণা তরল মাধ্যমে বিস্তৃত থাকে (যেমন- পেইন্ট)। অন্যদিকে, জেল হলো একটি কলোয়েড যেখানে তরল কণা কঠিন মাধ্যমে বিস্তৃত থাকে (যেমন- জেলি)।",
+      "en": "A sol is a colloid where solid particles are dispersed in a liquid medium (e.g., paint). On the other hand, a gel is a colloid where a liquid is dispersed in a solid medium (e.g., jelly)."
+    }
+  },
+  {
+    "id": "mc-qa8",
+    "topicId": "mixtures-and-colloids",
+    "question": {
+      "bn": "একটি অ্যারোসল (Aerosol) কী?",
+      "en": "What is an aerosol?"
+    },
+    "answer": {
+      "bn": "অ্যারোসল হলো এমন একটি কলোয়েড যেখানে কঠিন বা তরল কণা গ্যাসীয় মাধ্যমে ভাসমান থাকে। যেমন- কুয়াশা, ধোঁয়া, বা ডিওডোরেন্ট স্প্রে।",
+      "en": "An aerosol is a colloid in which fine solid particles or liquid droplets are suspended in a gas. Examples include fog, smoke, or deodorant spray."
+    }
+  },
+  {
+    "id": "mc-qa9",
+    "topicId": "mixtures-and-colloids",
+    "question": {
+      "bn": "সাসপেনশন (Suspension) থেকে কলোয়েড কীভাবে আলাদা?",
+      "en": "How is a colloid different from a suspension?"
+    },
+    "answer": {
+      "bn": "কলোয়েডের কণাগুলি সাসপেনশনের কণার চেয়ে ছোট এবং মাধ্যাকর্ষণের ফলে থিতিয়ে পড়ে না, কিন্তু সাসপেনশনের কণাগুলি বড় হওয়ায় সময়ের সাথে সাথে থিতিয়ে পড়ে।",
+      "en": "The particles in a colloid are smaller than those in a suspension and do not settle out due to gravity, whereas the larger particles in a suspension do settle over time."
+    }
+  },
+  {
+    "id": "mc-qa10",
+    "topicId": "mixtures-and-colloids",
+    "question": {
+      "bn": "ইমালসিফায়ার (Emulsifier) কী?",
+      "en": "What is an emulsifier?"
+    },
+    "answer": {
+      "bn": "ইমালসিফায়ার হলো এমন একটি পদার্থ যা দুটি অমিশ্রণীয় তরলকে (যেমন তেল এবং জল) স্থিতিশীল মিশ্রণ বা ইমালসন তৈরি করতে সাহায্য করে। সাবান একটি সাধারণ ইমালসিফায়ার।",
+      "en": "An emulsifier is a substance that helps to stabilize an emulsion, which is a mixture of two immiscible liquids (like oil and water). Soap is a common emulsifier."
+    }
+  },
+  {
+    "id": "mc-qa11",
+    "topicId": "mixtures-and-colloids",
+    "question": {
+      "bn": "ফোম (Foam) কীসের উদাহরণ?",
+      "en": "What is foam an example of?"
+    },
+    "answer": {
+      "bn": "ফোম হলো একটি কলোয়েড যেখানে গ্যাসীয় কণা তরল বা কঠিন মাধ্যমে বিস্তৃত থাকে। যেমন- শেভিং ক্রিম বা স্টাইরোফোম।",
+      "en": "Foam is a colloid where gas particles are dispersed in a liquid or solid medium. Examples include shaving cream or styrofoam."
+    }
+  },
+  {
+    "id": "mc-qa12",
+    "topicId": "mixtures-and-colloids",
+    "question": {
+      "bn": "লাইওফিলিক (Lyophilic) কলোয়েড বলতে কী বোঝায়?",
+      "en": "What is meant by a lyophilic colloid?"
+    },
+    "answer": {
+      "bn": "লাইওফিলিক কলোয়েড (বা দ্রাবক-আকর্ষী) হলো এমন কলোয়েড যেখানে বিস্তৃত দশা এবং বিস্তার মাধ্যমের মধ্যে তীব্র আকর্ষণ থাকে। এগুলি সাধারণত স্থিতিশীল হয়। যেমন- স্টার্চের দ্রবণ।",
+      "en": "A lyophilic colloid (or solvent-attracting) is a colloid in which there is a strong affinity between the dispersed phase and the dispersion medium. They are generally stable. An example is a starch solution."
+    }
+  },
+  {
+    "id": "mc-qa13",
+    "topicId": "mixtures-and-colloids",
+    "question": {
+      "bn": "লাইওফোবিক (Lyophobic) কলোয়েড বলতে কী বোঝায়?",
+      "en": "What is meant by a lyophobic colloid?"
+    },
+    "answer": {
+      "bn": "লাইওফোবিক কলোয়েড (বা দ্রাবক-বিকর্ষী) হলো এমন কলোয়েড যেখানে বিস্তৃত দশা এবং বিস্তার মাধ্যমের মধ্যে কোনো আকর্ষণ থাকে না। এগুলি সাধারণত অস্থিতিশীল হয়। যেমন- সালফার সল।",
+      "en": "A lyophobic colloid (or solvent-repelling) is a colloid in which there is no affinity between the dispersed phase and the dispersion medium. They are generally unstable. An example is a sulfur sol."
+    }
+  },
+  {
+    "id": "mc-qa14",
+    "topicId": "mixtures-and-colloids",
+    "question": {
+      "bn": "রক্ত কোন ধরনের মিশ্রণ?",
+      "en": "What type of mixture is blood?"
+    },
+    "answer": {
+      "bn": "রক্ত একটি জটিল মিশ্রণ, তবে একে প্রধানত একটি কলোয়েড হিসেবে বিবেচনা করা হয় কারণ এতে রক্তকণিকা এবং প্রোটিনের মতো বড় অণু প্লাজমায় বিস্তৃত থাকে।",
+      "en": "Blood is a complex mixture, but it is primarily considered a colloid because larger molecules like blood cells and proteins are dispersed in the plasma."
+    }
+  },
+  {
+    "id": "mc-qa15",
+    "topicId": "mixtures-and-colloids",
+    "question": {
+      "bn": "মিশ্রণ থেকে এর উপাদানগুলো কীভাবে পৃথক করা যায়?",
+      "en": "How can the components of a mixture be separated?"
+    },
+    "answer": {
+      "bn": "মিশ্রণের উপাদানগুলিকে ভৌত পদ্ধতি যেমন- পরিস্রাবণ, বাষ্পীভবন, পাতন এবং ক্রোমাটোগ্রাফির মাধ্যমে পৃথক করা যায়।",
+      "en": "The components of a mixture can be separated by physical methods such as filtration, evaporation, distillation, and chromatography."
+    }
+  },
+  {
+    "id": "vpa-qa1",
+    "topicId": "vinegar-preparation-action",
+    "question": {
+      "bn": "ভিনেগার (Vinegar) কী?",
+      "en": "What is vinegar?"
+    },
+    "answer": {
+      "bn": "ভিনেগার হলো একটি অম্লীয় তরল যা মূলত অ্যাসিটিক অ্যাসিড এবং জলের মিশ্রণ। এটি ইথানলের গাঁজন প্রক্রিয়ার মাধ্যমে তৈরি হয়।",
+      "en": "Vinegar is an acidic liquid consisting mainly of acetic acid and water. It is produced through the fermentation of ethanol."
+    }
+  },
+  {
+    "id": "vpa-qa2",
+    "topicId": "vinegar-preparation-action",
+    "question": {
+      "bn": "ভিনেগারের প্রধান রাসায়নিক উপাদান কী?",
+      "en": "What is the main chemical component of vinegar?"
+    },
+    "answer": {
+      "bn": "ভিনেগারের প্রধান রাসায়নিক উপাদান হলো অ্যাসিটিক অ্যাসিড (CH₃COOH)।",
+      "en": "The main chemical component of vinegar is acetic acid (CH₃COOH)."
+    }
+  },
+  {
+    "id": "vpa-qa3",
+    "topicId": "vinegar-preparation-action",
+    "question": {
+      "bn": "ভিনেগার তৈরির দুটি প্রধান ধাপ কী কী?",
+      "en": "What are the two main steps in making vinegar?"
+    },
+    "answer": {
+      "bn": "ভিনেগার তৈরির দুটি প্রধান ধাপ হলো: ১) অ্যালকোহলীয় গাঁজন, যেখানে ইস্ট শর্করাকে ইথানলে পরিণত করে, এবং ২) অ্যাসিটিক অ্যাসিড গাঁজন, যেখানে অ্যাসিটোব্যাক্টর ব্যাকটেরিয়া ইথানলকে অ্যাসিটিক অ্যাসিডে পরিণত করে।",
+      "en": "The two main steps in making vinegar are: 1) Alcoholic fermentation, where yeast converts sugar into ethanol, and 2) Acetic acid fermentation, where Acetobacter bacteria convert ethanol into acetic acid."
+    }
+  },
+  {
+    "id": "vpa-qa4",
+    "topicId": "vinegar-preparation-action",
+    "question": {
+      "bn": "কোন ব্যাকটেরিয়া ভিনেগার উৎপাদনে সাহায্য করে?",
+      "en": "Which bacteria helps in the production of vinegar?"
+    },
+    "answer": {
+      "bn": "অ্যাসিটোব্যাক্টর (Acetobacter) প্রজাতির ব্যাকটেরিয়া ভিনেগার উৎপাদনে অপরিহার্য, কারণ এটি ইথানলকে জারিত করে অ্যাসিটিক অ্যাসিড তৈরি করে।",
+      "en": "Bacteria of the Acetobacter genus are essential for vinegar production as they oxidize ethanol to create acetic acid."
+    }
+  },
+  {
+    "id": "vpa-qa5",
+    "topicId": "vinegar-preparation-action",
+    "question": {
+      "bn": "'মাদার অফ ভিনেগার' ('Mother of vinegar') বলতে কী বোঝায়?",
+      "en": "What is meant by 'mother of vinegar'?"
+    },
+    "answer": {
+      "bn": "'মাদার অফ ভিনেগার' হলো সেলুলোজ এবং অ্যাসিটিক অ্যাসিড ব্যাকটেরিয়ার সমন্বয়ে গঠিত একটি জেলির মতো পদার্থ যা ভিনেগার গাঁজনের সময় তৈরি হয়।",
+      "en": "'Mother of vinegar' is a gelatinous substance composed of cellulose and acetic acid bacteria that forms during the fermentation of vinegar."
+    }
+  },
+  {
+    "id": "vpa-qa6",
+    "topicId": "vinegar-preparation-action",
+    "question": {
+      "bn": "রান্নায় ভিনেগারের দুটি ব্যবহার উল্লেখ করুন।",
+      "en": "Mention two uses of vinegar in cooking."
+    },
+    "answer": {
+      "bn": "রান্নায় ভিনেগার প্রধানত সালাদ ড্রেসিং তৈরি করতে এবং সবজি বা মাংসের আচার (পিকলিং) তৈরি করতে ব্যবহৃত হয়।",
+      "en": "In cooking, vinegar is primarily used for making salad dressings and for pickling vegetables or meats."
+    }
+  },
+  {
+    "id": "vpa-qa7",
+    "topicId": "vinegar-preparation-action",
+    "question": {
+      "bn": "পরিষ্কারক হিসেবে ভিনেগার কীভাবে কাজ করে?",
+      "en": "How does vinegar work as a cleaner?"
+    },
+    "answer": {
+      "bn": "ভিনেগারের অম্লীয় প্রকৃতি এটিকে একটি কার্যকর পরিষ্কারক বানিয়েছে। এটি সাবানের ময়লা, খনিজ জমা এবং গ্রীস দূর করতে পারে।",
+      "en": "The acidic nature of vinegar makes it an effective cleaner. It can dissolve soap scum, mineral deposits, and grease."
+    }
+  },
+  {
+    "id": "vpa-qa8",
+    "topicId": "vinegar-preparation-action",
+    "question": {
+      "bn": "অ্যাপেল সিডার ভিনেগার (Apple Cider Vinegar) কী থেকে তৈরি হয়?",
+      "en": "What is Apple Cider Vinegar made from?"
+    },
+    "answer": {
+      "bn": "অ্যাপেল সিডার ভিনেগার நொறுക്കിയ আপেল বা আপেলের রস গাঁজন করে তৈরি করা হয়।",
+      "en": "Apple cider vinegar is made by fermenting crushed apples or apple juice."
+    }
+  },
+  {
+    "id": "vpa-qa9",
+    "topicId": "vinegar-preparation-action",
+    "question": {
+      "bn": "খাদ্য সংরক্ষণে ভিনেগারের ভূমিকা কী?",
+      "en": "What is the role of vinegar in food preservation?"
+    },
+    "answer": {
+      "bn": "ভিনেগার একটি অম্লীয় পরিবেশ তৈরি করে যা অণুজীবের বৃদ্ধিকে বাধা দেয়, ফলে এটি একটি কার্যকর প্রাকৃতিক সংরক্ষক হিসেবে কাজ করে, বিশেষ করে পিকলিং-এ।",
+      "en": "Vinegar creates an acidic environment that inhibits microbial growth, making it an effective natural preservative, especially in pickling."
+    }
+  },
+  {
+    "id": "vpa-qa10",
+    "topicId": "vinegar-preparation-action",
+    "question": {
+      "bn": "সাদা ভিনেগার (White Vinegar) এবং পাতিত ভিনেগারের (Distilled Vinegar) মধ্যে কোনো পার্থক্য আছে কি?",
+      "en": "Is there any difference between White Vinegar and Distilled Vinegar?"
+    },
+    "answer": {
+      "bn": "সাধারণত, সাদা ভিনেগার এবং পাতিত ভিনেগার একই জিনিসকে বোঝায়। এটি প্রায়শই পাতিত অ্যালকোহল থেকে তৈরি হয় এবং এর স্বাদ তীব্র ও পরিষ্কার হয়।",
+      "en": "Generally, white vinegar and distilled vinegar refer to the same thing. It is often made from distilled alcohol and has a sharp, clean taste."
+    }
+  },
+  {
+    "id": "vpa-qa11",
+    "topicId": "vinegar-preparation-action",
+    "question": {
+      "bn": "ভিনেগার উৎপাদনে বায়ুচলাচল (aeration) কেন গুরুত্বপূর্ণ?",
+      "en": "Why is aeration important in vinegar production?"
+    },
+    "answer": {
+      "bn": "অ্যাসিটোব্যাক্টর ব্যাকটেরিয়া একটি বায়বীয় অণুজীব, যার ইথানলকে অ্যাসিটিক অ্যাসিডে জারিত করার জন্য অক্সিজেন প্রয়োজন। তাই পর্যাপ্ত বায়ুচলাচল গাঁজন প্রক্রিয়াকে দ্রুত করে।",
+      "en": "Acetobacter bacteria are aerobic, meaning they require oxygen to oxidize ethanol into acetic acid. Therefore, sufficient aeration speeds up the fermentation process."
+    }
+  },
+  {
+    "id": "vpa-qa12",
+    "topicId": "vinegar-preparation-action",
+    "question": {
+      "bn": "সাধারণত ভিনেগারে কত শতাংশ অ্যাসিটিক অ্যাসিড থাকে?",
+      "en": "What is the typical percentage of acetic acid in vinegar?"
+    },
+    "answer": {
+      "bn": "সাধারণত বাণিজ্যিক ভিনেগারে ৪% থেকে ৮% অ্যাসিটিক অ্যাসিড থাকে, তবে কিছু বিশেষ ভিনেগারে এর পরিমাণ আরও বেশি হতে পারে।",
+      "en": "Commercial vinegar typically contains 4% to 8% acetic acid, although some specialty vinegars can have a higher concentration."
+    }
+  },
+  {
+    "id": "vpa-qa13",
+    "topicId": "vinegar-preparation-action",
+    "question": {
+      "bn": "ভিনেগার কি স্বাস্থ্যের জন্য উপকারী হতে পারে?",
+      "en": "Can vinegar be beneficial for health?"
+    },
+    "answer": {
+      "bn": "কিছু গবেষণায় দেখা গেছে যে পরিমিত পরিমাণে ভিনেগার গ্রহণ রক্তে শর্করা নিয়ন্ত্রণ, ওজন কমানো এবং হজমে সহায়তা করতে পারে, তবে এই বিষয়ে আরও গবেষণা প্রয়োজন।",
+      "en": "Some studies suggest that moderate consumption of vinegar may help control blood sugar, aid in weight loss, and improve digestion, although more research is needed."
+    }
+  },
+  {
+    "id": "vpa-qa14",
+    "topicId": "vinegar-preparation-action",
+    "question": {
+      "bn": "শিল্পক্ষেত্রে ভিনেগার উৎপাদনের দ্রুত পদ্ধতির নাম কী?",
+      "en": "What is the name of the rapid method for industrial vinegar production?"
+    },
+    "answer": {
+      "bn": "শিল্পক্ষেত্রে ভিনেগার উৎপাদনের দ্রুত পদ্ধতি হলো 'নিমজ্জিত গাঁজন' (Submerged Fermentation), যেখানে একটি বড় ট্যাঙ্কে বায়ু বুদবুদ করে প্রক্রিয়াটি দ্রুত করা হয়।",
+      "en": "The rapid method for industrial vinegar production is 'Submerged Fermentation,' where the process is accelerated by bubbling air through a large tank."
+    }
+  },
+  {
+    "id": "vpa-qa15",
+    "topicId": "vinegar-preparation-action",
+    "question": {
+      "bn": "ভিনেগার এবং অ্যাসিটিক অ্যাসিড কি একই জিনিস?",
+      "en": "Are vinegar and acetic acid the same thing?"
+    },
+    "answer": {
+      "bn": "না, তারা এক নয়। অ্যাসিটিক অ্যাসিড হলো একটি রাসায়নিক যৌগ, আর ভিনেগার হলো অ্যাসিটিক অ্যাসিডের একটি জলীয় দ্রবণ যেখানে জল ছাড়াও অন্যান্য ট্রেস উপাদান থাকে।",
+      "en": "No, they are not the same. Acetic acid is a chemical compound, whereas vinegar is an aqueous solution of acetic acid that also contains other trace elements besides water."
+    }
+  },
+  {
+    "id": "hc-qa1",
+    "topicId": "household-cleaners",
+    "question": {
+      "bn": "সারফ্যাক্ট্যান্ট (Surfactant) কী?",
+      "en": "What is a surfactant?"
+    },
+    "answer": {
+      "bn": "সারফ্যাক্ট্যান্ট হলো এমন রাসায়নিক যৌগ যা তরলের পৃষ্ঠটান কমিয়ে দেয়। এটি তেল এবং জলকে মিশতে সাহায্য করে, যা পরিষ্কারের কাজে ময়লা অপসারণে অপরিহার্য।",
+      "en": "A surfactant is a chemical compound that lowers the surface tension of a liquid. It helps oil and water to mix, which is essential for removing dirt during cleaning."
+    }
+  },
+  {
+    "id": "hc-qa2",
+    "topicId": "household-cleaners",
+    "question": {
+      "bn": "সাবান (Soap) এবং ডিটারজেন্ট (Detergent) এর মধ্যে প্রধান পার্থক্য কী?",
+      "en": "What is the main difference between soap and detergent?"
+    },
+    "answer": {
+      "bn": "সাবান প্রাকৃতিক চর্বি বা তেল থেকে তৈরি হয়, যা কঠিন জলে (hard water) ভালোভাবে কাজ করে না। অন্যদিকে, ডিটারজেন্ট কৃত্রিমভাবে তৈরি সারফ্যাক্ট্যান্ট যা কঠিন জলেও কার্যকরভাবে কাজ করে।",
+      "en": "Soap is made from natural fats or oils and does not work well in hard water. In contrast, detergents are synthetic surfactants that work effectively even in hard water."
+    }
+  },
+  {
+    "id": "hc-qa3",
+    "topicId": "household-cleaners",
+    "question": {
+      "bn": "ব্লিচ (Bleach) এবং অ্যামোনিয়া (Ammonia) মেশানো কেন বিপজ্জনক?",
+      "en": "Why is it dangerous to mix bleach and ammonia?"
+    },
+    "answer": {
+      "bn": "ব্লিচ এবং অ্যামোনিয়া মেশালে বিষাক্ত ক্লোরামাইন (Chloramine) গ্যাস উৎপন্ন হয়, যা শ্বাসকষ্ট, বুকে ব্যথা এবং অন্যান্য গুরুতর স্বাস্থ্য সমস্যার কারণ হতে পারে।",
+      "en": "Mixing bleach and ammonia produces toxic chloramine gas, which can cause shortness of breath, chest pain, and other serious health problems."
+    }
+  },
+  {
+    "id": "hc-qa4",
+    "topicId": "household-cleaners",
+    "question": {
+      "bn": "একটি ক্ষারীয় (Alkaline) ক্লিনার কী ধরনের ময়লা পরিষ্কার করতে ব্যবহৃত হয়?",
+      "en": "What kind of dirt is an alkaline cleaner used to clean?"
+    },
+    "answer": {
+      "bn": "ক্ষারীয় ক্লিনারগুলি গ্রীস, তেল, চর্বি এবং অন্যান্য জৈব ময়লা অপসারণের জন্য অত্যন্ত কার্যকর। ওভেন ক্লিনারগুলি প্রায়শই ক্ষারীয় হয়।",
+      "en": "Alkaline cleaners are very effective for removing grease, oil, fats, and other organic soils. Oven cleaners are often alkaline."
+    }
+  },
+  {
+    "id": "hc-qa5",
+    "topicId": "household-cleaners",
+    "question": {
+      "bn": "গ্লাস ক্লিনারে (Glass Cleaner) সাধারণত কোন উপাদানটি থাকে যা দাগমুক্ত করে?",
+      "en": "What ingredient in glass cleaners typically provides a streak-free finish?"
+    },
+    "answer": {
+      "bn": "গ্লাস ক্লিনারগুলিতে প্রায়শই অ্যামোনিয়া বা আইসোপ্রোপাইল অ্যালকোহল থাকে, যা দ্রুত বাষ্পীভূত হয়ে যায় এবং কাঁচের উপর কোনো দাগ বা রেখা ফেলে না।",
+      "en": "Glass cleaners often contain ammonia or isopropyl alcohol, which evaporate quickly and do not leave streaks or residue on the glass."
+    }
+  },
+  {
+    "id": "hc-qa6",
+    "topicId": "household-cleaners",
+    "question": {
+      "bn": "এনজাইম-ভিত্তিক (Enzyme-based) ক্লিনার কীভাবে কাজ করে?",
+      "en": "How do enzyme-based cleaners work?"
+    },
+    "answer": {
+      "bn": "এনজাইম-ভিত্তিক ক্লিনারগুলি নির্দিষ্ট ধরণের দাগকে লক্ষ্য করে কাজ করে। যেমন, প্রোটিয়েজ এনজাইম প্রোটিন-ভিত্তিক দাগ (যেমন রক্ত, ঘাস) ভাঙে, আর অ্যামাইলেজ স্টার্চ-ভিত্তিক দাগ ভাঙে।",
+      "en": "Enzyme-based cleaners work by targeting specific types of stains. For example, protease enzymes break down protein-based stains (like blood, grass), while amylase breaks down starch-based stains."
+    }
+  },
+  {
+    "id": "hc-qa7",
+    "topicId": "household-cleaners",
+    "question": {
+      "bn": "অম্লীয় (Acidic) ক্লিনার কোথায় ব্যবহৃত হয়?",
+      "en": "Where are acidic cleaners used?"
+    },
+    "answer": {
+      "bn": "অম্লীয় ক্লিনারগুলি মরিচা, খনিজ জমা (যেমন জলের কঠিনতার দাগ) এবং সাবানের ময়লা অপসারণের জন্য ব্যবহৃত হয়। টয়লেট বোল ক্লিনারগুলি প্রায়শই অম্লীয় হয়।",
+      "en": "Acidic cleaners are used to remove rust, mineral deposits (like hard water stains), and soap scum. Toilet bowl cleaners are often acidic."
+    }
+  },
+  {
+    "id": "hc-qa8",
+    "topicId": "household-cleaners",
+    "question": {
+      "bn": "ডিটারজেন্টে 'বিল্ডার' (Builder) এর ভূমিকা কী?",
+      "en": "What is the role of a 'builder' in detergents?"
+    },
+    "answer": {
+      "bn": "'বিল্ডার' গুলি জলের কঠোরতা সৃষ্টিকারী ক্যালসিয়াম এবং ম্যাগনেসিয়াম আয়নকে নিষ্ক্রিয় করে, যা সারফ্যাক্ট্যান্টকে আরও কার্যকরভাবে কাজ করতে সাহায্য করে।",
+      "en": "'Builders' inactivate the calcium and magnesium ions that cause water hardness, which helps the surfactant to work more effectively."
+    }
+  },
+  {
+    "id": "hc-qa9",
+    "topicId": "household-cleaners",
+    "question": {
+      "bn": "একটি সারফ্যাক্ট্যান্ট অণুর দুটি প্রধান অংশ কী কী?",
+      "en": "What are the two main parts of a surfactant molecule?"
+    },
+    "answer": {
+      "bn": "একটি সারফ্যাক্ট্যান্ট অণুর দুটি প্রধান অংশ হলো একটি হাইড্রোফিলিক (জল-আকর্ষী) 'মাথা' এবং একটি হাইড্রোফোবিক (জল-বিকর্ষী) 'লেজ'।",
+      "en": "The two main parts of a surfactant molecule are a hydrophilic (water-attracting) 'head' and a hydrophobic (water-repelling) 'tail'."
+    }
+  },
+  {
+    "id": "hc-qa10",
+    "topicId": "household-cleaners",
+    "question": {
+      "bn": "জীবাণুনাশক (Disinfectant) এবং এন্টিসেপটিক (Antiseptic) এর মধ্যে পার্থক্য কী?",
+      "en": "What is the difference between a disinfectant and an antiseptic?"
+    },
+    "answer": {
+      "bn": "জীবাণুনাশক জড় বস্তুর (যেমন মেঝে, টেবিল) উপর অণুজীব ধ্বংস করতে ব্যবহৃত হয়, অন্যদিকে এন্টিসেপটিক জীবিত টিস্যুর (যেমন ত্বক) উপর অণুজীবের বৃদ্ধি রোধ করতে ব্যবহৃত হয়।",
+      "en": "Disinfectants are used to destroy microorganisms on inanimate objects (like floors, tables), while antiseptics are used to inhibit the growth of microorganisms on living tissue (like skin)."
+    }
+  },
+  {
+    "id": "hc-qa11",
+    "topicId": "household-cleaners",
+    "question": {
+      "bn": "ফোমিং (Foaming) পরিষ্কারের প্রক্রিয়াকে কীভাবে সাহায্য করে?",
+      "en": "How does foaming aid the cleaning process?"
+    },
+    "answer": {
+      "bn": "ফোম উল্লম্ব পৃষ্ঠে ক্লিনারের সংস্পর্শের সময় বাড়িয়ে দেয়, ফলে ক্লিনারটি ময়লার সাথে কাজ করার জন্য বেশি সময় পায় এবং পরিষ্কারের কার্যকারিতা বাড়ে।",
+      "en": "Foam increases the contact time of the cleaner on vertical surfaces, giving the cleaner more time to act on the dirt and improving cleaning efficiency."
+    }
+  },
+  {
+    "id": "hc-qa12",
+    "topicId": "household-cleaners",
+    "question": {
+      "bn": "'সবুজ ক্লিনার' (Green Cleaner) বলতে কী বোঝায়?",
+      "en": "What does 'green cleaner' mean?"
+    },
+    "answer": {
+      "bn": "'সবুজ ক্লিনার' বলতে এমন পরিষ্কারক পণ্য বোঝায় যা পরিবেশের উপর ন্যূনতম নেতিবাচক প্রভাব ফেলে এবং বায়োডিগ্রেডেবল (প্রাকৃতিকভাবে পচনশীল) উপাদান দিয়ে তৈরি।",
+      "en": "'Green cleaner' refers to cleaning products that have a minimal negative impact on the environment and are made with biodegradable ingredients."
+    }
+  },
+  {
+    "id": "hc-qa13",
+    "topicId": "household-cleaners",
+    "question": {
+      "bn": "কঠিন জল (Hard Water) কী এবং এটি পরিষ্কারে কীভাবে প্রভাব ফেলে?",
+      "en": "What is hard water and how does it affect cleaning?"
+    },
+    "answer": {
+      "bn": "কঠিন জলে ক্যালসিয়াম এবং ম্যাগনেসিয়ামের মতো খনিজ পদার্থের পরিমাণ বেশি থাকে। এই খনিজগুলি সাবানের সাথে বিক্রিয়া করে সাবানের ময়লা (soap scum) তৈরি করে, যা সাবানের কার্যকারিতা কমিয়ে দেয়।",
+      "en": "Hard water has a high content of minerals like calcium and magnesium. These minerals react with soap to form soap scum, which reduces the effectiveness of the soap."
+    }
+  },
+  {
+    "id": "hc-qa14",
+    "topicId": "household-cleaners",
+    "question": {
+      "bn": "ফ্যাব্রিক সফটনার (Fabric Softener) কীভাবে কাজ করে?",
+      "en": "How does a fabric softener work?"
+    },
+    "answer": {
+      "bn": "ফ্যাব্রিক সফটনারে থাকা ক্যাটায়নিক সারফ্যাক্ট্যান্ট কাপড়ের পৃষ্ঠে একটি পাতলা স্তর তৈরি করে, যা কাপড়ের আঁশগুলিকে মসৃণ করে এবং স্ট্যাটিক চার্জ কমায়, ফলে কাপড় নরম অনুভূত হয়।",
+      "en": "The cationic surfactants in fabric softeners form a thin layer on the surface of the fabric, which lubricates the fibers and reduces static charge, making the fabric feel softer."
+    }
+  },
+  {
+    "id": "hc-qa15",
+    "topicId": "household-cleaners",
+    "question": {
+      "bn": "একটি অল-পারপাস ক্লিনার (All-Purpose Cleaner) কী?",
+      "en": "What is an all-purpose cleaner?"
+    },
+    "answer": {
+      "bn": "একটি অল-পারপাস ক্লিনার এমনভাবে তৈরি করা হয় যাতে এটি বিভিন্ন ধরণের পৃষ্ঠ এবং ময়লার উপর কাজ করতে পারে, যদিও এটি বিশেষায়িত ক্লিনারের মতো নির্দিষ্ট দাগের উপর ততটা কার্যকর নাও হতে পারে।",
+      "en": "An all-purpose cleaner is formulated to work on a variety of surfaces and types of dirt, although it may not be as effective on specific stains as a specialized cleaner."
+    }
+  },
+  {
+    "id": "cm-qa1",
+    "topicId": "chemistry-of-milk",
+    "question": {
+      "bn": "দুধের প্রধান উপাদানগুলো কী কী?",
+      "en": "What are the main components of milk?"
+    },
+    "answer": {
+      "bn": "দুধের প্রধান উপাদানগুলো হলো জল (প্রায় ৮৭%), ল্যাকটোজ (দুধের চিনি), চর্বি, প্রোটিন (मुख्यত কেসিন এবং হুই) এবং খনিজ পদার্থ (যেমন ক্যালসিয়াম)।",
+      "en": "The main components of milk are water (about 87%), lactose (milk sugar), fat, proteins (mainly casein and whey), and minerals (like calcium)."
+    }
+  },
+  {
+    "id": "cm-qa2",
+    "topicId": "chemistry-of-milk",
+    "question": {
+      "bn": "দুধের প্রধান প্রোটিনের নাম কী?",
+      "en": "What is the name of the main protein in milk?"
+    },
+    "answer": {
+      "bn": "দুধের প্রধান প্রোটিন হলো কেসিন (Casein), যা দুধের মোট প্রোটিনের প্রায় ৮০%। বাকি অংশ হলো হুই প্রোটিন (Whey protein)।",
+      "en": "The main protein in milk is casein, which constitutes about 80% of the total protein. The rest is whey protein."
+    }
+  },
+  {
+    "id": "cm-qa3",
+    "topicId": "chemistry-of-milk",
+    "question": {
+      "bn": "ল্যাকটোজ (Lactose) কী?",
+      "en": "What is lactose?"
+    },
+    "answer": {
+      "bn": "ল্যাকটোজ হলো একটি ডাইস্যাকারাইড (disaccharide) বা দ্বিশর্করা যা দুধে পাওয়া যায়। এটি গ্লুকোজ এবং গ্যালাকটোজ নামক দুটি সরল শর্করা দিয়ে গঠিত।",
+      "en": "Lactose is a disaccharide, or double sugar, found in milk. It is composed of two simpler sugars, glucose and galactose."
+    }
+  },
+  {
+    "id": "cm-qa4",
+    "topicId": "chemistry-of-milk",
+    "question": {
+      "bn": "দুধের পাস্তুরাইজেশন (Pasteurization) কেন করা হয়?",
+      "en": "Why is milk pasteurized?"
+    },
+    "answer": {
+      "bn": "দুধের পাস্তুরাইজেশন করা হয় ক্ষতিকারক ব্যাকটেরিয়া এবং অন্যান্য অণুজীব ধ্বংস করার জন্য, যা দুধকে পানের জন্য নিরাপদ করে এবং এর সংরক্ষণকাল বাড়ায়।",
+      "en": "Milk is pasteurized to destroy harmful bacteria and other microorganisms, which makes the milk safe to drink and increases its shelf life."
+    }
+  },
+  {
+    "id": "cm-qa5",
+    "topicId": "chemistry-of-milk",
+    "question": {
+      "bn": "দুধের হোমোজেনাইজেশন (Homogenization) বলতে কী বোঝায়?",
+      "en": "What does homogenization of milk mean?"
+    },
+    "answer": {
+      "bn": "হোমোজেনাইজেশন হলো একটি যান্ত্রিক প্রক্রিয়া যার মাধ্যমে দুধের বড় চর্বির কণাগুলোকে ভেঙে ছোট করা হয়, যাতে সেগুলো দুধের মধ্যে সমানভাবে ছড়িয়ে থাকে এবং উপরে ক্রিমের স্তর তৈরি না করে।",
+      "en": "Homogenization is a mechanical process that breaks down the large fat globules in milk into smaller ones, so they stay suspended evenly in the milk instead of forming a layer of cream on top."
+    }
+  },
+  {
+    "id": "cm-qa6",
+    "topicId": "chemistry-of-milk",
+    "question": {
+      "bn": "ল্যাকটোজ অসহিষ্ণুতা (Lactose Intolerance) কেন হয়?",
+      "en": "Why does lactose intolerance occur?"
+    },
+    "answer": {
+      "bn": "ল্যাকটোজ অসহিষ্ণুতা হয় যখন শরীরে ল্যাকটেজ (lactase) নামক এনজাইমের অভাব থাকে। এই এনজাইমটি ল্যাকটোজকে হজম করতে সাহায্য করে।",
+      "en": "Lactose intolerance occurs when the body lacks enough of an enzyme called lactase. This enzyme is needed to digest lactose."
+    }
+  },
+  {
+    "id": "cm-qa7",
+    "topicId": "chemistry-of-milk",
+    "question": {
+      "bn": "দুধ থেকে দই কীভাবে তৈরি হয়?",
+      "en": "How is yogurt made from milk?"
+    },
+    "answer": {
+      "bn": "দুধে নির্দিষ্ট ব্যাকটেরিয়া (যেমন ল্যাকটোব্যাসিলাস) যোগ করে গাঁজন প্রক্রিয়ার মাধ্যমে দই তৈরি হয়। এই ব্যাকটেরিয়া দুধের ল্যাকটোজকে ল্যাকটিক অ্যাসিডে রূপান্তরিত করে, যা দুধকে জমাট বাঁধতে ও দইয়ের বিশেষ স্বাদ তৈরি করতে সাহায্য করে।",
+      "en": "Yogurt is made by fermenting milk with specific bacteria (like Lactobacillus). These bacteria convert the lactose in milk into lactic acid, which causes the milk to coagulate and develop the characteristic taste of yogurt."
+    }
+  },
+  {
+    "id": "cm-qa8",
+    "topicId": "chemistry-of-milk",
+    "question": {
+      "bn": "কেসিন মাইসেল (Casein Micelle) কী?",
+      "en": "What is a casein micelle?"
+    },
+    "answer": {
+      "bn": "কেসিন মাইসেল হলো দুধে কেসিন প্রোটিন এবং ক্যালসিয়াম ফসফেটের সমন্বয়ে গঠিত ক্ষুদ্র কণার সমষ্টি। এই মাইসেলগুলিই দুধকে তার সাদা এবং অস্বচ্ছ চেহারা দেয়।",
+      "en": "A casein micelle is a small aggregate of casein proteins and calcium phosphate in milk. It is these micelles that give milk its white and opaque appearance."
+    }
+  },
+  {
+    "id": "cm-qa9",
+    "topicId": "chemistry-of-milk",
+    "question": {
+      "bn": "দুধ টক হয়ে যায় কেন?",
+      "en": "Why does milk turn sour?"
+    },
+    "answer": {
+      "bn": "যখন ব্যাকটেরিয়া দুধের ল্যাকটোজকে ল্যাকটিক অ্যাসিডে রূপান্তরিত করে, তখন দুধের pH কমে যায় এবং এটি টক হয়ে যায়। এই প্রক্রিয়াটি উষ্ণ তাপমাত্রায় দ্রুত ঘটে।",
+      "en": "Milk turns sour when bacteria convert the lactose into lactic acid, which lowers the pH of the milk and gives it a sour taste. This process happens faster at warmer temperatures."
+    }
+  },
+  {
+    "id": "cm-qa10",
+    "topicId": "chemistry-of-milk",
+    "question": {
+      "bn": "পনির তৈরির মূল রাসায়নিক প্রক্রিয়া কী?",
+      "en": "What is the main chemical process in cheesemaking?"
+    },
+    "answer": {
+      "bn": "পনির তৈরির মূল প্রক্রিয়া হলো দুধের কেসিন প্রোটিনকে জমাট বা ঘনীভূত করা। এটি সাধারণত রেনেট (rennet) নামক এনজাইম বা অ্যাসিড যোগ করে করা হয়।",
+      "en": "The main process in cheesemaking is the coagulation or curdling of the casein protein in milk. This is usually done by adding an enzyme called rennet or an acid."
+    }
+  },
+  {
+    "id": "cm-qa11",
+    "topicId": "chemistry-of-milk",
+    "question": {
+      "bn": "দুধকে একটি ইমালসন (Emulsion) এবং কলোয়েড (Colloid) উভয়ই বলা হয় কেন?",
+      "en": "Why is milk called both an emulsion and a colloid?"
+    },
+    "answer": {
+      "bn": "দুধ একটি ইমালসন কারণ এতে চর্বির কণা জলে বিস্তৃত থাকে। এটি একটি কলোয়েড কারণ এই চর্বির কণা এবং কেসিন মাইসেলগুলি দ্রবণে ভাসমান থাকে কিন্তু থিতিয়ে পড়ে না।",
+      "en": "Milk is an emulsion because fat globules are dispersed in water. It is a colloid because these fat globules and casein micelles are suspended in the solution and do not settle out."
+    }
+  },
+  {
+    "id": "cm-qa12",
+    "topicId": "chemistry-of-milk",
+    "question": {
+      "bn": "হুই প্রোটিন (Whey Protein) কী এবং এটি কোথায় পাওয়া যায়?",
+      "en": "What is whey protein and where is it found?"
+    },
+    "answer": {
+      "bn": "হুই প্রোটিন হলো দুধের দুটি প্রধান প্রোটিনের একটি। পনির তৈরির সময় যখন কেসিন জমাট বেঁধে যায়, তখন যে জলীয় অংশটি অবশিষ্ট থাকে, তাকে হুই বলে এবং এতে হুই প্রোটিন থাকে।",
+      "en": "Whey protein is one of the two main proteins in milk. When cheese is made, the casein coagulates, and the watery part that is left behind is called whey, which contains whey protein."
+    }
+  },
+  {
+    "id": "cm-qa13",
+    "topicId": "chemistry-of-milk",
+    "question": {
+      "bn": "দুধে কোন প্রধান খনিজ পদার্থ পাওয়া যায়?",
+      "en": "What major mineral is found in milk?"
+    },
+    "answer": {
+      "bn": "দুধ ক্যালসিয়াম এবং ফসফরাসের একটি চমৎকার উৎস, যা হাড় এবং দাঁতের স্বাস্থ্যের জন্য অপরিহার্য।",
+      "en": "Milk is an excellent source of calcium and phosphorus, which are essential for bone and teeth health."
+    }
+  },
+  {
+    "id": "cm-qa14",
+    "topicId": "chemistry-of-milk",
+    "question": {
+      "bn": "দুধের চর্বির পরিমাণ কীভাবে প্রকাশ করা হয়?",
+      "en": "How is the fat content of milk expressed?"
+    },
+    "answer": {
+      "bn": "দুধের চর্বির পরিমাণ সাধারণত শতাংশ (%) হিসেবে প্রকাশ করা হয়, যেমন সম্পূর্ণ দুধ (whole milk) এ প্রায় ৩.২৫% চর্বি, কম চর্বিযুক্ত দুধে (low-fat milk) ১% বা ২% চর্বি থাকে।",
+      "en": "The fat content of milk is usually expressed as a percentage (%), such as whole milk having about 3.25% fat, and low-fat milk having 1% or 2% fat."
+    }
+  },
+  {
+    "id": "cm-qa15",
+    "topicId": "chemistry-of-milk",
+    "question": {
+      "bn": "দুধের স্বাভাবিক pH মান কত?",
+      "en": "What is the normal pH value of milk?"
+    },
+    "answer": {
+      "bn": "তাজা গরুর দুধের স্বাভাবিক pH মান সাধারণত ৬.৪ থেকে ৬.৮ এর মধ্যে থাকে, যা এটিকে সামান্য অম্লীয় করে তোলে।",
+      "en": "The normal pH of fresh cow's milk is typically between 6.4 and 6.8, making it slightly acidic."
+    }
+  },
+  {
+    "id": "cp-qa1",
+    "topicId": "curing-and-pickling",
+    "question": {
+      "bn": "কিউরিং (Curing) কী?",
+      "en": "What is curing?"
+    },
+    "answer": {
+      "bn": "কিউরিং হলো খাদ্য, বিশেষ করে মাংস ও মাছ, সংরক্ষণের একটি পদ্ধতি যেখানে লবণ, চিনি এবং নাইট্রেট/নাইট্রাইটের মিশ্রণ ব্যবহার করে আর্দ্রতা অপসারণ এবং অণুজীবের বৃদ্ধি রোধ করা হয়।",
+      "en": "Curing is a method of preserving food, especially meat and fish, by removing moisture and inhibiting microbial growth through the addition of a mixture of salt, sugar, and nitrates/nitrites."
+    }
+  },
+  {
+    "id": "cp-qa2",
+    "topicId": "curing-and-pickling",
+    "question": {
+      "bn": "পিকলিং (Pickling) বলতে কী বোঝায়?",
+      "en": "What is meant by pickling?"
+    },
+    "answer": {
+      "bn": "পিকলিং হলো খাদ্যকে একটি অম্লীয় তরলে (সাধারণত ভিনেগার) বা লবণাক্ত জলে (ব্রাইন) ডুবিয়ে সংরক্ষণ করার প্রক্রিয়া। এটি খাদ্যের pH কমিয়ে অণুজীবের বৃদ্ধি রোধ করে।",
+      "en": "Pickling is the process of preserving food by immersing it in an acidic liquid (usually vinegar) or a saltwater solution (brine). This lowers the food's pH, inhibiting microbial growth."
+    }
+  },
+  {
+    "id": "cp-qa3",
+    "topicId": "curing-and-pickling",
+    "question": {
+      "bn": "কিউরিং এবং পিকলিংয়ের মধ্যে প্রধান পার্থক্য কী?",
+      "en": "What is the main difference between curing and pickling?"
+    },
+    "answer": {
+      "bn": "প্রধান পার্থক্য হলো সংরক্ষণ কৌশলে। কিউরিং মূলত লবণ ব্যবহার করে জলশূন্যকরণের মাধ্যমে খাদ্য সংরক্ষণ করে, অন্যদিকে পিকলিং মূলত অম্লীয় পরিবেশ তৈরি করে খাদ্য সংরক্ষণ করে।",
+      "en": "The main difference lies in the preservation technique. Curing primarily preserves food through dehydration using salt, while pickling primarily preserves food by creating an acidic environment."
+    }
+  },
+  {
+    "id": "cp-qa4",
+    "topicId": "curing-and-pickling",
+    "question": {
+      "bn": "কিউরিংয়ে লবণের ভূমিকা কী?",
+      "en": "What is the role of salt in curing?"
+    },
+    "answer": {
+      "bn": "লবণ অসমোসিস প্রক্রিয়ার মাধ্যমে খাদ্য এবং অণুজীবের কোষ থেকে জল বের করে দেয়, যা অণুজীবের বৃদ্ধি এবং খাদ্য পচন রোধ করে।",
+      "en": "Salt draws water out of the food and microbial cells through osmosis, which inhibits microbial growth and prevents spoilage."
+    }
+  },
+  {
+    "id": "cp-qa5",
+    "topicId": "curing-and-pickling",
+    "question": {
+      "bn": "মাংস কিউরিং-এ নাইট্রেট (Nitrate) কেন ব্যবহার করা হয়?",
+      "en": "Why are nitrates used in meat curing?"
+    },
+    "answer": {
+      "bn": "নাইট্রেট মাংসকে একটি বৈশিষ্ট্যপূর্ণ গোলাপী রঙ দেয়, স্বাদ উন্নত করে এবং সবচেয়ে গুরুত্বপূর্ণভাবে, বোটুলিজম সৃষ্টিকারী ক্লোস্ট্রিডিয়াম বোটুলিনাম ব্যাকটেরিয়ার বৃদ্ধি রোধ করে।",
+      "en": "Nitrates give meat a characteristic pink color, enhance its flavor, and most importantly, prevent the growth of Clostridium botulinum bacteria, which cause botulism."
+    }
+  },
+  {
+    "id": "cp-qa6",
+    "topicId": "curing-and-pickling",
+    "question": {
+      "bn": "একটি ব্রাইন (Brine) কী?",
+      "en": "What is a brine?"
+    },
+    "answer": {
+      "bn": "ব্রাইন হলো জলের মধ্যে লবণের একটি উচ্চ ঘনত্বের দ্রবণ, যা ভেজা কিউরিং এবং পিকলিং-এ ব্যবহৃত হয়।",
+      "en": "A brine is a high-concentration solution of salt in water, used in wet curing and pickling."
+    }
+  },
+  {
+    "id": "cp-qa7",
+    "topicId": "curing-and-pickling",
+    "question": {
+      "bn": "গাঁজন পিকলিং (Fermentation Pickling) কীভাবে কাজ করে?",
+      "en": "How does fermentation pickling work?"
+    },
+    "answer": {
+      "bn": "গাঁজন পিকলিং-এ, খাদ্যে উপস্থিত প্রাকৃতিক শর্করাকে ল্যাকটিক অ্যাসিড ব্যাকটেরিয়া ল্যাকটিক অ্যাসিডে রূপান্তরিত করে। এই অ্যাসিডটি সংরক্ষণকারী হিসেবে কাজ করে। যেমন- কিমচি, সাওয়ারক্রাউট।",
+      "en": "In fermentation pickling, natural sugars in the food are converted into lactic acid by lactic acid bacteria. This acid acts as the preservative. Examples include kimchi and sauerkraut."
+    }
+  },
+  {
+    "id": "cp-qa8",
+    "topicId": "curing-and-pickling",
+    "question": {
+      "bn": "শুষ্ক কিউরিং (Dry Curing) এবং ভেজা কিউরিং (Wet Curing) এর মধ্যে পার্থক্য কী?",
+      "en": "What is the difference between dry curing and wet curing?"
+    },
+    "answer": {
+      "bn": "শুষ্ক কিউরিংয়ে, লবণ এবং মশলার মিশ্রণ সরাসরি খাবারের পৃষ্ঠে ঘষে লাগানো হয়। ভেজা কিউরিংয়ে, খাবারটিকে একটি ব্রাইন বা লবণাক্ত দ্রবণে ডুবিয়ে রাখা হয়।",
+      "en": "In dry curing, the mixture of salt and spices is rubbed directly onto the surface of the food. In wet curing, the food is immersed in a brine solution."
+    }
+  },
+  {
+    "id": "cp-qa9",
+    "topicId": "curing-and-pickling",
+    "question": {
+      "bn": "কিউরিং সল্ট (Curing Salt) বা গোলাপী লবণ (Pink Salt) কী?",
+      "en": "What is curing salt or pink salt?"
+    },
+    "answer": {
+      "bn": "কিউরিং সল্ট হলো সোডিয়াম ক্লোরাইড (সাধারণ লবণ) এবং সোডিয়াম নাইট্রাইটের একটি মিশ্রণ। সাধারণ টেবিল লবণ থেকে এটিকে আলাদা করার জন্য প্রায়শই গোলাপী রঙ যোগ করা হয়।",
+      "en": "Curing salt is a mixture of sodium chloride (table salt) and sodium nitrite. It is often dyed pink to distinguish it from regular table salt."
+    }
+  },
+  {
+    "id": "cp-qa10",
+    "topicId": "curing-and-pickling",
+    "question": {
+      "bn": "পিকলিংয়ে ভিনেগারের কাজ কী?",
+      "en": "What is the function of vinegar in pickling?"
+    },
+    "answer": {
+      "bn": "ভিনেগারের অ্যাসিটিক অ্যাসিড খাদ্যের pH কমিয়ে একটি অম্লীয় পরিবেশ তৈরি করে, যা বেশিরভাগ পচনকারী অণুজীবের বেঁচে থাকা এবং বংশবৃদ্ধির জন্য প্রতিকূল।",
+      "en": "The acetic acid in vinegar lowers the pH of the food, creating an acidic environment that is hostile to the survival and reproduction of most spoilage microorganisms."
+    }
+  },
+  {
+    "id": "cp-qa11",
+    "topicId": "curing-and-pickling",
+    "question": {
+      "bn": "ধূমপান (Smoking) কীভাবে খাদ্য সংরক্ষণে ব্যবহৃত হয়?",
+      "en": "How is smoking used in food preservation?"
+    },
+    "answer": {
+      "bn": "ধূমপান প্রায়শই কিউরিং-এর সাথে একত্রে ব্যবহৃত হয়। ধোঁয়া খাবারকে শুকিয়ে দেয় এবং এতে ফেনল ও অন্যান্য রাসায়নিক পদার্থ থাকে যা অ্যান্টিঅক্সিডেন্ট এবং অ্যান্টিমাইক্রোবিয়াল হিসেবে কাজ করে।",
+      "en": "Smoking is often used in conjunction with curing. The smoke dries the food and contains phenols and other chemicals that act as antioxidants and antimicrobials."
+    }
+  },
+  {
+    "id": "cp-qa12",
+    "topicId": "curing-and-pickling",
+    "question": {
+      "bn": "কোন ধরনের খাবার সাধারণত কিউর করা হয়?",
+      "en": "What types of food are commonly cured?"
+    },
+    "answer": {
+      "bn": "মাংস (যেমন- বেকন, হ্যাম, সালামি) এবং মাছ (যেমন- স্মোকড স্যামন, গ্র্যাভলাক্স) সাধারণত কিউর করা হয়।",
+      "en": "Meat (like bacon, ham, salami) and fish (like smoked salmon, gravlax) are commonly cured."
+    }
+  },
+  {
+    "id": "cp-qa13",
+    "topicId": "curing-and-pickling",
+    "question": {
+      "bn": "কোন ধরনের খাবার সাধারণত পিকল করা হয়?",
+      "en": "What types of food are commonly pickled?"
+    },
+    "answer": {
+      "bn": "সবজি (যেমন- শসা, বাঁধাকপি, পেঁয়াজ, মরিচ), ফল (যেমন- আম, জলপাই) এবং ডিম সাধারণত পিকল করা হয়।",
+      "en": "Vegetables (like cucumbers, cabbage, onions, peppers), fruits (like mangoes, olives), and eggs are commonly pickled."
+    }
+  },
+  {
+    "id": "cp-qa14",
+    "topicId": "curing-and-pickling",
+    "question": {
+      "bn": "পিকলিং সল্ট (Pickling Salt) সাধারণ টেবিল লবণ থেকে কেন আলাদা?",
+      "en": "Why is pickling salt different from regular table salt?"
+    },
+    "answer": {
+      "bn": "পিকলিং সল্ট বিশুদ্ধ সোডিয়াম ক্লোরাইড এবং এতে সাধারণ টেবিল লবণের মতো অ্যান্টি-কেকিং এজেন্ট বা আয়োডিন থাকে না, যা ব্রাইনকে মেঘলা করতে পারে বা খাবারের রঙ নষ্ট করতে পারে।",
+      "en": "Pickling salt is pure sodium chloride and does not contain anti-caking agents or iodine like regular table salt, which can make the brine cloudy or discolor the food."
+    }
+  },
+  {
+    "id": "cp-qa15",
+    "topicId": "curing-and-pickling",
+    "question": {
+      "bn": "কিউরিং এবং পিকলিং কি খাবারের স্বাদ পরিবর্তন করে?",
+      "en": "Do curing and pickling change the taste of food?"
+    },
+    "answer": {
+      "bn": "হ্যাঁ, উভয় পদ্ধতিই খাবারের স্বাদ, গন্ধ এবং গঠনকে উল্লেখযোগ্যভাবে পরিবর্তন করে। এটি শুধুমাত্র সংরক্ষণই করে না, বরং নতুন এবং স্বতন্ত্র স্বাদের প্রোফাইল তৈরি করে।",
+      "en": "Yes, both methods significantly alter the taste, aroma, and texture of the food. They not only preserve it but also create new and distinct flavor profiles."
+    }
+  }
+]
