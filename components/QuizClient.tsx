@@ -168,24 +168,28 @@ function QuizInstance({ questions }: { questions: QuizQuestion[] }) {
 
             return (
               <Card key={q.id} className="overflow-hidden relative pt-2">
-                {/* === START: CORRECTED CODE BLOCK === */}
                 <div className="absolute top-4 right-4">
                   {isCorrect ? (
-                    <div title="Correct" className="flex gap-2">
-                      <p className=" hidden sm:block">Correct</p>
-                      <CheckCircle className="h-6 w-6 text-green-500" />
+                    <div
+                      title="Correct"
+                      className="flex items-center gap-2 text-green-600"
+                    >
+                      <p className="hidden sm:block font-semibold">Correct</p>
+                      <CheckCircle className="h-6 w-6" />
                     </div>
                   ) : (
-                    <div title="Incorrect" className="flex gap-2">
-                      <p className="hidden sm:block">Incorrect</p>
-                      <XCircle className="h-6 w-6 text-red-500" />
+                    <div
+                      title="Incorrect"
+                      className="flex items-center gap-2 text-red-600"
+                    >
+                      <p className="hidden sm:block font-semibold">Incorrect</p>
+                      <XCircle className="h-6 w-6" />
                     </div>
                   )}
                 </div>
-                {/* === END: CORRECTED CODE BLOCK === */}
 
                 <CardHeader>
-                  <CardTitle className="text-lg pr-10">
+                  <CardTitle className="text-lg pr-16">
                     {`${index + 1}. ${getText(q.question)}`}
                   </CardTitle>
                 </CardHeader>
@@ -228,10 +232,12 @@ function QuizInstance({ questions }: { questions: QuizQuestion[] }) {
                     );
                   })}
                 </CardContent>
-                {(q as any).explanation && !isCorrect && (
+
+                {/* This section is now clean and type-safe */}
+                {q.explanation && !isCorrect && (
                   <CardFooter className="bg-yellow-100/80 dark:bg-yellow-900/40 py-3">
                     <p className="text-sm text-yellow-800 dark:text-yellow-200">
-                      {getText((q as any).explanation)}
+                      {getText(q.explanation)}
                     </p>
                   </CardFooter>
                 )}
