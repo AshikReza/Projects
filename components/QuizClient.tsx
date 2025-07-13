@@ -14,7 +14,7 @@ import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { CheckCircle, XCircle, ArrowRight } from "lucide-react";
 import { useLanguage } from "@/components/LanguageProvider";
-import SharedSidebar from "./SharedSidebar"; // <-- IMPORT THE SHARED COMPONENT
+import SharedSidebar from "./SharedSidebar";
 
 interface QuizClientProps {
   chapter: Chapter;
@@ -32,7 +32,6 @@ export default function QuizClient({ chapter, questions }: QuizClientProps) {
 
   return (
     <div className="grid md:grid-cols-[300px_1fr] lg:grid-cols-[350px_1fr] gap-x-8 lg:gap-x-12">
-      {/* A SINGLE, CLEAN CALL TO THE SHARED SIDEBAR */}
       <SharedSidebar
         chapter={chapter}
         activeTopicId={activeTopicId}
@@ -52,9 +51,6 @@ export default function QuizClient({ chapter, questions }: QuizClientProps) {
   );
 }
 
-// LanguageSwitcher and QuizInstance internal components remain unchanged
-
-// --- THIS COMPONENT IS NEWLY ADDED BACK ---
 const LanguageSwitcher = () => {
   const { language, setLanguage } = useLanguage();
   return (
@@ -77,7 +73,6 @@ const LanguageSwitcher = () => {
   );
 };
 
-// The Quiz Engine Component (remains the same)
 function QuizInstance({ questions }: { questions: QuizQuestion[] }) {
   const { language } = useLanguage();
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
@@ -86,15 +81,15 @@ function QuizInstance({ questions }: { questions: QuizQuestion[] }) {
   >({});
   const [isFinished, setIsFinished] = useState(false);
 
-  // --- NEW: Function to go to the previous question ---
+  const getText = (bilingualString: BilingualString) => {
+    if (!bilingualString) return "";
+    return language === "bn" ? bilingualString.bn : bilingualString.en;
+  };
+
   const handlePrevious = () => {
     if (currentQuestionIndex > 0) {
       setCurrentQuestionIndex((prev) => prev - 1);
     }
-  };
-
-  const getText = (bilingualString: BilingualString) => {
-    return language === "bn" ? bilingualString.bn : bilingualString.en;
   };
 
   const handleAnswerSelect = (answer: string) => {
@@ -140,66 +135,116 @@ function QuizInstance({ questions }: { questions: QuizQuestion[] }) {
     );
   }
 
-  const currentQuestion = questions[currentQuestionIndex];
-  const selectedAnswerForCurrentQ = selectedAnswers[currentQuestion.id];
-
   if (isFinished) {
     const score = calculateScore();
     const percentage = Math.round((score / questions.length) * 100);
     return (
-      <Card>
-        <CardHeader className="text-center">
-          <CardTitle className="text-3xl">
-            {getText({ bn: "কুইজ সম্পন্ন!", en: "Quiz Completed!" })}
-          </CardTitle>
-          <CardDescription>
-            {language === "bn"
-              ? `আপনি ${questions.length} এর মধ্যে ${score} পেয়েছেন (${percentage}%)`
-              : `You scored ${score} out of ${questions.length} (${percentage}%)`}
-          </CardDescription>
-        </CardHeader>
-        <CardContent className="space-y-4">
+      <div className="space-y-8">
+        <Card className="text-center">
+          <CardHeader>
+            <CardTitle className="text-3xl">
+              {getText({ bn: "কুইজ সম্পন্ন!", en: "Quiz Completed!" })}
+            </CardTitle>
+            <CardDescription className="text-lg">
+              {language === "bn"
+                ? `আপনি ${questions.length} এর মধ্যে ${score} পেয়েছেন (${percentage}%)`
+                : `You scored ${score} out of ${questions.length} (${percentage}%)`}
+            </CardDescription>
+          </CardHeader>
+          <CardFooter className="flex justify-center">
+            <Button onClick={resetQuiz}>
+              {getText({ bn: "আবার চেষ্টা করুন", en: "Try Again" })}
+            </Button>
+          </CardFooter>
+        </Card>
+
+        <div className="space-y-6">
+          <h2 className="text-2xl font-bold text-center">
+            {getText({ bn: "ফলাফল পর্যালোচনা", en: "Review Your Answers" })}
+          </h2>
           {questions.map((q, index) => {
             const userAnswer = selectedAnswers[q.id];
             const isCorrect = userAnswer === q.correctAnswer.en;
+
             return (
-              <div key={q.id} className="p-4 border rounded-md">
-                <p className="font-semibold">
-                  {index + 1}. {getText(q.question)}
-                </p>
-                <p
-                  className={cn(
-                    "mt-2 flex items-center gap-2",
-                    isCorrect ? "text-green-500" : "text-red-500"
-                  )}
-                >
+              <Card key={q.id} className="overflow-hidden relative pt-2">
+                {/* === START: CORRECTED CODE BLOCK === */}
+                <div className="absolute top-4 right-4">
                   {isCorrect ? (
-                    <CheckCircle className="h-5 w-5" />
+                    <div title="Correct" className="flex gap-2">
+                      <p className=" hidden sm:block">Correct</p>
+                      <CheckCircle className="h-6 w-6 text-green-500" />
+                    </div>
                   ) : (
-                    <XCircle className="h-5 w-5" />
+                    <div title="Incorrect" className="flex gap-2">
+                      <p className="hidden sm:block">Incorrect</p>
+                      <XCircle className="h-6 w-6 text-red-500" />
+                    </div>
                   )}
-                  {getText({ bn: "আপনার উত্তর:", en: "Your answer:" })}{" "}
-                  {userAnswer ||
-                    getText({ bn: "উত্তর দেননি", en: "Not Answered" })}
-                </p>
-                {!isCorrect && (
-                  <p className="mt-1 text-green-600">
-                    {getText({ bn: "সঠিক উত্তর:", en: "Correct answer:" })}{" "}
-                    {getText(q.correctAnswer)}
-                  </p>
+                </div>
+                {/* === END: CORRECTED CODE BLOCK === */}
+
+                <CardHeader>
+                  <CardTitle className="text-lg pr-10">
+                    {`${index + 1}. ${getText(q.question)}`}
+                  </CardTitle>
+                </CardHeader>
+                <CardContent className="space-y-3">
+                  {q.options?.map((option) => {
+                    const isThisTheUserAnswer = userAnswer === option.en;
+                    const isThisTheCorrectAnswer =
+                      q.correctAnswer.en === option.en;
+                    const state = isThisTheCorrectAnswer
+                      ? "correct"
+                      : isThisTheUserAnswer
+                      ? "incorrect"
+                      : "default";
+
+                    return (
+                      <div
+                        key={option.en}
+                        className={cn(
+                          "flex items-center gap-4 w-full text-left p-3 rounded-lg border",
+                          state === "correct" &&
+                            "border-green-500 bg-green-500/10",
+                          state === "incorrect" &&
+                            "border-red-500 bg-red-500/10",
+                          state === "default" && "bg-muted/40"
+                        )}
+                      >
+                        {state === "correct" && (
+                          <CheckCircle className="h-5 w-5 flex-shrink-0 text-green-600" />
+                        )}
+                        {state === "incorrect" && (
+                          <XCircle className="h-5 w-5 flex-shrink-0 text-red-600" />
+                        )}
+                        {state === "default" && (
+                          <div className="h-5 w-5 flex-shrink-0"></div>
+                        )}
+                        <span className="flex-grow text-sm">
+                          {getText(option)}
+                        </span>
+                      </div>
+                    );
+                  })}
+                </CardContent>
+                {(q as any).explanation && !isCorrect && (
+                  <CardFooter className="bg-yellow-100/80 dark:bg-yellow-900/40 py-3">
+                    <p className="text-sm text-yellow-800 dark:text-yellow-200">
+                      {getText((q as any).explanation)}
+                    </p>
+                  </CardFooter>
                 )}
-              </div>
+              </Card>
             );
           })}
-        </CardContent>
-        <CardFooter className="flex justify-center">
-          <Button onClick={resetQuiz}>
-            {getText({ bn: "আবার চেষ্টা করুন", en: "Try Again" })}
-          </Button>
-        </CardFooter>
-      </Card>
+        </div>
+      </div>
     );
   }
+
+  const currentQuestion = questions[currentQuestionIndex];
+  const selectedAnswerForCurrentQ = selectedAnswers[currentQuestion.id];
 
   return (
     <Card>
@@ -227,12 +272,11 @@ function QuizInstance({ questions }: { questions: QuizQuestion[] }) {
           </Button>
         ))}
       </CardContent>
-      {/* --- START OF THE FOOTER FIX --- */}
       <CardFooter className="flex justify-between">
         <Button
           onClick={handlePrevious}
           variant="outline"
-          disabled={currentQuestionIndex === 0} // Disable on the first question
+          disabled={currentQuestionIndex === 0}
         >
           {getText({ bn: "পূর্ববর্তী", en: "Previous" })}
         </Button>
@@ -243,7 +287,6 @@ function QuizInstance({ questions }: { questions: QuizQuestion[] }) {
           <ArrowRight className="h-4 w-4 ml-2" />
         </Button>
       </CardFooter>
-      {/* --- END OF THE FOOTER FIX --- */}
     </Card>
   );
 }

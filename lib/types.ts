@@ -114,6 +114,7 @@ export interface QuizQuestion {
   question: BilingualString;
   options?: BilingualString[];
   correctAnswer: BilingualString;
+  explanation?: BilingualString; // <-- Make sure this line exists and has the question mark
 }
 // Update the QAContent interface
 export interface QAContent {
