@@ -22,7 +22,7 @@ export async function generateStaticParams() {
   for (const subject of subjects) {
     if (subject.hasPapers && subject.papers) {
       for (const paper of subject.papers) {
-        const chapters = await getChapters(subject.slug, paper.slug, true);
+        const chapters = await getChapters(subject.slug, paper.slug);
         for (const chapter of chapters) {
           allPaths.push({
             subjectSlug: subject.slug,

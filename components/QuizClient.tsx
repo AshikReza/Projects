@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import { QuizQuestion, Chapter, BilingualString } from "@/lib/types";
 import {
   Card,
@@ -15,6 +15,8 @@ import { cn } from "@/lib/utils";
 import { CheckCircle, XCircle, ArrowRight } from "lucide-react";
 import { useLanguage } from "@/components/LanguageProvider";
 import SharedSidebar from "./SharedSidebar";
+import { Progress } from "@/components/ui/progress";
+import { useProgressStore } from "@/lib/store/progressStore";
 
 interface QuizClientProps {
   chapter: Chapter;
@@ -24,11 +26,21 @@ interface QuizClientProps {
 export default function QuizClient({ chapter, questions }: QuizClientProps) {
   const ALL_QUESTIONS_ID = "all";
   const [activeTopicId, setActiveTopicId] = useState(ALL_QUESTIONS_ID);
+  const { completed } = useProgressStore();
 
   const filteredQuestions =
     activeTopicId === ALL_QUESTIONS_ID
       ? questions
       : questions.filter((q) => q.topicId === activeTopicId);
+
+  const progress = useMemo(() => {
+    const totalTopics = chapter.topics.length;
+    if (totalTopics === 0) return 0;
+    const completedTopics = chapter.topics.filter(
+      (topic) => completed[`quiz-${chapter.slug}-${topic.id}`]
+    ).length;
+    return (completedTopics / totalTopics) * 100;
+  }, [completed, chapter.topics, chapter.slug]);
 
   return (
     <div className="grid md:grid-cols-[300px_1fr] lg:grid-cols-[350px_1fr] gap-x-8 lg:gap-x-12">
@@ -39,13 +51,27 @@ export default function QuizClient({ chapter, questions }: QuizClientProps) {
         showAllOption={true}
         items={questions}
         title="Quiz Topics"
+        pageType="quiz"
       />
 
       <main className="min-w-0 space-y-4">
-        <div className="flex justify-end">
-          <LanguageSwitcher />
+        <div className="flex justify-between flex-col-reverse items-center">
+          <div className="w-full flex-grow">
+            <Progress value={progress} className="w-full" />
+            <p className="text-sm text-muted-foreground mt-1">
+              {Math.round(progress)}% of topics completed
+            </p>
+          </div>
+          <div className="flex items-center gap-2 self-end mb-5">
+            <LanguageSwitcher />
+          </div>
         </div>
-        <QuizInstance key={activeTopicId} questions={filteredQuestions} />
+        <QuizInstance
+          key={activeTopicId}
+          questions={filteredQuestions}
+          chapter={chapter}
+          activeTopicId={activeTopicId}
+        />
       </main>
     </div>
   );
@@ -73,13 +99,25 @@ const LanguageSwitcher = () => {
   );
 };
 
-function QuizInstance({ questions }: { questions: QuizQuestion[] }) {
+function QuizInstance({
+  questions,
+  chapter,
+  activeTopicId,
+}: {
+  questions: QuizQuestion[];
+  chapter: Chapter;
+  activeTopicId: string;
+}) {
   const { language } = useLanguage();
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [selectedAnswers, setSelectedAnswers] = useState<
     Record<string, string>
   >({});
   const [isFinished, setIsFinished] = useState(false);
+  const { completed, toggleCompletion } = useProgressStore();
+
+  const completionSlug = `quiz-${chapter.slug}-${activeTopicId}`;
+  const isCompleted = completed[completionSlug];
 
   const getText = (bilingualString: BilingualString) => {
     if (!bilingualString) return "";
@@ -151,10 +189,15 @@ function QuizInstance({ questions }: { questions: QuizQuestion[] }) {
                 : `You scored ${score} out of ${questions.length} (${percentage}%)`}
             </CardDescription>
           </CardHeader>
-          <CardFooter className="flex justify-center">
-            {/* --- FIX APPLIED --- */}
+          <CardFooter className="flex flex-col gap-4 justify-center">
             <Button onClick={resetQuiz} className="whitespace-normal">
               {getText({ bn: "আবার চেষ্টা করুন", en: "Try Again" })}
+            </Button>
+            <Button
+              onClick={() => toggleCompletion(completionSlug)}
+              variant={isCompleted ? "secondary" : "default"}
+            >
+              {isCompleted ? "Mark as Incomplete" : "Mark as Complete"}
             </Button>
           </CardFooter>
         </Card>

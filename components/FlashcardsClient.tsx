@@ -1,20 +1,20 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import { FlashcardContent, Chapter, BilingualString } from "@/lib/types";
 import Flashcard from "@/components/Flashcard";
 import { Button } from "@/components/ui/button";
 import { useLanguage } from "./LanguageProvider";
-import SharedSidebar from "./SharedSidebar"; // <-- Import the shared component
+import SharedSidebar from "./SharedSidebar";
+import { Progress } from "@/components/ui/progress";
+import { useProgressStore } from "@/lib/store/progressStore";
 
-// Props for the main component
 interface FlashcardsClientProps {
   chapter: Chapter;
   flashcards: FlashcardContent[];
 }
 
-// Language switcher component
 const LanguageSwitcher = () => {
   const { language, setLanguage } = useLanguage();
   return (
@@ -37,22 +37,30 @@ const LanguageSwitcher = () => {
   );
 };
 
-// Main Component (The Layout Manager)
 export default function FlashcardsClient({
   chapter,
   flashcards,
 }: FlashcardsClientProps) {
   const ALL_TOPICS_ID = "all";
   const [activeTopicId, setActiveTopicId] = useState(ALL_TOPICS_ID);
+  const { completed } = useProgressStore();
 
   const filteredFlashcards =
     activeTopicId === ALL_TOPICS_ID
       ? flashcards
       : flashcards.filter((fc) => fc.topicId === activeTopicId);
 
+  const progress = useMemo(() => {
+    const totalTopics = chapter.topics.length;
+    if (totalTopics === 0) return 0;
+    const completedTopics = chapter.topics.filter(
+      (topic) => completed[`flashcards-${chapter.slug}-${topic.id}`]
+    ).length;
+    return (completedTopics / totalTopics) * 100;
+  }, [completed, chapter.topics, chapter.slug]);
+
   return (
     <div className="grid md:grid-cols-[300px_1fr] lg:grid-cols-[350px_1fr] gap-x-8 lg:gap-x-12">
-      {/* A SINGLE, CLEAN CALL TO THE SHARED SIDEBAR */}
       <SharedSidebar
         chapter={chapter}
         activeTopicId={activeTopicId}
@@ -60,34 +68,61 @@ export default function FlashcardsClient({
         showAllOption={true}
         items={flashcards}
         title="Flashcard Topics"
+        pageType="flashcards"
       />
 
-      {/* Main Content Area */}
       <main className="min-w-0 space-y-4">
-        <div className="flex justify-end">
-          <LanguageSwitcher />
+        <div className="flex justify-between items-center flex-col-reverse sm:flex-row gap-5">
+          <div className="w-full flex-grow">
+            <Progress value={progress} className="w-full" />
+            <p className="text-sm text-muted-foreground mt-1">
+              {Math.round(progress)}% of topics completed
+            </p>
+          </div>
+          <div className="flex items-center gap-2 self-end">
+            <LanguageSwitcher />
+          </div>
         </div>
         <FlashcardInstance
-          key={activeTopicId} // The key is essential to reset the component state
+          key={activeTopicId}
           flashcards={filteredFlashcards}
+          chapter={chapter}
+          activeTopicId={activeTopicId}
         />
       </main>
     </div>
   );
 }
 
-// The Flashcard Engine Component (manages the current card)
-function FlashcardInstance({ flashcards }: { flashcards: FlashcardContent[] }) {
+function FlashcardInstance({
+  flashcards,
+  chapter,
+  activeTopicId,
+}: {
+  flashcards: FlashcardContent[];
+  chapter: Chapter;
+  activeTopicId: string;
+}) {
   const { language } = useLanguage();
   const [currentIndex, setCurrentIndex] = useState(0);
+  const { completed, toggleCompletion } = useProgressStore();
+
+  const completionSlug = `flashcards-${chapter.slug}-${activeTopicId}`;
+  const isCompleted = completed[completionSlug];
 
   const getText = (bilingualString: BilingualString) => {
     return language === "bn" ? bilingualString.bn : bilingualString.en;
   };
 
+  const [showCompletionButton, setShowCompletionButton] = useState(false);
+
   const goToNext = () => {
     if (flashcards.length === 0) return;
-    setCurrentIndex((prev) => (prev + 1) % flashcards.length);
+    const nextIndex = (currentIndex + 1) % flashcards.length;
+    setCurrentIndex(nextIndex);
+    if (nextIndex === flashcards.length - 1) {
+      setShowCompletionButton(true);
+    }
   };
 
   const goToPrev = () => {
@@ -130,6 +165,14 @@ function FlashcardInstance({ flashcards }: { flashcards: FlashcardContent[] }) {
           <ArrowRight className="h-4 w-4" />
         </Button>
       </div>
+      {showCompletionButton && (
+        <Button
+          onClick={() => toggleCompletion(completionSlug)}
+          variant={isCompleted ? "secondary" : "default"}
+        >
+          {isCompleted ? "Mark as Incomplete" : "Mark as Complete"}
+        </Button>
+      )}
     </div>
   );
 }

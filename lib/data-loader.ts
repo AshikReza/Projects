@@ -11,25 +11,22 @@ import {
 } from './types';
 
 // This is a context-aware file reader.
-async function readJsonFile<T>(filePath: string, isBuildTime = false): Promise<T | null> {
+async function readJsonFile<T>(filePath: string): Promise<T | null> {
   try {
     const fullPath = path.join(process.cwd(), filePath);
     const fileContents = await fs.readFile(fullPath, 'utf8');
     return JSON.parse(fileContents) as T;
-  } catch (error) {
-    if (isBuildTime) {
-      console.warn(`Build-time notice: Could not find file at ${filePath}. Skipping.`);
-      return null;
+  } catch (error: unknown) {
+    if (typeof error === 'object' && error !== null && 'code' in error && (error as { code: unknown }).code !== 'ENOENT') {
+      console.error(`Error processing file ${filePath}:`, error);
     }
-    console.error(`Runtime error: Could not read or parse file at ${filePath}:`, error);
-    notFound();
-    return null; // ← explicit return so signature is respected
+    return null;
   }
 }
 
 // Get all subjects
 export async function getSubjects(): Promise<Subject[]> {
-  const subjects = await readJsonFile<Subject[]>('data/subjects.json', true);
+  const subjects = await readJsonFile<Subject[]>('data/subjects.json');
   return subjects || [];
 }
 
@@ -44,11 +41,10 @@ export async function getSubjectBySlug(slug: string): Promise<Subject> {
 // Get chapters for a specific subject and paper
 export async function getChapters(
   subjectSlug: string,
-  paperSlug: string,
-  isBuildTime = false
+  paperSlug: string
 ): Promise<Chapter[]> {
   const filePath = `data/${subjectSlug}/${paperSlug}/chapters.json`;
-  const chapters = await readJsonFile<Chapter[]>(filePath, isBuildTime);
+  const chapters = await readJsonFile<Chapter[]>(filePath);
   return chapters || [];
 }
 
@@ -99,7 +95,6 @@ export async function getChapterContent(
 ): Promise<NoteContent | FlashcardContent[] | QuizQuestion[] | QAContent[]> {
   const filePath = `data/${subjectSlug}/${paperSlug}/${chapterSlug}/${contentType}.json`;
 
-  // ← provide the exact return type for T here
   const content = await readJsonFile<
     NoteContent | FlashcardContent[] | QuizQuestion[] | QAContent[]
   >(filePath);

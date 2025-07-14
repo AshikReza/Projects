@@ -1,11 +1,11 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import { Chapter, Topic } from "@/lib/types";
 import { cn } from "@/lib/utils";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Hash, Menu } from "lucide-react";
+import { Hash, Menu, CheckCircle } from "lucide-react";
 import {
   Sheet,
   SheetContent,
@@ -14,6 +14,8 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import { useLanguage } from "./LanguageProvider";
+import { useProgressStore } from "@/lib/store/progressStore";
+import { Progress } from "@/components/ui/progress";
 
 // A generic type for any data that has a topicId, so we can count it.
 type CountableItem = {
@@ -28,6 +30,7 @@ interface SharedSidebarProps {
   showAllOption: boolean; // Controls if "All Topics" is shown
   items?: CountableItem[]; // Optional array of items for counting
   title: string; // e.g., "Note Topics", "Quiz Topics"
+  pageType: 'notes' | 'flashcards' | 'qa' | 'quiz';
 }
 
 // Internal TopicList component for re-use within the sidebar
@@ -36,10 +39,13 @@ const TopicList = ({
   activeTopicId,
   onTopicClick,
   items,
-}: Omit<SharedSidebarProps, "chapter" | "showAllOption" | "title"> & {
+  chapter,
+  pageType
+}: Omit<SharedSidebarProps, "showAllOption" | "title"> & {
   topics: (Topic & { title_bn?: string })[];
 }) => {
   const { language } = useLanguage();
+  const { completed } = useProgressStore();
   const ALL_ID = "all";
 
   const getCountForTopic = (topicId: string) => {
@@ -53,6 +59,8 @@ const TopicList = ({
       {topics.map((topic) => {
         const count = getCountForTopic(topic.id);
         const isActive = activeTopicId === topic.id;
+        const completionSlug = `${pageType}-${chapter.slug}-${topic.id}`;
+        const isCompleted = completed[completionSlug];
 
         return (
           <li key={topic.id}>
@@ -70,7 +78,7 @@ const TopicList = ({
               )}
             >
               <div className="flex items-center gap-3 overflow-hidden">
-                <Hash className="h-4 w-4 flex-shrink-0" />
+                {isCompleted ? <CheckCircle className="h-4 w-4 flex-shrink-0 text-green-500" /> : <Hash className="h-4 w-4 flex-shrink-0" />}
                 <span className="flex-grow truncate">
                   {language === "bn" && topic.title_bn
                     ? topic.title_bn
@@ -105,8 +113,10 @@ export default function SharedSidebar({
   showAllOption,
   items,
   title,
+  pageType
 }: SharedSidebarProps) {
   const [isSheetOpen, setIsSheetOpen] = useState(false);
+  const { completed } = useProgressStore();
 
   const handleTopicSelection = (topicId: string) => {
     onTopicClick(topicId);
@@ -125,6 +135,13 @@ export default function SharedSidebar({
     })),
   ];
 
+  const chapterProgress = useMemo(() => {
+    const totalTopics = chapter.topics.length;
+    if (totalTopics === 0) return 0;
+    const completedTopics = chapter.topics.filter(topic => completed[`${pageType}-${chapter.slug}-${topic.id}`]).length;
+    return (completedTopics / totalTopics) * 100;
+  }, [completed, chapter.topics, chapter.slug, pageType]);
+
   return (
     <>
       {/* 1. DESKTOP SIDEBAR (No changes here) */}
@@ -132,6 +149,10 @@ export default function SharedSidebar({
         <Card>
           <CardHeader>
             <CardTitle className="text-xl">{title}</CardTitle>
+            {/* <div className="pt-2">
+              <Progress value={chapterProgress} className="w-full" />
+              <p className="text-sm text-muted-foreground mt-1">{Math.round(chapterProgress)}% completed</p>
+            </div> */}
           </CardHeader>
           <CardContent>
             <TopicList
@@ -139,6 +160,8 @@ export default function SharedSidebar({
               activeTopicId={activeTopicId}
               onTopicClick={handleTopicSelection}
               items={items}
+              chapter={chapter}
+              pageType={pageType}
             />
           </CardContent>
         </Card>
@@ -164,6 +187,8 @@ export default function SharedSidebar({
                 activeTopicId={activeTopicId}
                 onTopicClick={handleTopicSelection}
                 items={items}
+                chapter={chapter}
+                pageType={pageType}
               />
             </div>
           </SheetContent>
