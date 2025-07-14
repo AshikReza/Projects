@@ -15,7 +15,7 @@ import {
 } from "@/components/ui/sheet";
 import { useLanguage } from "./LanguageProvider";
 import { useProgressStore } from "@/lib/store/progressStore";
-import { Progress } from "@/components/ui/progress";
+// import { Progress } from "@/components/ui/progress";
 
 // A generic type for any data that has a topicId, so we can count it.
 type CountableItem = {
@@ -135,12 +135,12 @@ export default function SharedSidebar({
     })),
   ];
 
-  const chapterProgress = useMemo(() => {
-    const totalTopics = chapter.topics.length;
-    if (totalTopics === 0) return 0;
-    const completedTopics = chapter.topics.filter(topic => completed[`${pageType}-${chapter.slug}-${topic.id}`]).length;
-    return (completedTopics / totalTopics) * 100;
-  }, [completed, chapter.topics, chapter.slug, pageType]);
+  // const chapterProgress = useMemo(() => {
+  //   const totalTopics = chapter.topics.length;
+  //   if (totalTopics === 0) return 0;
+  //   const completedTopics = chapter.topics.filter(topic => completed[`${pageType}-${chapter.slug}-${topic.id}`]).length;
+  //   return (completedTopics / totalTopics) * 100;
+  // }, [completed, chapter.topics, chapter.slug, pageType]);
 
   return (
     <>
