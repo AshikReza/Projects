@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState } from "react";
 import { Chapter, Topic } from "@/lib/types";
 import { cn } from "@/lib/utils";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -116,7 +116,7 @@ export default function SharedSidebar({
   pageType
 }: SharedSidebarProps) {
   const [isSheetOpen, setIsSheetOpen] = useState(false);
-  const { completed } = useProgressStore();
+  // const { completed } = useProgressStore();
 
   const handleTopicSelection = (topicId: string) => {
     onTopicClick(topicId);
