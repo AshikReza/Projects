@@ -6,19 +6,19 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { CheckCircle, XCircle } from "lucide-react";
 import { useLanguage } from "@/components/LanguageProvider";
-import SharedSidebar from "./SharedSidebar";
+import SharedSidebar from "../SharedSidebar";
 import { Progress } from "@/components/ui/progress";
 import { useProgressStore } from "@/lib/store/progressStore";
 
 // Import all block components
-import { DefinitionBlock } from "./content-blocks/DefinitionBlock";
-import { ListBlock } from "./content-blocks/ListBlock";
-import { ExampleBlock } from "./content-blocks/ExampleBlock";
-import { EquationBlock } from "./content-blocks/EquationBlock";
-import { TableBlock } from "./content-blocks/TableBlock";
-import { CalloutBlock } from "./content-blocks/CalloutBlock";
-import { ImportantBlock } from "./content-blocks/ImportantBlock";
-import GraphBlock from "./content-blocks/GraphBlock";
+import { DefinitionBlock } from "@/components/content-blocks/DefinitionBlock";
+import { ListBlock } from "@/components/content-blocks/ListBlock";
+import { ExampleBlock } from "@/components/content-blocks/ExampleBlock";
+import { EquationBlock } from "@/components/content-blocks/EquationBlock";
+import { TableBlock } from "@/components/content-blocks/TableBlock";
+import { CalloutBlock } from "@/components/content-blocks/CalloutBlock";
+import { ImportantBlock } from "@/components/content-blocks/ImportantBlock";
+import GraphBlock from "@/components/content-blocks/GraphBlock";
 
 interface NotesViewProps {
   chapter: Chapter;

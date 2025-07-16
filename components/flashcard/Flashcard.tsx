@@ -5,13 +5,13 @@ import { Card, CardContent } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
 import { RefreshCw } from "lucide-react";
 
-// This component's props are for the FRONT and BACK of a SINGLE card.
 interface FlashcardProps {
   front: React.ReactNode;
   back: React.ReactNode;
 }
 
 export default function Flashcard({ front, back }: FlashcardProps) {
+  // ... (no changes needed to the logic of this component)
   const [isFlipped, setIsFlipped] = useState(false);
 
   return (

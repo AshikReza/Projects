@@ -10,9 +10,9 @@ import {
 } from "@/components/ui/accordion";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { useLanguage } from "./LanguageProvider";
-import { BilingualText } from "../components/content-blocks/BilingualText";
-import SharedSidebar from "./SharedSidebar";
+import { useLanguage } from "../LanguageProvider";
+import { BilingualText } from "@/components/content-blocks/BilingualText";
+import SharedSidebar from "../SharedSidebar";
 import { Progress } from "@/components/ui/progress";
 import { useProgressStore } from "@/lib/store/progressStore";
 

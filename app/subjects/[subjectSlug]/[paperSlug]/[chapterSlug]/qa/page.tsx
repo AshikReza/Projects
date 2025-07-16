@@ -1,7 +1,7 @@
 // app/subjects/[subjectSlug]/[paperSlug]/[chapterSlug]/qa/page.tsx
 
 import { getChapterContent, getChapterDetails } from "@/lib/data-loader";
-import QAClient from "@/components/QAClient"; // <-- Import the new client component
+import QAClient from "@/components/qa/QAClient"; // <-- Import the new client component
 
 interface QAPageParams {
   subjectSlug: string;

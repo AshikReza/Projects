@@ -1,4 +1,4 @@
-import NotesView from "@/components/NotesView";
+import NotesView from "@/components/notes/NotesView";
 import { getChapterContent, getChapterDetails } from "@/lib/data-loader";
 
 export default async function NotesPage({
