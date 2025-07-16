@@ -4,8 +4,8 @@ export default function Footer() {
       className="
         py-5 text-sm 
         c-space
-        bg-white text-neutral-600 
-        dark:bg-black dark:text-neutral-300
+        bg-white text-neutral-700 
+        dark:bg-black dark:text-white
       "
     >
       <div className="mx-16 sm:mx-32 md:mx-40 flex flex-wrap items-center justify-between">
@@ -14,7 +14,7 @@ export default function Footer() {
           <p>|</p>
           <p>Privacy Policy</p>
         </div>
-        <p className="text-sm dark:text-neutral-300 text-neutral-600">
+        <p className="text-sm dark:text-white text-neutral-700">
           Developed with ❤️ by{" "}
           <a
             href="https://ashik-reza.vercel.app/"
