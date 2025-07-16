@@ -6,6 +6,7 @@ import { ThemeProvider } from "next-themes";
 import PageTransition from "@/components/PageTransition";
 import { LanguageProvider } from "@/components/LanguageProvider";
 import { ModeToggle } from "@/components/theme-toggle";
+import Footer from "@/components/Footer";
 
 // --- GOOGLE FONT: Baloo Da 2 ---
 const balooDa2 = Baloo_Da_2({
@@ -27,11 +28,8 @@ export default function RootLayout({
     <html lang="bn" suppressHydrationWarning>
       <body
         className={cn(
-          balooDa2.className, // next/font generated class
-          "min-h-screen", // full viewport height
-          "bg-background", // your background color
-          "antialiased"
-          // no need for font-sans, since we override it in tailwind.config.js
+          balooDa2.className,
+          "min-h-screen bg-background antialiased"
         )}
       >
         <LanguageProvider>
@@ -41,11 +39,20 @@ export default function RootLayout({
             enableSystem
             disableTransitionOnChange
           >
+            {/* Main container that controls the page layout */}
             <div className="relative flex min-h-screen flex-col">
-              <PageTransition>{children}</PageTransition>
-            </div>
-            <div className="absolute sm:top-6 top-12 right-6 sm:right-34">
-              <ModeToggle />
+              <div className="absolute sm:top-6 top-12 right-6 sm:right-34 z-10">
+                <ModeToggle />
+              </div>
+
+              {/* Main content area that grows and can scroll if needed */}
+              <main className="flex-grow">
+                {/* The PageTransition component handles the actual page content */}
+                <PageTransition>{children}</PageTransition>
+              </main>
+
+              {/* Footer is the last element in the flex column */}
+              <Footer />
             </div>
           </ThemeProvider>
         </LanguageProvider>
