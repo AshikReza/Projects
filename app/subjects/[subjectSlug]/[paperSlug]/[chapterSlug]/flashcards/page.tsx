@@ -1,3 +1,5 @@
+// app/subjects/[subjectSlug]/[paperSlug]/[chapterSlug]/flashcards/page.tsx
+
 import { getChapterContent, getChapterDetails } from "@/lib/data-loader";
 import FlashcardsPageClient from "@/components/flashcard/FlashcardsPageClient";
 
@@ -8,17 +10,24 @@ interface FlashcardsPageParams {
 }
 
 /**
- * By destructuring only `{ params }` (and omitting any explicit
- * `searchParams`), Next.js will infer the correct PageProps:
- *  - params: { subjectSlug, paperSlug, chapterSlug }
- *  - searchParams?: Record<string, string | string[]>
+ * Next.js’s generated PageProps currently look like:
+ *   interface PageProps {
+ *     params: Promise<Record<string, string>>;
+ *     searchParams?: Promise<any>;
+ *   }
+ *
+ * We mirror that here, so TS will be happy:
  */
-export default async function FlashcardsPage({
-  params,
-}: {
-  params: FlashcardsPageParams;
-}) {
-  const { subjectSlug, paperSlug, chapterSlug } = params;
+type NextPageProps = {
+  params: Promise<FlashcardsPageParams>;
+  searchParams?: Promise<Record<string, string | string[]>>;
+};
+
+export default async function FlashcardsPage({ params }: NextPageProps) {
+  // Await both in case searchParams is passed (even if you don’t use it):
+  const { subjectSlug, paperSlug, chapterSlug } = await params;
+  // If you need query params later, you can:
+  // const qp = searchParams ? await searchParams : {};
 
   const [chapter, flashcards] = await Promise.all([
     getChapterDetails(subjectSlug, paperSlug, chapterSlug),
