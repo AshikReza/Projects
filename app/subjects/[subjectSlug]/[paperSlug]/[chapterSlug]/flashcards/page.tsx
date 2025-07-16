@@ -1,29 +1,37 @@
 import { getChapterContent, getChapterDetails } from "@/lib/data-loader";
 import FlashcardsPageClient from "@/components/flashcard/FlashcardsPageClient";
 
-// Define the shape of the params object
+// This interface defines the shape of the PARAMS OBJECT ITSELF
 interface FlashcardsPageParams {
   subjectSlug: string;
   paperSlug: string;
   chapterSlug: string;
 }
 
-// Define the full props object for the page. This is the robust way.
+// This interface defines the full PROPS for the page.
+// The key is to type `params` as a Promise that RESOLVES to our params type.
 interface PageProps {
-  params: FlashcardsPageParams;
+  params: Promise<FlashcardsPageParams>;
   searchParams?: { [key: string]: string | string[] | undefined };
 }
 
-// Use the PageProps interface to type the component's props
+// Use the PageProps interface. The function remains async.
 export default async function FlashcardsPage({ params }: PageProps) {
-  // The logic inside the component does not need to change.
-  // 'params' is correctly recognized as a resolved object here.
+  // CRUCIAL STEP: Await the params promise right at the start.
+  // This gets the resolved object and satisfies the type-checker.
+  const resolvedParams = await params;
+
+  // Now, use the 'resolvedParams' object for all your data fetching.
   const [chapter, flashcards] = await Promise.all([
-    getChapterDetails(params.subjectSlug, params.paperSlug, params.chapterSlug),
+    getChapterDetails(
+      resolvedParams.subjectSlug,
+      resolvedParams.paperSlug,
+      resolvedParams.chapterSlug
+    ),
     getChapterContent(
-      params.subjectSlug,
-      params.paperSlug,
-      params.chapterSlug,
+      resolvedParams.subjectSlug,
+      resolvedParams.paperSlug,
+      resolvedParams.chapterSlug,
       "flashcards"
     ),
   ]);
@@ -32,5 +40,6 @@ export default async function FlashcardsPage({ params }: PageProps) {
     return <div>Content not found.</div>;
   }
 
+  // The rest of the component remains the same
   return <FlashcardsPageClient chapter={chapter} flashcards={flashcards} />;
 }
