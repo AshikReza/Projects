@@ -18,6 +18,7 @@ import {
   ArrowRight,
 } from "lucide-react";
 import ChapterProgress from "@/components/ChapterProgress";
+import ChapterPageClient from "@/components/ChapterPageClient";
 
 const studyMaterials = [
   {
@@ -65,50 +66,55 @@ export default async function ChapterDetailsPage({
   const chapter = await getChapterDetails(subjectSlug, paperSlug, chapterSlug);
 
   return (
-    <div>
-      <ChapterProgress chapter={chapter} />
-      <section>
-        <h2 className="text-2xl font-semibold mb-4">Study Materials</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {studyMaterials.map((material) => {
-            const href = `/subjects/${subjectSlug}/${paperSlug}/${chapterSlug}/${material.link}`;
-            const Icon = material.icon;
-            return (
-              <Card key={material.title} className="flex flex-col">
-                <CardHeader>
-                  <CardTitle className="flex items-center gap-2">
-                    <Icon className="h-6 w-6 text-primary" />
-                    {material.title}
-                  </CardTitle>
-                  <CardDescription>{material.description}</CardDescription>
-                </CardHeader>
-                <CardFooter className="mt-auto">
-                  <Button asChild className="w-full">
-                    <Link href={href}>{material.buttonText}</Link>
-                  </Button>
-                </CardFooter>
-              </Card>
-            );
-          })}
-        </div>
-      </section>
+    <ChapterPageClient>
+      <div>
+        <ChapterProgress chapter={chapter} />
+        <section>
+          <h2 className="text-2xl font-semibold mb-4">Study Materials</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {studyMaterials.map((material) => {
+              const href = `/subjects/${subjectSlug}/${paperSlug}/${chapterSlug}/${material.link}`;
+              const Icon = material.icon;
+              return (
+                <Card
+                  key={material.title}
+                  className="flex flex-col study-material-card"
+                >
+                  <CardHeader>
+                    <CardTitle className="flex items-center gap-2">
+                      <Icon className="h-6 w-6 text-primary" />
+                      {material.title}
+                    </CardTitle>
+                    <CardDescription>{material.description}</CardDescription>
+                  </CardHeader>
+                  <CardFooter className="mt-auto">
+                    <Button asChild className="w-full">
+                      <Link href={href}>{material.buttonText}</Link>
+                    </Button>
+                  </CardFooter>
+                </Card>
+              );
+            })}
+          </div>
+        </section>
 
-      <section className="mt-12">
-        <h2 className="text-2xl font-semibold mb-4">Chapter Topics</h2>
-        <Card>
-          <ul className="divide-y">
-            {chapter.topics.map((topic) => (
-              <li
-                key={topic.id}
-                className="p-4 flex items-center justify-between"
-              >
-                <span className="font-medium">{topic.title}</span>
-                <ArrowRight className="h-5 w-5 text-muted-foreground" />
-              </li>
-            ))}
-          </ul>
-        </Card>
-      </section>
-    </div>
+        <section className="mt-12">
+          <h2 className="text-2xl font-semibold mb-4">Chapter Topics</h2>
+          <Card>
+            <ul className="divide-y chapter-topics-list">
+              {chapter.topics.map((topic) => (
+                <li
+                  key={topic.id}
+                  className="p-4 flex items-center justify-between chapter-topic-item"
+                >
+                  <span className="font-medium">{topic.title}</span>
+                  <ArrowRight className="h-5 w-5 text-muted-foreground" />
+                </li>
+              ))}
+            </ul>
+          </Card>
+        </section>
+      </div>
+    </ChapterPageClient>
   );
 }
