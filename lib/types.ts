@@ -71,6 +71,12 @@ export interface EquationBlockType extends BlockBase {
   examples?: { bn: string; en: string }[]; // <-- ADD THIS LINE
 }
 
+export interface GraphBlockType extends BlockBase {
+  type: "graph";
+  data: any;
+  options: any;
+}
+
 // A union of all possible block types from your JSON
 export type NoteBlock =
   | DefinitionBlockType
@@ -80,7 +86,8 @@ export type NoteBlock =
   | ExampleBlockType
   | EquationBlockType
   | ImportantBlockType
-  | SuccessBlockType;
+  | SuccessBlockType
+  | GraphBlockType;
 
 // A single note topic now contains a title and an array of blocks
 export interface NoteTopic {

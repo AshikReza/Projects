@@ -1,0 +1,1262 @@
+[
+  {
+    "id": "igl-fc1",
+    "topicId": "ideal-gas-laws",
+    "front": {
+      "bn": "আদর্শ গ্যাস কাকে বলে?",
+      "en": "What is an ideal gas?"
+    },
+    "back": {
+      "bn": "যে গ্যাস সকল তাপমাত্রা ও চাপে গ্যাস সূত্রসমূহ (বয়েল, চার্লস ইত্যাদি) সম্পূর্ণরূপে মেনে চলে, তাকে আদর্শ গ্যাস বলে। বাস্তবে এর অস্তিত্ব নেই, এটি একটি তাত্ত্বিক ধারণা।",
+      "en": "A gas that completely obeys the gas laws (Boyle's, Charles's, etc.) at all temperatures and pressures is called an ideal gas. It does not exist in reality; it is a theoretical concept."
+    }
+  },
+  {
+    "id": "igl-fc2",
+    "topicId": "ideal-gas-laws",
+    "front": {
+      "bn": "বয়েলের সূত্রটি বিবৃত কর।",
+      "en": "State Boyle's Law."
+    },
+    "back": {
+      "bn": "স্থির তাপমাত্রায়, নির্দিষ্ট ভরের কোনো গ্যাসের আয়তন তার উপর প্রযুক্ত চাপের ব্যস্তানুপাতিক। অর্থাৎ, $$P \\propto \\frac{1}{V}$$।",
+      "en": "At a constant temperature, the volume of a fixed mass of gas is inversely proportional to the pressure applied to it. i.e., $$P \\propto \\frac{1}{V}$$."
+    }
+  },
+  {
+    "id": "igl-fc3",
+    "topicId": "ideal-gas-laws",
+    "front": {
+      "bn": "চার্লসের সূত্রটি বিবৃত কর।",
+      "en": "State Charles's Law."
+    },
+    "back": {
+      "bn": "স্থির চাপে, নির্দিষ্ট ভরের কোনো গ্যাসের আয়তন তার পরম তাপমাত্রার (কেলভিন) সমানুপাতিক। অর্থাৎ, $$V \\propto T$$।",
+      "en": "At constant pressure, the volume of a fixed mass of gas is directly proportional to its absolute temperature (in Kelvin). i.e., $$V \\propto T$$."
+    }
+  },
+  {
+    "id": "igl-fc4",
+    "topicId": "ideal-gas-laws",
+    "front": {
+      "bn": "পরম শূন্য তাপমাত্রা কাকে বলে?",
+      "en": "What is absolute zero temperature?"
+    },
+    "back": {
+      "bn": "যে তাত্ত্বিক তাপমাত্রায় সকল গ্যাসের আয়তন শূন্য হয়ে যায়, তাকে পরম শূন্য তাপমাত্রা বলে। এর মান 0 K বা -273.15°C।",
+      "en": "The theoretical temperature at which the volume of all gases becomes zero is called absolute zero temperature. Its value is 0 K or -273.15°C."
+    }
+  },
+  {
+    "id": "igl-fc5",
+    "topicId": "ideal-gas-laws",
+    "front": {
+      "bn": "আদর্শ গ্যাস সমীকরণটি কী?",
+      "en": "What is the Ideal Gas Equation?"
+    },
+    "back": {
+      "bn": "আদর্শ গ্যাস সমীকরণটি হলো $$PV = nRT$$। এখানে P=চাপ, V=আয়তন, n=মোল সংখ্যা, R=মোলার গ্যাস ধ্রুবক, এবং T=পরম তাপমাত্রা।",
+      "en": "The Ideal Gas Equation is $$PV = nRT$$. Here P=Pressure, V=Volume, n=number of moles, R=Molar Gas Constant, and T=Absolute Temperature."
+    }
+  },
+  {
+    "id": "igl-fc6",
+    "topicId": "ideal-gas-laws",
+    "front": {
+      "bn": "মোলার গ্যাস ধ্রুবক 'R' এর SI এককসহ মান কত?",
+      "en": "What is the value of the molar gas constant 'R' with SI units?"
+    },
+    "back": {
+      "bn": "'R' এর SI এককে মান হলো 8.314 J·mol⁻¹·K⁻¹ (জুল প্রতি মোল প্রতি কেলভিন)।",
+      "en": "The value of 'R' in SI units is 8.314 J·mol⁻¹·K⁻¹ (Joules per mole per Kelvin)."
+    }
+  },
+  {
+    "id": "igl-fc7",
+    "topicId": "ideal-gas-laws",
+    "front": {
+      "bn": "লিটার-অ্যাটমোস্ফিয়ার (L·atm) এককে 'R' এর মান কত?",
+      "en": "What is the value of 'R' in Liter-atmosphere (L·atm) units?"
+    },
+    "back": {
+      "bn": "লিটার-অ্যাটমোস্ফিয়ার এককে 'R' এর মান হলো 0.0821 L·atm·mol⁻¹·K⁻¹।",
+      "en": "The value of 'R' in Liter-atmosphere units is 0.0821 L·atm·mol⁻¹·K⁻¹."
+    }
+  },
+  {
+    "id": "igl-fc8",
+    "topicId": "ideal-gas-laws",
+    "front": {
+      "bn": "STP বা প্রমাণ তাপমাত্রা ও চাপ বলতে কী বোঝায়?",
+      "en": "What is meant by STP or Standard Temperature and Pressure?"
+    },
+    "back": {
+      "bn": "STP বা প্রমাণ তাপমাত্রা ও চাপ হলো 273.15 K (0°C) তাপমাত্রা এবং 1 atm (101.325 kPa) চাপ।",
+      "en": "STP or Standard Temperature and Pressure refers to a temperature of 273.15 K (0°C) and a pressure of 1 atm (101.325 kPa)."
+    }
+  },
+  {
+    "id": "igl-fc9",
+    "topicId": "ideal-gas-laws",
+    "front": {
+      "bn": "STP-তে 1 মোল যেকোনো গ্যাসের আয়তন কত?",
+      "en": "What is the volume of 1 mole of any gas at STP?"
+    },
+    "back": {
+      "bn": "STP-তে 1 মোল যেকোনো আদর্শ গ্যাসের আয়তন 22.4 লিটার।",
+      "en": "The volume of 1 mole of any ideal gas at STP is 22.4 liters."
+    }
+  },
+  {
+    "id": "igl-fc10",
+    "topicId": "ideal-gas-laws",
+    "front": {
+      "bn": "গে-লুসাকের চাপীয় সূত্রটি লেখ।",
+      "en": "Write Gay-Lussac's Pressure Law."
+    },
+    "back": {
+      "bn": "স্থির আয়তনে, নির্দিষ্ট ভরের কোনো গ্যাসের চাপ তার পরম তাপমাত্রার সমানুপাতিক। অর্থাৎ, $$P \\propto T$$।",
+      "en": "At constant volume, the pressure of a fixed mass of gas is directly proportional to its absolute temperature. i.e., $$P \\propto T$$."
+    }
+  },
+  {
+    "id": "igl-fc11",
+    "topicId": "ideal-gas-laws",
+    "front": {
+      "bn": "অ্যাভোগাড্রোর সূত্রটি কী?",
+      "en": "What is Avogadro's Law?"
+    },
+    "back": {
+      "bn": "স্থির তাপমাত্রা ও চাপে, সম-আয়তনের সকল গ্যাসে সমান সংখ্যক অণু থাকে। অর্থাৎ, গ্যাসের আয়তন তার মোল সংখ্যার সমানুপাতিক ($$V \\propto n$$)।",
+      "en": "At the same temperature and pressure, equal volumes of all gases contain the same number of molecules. i.e., the volume of a gas is directly proportional to its number of moles ($$V \\propto n$$)."
+    }
+  },
+  {
+    "id": "igl-fc12",
+    "topicId": "ideal-gas-laws",
+    "front": {
+      "bn": "গ্যাসের ঘনত্ব এবং আণবিক ভরের মধ্যে সম্পর্কসূচক সমীকরণটি কী?",
+      "en": "What is the equation relating the density and molar mass of a gas?"
+    },
+    "back": {
+      "bn": "আদর্শ গ্যাস সমীকরণ থেকে প্রাপ্ত সম্পর্কটি হলো $$PM = dRT$$, যেখানে d হলো ঘনত্ব এবং M হলো আণবিক ভর।",
+      "en": "The relationship derived from the ideal gas equation is $$PM = dRT$$, where d is density and M is molar mass."
+    }
+  },
+  {
+    "id": "igl-fc13",
+    "topicId": "ideal-gas-laws",
+    "front": {
+      "bn": "গ্যাসের সমন্বয় সূত্রটি লেখ।",
+      "en": "Write the Combined Gas Law."
+    },
+    "back": {
+      "bn": "গ্যাসের সমন্বয় সূত্রটি হলো: $$\\frac{P_1V_1}{T_1} = \\frac{P_2V_2}{T_2}$$।",
+      "en": "The Combined Gas Law is: $$\\frac{P_1V_1}{T_1} = \\frac{P_2V_2}{T_2}$$."
+    }
+  },
+  {
+    "id": "igl-fc14",
+    "topicId": "ideal-gas-laws",
+    "front": {
+      "bn": "আইসোথার্ম (Isotherm) বা সমোষ্ণ লেখ কী?",
+      "en": "What is an Isotherm graph?"
+    },
+    "back": {
+      "bn": "স্থির তাপমাত্রায় গ্যাসের চাপ (P) বনাম আয়তনের (V) লেখচিত্রকে আইসোথার্ম বা সমোষ্ণ লেখ বলে। বয়েলের সূত্রানুযায়ী এটি একটি অধিবৃত্ত (hyperbola)।",
+      "en": "The graph of pressure (P) versus volume (V) of a gas at a constant temperature is called an isotherm. According to Boyle's law, it is a hyperbola."
+    }
+  },
+  {
+    "id": "igl-fc15",
+    "topicId": "ideal-gas-laws",
+    "front": {
+      "bn": "1 atm চাপ কত প্যাসকেলের (Pa) সমান?",
+      "en": "1 atm pressure is equal to how many Pascals (Pa)?"
+    },
+    "back": {
+      "bn": "1 atm = 101325 Pa বা 101.325 kPa।",
+      "en": "1 atm = 101325 Pa or 101.325 kPa."
+    }
+  },
+  {
+    "id": "dlp-fc1",
+    "topicId": "daltons-law-of-partial-pressures",
+    "front": {
+      "bn": "ডাল্টনের আংশিক চাপ সূত্রটি কী?",
+      "en": "What is Dalton's Law of Partial Pressures?"
+    },
+    "back": {
+      "bn": "নির্দিষ্ট তাপমাত্রায়, পরস্পর বিক্রিয়াহীন গ্যাস মিশ্রণের মোট চাপ মিশ্রণের প্রতিটি উপাদান গ্যাসের আংশিক চাপের সমষ্টির সমান। $$P_{total} = P_1 + P_2 + P_3 + ...$$",
+      "en": "At a specific temperature, the total pressure of a non-reacting gas mixture is equal to the sum of the partial pressures of each constituent gas. $$P_{total} = P_1 + P_2 + P_3 + ...$$"
+    }
+  },
+  {
+    "id": "dlp-fc2",
+    "topicId": "daltons-law-of-partial-pressures",
+    "front": {
+      "bn": "আংশিক চাপ (Partial Pressure) কাকে বলে?",
+      "en": "What is Partial Pressure?"
+    },
+    "back": {
+      "bn": "একটি গ্যাস মিশ্রণের কোনো একটি উপাদান গ্যাস যদি মিশ্রণের সম্পূর্ণ আয়তন একাই দখল করে, তবে সেটি যে চাপ প্রয়োগ করে, তাকে ঐ উপাদানের আংশিক চাপ বলে।",
+      "en": "If a single component gas in a mixture were to occupy the entire volume of the mixture by itself, the pressure it would exert is called its partial pressure."
+    }
+  },
+  {
+    "id": "dlp-fc3",
+    "topicId": "daltons-law-of-partial-pressures",
+    "front": {
+      "bn": "ডাল্টনের সূত্র প্রয়োগের প্রধান শর্ত কী?",
+      "en": "What is the main condition for applying Dalton's Law?"
+    },
+    "back": {
+      "bn": "প্রধান শর্ত হলো গ্যাস মিশ্রণের উপাদানসমূহকে অবশ্যই পরস্পর বিক্রিয়াহীন হতে হবে।",
+      "en": "The main condition is that the components of the gas mixture must be non-reacting with each other."
+    }
+  },
+  {
+    "id": "dlp-fc4",
+    "topicId": "daltons-law-of-partial-pressures",
+    "front": {
+      "bn": "মোল ভগ্নাংশ (Mole Fraction) ব্যবহার করে আংশিক চাপের সূত্রটি কী?",
+      "en": "What is the formula for partial pressure using mole fraction?"
+    },
+    "back": {
+      "bn": "কোনো গ্যাসের আংশিক চাপ = (ঐ গ্যাসের মোল ভগ্নাংশ) × (মিশ্রণের মোট চাপ)। অর্থাৎ, $$P_i = X_i \\times P_{total}$$।",
+      "en": "Partial Pressure of a gas = (Mole fraction of that gas) × (Total pressure of the mixture). i.e., $$P_i = X_i \\times P_{total}$$."
+    }
+  },
+  {
+    "id": "dlp-fc5",
+    "topicId": "daltons-law-of-partial-pressures",
+    "front": {
+      "bn": "মোল ভগ্নাংশ কীভাবে গণনা করা হয়?",
+      "en": "How is mole fraction calculated?"
+    },
+    "back": {
+      "bn": "কোনো উপাদানের মোল ভগ্নাংশ = (ঐ উপাদানের মোল সংখ্যা) / (মিশ্রণের মোট মোল সংখ্যা)। 즉, $$X_i = \\frac{n_i}{n_{total}}$$।",
+      "en": "Mole fraction of a component = (moles of that component) / (total moles in the mixture). i.e., $$X_i = \\frac{n_i}{n_{total}}$$."
+    }
+  },
+  {
+    "id": "dlp-fc6",
+    "topicId": "daltons-law-of-partial-pressures",
+    "front": {
+      "bn": "একটি গ্যাস মিশ্রণে সকল উপাদানের মোল ভগ্নাংশের যোগফল কত?",
+      "en": "What is the sum of the mole fractions of all components in a gas mixture?"
+    },
+    "back": {
+      "bn": "যেকোনো মিশ্রণে সকল উপাদানের মোল ভগ্নাংশের যোগফল সর্বদা 1 হয়।",
+      "en": "The sum of the mole fractions of all components in any mixture is always 1."
+    }
+  },
+  {
+    "id": "dlp-fc7",
+    "topicId": "daltons-law-of-partial-pressures",
+    "front": {
+      "bn": "জলীয় বাষ্পের চাপ (Aqueous Tension) কী?",
+      "en": "What is Aqueous Tension?"
+    },
+    "back": {
+      "bn": "পানির উপর কোনো গ্যাস সংগ্রহ করা হলে, ঐ গ্যাসে কিছু জলীয় বাষ্প মিশ্রিত থাকে। নির্দিষ্ট তাপমাত্রায় এই জলীয় বাষ্প যে চাপ প্রয়োগ করে তাকে জলীয় বাষ্পের চাপ বা জলীয় টান বলে।",
+      "en": "When a gas is collected over water, it gets mixed with some water vapor. The pressure exerted by this water vapor at a specific temperature is called aqueous tension."
+    }
+  },
+  {
+    "id": "dlp-fc8",
+    "topicId": "daltons-law-of-partial-pressures",
+    "front": {
+      "bn": "পানির উপর সংগৃহীত আর্দ্র গ্যাসের চাপ থেকে শুষ্ক গ্যাসের চাপ কীভাবে বের করা হয়?",
+      "en": "How is the pressure of a dry gas calculated from the pressure of a moist gas collected over water?"
+    },
+    "back": {
+      "bn": "শুষ্ক গ্যাসের চাপ = আর্দ্র গ্যাসের মোট চাপ - জলীয় বাষ্পের চাপ। $$P_{dry gas} = P_{total} - P_{water vapor}$$।",
+      "en": "Pressure of dry gas = Total pressure of moist gas - Pressure of water vapor. $$P_{dry gas} = P_{total} - P_{water vapor}$$."
+    }
+  },
+  {
+    "id": "dlp-fc9",
+    "topicId": "daltons-law-of-partial-pressures",
+    "front": {
+      "bn": "কোন গ্যাস যুগলের মিশ্রণে ডাল্টনের সূত্র প্রযোজ্য হবে না? (যেমন: NH₃ ও HCl)",
+      "en": "For which pair of gases will Dalton's law not be applicable? (e.g., NH₃ and HCl)"
+    },
+    "back": {
+      "bn": "অ্যামোনিয়া (NH₃) এবং হাইড্রোজেন ক্লোরাইড (HCl) এর মিশ্রণে ডাল্টনের সূত্র প্রযোজ্য হবে না, কারণ তারা বিক্রিয়া করে অ্যামোনিয়াম ক্লোরাইড (NH₄Cl) গঠন করে।",
+      "en": "Dalton's law is not applicable to a mixture of ammonia (NH₃) and hydrogen chloride (HCl) because they react to form ammonium chloride (NH₄Cl)."
+    }
+  },
+  {
+    "id": "dlp-fc10",
+    "topicId": "daltons-law-of-partial-pressures",
+    "front": {
+      "bn": "বায়ুর প্রধান দুটি উপাদানের নাম কী?",
+      "en": "What are the two main components of air?"
+    },
+    "back": {
+      "bn": "বায়ুর প্রধান দুটি উপাদান হলো নাইট্রোজেন (প্রায় 78%) এবং অক্সিজেন (প্রায় 21%)।",
+      "en": "The two main components of air are Nitrogen (approx. 78%) and Oxygen (approx. 21%)."
+    }
+  },
+  {
+    "id": "dlp-fc11",
+    "topicId": "daltons-law-of-partial-pressures",
+    "front": {
+      "bn": "যদি একটি গ্যাস মিশ্রণের মোট চাপ দ্বিগুণ করা হয়, তাহলে প্রতিটি উপাদানের আংশিক চাপ কীভাবে পরিবর্তিত হবে?",
+      "en": "If the total pressure of a gas mixture is doubled, how will the partial pressure of each component change?"
+    },
+    "back": {
+      "bn": "যদি মোট চাপ দ্বিগুণ করা হয়, এবং তাপমাত্রা ও আয়তন স্থির থাকে, তাহলে প্রতিটি উপাদানের আংশিক চাপও দ্বিগুণ হবে।",
+      "en": "If the total pressure is doubled, and temperature and volume remain constant, the partial pressure of each component will also double."
+    }
+  },
+  {
+    "id": "dlp-fc12",
+    "topicId": "daltons-law-of-partial-pressures",
+    "front": {
+      "bn": "দুটি ভিন্ন পাত্রে থাকা গ্যাসকে একটি পাত্রে মেশালে চূড়ান্ত চাপ নির্ণয়ের সূত্র কী?",
+      "en": "What is the formula to determine the final pressure when gases from two different containers are mixed into one?"
+    },
+    "back": {
+      "bn": "যদি তাপমাত্রা স্থির থাকে, তবে সূত্রটি হলো $$P_{final}V_{final} = P_1V_1 + P_2V_2$$।",
+      "en": "If the temperature is constant, the formula is $$P_{final}V_{final} = P_1V_1 + P_2V_2$$."
+    }
+  },
+  {
+    "id": "dlp-fc13",
+    "topicId": "daltons-law-of-partial-pressures",
+    "front": {
+      "bn": "আংশিক চাপের একক কী?",
+      "en": "What is the unit of partial pressure?"
+    },
+    "back": {
+      "bn": "আংশিক চাপের একক মোট চাপের এককের মতোই, যেমন - atm, Pa, mmHg, বা bar।",
+      "en": "The unit of partial pressure is the same as the unit of total pressure, such as atm, Pa, mmHg, or bar."
+    }
+  },
+  {
+    "id": "dlp-fc14",
+    "topicId": "daltons-law-of-partial-pressures",
+    "front": {
+      "bn": "একটি মিশ্রণে 1 মোল N₂ এবং 3 মোল H₂ আছে। N₂ এর মোল ভগ্নাংশ কত?",
+      "en": "A mixture contains 1 mole of N₂ and 3 moles of H₂. What is the mole fraction of N₂?"
+    },
+    "back": {
+      "bn": "মোট মোল = 1 + 3 = 4 মোল। N₂ এর মোল ভগ্নাংশ, $$X_{N_2} = \\frac{1}{4} = 0.25$$।",
+      "en": "Total moles = 1 + 3 = 4 moles. Mole fraction of N₂, $$X_{N_2} = \\frac{1}{4} = 0.25$$."
+    }
+  },
+  {
+    "id": "dlp-fc15",
+    "topicId": "daltons-law-of-partial-pressures",
+    "front": {
+      "bn": "আংশিক চাপের ধারণা কোন ধরনের পদার্থের জন্য প্রযোজ্য?",
+      "en": "For what type of substance is the concept of partial pressure applicable?"
+    },
+    "back": {
+      "bn": "আংশিক চাপের ধারণা শুধুমাত্র গ্যাসীয় পদার্থের মিশ্রণের জন্য প্রযোজ্য।",
+      "en": "The concept of partial pressure is applicable only for mixtures of gaseous substances."
+    }
+  },
+  {
+    "id": "gld-fc1",
+    "topicId": "grahams-law-of-diffusion",
+    "front": {
+      "bn": "ব্যাপন (Diffusion) কাকে বলে?",
+      "en": "What is Diffusion?"
+    },
+    "back": {
+      "bn": "কোনো মাধ্যমের সহায়তায় কঠিন, তরল বা গ্যাসীয় বস্তুর স্বতঃস্ফূর্তভাবে উচ্চ ঘনত্বের স্থান থেকে নিম্ন ঘনত্বের স্থানে ছড়িয়ে পড়ার প্রক্রিয়াকে ব্যাপন বলে।",
+      "en": "The process by which particles of a solid, liquid, or gas spontaneously spread out from a region of higher concentration to a region of lower concentration through a medium is called diffusion."
+    }
+  },
+  {
+    "id": "gld-fc2",
+    "topicId": "grahams-law-of-diffusion",
+    "front": {
+      "bn": "নিঃসরণ (Effusion) কাকে বলে?",
+      "en": "What is Effusion?"
+    },
+    "back": {
+      "bn": "সরু ছিদ্রপথে কোনো গ্যাসের উচ্চ চাপের অঞ্চল থেকে নিম্ন চাপের অঞ্চলে সজোরে বেরিয়ে আসার প্রক্রিয়াকে নিঃসরণ বলে।",
+      "en": "The process by which gas particles escape forcefully through a tiny opening from a region of higher pressure to a region of lower pressure is called effusion."
+    }
+  },
+  {
+    "id": "gld-fc3",
+    "topicId": "grahams-law-of-diffusion",
+    "front": {
+      "bn": "গ্রাহামের ব্যাপন সূত্রটি বিবৃত কর।",
+      "en": "State Graham's Law of Diffusion."
+    },
+    "back": {
+      "bn": "নির্দিষ্ট তাপমাত্রা ও চাপে, কোনো গ্যাসের ব্যাপন হার তার আণবিক ভরের (বা ঘনত্বের) বর্গমূলের ব্যস্তানুপাতিক।",
+      "en": "At a constant temperature and pressure, the rate of diffusion of a gas is inversely proportional to the square root of its molar mass (or density)."
+    }
+  },
+  {
+    "id": "gld-fc4",
+    "topicId": "grahams-law-of-diffusion",
+    "front": {
+      "bn": "গ্রাহামের ব্যাপন সূত্রের গাণিতিক রূপটি লেখ (আণবিক ভরের সাপেক্ষে)।",
+      "en": "Write the mathematical form of Graham's Law (with respect to molar mass)."
+    },
+    "back": {
+      "bn": "দুটি গ্যাস 1 এবং 2 এর জন্য, $$\\frac{r_1}{r_2} = \\sqrt{\\frac{M_2}{M_1}}$$।",
+      "en": "For two gases 1 and 2, $$\\frac{r_1}{r_2} = \\sqrt{\\frac{M_2}{M_1}}$$."
+    }
+  },
+  {
+    "id": "gld-fc5",
+    "topicId": "grahams-law-of-diffusion",
+    "front": {
+      "bn": "ব্যাপন হারের সাথে সময়ের সম্পর্ক কী?",
+      "en": "What is the relationship between the rate of diffusion and time?"
+    },
+    "back": {
+      "bn": "ব্যাপন হার সময়ের ব্যস্তানুপাতিক। অর্থাৎ, যে গ্যাসের ব্যাপনে বেশি সময় লাগে, তার ব্যাপন হার কম। $$\\frac{r_1}{r_2} = \\frac{t_2}{t_1}$$।",
+      "en": "The rate of diffusion is inversely proportional to time. i.e., a gas that takes longer to diffuse has a lower rate of diffusion. $$\\frac{r_1}{r_2} = \\frac{t_2}{t_1}$$."
+    }
+  },
+  {
+    "id": "gld-fc6",
+    "topicId": "grahams-law-of-diffusion",
+    "front": {
+      "bn": "কোন গ্যাসটি দ্রুত ব্যাপিত হবে: হাইড্রোজেন (H₂) নাকি অক্সিজেন (O₂)? এবং কেন?",
+      "en": "Which gas will diffuse faster: Hydrogen (H₂) or Oxygen (O₂)? And why?"
+    },
+    "back": {
+      "bn": "হাইড্রোজেন (H₂) দ্রুত ব্যাপিত হবে। কারণ এর আণবিক ভর (2 g/mol) অক্সিজেনের (32 g/mol) চেয়ে অনেক কম।",
+      "en": "Hydrogen (H₂) will diffuse faster. This is because its molar mass (2 g/mol) is much lower than that of oxygen (32 g/mol)."
+    }
+  },
+  {
+    "id": "gld-fc7",
+    "topicId": "grahams-law-of-diffusion",
+    "front": {
+      "bn": "ব্যাপন হারের সাথে ঘনত্বের সম্পর্ক কী?",
+      "en": "What is the relationship between the rate of diffusion and density?"
+    },
+    "back": {
+      "bn": "ব্যাপন হার গ্যাসের ঘনত্বের বর্গমূলের ব্যস্তানুপাতিক। $$\\frac{r_1}{r_2} = \\sqrt{\\frac{d_2}{d_1}}$$।",
+      "en": "The rate of diffusion is inversely proportional to the square root of the gas's density. $$\\frac{r_1}{r_2} = \\sqrt{\\frac{d_2}{d_1}}$$."
+    }
+  },
+  {
+    "id": "gld-fc8",
+    "topicId": "grahams-law-of-diffusion",
+    "front": {
+      "bn": "তাপমাত্রা বাড়ালে গ্যাসের ব্যাপন হার বাড়ে না কমে?",
+      "en": "If temperature is increased, does the rate of diffusion of a gas increase or decrease?"
+    },
+    "back": {
+      "bn": "তাপমাত্রা বাড়ালে গ্যাসের অণুগুলোর গতিশক্তি বৃদ্ধি পায়, ফলে ব্যাপন হার বৃদ্ধি পায়।",
+      "en": "Increasing the temperature increases the kinetic energy of the gas molecules, which in turn increases the rate of diffusion."
+    }
+  },
+  {
+    "id": "gld-fc9",
+    "topicId": "grahams-law-of-diffusion",
+    "front": {
+      "bn": "চাপ বাড়ালে গ্যাসের ব্যাপন হার বাড়ে না কমে?",
+      "en": "If pressure is increased, does the rate of diffusion of a gas increase or decrease?"
+    },
+    "back": {
+      "bn": "সাধারণত, চাপ বাড়ালে ব্যাপন হার বৃদ্ধি পায়, কারণ এটি অণুগুলোকে উচ্চচাপ অঞ্চল থেকে নিম্নচাপ অঞ্চলে যেতে প্রণোদিত করে।",
+      "en": "Generally, increasing the pressure increases the rate of diffusion, as it drives molecules from a region of high pressure to low pressure."
+    }
+  },
+  {
+    "id": "gld-fc10",
+    "topicId": "grahams-law-of-diffusion",
+    "front": {
+      "bn": "অ্যামোনিয়া (NH₃) ও হাইড্রোজেন ক্লোরাইড (HCl) গ্যাসকে একটি কাচনলের দুই প্রান্ত থেকে চালনা করলে কোথায় সাদা ধোঁয়া দেখা যাবে?",
+      "en": "If Ammonia (NH₃) and Hydrogen Chloride (HCl) gas are passed from opposite ends of a glass tube, where will white smoke be observed?"
+    },
+    "back": {
+      "bn": "যেহেতু NH₃ (M=17) গ্যাস HCl (M=36.5) এর চেয়ে হালকা, তাই এটি দ্রুত ব্যাপিত হবে। ফলে সাদা ধোঁয়া (NH₄Cl) HCl গ্যাসের প্রান্তের কাছাকাছি দেখা যাবে।",
+      "en": "Since NH₃ (M=17) gas is lighter than HCl (M=36.5), it will diffuse faster. Therefore, the white smoke (NH₄Cl) will be observed closer to the HCl end of the tube."
+    }
+  },
+  {
+    "id": "gld-fc11",
+    "topicId": "grahams-law-of-diffusion",
+    "front": {
+      "bn": "ব্যাপন এবং নিঃসরণের মধ্যে মূল পার্থক্য কী?",
+      "en": "What is the main difference between diffusion and effusion?"
+    },
+    "back": {
+      "bn": "মূল পার্থক্য হলো নিঃসরণ ঘটে একটি ক্ষুদ্র ছিদ্রপথে (tiny opening), যেখানে ব্যাপন ঘটে একটি বিস্তৃত মাধ্যম জুড়ে।",
+      "en": "The main difference is that effusion occurs through a tiny opening, whereas diffusion occurs throughout a broader medium."
+    }
+  },
+  {
+    "id": "gld-fc12",
+    "topicId": "grahams-law-of-diffusion",
+    "front": {
+      "bn": "দুটি গ্যাসের ব্যাপন হার সমান হতে পারে কি?",
+      "en": "Can two gases have the same rate of diffusion?"
+    },
+    "back": {
+      "bn": "হ্যাঁ, যদি তাদের আণবিক ভর (এবং ঘনত্ব) সমান হয় এবং তারা একই তাপমাত্রা ও চাপে থাকে, তবে তাদের ব্যাপন হার সমান হবে।",
+      "en": "Yes, if they have the same molar mass (and density) and are at the same temperature and pressure, their rates of diffusion will be equal."
+    }
+  },
+  {
+    "id": "gld-fc13",
+    "topicId": "grahams-law-of-diffusion",
+    "front": {
+      "bn": "গ্রাহামের সূত্র কোন ধরনের গ্যাসের জন্য সবচেয়ে ভালোভাবে প্রযোজ্য?",
+      "en": "For which type of gases is Graham's law most accurately applicable?"
+    },
+    "back": {
+      "bn": "গ্রাহামের সূত্রটি আদর্শ গ্যাসের আচরণের উপর ভিত্তি করে প্রতিষ্ঠিত, তাই নিম্ন চাপ ও উচ্চ তাপমাত্রায় থাকা বাস্তব গ্যাসের জন্য এটি ভালোভাবে প্রযোজ্য।",
+      "en": "Graham's law is based on ideal gas behavior, so it is most accurately applicable for real gases at low pressure and high temperature."
+    }
+  },
+  {
+    "id": "gld-fc14",
+    "topicId": "grahams-law-of-diffusion",
+    "front": {
+      "bn": "বেলুন থেকে হিলিয়াম গ্যাস সাধারণ বাতাসের চেয়ে দ্রুত বেরিয়ে যায় কেন?",
+      "en": "Why does helium gas escape from a balloon faster than normal air?"
+    },
+    "back": {
+      "bn": "হিলিয়ামের আণবিক ভর (4) বায়ুর গড় আণবিক ভরের (প্রায় 29) চেয়ে অনেক কম। গ্রাহামের সূত্রানুসারে, হালকা গ্যাস হওয়ায় হিলিয়ামের নিঃসরণ হার অনেক বেশি।",
+      "en": "The molar mass of helium (4) is much lower than the average molar mass of air (approx. 29). According to Graham's law, being a lighter gas, helium has a much higher rate of effusion."
+    }
+  },
+  {
+    "id": "gld-fc15",
+    "topicId": "grahams-law-of-diffusion",
+    "front": {
+      "bn": "কোনো গ্যাসের ব্যাপন হার তার আণবিক ভরের সাথে কীভাবে সম্পর্কিত?",
+      "en": "How is the rate of diffusion of a gas related to its molar mass?"
+    },
+    "back": {
+      "bn": "ব্যাপন হার আণবিক ভরের বর্গমূলের ব্যস্তানুপাতিক।",
+      "en": "The rate of diffusion is inversely proportional to the square root of the molar mass."
+    }
+  },
+  {
+    "id": "ktg-fc1",
+    "topicId": "kinetic-theory-of-gases",
+    "front": {
+      "bn": "গ্যাসের গতিতত্ত্ব অনুসারে গ্যাসের গতিশক্তি কোন বিষয়ের উপর নির্ভরশীল?",
+      "en": "According to the kinetic theory of gases, on what factor does the kinetic energy of a gas depend?"
+    },
+    "back": {
+      "bn": "গ্যাসের গড় গতিশক্তি শুধুমাত্র তার পরম তাপমাত্রার (Kelvin temperature) উপর নির্ভরশীল এবং এটি তাপমাত্রার সমানুপাতিক।",
+      "en": "The average kinetic energy of a gas depends only on its absolute temperature (Kelvin temperature) and is directly proportional to it."
+    }
+  },
+  {
+    "id": "ktg-fc2",
+    "topicId": "kinetic-theory-of-gases",
+    "front": {
+      "bn": "বর্গমূল গড় বর্গবেগ (RMS velocity) এর সূত্রটি কী?",
+      "en": "What is the formula for root mean square (RMS) velocity?"
+    },
+    "back": {
+      "bn": "বর্গমূল গড় বর্গবেগের সূত্র হলো $$C_{RMS} = \\sqrt{\\frac{3RT}{M}}$$।",
+      "en": "The formula for root mean square velocity is $$C_{RMS} = \\sqrt{\\frac{3RT}{M}}$$."
+    }
+  },
+  {
+    "id": "ktg-fc3",
+    "topicId": "kinetic-theory-of-gases",
+    "front": {
+      "bn": "RMS বেগ গণনার সময় আণবিক ভর (M) কোন এককে ব্যবহার করতে হয়?",
+      "en": "In what unit should molar mass (M) be used when calculating RMS velocity?"
+    },
+    "back": {
+      "bn": "RMS বেগ গণনার সময় আণবিক ভর (M) অবশ্যই kg/mol (কেজি প্রতি মোল) এককে ব্যবহার করতে হবে।",
+      "en": "When calculating RMS velocity, the molar mass (M) must be used in kg/mol (kilograms per mole) units."
+    }
+  },
+  {
+    "id": "ktg-fc4",
+    "topicId": "kinetic-theory-of-gases",
+    "front": {
+      "bn": "গ্যাসের অণুগুলোর তিন ধরনের বেগের মধ্যে সম্পর্ক কী?",
+      "en": "What is the relationship between the three types of velocities of gas molecules?"
+    },
+    "back": {
+      "bn": "সম্পর্কটি হলো: বর্গমূল গড় বর্গবেগ (C_RMS) > গড় বেগ (C_AV) > সর্বাধিক সম্ভাব্য বেগ (C_MP)।",
+      "en": "The relationship is: Root Mean Square Velocity (C_RMS) > Average Velocity (C_AV) > Most Probable Velocity (C_MP)."
+    }
+  },
+  {
+    "id": "ktg-fc5",
+    "topicId": "kinetic-theory-of-gases",
+    "front": {
+      "bn": "n মোল গ্যাসের মোট গতিশক্তির সূত্র কী?",
+      "en": "What is the formula for the total kinetic energy of n moles of a gas?"
+    },
+    "back": {
+      "bn": "n মোল গ্যাসের মোট গতিশক্তির সূত্র হলো $$E_k = \\frac{3}{2}nRT$$।",
+      "en": "The formula for the total kinetic energy of n moles of a gas is $$E_k = \\frac{3}{2}nRT$$."
+    }
+  },
+  {
+    "id": "ktg-fc6",
+    "topicId": "kinetic-theory-of-gases",
+    "front": {
+      "bn": "গ্যাসের গতিতত্ত্বের দুটি প্রধান স্বীকার্য কী?",
+      "en": "What are two main postulates of the kinetic theory of gases?"
+    },
+    "back": {
+      "bn": "১. গ্যাসের অণুগুলোর আয়তন পাত্রের আয়তনের তুলনায় নগণ্য। ২. গ্যাসের অণুগুলোর মধ্যে কোনো আকর্ষণ বা বিকর্ষণ বল নেই।",
+      "en": "1. The volume of gas molecules is negligible compared to the volume of the container. 2. There are no forces of attraction or repulsion between gas molecules."
+    }
+  },
+  {
+    "id": "ktg-fc7",
+    "topicId": "kinetic-theory-of-gases",
+    "front": {
+      "bn": "গ্যাসের তাপমাত্রা দ্বিগুণ করলে এর RMS বেগ কত গুণ বাড়বে?",
+      "en": "If the temperature of a gas is doubled, by how many times will its RMS velocity increase?"
+    },
+    "back": {
+      "bn": "যেহেতু $$C_{RMS} \\propto \\sqrt{T}$$, তাপমাত্রা দ্বিগুণ করলে RMS বেগ $$\\sqrt{2}$$ গুণ বা প্রায় 1.414 গুণ বাড়বে।",
+      "en": "Since $$C_{RMS} \\propto \\sqrt{T}$$, doubling the temperature will increase the RMS velocity by a factor of $$\\sqrt{2}$$ or about 1.414 times."
+    }
+  },
+  {
+    "id": "ktg-fc8",
+    "topicId": "kinetic-theory-of-gases",
+    "front": {
+      "bn": "বোলজম্যান ধ্রুবক (k) কী?",
+      "en": "What is the Boltzmann constant (k)?"
+    },
+    "back": {
+      "bn": "বোলজম্যান ধ্রুবক হলো মোলার গ্যাস ধ্রুবক (R) এবং অ্যাভোগাড্রো সংখ্যার (N_A) অনুপাত ($$k = R/N_A$$)। এটি একটি অণুর গড় গতিশক্তিকে তাপমাত্রার সাথে সম্পর্কিত করে।",
+      "en": "The Boltzmann constant is the ratio of the molar gas constant (R) to the Avogadro number (N_A) ($$k = R/N_A$$). It relates the average kinetic energy of a single molecule to temperature."
+    }
+  },
+  {
+    "id": "ktg-fc9",
+    "topicId": "kinetic-theory-of-gases",
+    "front": {
+      "bn": "একই তাপমাত্রায়, হাইড্রোজেন ও অক্সিজেন অণুর মধ্যে কোনটির গড় গতিশক্তি বেশি?",
+      "en": "At the same temperature, which molecule has higher average kinetic energy: hydrogen or oxygen?"
+    },
+    "back": {
+      "bn": "একই তাপমাত্রায় সকল গ্যাসের অণুর গড় গতিশক্তি সমান। তাই হাইড্রোজেন ও অক্সিজেন অণুর গড় গতিশক্তি একই হবে।",
+      "en": "At the same temperature, the average kinetic energy of the molecules of all gases is the same. Therefore, the average kinetic energy of hydrogen and oxygen molecules will be identical."
+    }
+  },
+  {
+    "id": "ktg-fc10",
+    "topicId": "kinetic-theory-of-gases",
+    "front": {
+      "bn": "গড় বেগ (Average velocity) এর সূত্রটি কী?",
+      "en": "What is the formula for average velocity?"
+    },
+    "back": {
+      "bn": "গড় বেগের সূত্র হলো $$C_{AV} = \\sqrt{\\frac{8RT}{\\pi M}}$$।",
+      "en": "The formula for average velocity is $$C_{AV} = \\sqrt{\\frac{8RT}{\\pi M}}$$."
+    }
+  },
+  {
+    "id": "ktg-fc11",
+    "topicId": "kinetic-theory-of-gases",
+    "front": {
+      "bn": "সর্বাধিক সম্ভাব্য বেগ (Most probable velocity) এর সূত্রটি কী?",
+      "en": "What is the formula for most probable velocity?"
+    },
+    "back": {
+      "bn": "সর্বাধিক সম্ভাব্য বেগের সূত্র হলো $$C_{MP} = \\sqrt{\\frac{2RT}{M}}$$।",
+      "en": "The formula for most probable velocity is $$C_{MP} = \\sqrt{\\frac{2RT}{M}}$$."
+    }
+  },
+  {
+    "id": "ktg-fc12",
+    "topicId": "kinetic-theory-of-gases",
+    "front": {
+      "bn": "গ্যাসের অণুর সংঘর্ষগুলো কী ধরনের?",
+      "en": "What type of collisions do gas molecules undergo?"
+    },
+    "back": {
+      "bn": "গ্যাসের গতিতত্ত্ব অনুসারে, গ্যাসের অণুগুলোর নিজেদের মধ্যে এবং পাত্রের দেয়ালের সাথে সংঘর্ষগুলো পূর্ণ স্থিতিস্থাপক (perfectly elastic)।",
+      "en": "According to the kinetic theory of gases, the collisions of gas molecules with each other and with the container walls are perfectly elastic."
+    }
+  },
+  {
+    "id": "ktg-fc13",
+    "topicId": "kinetic-theory-of-gases",
+    "front": {
+      "bn": "তাপমাত্রা স্থির রেখে গ্যাসের চাপ দ্বিগুণ করলে RMS বেগের কী পরিবর্তন হবে?",
+      "en": "Keeping the temperature constant, if the pressure of a gas is doubled, what will be the change in its RMS velocity?"
+    },
+    "back": {
+      "bn": "RMS বেগ শুধুমাত্র তাপমাত্রার উপর নির্ভরশীল। তাপমাত্রা স্থির থাকলে চাপ পরিবর্তনের সাথে RMS বেগের কোনো পরিবর্তন হবে না।",
+      "en": "RMS velocity is dependent only on temperature. If the temperature is constant, there will be no change in RMS velocity with a change in pressure."
+    }
+  },
+  {
+    "id": "ktg-fc14",
+    "topicId": "kinetic-theory-of-gases",
+    "front": {
+      "bn": "একটি একক গ্যাস অণুর গতিশক্তির সূত্র কী?",
+      "en": "What is the formula for the kinetic energy of a single gas molecule?"
+    },
+    "back": {
+      "bn": "একটি একক গ্যাস অণুর গতিশক্তির সূত্র হলো $$E_k = \\frac{3}{2}kT$$, যেখানে k হলো বোলজম্যান ধ্রুবক।",
+      "en": "The formula for the kinetic energy of a single gas molecule is $$E_k = \\frac{3}{2}kT$$, where k is the Boltzmann constant."
+    }
+  },
+  {
+    "id": "ktg-fc15",
+    "topicId": "kinetic-theory-of-gases",
+    "front": {
+      "bn": "কোন শর্তে গ্যাসের গতিশক্তি শূন্য হয়?",
+      "en": "Under what condition does the kinetic energy of a gas become zero?"
+    },
+    "back": {
+      "bn": "গ্যাসের গতিশক্তি পরম শূন্য তাপমাত্রায় (0 K) তাত্ত্বিকভাবে শূন্য হয়, কারণ তখন অণুগুলোর গতি সম্পূর্ণরূপে থেমে যায় বলে ধরে নেওয়া হয়।",
+      "en": "The kinetic energy of a gas theoretically becomes zero at absolute zero temperature (0 K), as molecular motion is assumed to cease completely."
+    }
+  },
+  {
+    "id": "ivr-fc1",
+    "topicId": "ideal-vs-real-gas",
+    "front": {
+      "bn": "বাস্তব গ্যাস কাকে বলে?",
+      "en": "What is a real gas?"
+    },
+    "back": {
+      "bn": "প্রকৃতিতে প্রাপ্ত সকল গ্যাস, যারা শুধুমাত্র উচ্চ তাপমাত্রা ও নিম্ন চাপে আদর্শ গ্যাসের ন্যায় আচরণ করে, তাদের বাস্তব গ্যাস বলে।",
+      "en": "All gases found in nature, which behave like ideal gases only at high temperature and low pressure, are called real gases."
+    }
+  },
+  {
+    "id": "ivr-fc2",
+    "topicId": "ideal-vs-real-gas",
+    "front": {
+      "bn": "বাস্তব গ্যাস কোন দুটি কারণে আদর্শ আচরণ থেকে বিচ্যুত হয়?",
+      "en": "For what two reasons do real gases deviate from ideal behavior?"
+    },
+    "back": {
+      "bn": "১. অণুগুলোর নিজস্ব আয়তন আছে (আয়তন ত্রুটি)। ২. অণুগুলোর মধ্যে আন্তঃআণবিক আকর্ষণ বল আছে (চাপ ত্রুটি)।",
+      "en": "1. Molecules have their own volume (Volume error). 2. There are intermolecular forces of attraction between molecules (Pressure error)."
+    }
+  },
+  {
+    "id": "ivr-fc3",
+    "topicId": "ideal-vs-real-gas",
+    "front": {
+      "bn": "বাস্তব গ্যাসের জন্য ভ্যান ডার ওয়ালস সমীকরণটি কী?",
+      "en": "What is the van der Waals equation for real gases?"
+    },
+    "back": {
+      "bn": "n মোল গ্যাসের জন্য সমীকরণটি হলো: $$\\left(P + \\frac{n^2a}{V^2}\\right)(V - nb) = nRT$$।",
+      "en": "The equation for n moles of a gas is: $$\\left(P + \\frac{n^2a}{V^2}\\right)(V - nb) = nRT$$."
+    }
+  },
+  {
+    "id": "ivr-fc4",
+    "topicId": "ideal-vs-real-gas",
+    "front": {
+      "bn": "ভ্যান ডার ওয়ালস ধ্রুবক 'a' কী নির্দেশ করে?",
+      "en": "What does the van der Waals constant 'a' signify?"
+    },
+    "back": {
+      "bn": "ধ্রুবক 'a' গ্যাসের অণুগুলোর মধ্যেকার আন্তঃআণবিক আকর্ষণ বলের মান নির্দেশ করে।",
+      "en": "The constant 'a' signifies the magnitude of the intermolecular forces of attraction between gas molecules."
+    }
+  },
+  {
+    "id": "ivr-fc5",
+    "topicId": "ideal-vs-real-gas",
+    "front": {
+      "bn": "ভ্যান ডার ওয়ালস ধ্রুবক 'b' কী নির্দেশ করে?",
+      "en": "What does the van der Waals constant 'b' signify?"
+    },
+    "back": {
+      "bn": "ধ্রুবক 'b' গ্যাসের অণুগুলোর দ্বারা দখলকৃত কার্যকর আয়তন বা বর্জনীয় আয়তন নির্দেশ করে।",
+      "en": "The constant 'b' signifies the effective volume or excluded volume occupied by the gas molecules."
+    }
+  },
+  {
+    "id": "ivr-fc6",
+    "topicId": "ideal-vs-real-gas",
+    "front": {
+      "bn": "সংকোচনশীলতা গুণক (Compressibility Factor), Z কাকে বলে?",
+      "en": "What is the Compressibility Factor, Z?"
+    },
+    "back": {
+      "bn": "কোনো বাস্তব গ্যাস আদর্শ আচরণ থেকে কতটা বিচ্যুত হয় তার পরিমাপকে সংকোচনশীলতা গুণক, Z বলে। $$Z = \\frac{PV}{nRT}$$।",
+      "en": "The measure of how much a real gas deviates from ideal behavior is called the compressibility factor, Z. $$Z = \\frac{PV}{nRT}$$."
+    }
+  },
+  {
+    "id": "ivr-fc7",
+    "topicId": "ideal-vs-real-gas",
+    "front": {
+      "bn": "আদর্শ গ্যাসের জন্য Z এর মান কত?",
+      "en": "What is the value of Z for an ideal gas?"
+    },
+    "back": {
+      "bn": "আদর্শ গ্যাসের জন্য Z এর মান সর্বদা 1 হয়।",
+      "en": "For an ideal gas, the value of Z is always 1."
+    }
+  },
+  {
+    "id": "ivr-fc8",
+    "topicId": "ideal-vs-real-gas",
+    "front": {
+      "bn": "যদি Z < 1 হয়, তবে এটি কী নির্দেশ করে?",
+      "en": "If Z < 1, what does it signify?"
+    },
+    "back": {
+      "bn": "Z < 1 নির্দেশ করে যে গ্যাসের অণুগুলোর মধ্যে আকর্ষণ বল প্রভাবশালী এবং গ্যাসটি আদর্শ গ্যাসের চেয়ে সহজে সংকুচিত হয়।",
+      "en": "Z < 1 signifies that attractive forces between gas molecules are dominant, and the gas is easier to compress than an ideal gas."
+    }
+  },
+  {
+    "id": "ivr-fc9",
+    "topicId": "ideal-vs-real-gas",
+    "front": {
+      "bn": "যদি Z > 1 হয়, তবে এটি কী নির্দেশ করে?",
+      "en": "If Z > 1, what does it signify?"
+    },
+    "back": {
+      "bn": "Z > 1 নির্দেশ করে যে গ্যাসের অণুগুলোর মধ্যে বিকর্ষণ বল বা আণবিক আয়তন প্রভাবশালী এবং গ্যাসটি আদর্শ গ্যাসের চেয়ে সংকোচন করা কঠিন।",
+      "en": "Z > 1 signifies that repulsive forces or molecular volume are dominant, and the gas is harder to compress than an ideal gas."
+    }
+  },
+  {
+    "id": "ivr-fc10",
+    "topicId": "ideal-vs-real-gas",
+    "front": {
+      "bn": "কোন শর্তে একটি বাস্তব গ্যাস আদর্শ গ্যাসের মতো আচরণ করে?",
+      "en": "Under what conditions does a real gas behave like an ideal gas?"
+    },
+    "back": {
+      "bn": "উচ্চ তাপমাত্রা এবং অত্যন্ত নিম্ন চাপে একটি বাস্তব গ্যাস আদর্শ গ্যাসের মতো আচরণ করে।",
+      "en": "A real gas behaves like an ideal gas at high temperature and very low pressure."
+    }
+  },
+  {
+    "id": "ivr-fc11",
+    "topicId": "ideal-vs-real-gas",
+    "front": {
+      "bn": "যে গ্যাসের 'a' এর মান বেশি, তাকে সহজে তরল করা যায় কেন?",
+      "en": "Why can a gas with a high value of 'a' be liquefied easily?"
+    },
+    "back": {
+      "bn": "উচ্চ 'a' মান শক্তিশালী আন্তঃআণবিক আকর্ষণ বল নির্দেশ করে। এই আকর্ষণ বল অণুগুলোকে কাছাকাছি আনতে সাহায্য করে, তাই গ্যাসটিকে সহজে তরল করা যায়।",
+      "en": "A high value of 'a' indicates strong intermolecular forces of attraction. This attraction helps to bring the molecules closer, so the gas can be liquefied easily."
+    }
+  },
+  {
+    "id": "ivr-fc12",
+    "topicId": "ideal-vs-real-gas",
+    "front": {
+      "bn": "ভ্যান ডার ওয়ালস সমীকরণে চাপ সংশোধন পদটি কী?",
+      "en": "What is the pressure correction term in the van der Waals equation?"
+    },
+    "back": {
+      "bn": "চাপ সংশোধন পদটি হলো $$\\frac{n^2a}{V^2}$$। এটি আন্তঃআণবিক আকর্ষণ বলের কারণে চাপের ঘাটতি পূরণ করে।",
+      "en": "The pressure correction term is $$\\frac{n^2a}{V^2}$$. It compensates for the pressure deficit caused by intermolecular forces."
+    }
+  },
+  {
+    "id": "ivr-fc13",
+    "topicId": "ideal-vs-real-gas",
+    "front": {
+      "bn": "ভ্যান ডার ওয়ালস সমীকরণে আয়তন সংশোধন পদটি কী?",
+      "en": "What is the volume correction term in the van der Waals equation?"
+    },
+    "back": {
+      "bn": "আয়তন সংশোধন পদটি হলো 'nb'। এটি অণুগুলোর নিজস্ব আয়তনের কারণে কার্যকর আয়তন থেকে বাদ যায়।",
+      "en": "The volume correction term is 'nb'. It is subtracted from the effective volume due to the volume of the molecules themselves."
+    }
+  },
+  {
+    "id": "ivr-fc14",
+    "topicId": "ideal-vs-real-gas",
+    "front": {
+      "bn": "হাইড্রোজেন এবং হিলিয়ামের Z এর মান সাধারণত 1 এর চেয়ে বেশি থাকে কেন?",
+      "en": "Why is the value of Z for hydrogen and helium generally greater than 1?"
+    },
+    "back": {
+      "bn": "এই গ্যাসগুলোর অণু খুব ছোট এবং এদের মধ্যে আকর্ষণ বল অত্যন্ত দুর্বল ('a' এর মান কম)। ফলে, আণবিক আয়তনের প্রভাব (বিকর্ষণ) আকর্ষণ বলের চেয়ে বেশি হয়, তাই Z > 1 হয়।",
+      "en": "The molecules of these gases are very small and the attractive forces between them are extremely weak (low 'a' value). As a result, the effect of molecular volume (repulsion) dominates over attraction, so Z > 1."
+    }
+  },
+  {
+    "id": "ivr-fc15",
+    "topicId": "ideal-vs-real-gas",
+    "front": {
+      "bn": "NH₃ গ্যাসের Z এর মান নিম্ন চাপে 1 এর চেয়ে কম হয় কেন?",
+      "en": "Why is the value of Z for NH₃ gas less than 1 at low pressures?"
+    },
+    "back": {
+      "bn": "NH₃ একটি পোলার অণু এবং এর মধ্যে শক্তিশালী আন্তঃআণবিক আকর্ষণ বল ('a' এর মান বেশি) রয়েছে। নিম্ন চাপে, এই আকর্ষণ বল বিকর্ষণ বলের চেয়ে প্রভাবশালী হয়, ফলে Z < 1 হয়।",
+      "en": "NH₃ is a polar molecule and has strong intermolecular forces (high 'a' value). At low pressures, this attractive force dominates over repulsive forces, resulting in Z < 1."
+    }
+  },
+  {
+    "id": "abt-fc1",
+    "topicId": "acids-and-bases-theory",
+    "front": {
+      "bn": "আরহেনিয়াসের মতবাদ অনুসারে এসিড কাকে বলে?",
+      "en": "According to Arrhenius theory, what is an acid?"
+    },
+    "back": {
+      "bn": "যেসব পদার্থ জলীয় দ্রবণে বিয়োজিত হয়ে হাইড্রোজেন আয়ন (H⁺) দান করে, তাদের এসিড বলে। যেমন: HCl।",
+      "en": "Substances that dissociate in aqueous solution to give hydrogen ions (H⁺) are called acids. Example: HCl."
+    }
+  },
+  {
+    "id": "abt-fc2",
+    "topicId": "acids-and-bases-theory",
+    "front": {
+      "bn": "ব্রনস্টেড-লাউরি মতবাদ অনুসারে ক্ষারক কাকে বলে?",
+      "en": "According to Brønsted-Lowry theory, what is a base?"
+    },
+    "back": {
+      "bn": "যেসব পদার্থ বা আয়ন অন্য পদার্থ থেকে প্রোটন (H⁺) গ্রহণ করে, তাদের ক্ষারক বলে। যেমন: NH₃, Cl⁻।",
+      "en": "Substances or ions that accept a proton (H⁺) from another substance are called bases. Example: NH₃, Cl⁻."
+    }
+  },
+  {
+    "id": "abt-fc3",
+    "topicId": "acids-and-bases-theory",
+    "front": {
+      "bn": "লুইস মতবাদ অনুসারে এসিড কাকে বলে? উদাহরণ দাও।",
+      "en": "According to Lewis theory, what is an acid? Give an example."
+    },
+    "back": {
+      "bn": "যেসব পদার্থ বা আয়ন অন্য পদার্থ থেকে একজোড়া ইলেকট্রন গ্রহণ করতে পারে, তাদের লুইস এসিড বলে। যেমন: BF₃, Al³⁺।",
+      "en": "Substances or ions that can accept a pair of electrons from another substance are called Lewis acids. Example: BF₃, Al³⁺."
+    }
+  },
+  {
+    "id": "abt-fc4",
+    "topicId": "acids-and-bases-theory",
+    "front": {
+      "bn": "অনুবন্ধী এসিড-ক্ষারক যুগল কী?",
+      "en": "What is a conjugate acid-base pair?"
+    },
+    "back": {
+      "bn": "একটি ব্রনস্টেড-লাউরি এসিড ও তার থেকে একটি প্রোটন অপসারণের পর সৃষ্ট ক্ষারককে একত্রে অনুবন্ধী এসিড-ক্ষারক যুগল বলে। এদের মধ্যে কেবল একটি প্রোটনের (H⁺) পার্থক্য থাকে।",
+      "en": "A Brønsted-Lowry acid and the base formed after it donates a proton are together called a conjugate acid-base pair. They differ only by one proton (H⁺)."
+    }
+  },
+  {
+    "id": "abt-fc5",
+    "topicId": "acids-and-bases-theory",
+    "front": {
+      "bn": "HCO₃⁻ (বাইকার্বনেট) এর অনুবন্ধী এসিড কী?",
+      "en": "What is the conjugate acid of HCO₃⁻ (bicarbonate)?"
+    },
+    "back": {
+      "bn": "HCO₃⁻ এর অনুবন্ধী এসিড হলো H₂CO₃ (কার্বনিক এসিড), যা একটি প্রোটন গ্রহণের মাধ্যমে গঠিত হয়।",
+      "en": "The conjugate acid of HCO₃⁻ is H₂CO₃ (carbonic acid), which is formed by accepting a proton."
+    }
+  },
+  {
+    "id": "abt-fc6",
+    "topicId": "acids-and-bases-theory",
+    "front": {
+      "bn": "H₂SO₄ (সালফিউরিক এসিড) এর অনুবন্ধী ক্ষারক কী?",
+      "en": "What is the conjugate base of H₂SO₄ (sulfuric acid)?"
+    },
+    "back": {
+      "bn": "H₂SO₄ এর অনুবন্ধী ক্ষারক হলো HSO₄⁻ (বাইসালফেট আয়ন), যা একটি প্রোটন দানের মাধ্যমে গঠিত হয়।",
+      "en": "The conjugate base of H₂SO₄ is HSO₄⁻ (bisulfate ion), which is formed by donating a proton."
+    }
+  },
+  {
+    "id": "abt-fc7",
+    "topicId": "acids-and-bases-theory",
+    "front": {
+      "bn": "অ্যামফোটেরিক বা উভধর্মী পদার্থ কাকে বলে? উদাহরণ দাও।",
+      "en": "What is an amphoteric substance? Give an example."
+    },
+    "back": {
+      "bn": "যেসব পদার্থ এসিড ও ক্ষারক উভয়ের সাথেই বিক্রিয়া করে (অর্থাৎ এসিড ও ক্ষারক উভয়রূপে কাজ করতে পারে), তাদের উভধর্মী পদার্থ বলে। যেমন: পানি (H₂O), HCO₃⁻।",
+      "en": "Substances that can react with both acids and bases (i.e., can act as both an acid and a base) are called amphoteric substances. Example: Water (H₂O), HCO₃⁻."
+    }
+  },
+  {
+    "id": "abt-fc8",
+    "topicId": "acids-and-bases-theory",
+    "front": {
+      "bn": "BF₃ কেন একটি লুইস এসিড?",
+      "en": "Why is BF₃ a Lewis acid?"
+    },
+    "back": {
+      "bn": "BF₃ অণুতে কেন্দ্রীয় বোরন পরমাণুর অষ্টক অপূর্ণ থাকে (6টি ইলেকট্রন), তাই এটি একজোড়া ইলেকট্রন গ্রহণ করতে পারে। একারণে এটি একটি লুইস এসিড।",
+      "en": "In the BF₃ molecule, the central boron atom has an incomplete octet (6 electrons), so it can accept a pair of electrons. For this reason, it is a Lewis acid."
+    }
+  },
+  {
+    "id": "abt-fc9",
+    "topicId": "acids-and-bases-theory",
+    "front": {
+      "bn": "NH₃ কেন একটি লুইস ক্ষারক?",
+      "en": "Why is NH₃ a Lewis base?"
+    },
+    "back": {
+      "bn": "NH₃ অণুতে কেন্দ্রীয় নাইট্রোজেন পরমাণুর একজোড়া মুক্তজোড় ইলেকট্রন (lone pair) আছে যা এটি অন্যকে দান করতে পারে। একারণে এটি একটি লুইস ক্ষারক।",
+      "en": "In the NH₃ molecule, the central nitrogen atom has a pair of lone pair electrons that it can donate to others. For this reason, it is a Lewis base."
+    }
+  },
+  {
+    "id": "abt-fc10",
+    "topicId": "acids-and-bases-theory",
+    "front": {
+      "bn": "একটি শক্তিশালী এসিডের অনুবন্ধী ক্ষারক শক্তিশালী না দুর্বল?",
+      "en": "Is the conjugate base of a strong acid strong or weak?"
+    },
+    "back": {
+      "bn": "একটি শক্তিশালী এসিডের অনুবন্ধী ক্ষারক সর্বদা দুর্বল হয়।",
+      "en": "The conjugate base of a strong acid is always weak."
+    }
+  },
+  {
+    "id": "abt-fc11",
+    "topicId": "acids-and-bases-theory",
+    "front": {
+      "bn": "একটি দুর্বল এসিডের অনুবন্ধী ক্ষারক শক্তিশালী না দুর্বল?",
+      "en": "Is the conjugate base of a weak acid strong or weak?"
+    },
+    "back": {
+      "bn": "একটি দুর্বল এসিডের অনুবন্ধী ক্ষারক তুলনামূলকভাবে শক্তিশালী হয়।",
+      "en": "The conjugate base of a weak acid is relatively strong."
+    }
+  },
+  {
+    "id": "abt-fc12",
+    "topicId": "acids-and-bases-theory",
+    "front": {
+      "bn": "সকল ক্যাটায়ন কি লুইস এসিড? উদাহরণ দাও।",
+      "en": "Are all cations Lewis acids? Give an example."
+    },
+    "back": {
+      "bn": "হ্যাঁ, সকল ক্যাটায়ন (ধনাত্মক আয়ন) ইলেকট্রন গ্রহণ করতে পারে, তাই তারা লুইস এসিড। যেমন: H⁺, Cu²⁺, Al³⁺।",
+      "en": "Yes, all cations (positive ions) can accept electrons, so they are Lewis acids. Example: H⁺, Cu²⁺, Al³⁺."
+    }
+  },
+  {
+    "id": "abt-fc13",
+    "topicId": "acids-and-bases-theory",
+    "front": {
+      "bn": "আরহেনিয়াস মতবাদের একটি সীমাবদ্ধতা কী?",
+      "en": "What is a limitation of the Arrhenius theory?"
+    },
+    "back": {
+      "bn": "এই মতবাদ শুধুমাত্র জলীয় দ্রবণের মধ্যে সীমাবদ্ধ এবং গ্যাসীয় বা অ-জলীয় মাধ্যমে এসিড-ক্ষারক ব্যাখ্যা করতে পারে না। যেমন, গ্যাসীয় NH₃ এর ক্ষারকীয় ধর্ম ব্যাখ্যা করতে পারে না।",
+      "en": "This theory is limited only to aqueous solutions and cannot explain acids and bases in gaseous or non-aqueous media. For example, it cannot explain the basic nature of gaseous NH₃."
+    }
+  },
+  {
+    "id": "abt-fc14",
+    "topicId": "acids-and-bases-theory",
+    "front": {
+      "bn": "কোন মতবাদটি এসিড-ক্ষারকের সবচেয়ে সার্বজনীন ধারণা দেয়?",
+      "en": "Which theory provides the most universal concept of acids and bases?"
+    },
+    "back": {
+      "bn": "লুইস মতবাদ এসিড-ক্ষারকের সবচেয়ে সার্বজনীন বা ব্যাপক ধারণা প্রদান করে।",
+      "en": "The Lewis theory provides the most universal or comprehensive concept of acids and bases."
+    }
+  },
+  {
+    "id": "abt-fc15",
+    "topicId": "acids-and-bases-theory",
+    "front": {
+      "bn": "H₂O + NH₃ ⇌ NH₄⁺ + OH⁻ বিক্রিয়ায় অনুবন্ধী যুগলগুলো শনাক্ত কর।",
+      "en": "Identify the conjugate pairs in the reaction H₂O + NH₃ ⇌ NH₄⁺ + OH⁻."
+    },
+    "back": {
+      "bn": "এখানে দুটি অনুবন্ধী যুগল হলো: (এসিড₁/ক্ষারক₁) H₂O/OH⁻ এবং (ক্ষারক₂/এসিড₂) NH₃/NH₄⁺।",
+      "en": "The two conjugate pairs here are: (Acid₁/Base₁) H₂O/OH⁻ and (Base₂/Acid₂) NH₃/NH₄⁺."
+    }
+  },
+  {
+    "id": "wps-fc1",
+    "topicId": "water-purity-standards",
+    "front": {
+      "bn": "DO কী? এর পূর্ণরূপ কী?",
+      "en": "What is DO? What is its full form?"
+    },
+    "back": {
+      "bn": "DO হলো পানিতে দ্রবীভূত অক্সিজেনের পরিমাণ। এর পূর্ণরূপ হলো Dissolved Oxygen (দ্রবীভূত অক্সিজেন)।",
+      "en": "DO is the amount of oxygen dissolved in water. Its full form is Dissolved Oxygen."
+    }
+  },
+  {
+    "id": "wps-fc2",
+    "topicId": "water-purity-standards",
+    "front": {
+      "bn": "পানিতে DO এর পরিমাণ বেশি থাকা ভালো না কম থাকা ভালো?",
+      "en": "Is it better to have a higher or lower amount of DO in water?"
+    },
+    "back": {
+      "bn": "পানিতে DO এর পরিমাণ বেশি থাকা ভালো। উচ্চ DO ভালো মানের পানি এবং জলজ প্রাণের প্রাচুর্য নির্দেশ করে।",
+      "en": "It is better to have a higher amount of DO in water. High DO indicates good quality water and supports abundant aquatic life."
+    }
+  },
+  {
+    "id": "wps-fc3",
+    "topicId": "water-purity-standards",
+    "front": {
+      "bn": "BOD কী? এর পূর্ণরূপ কী?",
+      "en": "What is BOD? What is its full form?"
+    },
+    "back": {
+      "bn": "BOD হলো পানিতে উপস্থিত পচনশীল জৈব দূষককে ভাঙতে অণুজীবের প্রয়োজনীয় অক্সিজেনের পরিমাণ। এর পূর্ণরূপ হলো Biochemical Oxygen Demand।",
+      "en": "BOD is the amount of oxygen required by microorganisms to break down biodegradable organic pollutants in water. Its full form is Biochemical Oxygen Demand."
+    }
+  },
+  {
+    "id": "wps-fc4",
+    "topicId": "water-purity-standards",
+    "front": {
+      "bn": "উচ্চ BOD মান কী নির্দেশ করে?",
+      "en": "What does a high BOD value indicate?"
+    },
+    "back": {
+      "bn": "উচ্চ BOD মান নির্দেশ করে যে পানিতে প্রচুর পরিমাণে জৈব দূষক রয়েছে, অর্থাৎ পানিটি сильно দূষিত।",
+      "en": "A high BOD value indicates that there is a large amount of organic pollutants in the water, meaning the water is highly polluted."
+    }
+  },
+  {
+    "id": "wps-fc5",
+    "topicId": "water-purity-standards",
+    "front": {
+      "bn": "COD কী? এর পূর্ণরূপ কী?",
+      "en": "What is COD? What is its full form?"
+    },
+    "back": {
+      "bn": "COD হলো পানিতে উপস্থিত সকল জৈব ও অজৈব দূষককে রাসায়নিকভাবে জারিত করতে প্রয়োজনীয় অক্সিজেনের পরিমাণ। এর পূর্ণরূপ হলো Chemical Oxygen Demand।",
+      "en": "COD is the amount of oxygen required to chemically oxidize all organic and inorganic pollutants present in water. Its full form is Chemical Oxygen Demand."
+    }
+  },
+  {
+    "id": "wps-fc6",
+    "topicId": "water-purity-standards",
+    "front": {
+      "bn": "BOD এবং COD এর মধ্যে কোনটি সর্বদা বেশি হয় এবং কেন?",
+      "en": "Which one is always higher between BOD and COD, and why?"
+    },
+    "back": {
+      "bn": "যেকোনো পানির নমুনার জন্য COD এর মান সর্বদা BOD এর চেয়ে বেশি হয়। কারণ COD দ্বারা পচনশীল ও অপচনশীল উভয় প্রকার দূষক জারিত হয়, কিন্তু BOD দ্বারা শুধু পচনশীল দূষক জারিত হয়।",
+      "en": "For any water sample, the value of COD is always higher than BOD. This is because COD oxidizes both biodegradable and non-biodegradable pollutants, whereas BOD only oxidizes biodegradable pollutants."
+    }
+  },
+  {
+    "id": "wps-fc7",
+    "topicId": "water-purity-standards",
+    "front": {
+      "bn": "পানীয় জলের জন্য pH এর আদর্শ সীমা কত?",
+      "en": "What is the ideal range of pH for drinking water?"
+    },
+    "back": {
+      "bn": "পানীয় জলের জন্য pH এর আদর্শ সীমা হলো 6.5 থেকে 8.5।",
+      "en": "The ideal range of pH for drinking water is 6.5 to 8.5."
+    }
+  },
+  {
+    "id": "wps-fc8",
+    "topicId": "water-purity-standards",
+    "front": {
+      "bn": "TDS কী? এর পূর্ণরূপ কী?",
+      "en": "What is TDS? What is its full form?"
+    },
+    "back": {
+      "bn": "TDS হলো পানিতে দ্রবীভূত মোট কঠিন পদার্থের পরিমাণ। এর পূর্ণরূপ হলো Total Dissolved Solids।",
+      "en": "TDS is the total amount of solid substances dissolved in water. Its full form is Total Dissolved Solids."
+    }
+  },
+  {
+    "id": "wps-fc9",
+    "topicId": "water-purity-standards",
+    "front": {
+      "bn": "পানীয় জলের জন্য TDS এর সহনীয় মাত্রা কত?",
+      "en": "What is the acceptable limit of TDS for drinking water?"
+    },
+    "back": {
+      "bn": "বিশ্ব স্বাস্থ্য সংস্থা (WHO) অনুযায়ী, পানীয় জলের জন্য TDS এর সহনীয় মাত্রা 500 ppm (parts per million) এর কম হওয়া উচিত।",
+      "en": "According to the World Health Organization (WHO), the acceptable limit of TDS for drinking water should be less than 500 ppm (parts per million)."
+    }
+  },
+  {
+    "id": "wps-fc10",
+    "topicId": "water-purity-standards",
+    "front": {
+      "bn": "পানির ক্ষরতা (Hardness) বলতে কী বোঝায়?",
+      "en": "What is meant by water hardness?"
+    },
+    "back": {
+      "bn": "পানির ক্ষরতা বলতে পানিতে দ্রবীভূত ক্যালসিয়াম (Ca²⁺) এবং ম্যাগনেসিয়াম (Mg²⁺) এর লবণের উপস্থিতি বোঝায়, যা সাবানের সাথে সহজে ফেনা তৈরিতে বাধা দেয়।",
+      "en": "Water hardness refers to the presence of dissolved salts of calcium (Ca²⁺) and magnesium (Mg²⁺) in water, which prevents soap from lathering easily."
+    }
+  },
+  {
+    "id": "wps-fc11",
+    "topicId": "water-purity-standards",
+    "front": {
+      "bn": "পানির অস্থায়ী ক্ষরতার জন্য দায়ী আয়ন কোনটি?",
+      "en": "Which ion is responsible for the temporary hardness of water?"
+    },
+    "back": {
+      "bn": "পানির অস্থায়ী ক্ষরতার জন্য প্রধানত বাইকার্বনেট (HCO₃⁻) আয়ন দায়ী।",
+      "en": "The bicarbonate (HCO₃⁻) ion is primarily responsible for the temporary hardness of water."
+    }
+  },
+  {
+    "id": "wps-fc12",
+    "topicId": "water-purity-standards",
+    "front": {
+      "bn": "পানির স্থায়ী ক্ষরতার জন্য দায়ী আয়নগুলো কী কী?",
+      "en": "What are the ions responsible for the permanent hardness of water?"
+    },
+    "back": {
+      "bn": "পানির স্থায়ী ক্ষরতার জন্য প্রধানত ক্লোরাইড (Cl⁻) এবং সালফেট (SO₄²⁻) আয়ন দায়ী।",
+      "en": "Chloride (Cl⁻) and sulfate (SO₄²⁻) ions are primarily responsible for the permanent hardness of water."
+    }
+  },
+  {
+    "id": "wps-fc13",
+    "topicId": "water-purity-standards",
+    "front": {
+      "bn": "কীভাবে পানির অস্থায়ী ক্ষরতা দূর করা যায়?",
+      "en": "How can the temporary hardness of water be removed?"
+    },
+    "back": {
+      "bn": "পানিকে ফুটিয়ে (boiling) অস্থায়ী ক্ষরতা দূর করা যায়। ফোটানোর ফলে দ্রবীভূত বাইকার্বনেটগুলো অদ্রবণীয় কার্বনেট হিসেবে অধঃক্ষিপ্ত হয়।",
+      "en": "Temporary hardness can be removed by boiling the water. Boiling causes the dissolved bicarbonates to precipitate as insoluble carbonates."
+    }
+  },
+  {
+    "id": "wps-fc14",
+    "topicId": "water-purity-standards",
+    "front": {
+      "bn": "ppm এককের অর্থ কী?",
+      "en": "What does the unit ppm mean?"
+    },
+    "back": {
+      "bn": "ppm মানে হলো 'parts per million' বা 'প্রতি দশ লক্ষে এক ভাগ'। এটি ঘনত্বের একটি একক, যা প্রায় mg/L এর সমান।",
+      "en": "ppm means 'parts per million'. It is a unit of concentration, approximately equal to mg/L."
+    }
+  },
+  {
+    "id": "wps-fc15",
+    "topicId": "water-purity-standards",
+    "front": {
+      "bn": "এসিড বৃষ্টি কী এবং এটি পানির pH কীভাবে পরিবর্তন করে?",
+      "en": "What is acid rain and how does it change the pH of water?"
+    },
+    "back": {
+      "bn": "বায়ুমণ্ডলের সালফার ডাইঅক্সাইড ও নাইট্রোজেন অক্সাইড বৃষ্টির পানির সাথে মিশে যে এসিড তৈরি করে, তাই এসিড বৃষ্টি। এটি জলাশয়ের পানির pH কমিয়ে দেয়, অর্থাৎ পানিকে আরও অম্লীয় করে তোলে।",
+      "en": "Acid rain is the acid formed when atmospheric sulfur dioxide and nitrogen oxides mix with rainwater. It lowers the pH of water bodies, making the water more acidic."
+    }
+  }
+]
