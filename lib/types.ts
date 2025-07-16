@@ -1,3 +1,6 @@
+// --- FIX: Import the specific Chart.js types ---
+import type { ChartData, ChartOptions } from "chart.js";
+
 // Base types for subjects and chapters remain the same
 export interface SubjectPaper {
   id: string;
@@ -33,13 +36,13 @@ export interface DefinitionBlockType extends BlockBase {
   type: "definition";
   text_bn: string;
   text_en: string;
-  examples: { bn: string; en: string }[]; // <-- Add this line
+  examples: { bn: string; en: string }[];
 }
 export interface ImportantBlockType extends BlockBase {
   type: "important";
   text_bn: string;
   text_en: string;
-  examples?: { bn: string; en: string }[]; // <-- ADD THIS LINE
+  examples?: { bn: string; en: string }[];
 }
 export interface SuccessBlockType extends BlockBase {
   type: "success";
@@ -68,13 +71,14 @@ export interface EquationBlockType extends BlockBase {
   equation: string;
   description_bn: string;
   description_en: string;
-  examples?: { bn: string; en: string }[]; // <-- ADD THIS LINE
+  examples?: { bn: string; en: string }[];
 }
 
 export interface GraphBlockType extends BlockBase {
   type: "graph";
-  data: any;
-  options: any;
+  // --- FIX: Replace 'any' with specific, safe types ---
+  data: ChartData<"line">;
+  options: ChartOptions<"line">;
 }
 
 // A union of all possible block types from your JSON
@@ -103,9 +107,9 @@ export interface NoteContent {
 // Update the FlashcardContent interface
 export interface FlashcardContent {
   id: string;
-  topicId: string; // <-- Add this
-  front: BilingualString; // <-- Change to BilingualString
-  back: BilingualString; // <-- Change to BilingualString
+  topicId: string;
+  front: BilingualString;
+  back: BilingualString;
 }
 
 export interface BilingualString {
@@ -116,17 +120,17 @@ export interface BilingualString {
 // Update the QuizQuestion interface
 export interface QuizQuestion {
   id: string;
-  topicId: string; // <-- ADD THIS LINE
+  topicId: string;
   type: "mcq" | "short-answer";
   question: BilingualString;
   options?: BilingualString[];
   correctAnswer: BilingualString;
-  explanation?: BilingualString; // <-- Make sure this line exists and has the question mark
+  explanation?: BilingualString;
 }
 // Update the QAContent interface
 export interface QAContent {
   id: string;
-  topicId: string; // <-- ADD THIS
-  question: BilingualString; // <-- UPDATE THIS
-  answer: BilingualString; // <-- UPDATE THIS
+  topicId: string;
+  question: BilingualString;
+  answer: BilingualString;
 }
