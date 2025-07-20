@@ -12,7 +12,7 @@ import {
 } from "@/components/ui/table";
 import { Button } from "@/components/ui/button";
 import { Checkbox } from "@/components/ui/checkbox";
-import { Trash2, GripVertical } from "lucide-react"; // Import the drag handle icon
+import { Trash2, GripVertical } from "lucide-react";
 import { startOfWeek, addDays, format } from "date-fns";
 import { cn } from "@/lib/utils";
 import React from "react";
@@ -22,6 +22,7 @@ import {
   DndContext,
   closestCenter,
   PointerSensor,
+  TouchSensor, // Import TouchSensor for mobile
   useSensor,
   useSensors,
   DragEndEvent,
@@ -34,8 +35,7 @@ import {
 } from "@dnd-kit/sortable";
 import { CSS } from "@dnd-kit/utilities";
 
-// --- A NEW COMPONENT TO MAKE EACH ROW SORTABLE ---
-// This contains the exact same styling and logic as your original row.
+// This SortableHabitRow component remains the same.
 const SortableHabitRow = ({
   habit,
   weekDays,
@@ -58,7 +58,6 @@ const SortableHabitRow = ({
     isDragging,
   } = useSortable({ id: habit.id });
 
-  // This applies the animation styles from dnd-kit
   const style = {
     transform: CSS.Transform.toString(transform),
     transition,
@@ -71,8 +70,11 @@ const SortableHabitRow = ({
     <TableRow ref={setNodeRef} style={style} key={habit.id}>
       <TableCell className="font-medium flex items-center justify-between">
         <div className="flex items-center gap-2">
-          {/* Drag Handle Icon */}
-          <span {...listeners} {...attributes} className="cursor-grab p-1">
+          <span
+            {...listeners}
+            {...attributes}
+            className="cursor-grab touch-none p-1" // Use touch-none for better compatibility
+          >
             <GripVertical className="h-5 w-5 text-muted-foreground" />
           </span>
           {habit.text}
@@ -93,7 +95,6 @@ const SortableHabitRow = ({
         return (
           <TableCell
             key={day.toISOString()}
-            // Your exact styling is preserved here
             className={cn("text-center", { "bg-muted": isToday })}
           >
             <Checkbox
@@ -108,7 +109,7 @@ const SortableHabitRow = ({
   );
 };
 
-// --- YOUR HABIT GRID COMPONENT, NOW WITH DND FUNCTIONALITY ---
+// Main component with the crucial sensor changes
 interface HabitGridProps {
   habits: Habit[];
   progress: DailyProgress;
@@ -124,9 +125,23 @@ export const HabitGrid = ({
   setHabits,
   setProgress,
 }: HabitGridProps) => {
+  // --- THE FIX IS HERE: SENSOR SETUP FOR BOTH MOUSE AND TOUCH ---
   const sensors = useSensors(
-    useSensor(PointerSensor, { activationConstraint: { distance: 8 } })
+    useSensor(PointerSensor, {
+      // For mouse: require a 10px drag before activating
+      activationConstraint: {
+        distance: 10,
+      },
+    }),
+    useSensor(TouchSensor, {
+      // For touch: require a 250ms press and hold before activating
+      activationConstraint: {
+        delay: 250,
+        tolerance: 5,
+      },
+    })
   );
+
   const todayFormatted = format(new Date(), "yyyy-MM-dd");
   const weekDays = Array.from({ length: 7 }).map((_, i) => {
     return addDays(startOfWeek(week, { weekStartsOn: 1 }), i);
@@ -153,7 +168,6 @@ export const HabitGrid = ({
     setProgress(newProgress);
   };
 
-  // Function to handle the reordering logic
   const handleDragEnd = (event: DragEndEvent) => {
     const { active, over } = event;
     if (over && active.id !== over.id) {
@@ -174,7 +188,6 @@ export const HabitGrid = ({
               return (
                 <TableHead
                   key={day.toISOString()}
-                  // Your exact styling is preserved here
                   className={cn("text-center", {
                     "bg-gray-300 rounded-t-lg": isToday,
                   })}
@@ -189,9 +202,8 @@ export const HabitGrid = ({
           </TableRow>
         </TableHeader>
 
-        {/* The DndContext and SortableContext wrap your table body */}
         <DndContext
-          sensors={sensors}
+          sensors={sensors} // Using the new, improved sensor configuration
           collisionDetection={closestCenter}
           onDragEnd={handleDragEnd}
         >
@@ -201,7 +213,6 @@ export const HabitGrid = ({
           >
             <TableBody>
               {habits.length > 0 ? (
-                // We now map over habits and render the new SortableHabitRow
                 habits.map((habit) => (
                   <SortableHabitRow
                     key={habit.id}
@@ -233,7 +244,6 @@ export const HabitGrid = ({
               return (
                 <TableCell
                   key={day.toISOString()}
-                  // Your exact styling is preserved here
                   className={cn("text-center font-bold text-lg", {
                     "bg-muted rounded-b-lg": isToday,
                   })}
