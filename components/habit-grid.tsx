@@ -1,6 +1,5 @@
 "use client";
 
-import { useState } from "react";
 import { Habit, DailyProgress } from "@/app/page"; // We'll update page.tsx to export these
 import {
   Table,

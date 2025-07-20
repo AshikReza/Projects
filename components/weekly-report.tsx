@@ -19,13 +19,19 @@ import {
 import { Habit, DailyProgress } from "@/app/page";
 import { format, startOfWeek, addDays } from "date-fns";
 
-// The custom tooltip for text is still needed for a clean look
+// --- THE FIX ---
+// 1. We create our own simple interface for the props.
+// This tells TypeScript exactly what to expect, solving the error.
 interface CustomTooltipProps {
   active?: boolean;
-  payload?: any[];
+  // We replace 'any[]' with a specific object shape that satisfies ESLint.
+  payload?: {
+    value: number;
+  }[];
   label?: string;
 }
 
+// 2. We use our new interface for the component's props.
 const CustomTooltip = ({ active, payload, label }: CustomTooltipProps) => {
   if (active && payload && payload.length) {
     return (
@@ -91,14 +97,11 @@ export const WeeklyReport = ({ habits, progress, week }: WeeklyReportProps) => {
               allowDecimals={false}
               domain={[0, totalHabits > 0 ? totalHabits : 5]}
             />
-
-            {/* --- THE FIX IS HERE --- */}
             <Tooltip
               // This is the crucial change. It disables the background cursor completely.
               cursor={false}
               content={<CustomTooltip />}
             />
-
             <Bar
               dataKey="score"
               fill="hsl(var(--primary))"

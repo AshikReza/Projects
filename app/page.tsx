@@ -13,7 +13,7 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog";
 import { ChevronLeft, ChevronRight, PlusCircle } from "lucide-react";
-import { addWeeks, subWeeks, format } from "date-fns";
+import { addWeeks, subWeeks } from "date-fns";
 
 // Export types so other components can use them
 export interface Habit {
