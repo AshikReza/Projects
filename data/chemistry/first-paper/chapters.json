@@ -39,6 +39,14 @@
       {
         "id": "ion-identification",
         "title": "Ion Identification (আয়ন শনাক্তকরণ)"
+      },
+      {
+        "id": "chemical-equilibrium",
+        "title": "Chemical Equilibrium Kp and Kc (রাসায়নিক সাম্যাবস্থা: Kp ও Kc)"
+      },
+      {
+        "id": "acid-base-equilibrium",
+        "title": "Acid Base Equilibrium (অ্যাসিড-ক্ষার সাম্যাবস্থা)"
       }
     ]
   },

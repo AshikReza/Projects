@@ -80,9 +80,60 @@
       {
         "type": "definition",
         "title": "বোরের পরমাণু মডেল (১৯১৩)",
-        "text_bn": "প্লাঙ্কের কোয়ান্টাম তত্ত্বের উপর ভিত্তি করে বোর এই মডেল দেন। এর মূল স্বীকার্যগুলো হলো: (১) ইলেকট্রনগুলো নির্দিষ্ট শক্তির বৃত্তাকার কক্ষপথে ঘোরে, যাদের শক্তিস্তর (Stationary Orbits) বলে। এই অবস্থায় এরা শক্তি শোষণ বা বিকিরণ করে না। (২) ইলেকট্রনের কৌণিক ভরবেগ (mvr) হবে $$h/2\\pi$$ এর পূর্ণসংখ্যক সরল গুণিতক, অর্থাৎ, $$mvr = \\frac{nh}{2\\pi}$$, যেখানে $$n = 1, 2, 3,...$$ (৩) যখন ইলেকট্রন এক শক্তিস্তর থেকে অন্য শক্তিস্তরে যায়, তখন নির্দিষ্ট পরিমাণ শক্তি (ফোটন) শোষিত বা বিকিরিত হয়, যার পরিমাণ $$\\Delta E = E_2 - E_1 = h\\nu$$।",
-        "text_en": "Based on Planck's quantum theory, Bohr proposed this model. Its main postulates are: (1) Electrons revolve in circular orbits of fixed energy called stationary orbits, during which they do not absorb or radiate energy. (2) The angular momentum (mvr) of an electron is an integral multiple of $$h/2\\pi$$, i.e., $$mvr = \\frac{nh}{2\\pi}$$, where $$n = 1, 2, 3,...$$ (3) When an electron transitions between energy levels, a specific amount of energy (photon) is absorbed or emitted, given by $$\\Delta E = E_2 - E_1 = h\\nu$$",
+        "text_bn": "প্লাঙ্কের কোয়ান্টাম তত্ত্বের উপর ভিত্তি করে বোর এই মডেল দেন। এর মূল স্বীকার্যগুলো হলো: (১) ইলেকট্রনগুলো নির্দিষ্ট শক্তির বৃত্তাকার কক্ষপথে ঘোরে, যাদের শক্তিস্তর (Stationary Orbits) বলে। এই অবস্থায় এরা শক্তি শোষণ বা বিকিরণ করে না। (২) ইলেকট্রনের কৌণিক ভরবেগ (mvr) হবে h/2π এর পূর্ণসংখ্যক সরল গুণিতক, অর্থাৎ, $$mvr = \\frac{nh}{2\\pi}$$, যেখানে n = 1, 2, 3,... (৩) যখন ইলেকট্রন এক শক্তিস্তর থেকে অন্য শক্তিস্তরে যায়, তখন নির্দিষ্ট পরিমাণ শক্তি (ফোটন) শোষিত বা বিকিরিত হয়, যার পরিমাণ $$\\Delta E = E_2 - E_1 = h\\nu$$।",
+        "text_en": "Based on Planck's quantum theory, Bohr proposed this model. Its main postulates are: (1) Electrons revolve in circular orbits of fixed energy called stationary orbits, during which they do not absorb or radiate energy. (2) The angular momentum (mvr) of an electron is an integral multiple of h/2π, i.e., $$mvr = \\frac{nh}{2\\pi}$$, where n = 1, 2, 3,... (3) When an electron transitions between energy levels, a specific amount of energy (photon) is absorbed or emitted, given by $$\\Delta E = E_2 - E_1 = h\\nu$$",
         "examples": []
+      },
+      {
+        "type": "equation",
+        "title": "বোর মডেল: ইলেকট্রনের বেগ, ব্যাসার্ধ ও শক্তির সূত্র (CGS ও SI)",
+        "equations": [
+          {
+            "system": "CGS",
+            "velocity": "$$V_n = \\frac{2\\pi e^2 Z}{nh}$$",
+            "radius": "$$r_n = \\frac{n^2 h^2}{4\\pi^2 m e^2 Z}$$",
+            "energy": "$$E_n = -\\frac{2\\pi^2 m Z^2 e^4}{n^2 h^2}$$"
+          },
+          {
+            "system": "SI",
+            "velocity": "$$V_n = \\frac{Z e^2}{2 n h \\epsilon_0}$$",
+            "radius": "$$r_n = \\frac{n^2 h^2 \\epsilon_0}{\\pi m Z e^2}$$",
+            "energy": "$$E_n = -\\frac{m e^4 Z^2}{8 n^2 h^2 \\epsilon_0^2}$$"
+          }
+        ],
+        "description_bn": "এখানে হাইড্রোজেন বা হাইড্রোজেন-সদৃশ পরমাণুর n-তম কক্ষপথে ঘূর্ণায়মান ইলেকট্রনের বেগ (Vn), ব্যাসার্ধ (rn) এবং শক্তির (En) রাশিমালা দেখানো হলো।",
+        "description_en": "Here are the formulas for the velocity (Vn), radius (rn), and energy (En) of an electron revolving in the n-th orbit of a hydrogen or hydrogen-like atom."
+      },
+      {
+        "type": "important_formula",
+        "title": "বোর মডেল: গাণিতিক সমস্যার জন্য শর্টকাট সূত্র",
+        "items": [
+          {
+            "bn": {
+              "label": "বেগ নির্ণয়:",
+              "formula": "$$V_n = 2.18 \\times 10^6 \\times \\frac{Z}{n} \\text{ m/s}$$"
+            }
+          },
+          {
+            "bn": {
+              "label": "ব্যাসার্ধ নির্ণয়:",
+              "formula": "$$r_n = 0.53 \\times \\frac{n^2}{Z} \\text{ Å} = 0.53 \\times 10^{-10} \\times \\frac{n^2}{Z} \\text{ m}$$"
+            }
+          },
+          {
+            "bn": {
+              "label": "শক্তি নির্ণয় (eV এককে):",
+              "formula": "$$E_n = -13.6 \\times \\frac{Z^2}{n^2} \\text{ eV}$$"
+            }
+          },
+          {
+            "bn": {
+              "label": "শক্তি নির্ণয় (Joule এককে):",
+              "formula": "$$E_n = -2.18 \\times 10^{-18} \\times \\frac{Z^2}{n^2} \\text{ J}$$"
+            }
+          }
+        ],
+        "note_bn": "বিশেষ দ্রষ্টব্য: শক্তির গাণিতিক সমস্যা সমাধানের ক্ষেত্রে, প্রথমে মূল সূত্র লিখে মান বসিয়ে হিসেব করে, এরপর শর্টকাট দিয়ে উত্তর যাচাই করা ভালো।"
       },
       {
         "type": "successes",
@@ -185,27 +236,27 @@
             "স্পিন (s)",
             "ইলেকট্রনের নিজ অক্ষের উপর ঘূর্ণন",
             "$$+1/2 (\\uparrow)$$ এবং $$-1/2 (\\downarrow)$$",
-            "একটি অরবিটালে থাকা দুটি ইলেকট্রনের $$s$$-এর মান অবশ্যই বিপরীত হবে।"
+            "একটি অরবিটালে থাকা দুটি ইলেকট্রনের s-এর মান অবশ্যই বিপরীত হবে।"
           ]
         ]
       },
       {
         "type": "important",
         "title": "অরবিটালের আকার ও নোড",
-        "text_bn": "s-অরবিটাল: গোলাকার ও অদিক направক।\np-অরবিটাল: ডাম্বেল আকৃতির এবং তিনটি ($$p_x, p_y, p_z$$) অক্ষ বরাবর বিন্যস্ত।\nd-অরবিটাল: চারটি দ্বি-ডাম্বেল আকৃতির ($$d_{xy}, d_{yz}, d_{xz}, d_{x^2-y^2}$$) এবং একটি বিশেষ আকৃতির ($$d_{z^2}$$)।\nনোড: এটি এমন একটি অঞ্চল যেখানে ইলেকট্রন পাওয়ার সম্ভাবনা শূন্য। মোট নোডের সংখ্যা = $$n-1$$।",
-        "text_en": "s-orbital: Spherical and non-directional.\np-orbitals: Dumbbell-shaped and oriented along the three axes ($$p_x, p_y, p_z$$).\nd-orbitals: Four are double-dumbbell shaped ($$d_{xy}, d_{yz}, d_{xz}, d_{x^2-y^2}$$) and one has a special shape ($$d_{z^2}$$).\nNode: It is a region where the probability of finding an electron is zero. Total number of nodes = $$n-1$$."
+        "text_bn": "s-অরবিটাল: গোলাকার ও অদিক направক। p-অরবিটাল: ডাম্বেল আকৃতির এবং তিনটি ($$p_x, p_y, p_z$$) অক্ষ বরাবর বিন্যস্ত। d-অরবিটাল: চারটি দ্বি-ডাম্বেল আকৃতির ($$d_{xy}, d_{yz}, d_{xz}, d_{x^2-y^2}$$) এবং একটি বিশেষ আকৃতির ($$d_{z^2}$$)। নোড: এটি এমন একটি অঞ্চল যেখানে ইলেকট্রন পাওয়ার সম্ভাবনা শূন্য। মোট নোডের সংখ্যা = (n-1)।",
+        "text_en": "s-orbital: Spherical and non-directional. p-orbitals: Dumbbell-shaped and oriented along the three axes ($$p_x, p_y, p_z$$). d-orbitals: Four are double-dumbbell shaped ($$d_{xy}, d_{yz}, d_{xz}, d_{x^2-y^2}$$) and one has a special shape ($$d_{z^2}$$). Node: It is a region where the probability of finding an electron is zero. Total number of nodes = (n-1)."
       },
       {
         "type": "example",
         "title": "কোয়ান্টাম সংখ্যার প্রয়োগ",
         "examples": [
           {
-            "bn": "প্রশ্ন: সোডিয়াম (Na, Z=11) পরমাণুর ১১-তম (যোজ্যতা) ইলেকট্রনের চারটি কোয়ান্টাম সংখ্যার সেট কী?\n\nউত্তর: সোডিয়ামের ইলেকট্রন বিন্যাস: $$1s^2 2s^2 2p^6 3s^1$$। ১১-তম ইলেকট্রনটি 3s অরবিটালে আছে। তাই, $$n=3$$; 's' অরবিটালের জন্য $$l=0$$; $$l=0$$ হলে, $$m=0$$; এবং প্রথম ইলেকট্রনের জন্য স্পিন $$s=+1/2$$ (প্রচলিত রীতি)। সুতরাং, সেটটি হলো: $$n=3, l=0, m=0, s=+1/2$$।",
-            "en": "Question: What is the set of four quantum numbers for the 11th (valence) electron of a Sodium (Na, Z=11) atom?\n\nAnswer: The electron configuration of Sodium is: $$1s^2 2s^2 2p^6 3s^1$$. The 11th electron is in the 3s orbital. Therefore, $$n=3$$; for an 's' orbital, $$l=0$$; if $$l=0$$, then $$m=0$$; and for the first electron, spin is $$s=+1/2$$ (by convention). Thus, the set is: $$n=3, l=0, m=0, s=+1/2$$."
+            "bn": "প্রশ্ন: সোডিয়াম (Na, Z=11) পরমাণুর ১১-তম (যোজ্যতা) ইলেকট্রনের চারটি কোয়ান্টাম সংখ্যার সেট কী? উত্তর: সোডিয়ামের ইলেকট্রন বিন্যাস: $$1s^2 2s^2 2p^6 3s^1$$। ১১-তম ইলেকট্রনটি 3s অরবিটালে আছে। তাই, $$n=3$$; 's' অরবিটালের জন্য $$l=0$$; $$l=0$$ হলে, $$m=0$$; এবং প্রথম ইলেকট্রনের জন্য স্পিন $$s=+1/2$$ (প্রচলিত রীতি)। সুতরাং, সেটটি হলো: (n=3, l=0, m=0, s=+1/2)।",
+            "en": "Question: What is the set of four quantum numbers for the 11th (valence) electron of a Sodium (Na, Z=11) atom? Answer: The electron configuration of Sodium is: $$1s^2 2s^2 2p^6 3s^1$$. The 11th electron is in the 3s orbital. Therefore, $$n=3$$; for an 's' orbital, $$l=0$$; if $$l=0$$, then $$m=0$$; and for the first electron, spin is $$s=+1/2$$ (by convention). Thus, the set is: (n=3, l=0, m=0, s=+1/2)."
           },
           {
-            "bn": "প্রশ্ন: n=3 শক্তিস্তরে মোট অরবিটাল ও ইলেকট্রন সংখ্যা কত?\nউত্তর: অরবিটাল সংখ্যা = $$n^2 = 3^2 = 9$$ টি (একটি 3s, তিনটি 3p, এবং পাঁচটি 3d)। ইলেকট্রন সংখ্যা = $$2n^2 = 2 \\times 3^2 = 18$$ টি।",
-            "en": "Question: What is the total number of orbitals and electrons in the n=3 energy level?\nAnswer: Number of orbitals = $$n^2 = 3^2 = 9$$ (one 3s, three 3p, and five 3d). Number of electrons = $$2n^2 = 2 \\times 3^2 = 18$$."
+            "bn": "প্রশ্ন: n=3 শক্তিস্তরে মোট অরবিটাল ও ইলেকট্রন সংখ্যা কত? উত্তর: অরবিটাল সংখ্যা = $$n^2 = 3^2 = 9$$ টি (একটি 3s, তিনটি 3p, এবং পাঁচটি 3d)। ইলেকট্রন সংখ্যা = $$2n^2 = 2 \\times 3^2 = 18$$ টি।",
+            "en": "Question: What is the total number of orbitals and electrons in the n=3 energy level? Answer: Number of orbitals = $$n^2 = 3^2 = 9$$ (one 3s, three 3p, and five 3d). Number of electrons = $$2n^2 = 2 \\times 3^2 = 18$$."
           }
         ]
       }
@@ -217,8 +268,8 @@
       {
         "type": "definition",
         "title": "আউফবাউ নীতি (Aufbau Principle)",
-        "text_bn": "জার্মান শব্দ 'Aufbau' অর্থ 'to build up'। এই নীতি অনুযায়ী, পরমাণুতে ইলেকট্রনগুলো প্রথমে সর্বনিম্ন শক্তির অরবিটালে প্রবেশ করে এবং ক্রমান্বয়ে উচ্চ শক্তির অরবিটালে যায়। অরবিটালের শক্তির ক্রম $$(n + l)$$ নিয়ম দ্বারা নির্ধারিত হয়। দুটি অরবিটালের $$(n+l)$$ মান সমান হলে, যার n-এর মান কম, তার শক্তি কম হবে। শক্তির ক্রম: $$1s < 2s < 2p < 3s < 3p < 4s < 3d < 4p ...$$",
-        "text_en": "The German word 'Aufbau' means 'to build up'. According to this principle, electrons first enter the orbital with the lowest energy and then progressively fill higher energy orbitals. The order of orbital energy is determined by the $$(n + l)$$ rule. If two orbitals have the same $$(n+l)$$ value, the one with the lower n value has lower energy. Energy order: $$1s < 2s < 2p < 3s < 3p < 4s < 3d < 4p ...$$",
+        "text_bn": "জার্মান শব্দ 'Aufbau' অর্থ 'to build up'। এই নীতি অনুযায়ী, পরমাণুতে ইলেকট্রনগুলো প্রথমে সর্বনিম্ন শক্তির অরবিটালে প্রবেশ করে এবং ক্রমান্বয়ে উচ্চ শক্তির অরবিটালে যায়। অরবিটালের শক্তির ক্রম (n + l) নিয়ম দ্বারা নির্ধারিত হয়। দুটি অরবিটালের (n+l) মান সমান হলে, যার n-এর মান কম, তার শক্তি কম হবে। শক্তির ক্রম: $$1s < 2s < 2p < 3s < 3p < 4s < 3d < 4p ...$$",
+        "text_en": "The German word 'Aufbau' means 'to build up'. According to this principle, electrons first enter the orbital with the lowest energy and then progressively fill higher energy orbitals. The order of orbital energy is determined by the (n + l) rule. If two orbitals have the same (n+l) value, the one with the lower n value has lower energy. Energy order: $$1s < 2s < 2p < 3s < 3p < 4s < 3d < 4p ...$$",
         "examples": []
       },
       {
@@ -238,8 +289,8 @@
       {
         "type": "important",
         "title": "আউফবাউ নীতির ব্যতিক্রম: স্থিতিশীলতার প্রভাব",
-        "text_bn": "অরবিটালের অর্ধপূর্ণ (half-filled, যেমন- $$d^5, p^3$$) বা সম্পূর্ণ পূর্ণ (fully-filled, যেমন- $$d^{10}, p^6$$) অবস্থা সাধারণ বিন্যাসের চেয়ে অধিক স্থিতিশীল। এই স্থিতিশীলতা অর্জনের জন্য কিছু মৌল আউফবাউ নীতি মানে না।\nক্রোমিয়াম ($$Cr, Z=24$$): প্রত্যাশিত বিন্যাস $$[Ar]4s^23d^4$$। কিন্তু প্রকৃত বিন্যাস হলো $$[Ar]4s^13d^5$$।\nকপার ($$Cu, Z=29$$): প্রত্যাশিত বিন্যাস $$[Ar]4s^23d^9$$। কিন্তু প্রকৃত বিন্যাস হলো $$[Ar]4s^13d^{10}$$।",
-        "text_en": "The half-filled (e.g., $$d^5, p^3$$) or fully-filled (e.g., $$d^{10}, p^6$$) state of orbitals is more stable than other configurations. To achieve this stability, some elements deviate from the Aufbau principle.\nChromium ($$Cr, Z=24$$): Expected configuration is $$[Ar]4s^23d^4$$. But the actual configuration is $$[Ar]4s^13d^5$$.\nCopper ($$Cu, Z=29$$): Expected configuration is $$[Ar]4s^23d^9$$. But the actual configuration is $$[Ar]4s^13d^{10}$$."
+        "text_bn": "অরবিটালের অর্ধপূর্ণ (half-filled, যেমন- $$d^5, p^3$$) বা সম্পূর্ণ পূর্ণ (fully-filled, যেমন- $$d^{10}, p^6$$) অবস্থা সাধারণ বিন্যাসের চেয়ে অধিক স্থিতিশীল। এই স্থিতিশীলতা অর্জনের জন্য কিছু মৌল আউফবাউ নীতি মানে না। ক্রোমিয়াম ($$Cr, Z=24$$): প্রত্যাশিত বিন্যাস $$[Ar]4s^23d^4$$। কিন্তু প্রকৃত বিন্যাস হলো $$[Ar]4s^13d^5$$। কপার ($$Cu, Z=29$$): প্রত্যাশিত বিন্যাস $$[Ar]4s^23d^9$$। কিন্তু প্রকৃত বিন্যাস হলো $$[Ar]4s^13d^{10}$$।",
+        "text_en": "The half-filled (e.g., $$d^5, p^3$$) or fully-filled (e.g., $$d^{10}, p^6$$) state of orbitals is more stable than other configurations. To achieve this stability, some elements deviate from the Aufbau principle. Chromium ($$Cr, Z=24$$): Expected configuration is $$[Ar]4s^23d^4$$. But the actual configuration is $$[Ar]4s^13d^5$$. Copper ($$Cu, Z=29$$): Expected configuration is $$[Ar]4s^23d^9$$. But the actual configuration is $$[Ar]4s^13d^{10}$$."
       }
     ]
   },
@@ -252,6 +303,19 @@
         "text_bn": "গ্যাসপূর্ণ ডিসচার্জ টিউবে কম চাপে হাইড্রোজেন গ্যাস নিয়ে উচ্চ ভোল্টেজ প্রয়োগ করলে এর ইলেকট্রনগুলো শক্তি শোষণ করে উচ্চ শক্তিস্তরে যায়। পরে নিম্ন শক্তিস্তরে ফিরে আসার সময় নির্দিষ্ট তরঙ্গদৈর্ঘ্যের আলো বিকিরণ করে। এই বিকীর্ণ রশ্মিকে প্রিজমের মধ্য দিয়ে চালনা করলে কয়েকটি বিচ্ছিন্ন উজ্জ্বল রেখার সিরিজ পাওয়া যায়, একেই হাইড্রোজেন পারমাণবিক বর্ণালী বলে। প্রতিটি সিরিজ নির্দিষ্ট নিম্ন শক্তিস্তরে ($$n_1$$) ইলেকট্রনের প্রত্যাবর্তনের ফলে সৃষ্ট হয়।",
         "text_en": "When high voltage is applied to hydrogen gas at low pressure in a discharge tube, its electrons absorb energy and jump to higher energy levels. When they return to lower levels, they emit light of specific wavelengths. When this radiation is passed through a prism, a series of discrete bright lines is obtained, known as the Hydrogen Atomic Spectrum. Each series is formed by electrons returning to a specific lower energy level ($$n_1$$).",
         "examples": []
+      },
+      {
+        "type": "table",
+        "title": "তড়িৎচৌম্বকীয় বর্ণালীর পাল্লা (Electromagnetic Spectrum Ranges)",
+        "headers": [
+          "অঞ্চল (Region)",
+          "তরঙ্গদৈর্ঘ্যের পাল্লা (Wavelength Range)"
+        ],
+        "rows": [
+          ["UV (অতিবেগুনী)", "10 - 380 nm"],
+          ["Visible (দৃশ্যমান)", "380 - 780 nm"],
+          ["IR (অবলোহিত)", "780 nm - 1 mm"]
+        ]
       },
       {
         "type": "table",
@@ -305,20 +369,37 @@
         "type": "equation",
         "title": "রিডবার্গ সমীকরণ",
         "equation": "\\bar{\\nu} = \\frac{1}{\\lambda} = R_H Z^2 \\left( \\frac{1}{n_1^2} - \\frac{1}{n_2^2} \\right)",
-        "description_bn": "এই সমীকরণের সাহায্যে হাইড্রোজেন ($$Z=1$$) বা হাইড্রোজেন-সদৃশ আয়নের ($$He^{+}, Li^{2+}$$) বর্ণালীর যেকোনো রেখার তরঙ্গ সংখ্যা ($$\\bar{\\nu}$$) বা তরঙ্গদৈর্ঘ্য ($$\\lambda$$) নির্ণয় করা যায়। এখানে, $$R_H$$ = রিডবার্গ ধ্রুবক ($$1.09678 \\times 10^7 \\text{ m}^{-1}$$), $$Z$$ = পারমাণবিক সংখ্যা, $$n_1$$ = নিম্ন শক্তিস্তর, $$n_2$$ = উচ্চ শক্তিস্তর ($$n_2 > n_1$$)।",
-        "description_en": "This equation calculates the wave number ($$\\bar{\\nu}$$) or wavelength ($$\\lambda$$) of any spectral line for hydrogen ($$Z=1$$) or hydrogen-like ions ($$He^{+}, Li^{2+}$$). Where, $$R_H$$ = Rydberg constant ($$1.09678 \\times 10^7 \\text{ m}^{-1}$$), $$Z$$ = Atomic number, $$n_1$$ = lower energy level, $$n_2$$ = higher energy level ($$n_2 > n_1$$)."
+        "description_bn": "এই সমীকরণের সাহায্যে হাইড্রোজেন (Z=1) বা হাইড্রোজেন-সদৃশ আয়নের ($$He^{+}, Li^{2+}$$) বর্ণালীর যেকোনো রেখার তরঙ্গ সংখ্যা বা তরঙ্গদৈর্ঘ্য নির্ণয় করা যায়। এখানে, R_H = রিডবার্গ ধ্রুবক ($$1.09678 \\times 10^7 \\text{ m}^{-1}$$), Z = পারমাণবিক সংখ্যা, n1 = নিম্ন শক্তিস্তর, n2 = উচ্চ শক্তিস্তর (n2 > n1)।",
+        "description_en": "This equation calculates the wave number or wavelength of any spectral line for hydrogen (Z=1) or hydrogen-like ions ($$He^{+}, Li^{2+}$$). Where, R_H = Rydberg constant ($$1.09678 \\times 10^7 \\text{ m}^{-1}$$), Z = Atomic number, n1 = lower energy level, n2 = higher energy level (n2 > n1)."
+      },
+      {
+        "type": "important_rules",
+        "title": "রিডবার্গ সমীকরণে n₁ ও n₂ নির্ণয়ের শর্টকাট",
+        "rules": [
+          { "bn": "n₁ হলো ইলেকট্রন যেখানে আসে (ছোট মান)।" },
+          { "bn": "n₂ হলো ইলেকট্রন যেখান থেকে আসে (বড় মান)।" },
+          {
+            "bn": "যদি সিরিজ ও লাইন নম্বর উল্লেখ থাকে: n₁ হবে সিরিজের মান, এবং n₂ হবে সিরিজের মান ও লাইন নম্বরের যোগফল। যেমন: বামার সিরিজের ৩য় লাইনের জন্য, n₁=2, n₂=2+3=5।"
+          },
+          {
+            "bn": "সর্বোচ্চ তরঙ্গদৈর্ঘ্য (λ_max) বা সর্বনিম্ন শক্তি (E_min) বা প্রথম লাইনের জন্য: n₁ হবে সিরিজের মান, এবং n₂ = n₁ + 1।"
+          },
+          {
+            "bn": "সর্বনিম্ন তরঙ্গদৈর্ঘ্য (λ_min) বা সর্বোচ্চ শক্তি (E_max) বা সিরিজ সীমার জন্য: n₁ হবে সিরিজের মান, এবং n₂ = ∞।"
+          }
+        ]
       },
       {
         "type": "example",
         "title": "রিডবার্গ সমীকরণের প্রয়োগ",
         "examples": [
           {
-            "bn": "প্রশ্ন: বামার সিরিজের প্রথম রেখার ($$H_{\\alpha}$$) তরঙ্গদৈর্ঘ্য নির্ণয় কর।\nব্যাখ্যা: বামার সিরিজের জন্য $$n_1=2$$। প্রথম রেখার জন্য $$n_2=3$$। হাইড্রোজেন পরমাণুর জন্য $$Z=1$$।\nসমাধান: $$\\frac{1}{\\lambda} = R_H \\left( \\frac{1}{2^2} - \\frac{1}{3^2} \\right) = 1.09678 \\times 10^7 \\times \\frac{5}{36} \\approx 1.5233 \\times 10^6 \\text{ m}^{-1}$$।\nসুতরাং, $$\\lambda = \\frac{1}{1.5233 \\times 10^6} \\approx 6.56 \\times 10^{-7} \\text{ m} = 656 \\text{ nm}$$ (লাল আলো)।",
-            "en": "Question: Calculate the wavelength of the first line ($$H_{\\alpha}$$) of the Balmer series.\nExplanation: For the Balmer series, $$n_1=2$$. For the first line, $$n_2=3$$. For a hydrogen atom, $$Z=1$$.\nSolution: $$\\frac{1}{\\lambda} = R_H \\left( \\frac{1}{2^2} - \\frac{1}{3^2} \\right) = 1.09678 \\times 10^7 \\times \\frac{5}{36} \\approx 1.5233 \\times 10^6 \\text{ m}^{-1}$$۔\nTherefore, $$\\lambda = \\frac{1}{1.5233 \\times 10^6} \\approx 6.56 \\times 10^{-7} \\text{ m} = 656 \\text{ nm}$$ (Red light)."
+            "bn": "প্রশ্ন: বামার সিরিজের প্রথম রেখার ($$H_{\\alpha}$$) তরঙ্গদৈর্ঘ্য নির্ণয় কর। ব্যাখ্যা: বামার সিরিজের জন্য $$n_1=2$$। প্রথম রেখার জন্য $$n_2=3$$। হাইড্রোজেন পরমাণুর জন্য $$Z=1$$। সমাধান: $$\\frac{1}{\\lambda} = R_H \\left( \\frac{1}{2^2} - \\frac{1}{3^2} \\right) = 1.09678 \\times 10^7 \\times \\frac{5}{36} \\approx 1.5233 \\times 10^6 \\text{ m}^{-1}$$। সুতরাং, $$\\lambda = \\frac{1}{1.5233 \\times 10^6} \\approx 6.56 \\times 10^{-7} \\text{ m} = 656 \\text{ nm}$$ (লাল আলো)।",
+            "en": "Question: Calculate the wavelength of the first line ($$H_{\\alpha}$$) of the Balmer series. Explanation: For the Balmer series, $$n_1=2$$. For the first line, $$n_2=3$$. For a hydrogen atom, $$Z=1$$. Solution: $$\\frac{1}{\\lambda} = R_H \\left( \\frac{1}{2^2} - \\frac{1}{3^2} \\right) = 1.09678 \\times 10^7 \\times \\frac{5}{36} \\approx 1.5233 \\times 10^6 \\text{ m}^{-1}$$. Therefore, $$\\lambda = \\frac{1}{1.5233 \\times 10^6} \\approx 6.56 \\times 10^{-7} \\text{ m} = 656 \\text{ nm}$$ (Red light)."
           },
           {
-            "bn": "প্রশ্ন: লাইম্যান সিরিজের সর্বোচ্চ শক্তি (সর্বনিম্ন তরঙ্গদৈর্ঘ্য) বিকিরণের তরঙ্গদৈর্ঘ্য কত?\nব্যাখ্যা: সর্বোচ্চ শক্তি মানে ইলেকট্রন অসীম ($$\\infty$$) থেকে $$n_1=1$$ স্তরে ফিরে আসে।\nসমাধান: $$\\frac{1}{\\lambda_{min}} = R_H \\left( \\frac{1}{1^2} - \\frac{1}{\\infty^2} \\right) = R_H$$।\nসুতরাং, $$\\lambda_{min} = \\frac{1}{R_H} = \\frac{1}{1.09678 \\times 10^7 \\text{ m}^{-1}} \\approx 9.11 \\times 10^{-8} \\text{ m} = 91.1 \\text{ nm}$$ (UV অঞ্চল)।",
-            "en": "Question: What is the wavelength of the highest energy (minimum wavelength) radiation in the Lyman series?\nExplanation: Highest energy means the electron returns from infinity ($$\\infty$$) to the $$n_1=1$$ level.\nSolution: $$\\frac{1}{\\lambda_{min}} = R_H \\left( \\frac{1}{1^2} - \\frac{1}{\\infty^2} \\right) = R_H$$۔\nTherefore, $$\\lambda_{min} = \\frac{1}{R_H} = \\frac{1}{1.09678 \\times 10^7 \\text{ m}^{-1}} \\approx 9.11 \\times 10^{-8} \\text{ m} = 91.1 \\text{ nm}$$ (UV region)."
+            "bn": "প্রশ্ন: লাইম্যান সিরিজের সর্বোচ্চ শক্তি (সর্বনিম্ন তরঙ্গদৈর্ঘ্য) বিকিরণের তরঙ্গদৈর্ঘ্য কত? ব্যাখ্যা: সর্বোচ্চ শক্তি মানে ইলেকট্রন অসীম (infinity) থেকে $$n_1=1$$ স্তরে ফিরে আসে। সমাধান: $$\\frac{1}{\\lambda_{min}} = R_H \\left( \\frac{1}{1^2} - \\frac{1}{\\infty^2} \\right) = R_H$$। সুতরাং, $$\\lambda_{min} = \\frac{1}{R_H} = \\frac{1}{1.09678 \\times 10^7 \\text{ m}^{-1}} \\approx 9.11 \\times 10^{-8} \\text{ m} = 91.1 \\text{ nm}$$ (UV অঞ্চল)।",
+            "en": "Question: What is the wavelength of the highest energy (minimum wavelength) radiation in the Lyman series? Explanation: Highest energy means the electron returns from infinity to the $$n_1=1$$ level. Solution: $$\\frac{1}{\\lambda_{min}} = R_H \\left( \\frac{1}{1^2} - \\frac{1}{\\infty^2} \\right) = R_H$$. Therefore, $$\\lambda_{min} = \\frac{1}{R_H} = \\frac{1}{1.09678 \\times 10^7 \\text{ m}^{-1}} \\approx 9.11 \\times 10^{-8} \\text{ m} = 91.1 \\text{ nm}$$ (UV region)."
           }
         ]
       }
@@ -333,6 +414,39 @@
         "text_bn": "নির্দিষ্ট তাপমাত্রায়, কোনো দ্রবের সর্বোচ্চ যে পরিমাণ কোনো নির্দিষ্ট পরিমাণ দ্রাবকে দ্রবীভূত হয়ে একটি সম্পৃক্ত দ্রবণ তৈরি করে, তাকে ঐ দ্রবের দ্রাব্যতা বলে। সাধারণত এটিকে মোল/লিটার (mol/L) এককে প্রকাশ করা হয়। তাপমাত্রা, চাপ (গ্যাসের ক্ষেত্রে), এবং দ্রব ও দ্রাবকের প্রকৃতির উপর দ্রাব্যতা নির্ভর করে।",
         "text_en": "At a specific temperature, the maximum amount of a solute that can dissolve in a specific amount of solvent to form a saturated solution is called the solubility of that solute. It is typically expressed in units of mol/L. Solubility depends on temperature, pressure (for gases), and the nature of the solute and solvent.",
         "examples": []
+      },
+      {
+        "type": "important_formula",
+        "title": "তাপমাত্রা ও দ্রাব্যতা পরিবর্তন সংক্রান্ত গণনা",
+        "items": [
+          {
+            "bn": {
+              "context": "একক তাপমাত্রা ও দ্রাবকে দ্রাব্যতা পরিবর্তন হলে:",
+              "formulae": [
+                {
+                  "label": "দ্রব",
+                  "equation": "$$\\frac{\\text{দ্রাব্যতা} \\times \\text{প্রশ্নে দেওয়া দ্রবের ভর}}{\\text{দ্রাব্যতা} + 100}$$"
+                },
+                {
+                  "label": "দ্রাবক",
+                  "equation": "$$\\frac{100 \\times \\text{প্রশ্নে দেওয়া দ্রবের ভর}}{\\text{দ্রাব্যতা} + 100}$$"
+                }
+              ]
+            }
+          },
+          {
+            "bn": {
+              "context": "ভিন্ন তাপমাত্রায় দ্রাব্যতা পরিবর্তন হলে (উচ্চ থেকে নিম্ন তাপমাত্রায় আনলে দ্রব কেলাসিত হয়, নিম্ন থেকে উচ্চ তাপমাত্রায় নিলে আরও দ্রব যোগ করতে হয়):",
+              "formulae": [
+                {
+                  "label": "দ্রব যোগ/কেলাসিত",
+                  "equation": "$$|S_1-S_2| \\times \\frac{\\text{প্রশ্নে দেওয়া দ্রবের ভর}}{\\text{ঐ তাপমাত্রার দ্রাব্যতা} + 100}$$"
+                }
+              ]
+            }
+          }
+        ],
+        "note_bn": "দ্বিতীয় সূত্রে মডুলাস চিহ্ন (|S1-S2|) ব্যবহার করা হয়েছে যাতে ফলাফল ঋণাত্মক না আসে।"
       },
       {
         "type": "definition",
@@ -380,23 +494,38 @@
       {
         "type": "definition",
         "title": "আয়নিক গুণফল (Ionic Product, Kip)",
-        "text_bn": "যেকোনো দ্রবণে (সম্পৃক্ত, অসম্পৃক্ত বা অতিপৃক্ত) উপস্থিত ক্যাটায়ন ও অ্যানায়নের মোল ঘনমাত্রার (তাদের নিজ নিজ সহগ দ্বারা ঘাত প্রাপ্ত) গুণফলকে আয়নিক গুণফল বলে। $$K_{sp}$$ একটি নির্দিষ্ট তাপমাত্রায় ধ্রুবক, কিন্তু $$K_{ip}$$ দ্রবণের ঘনমাত্রার উপর নির্ভরশীল।",
-        "text_en": "In any solution (saturated, unsaturated, or supersaturated), the product of the molar concentrations of the constituent ions, each raised to the power of its stoichiometric coefficient, is called the ionic product (Kip). $$K_{sp}$$ is a constant at a specific temperature, whereas $$K_{ip}$$ depends on the current concentrations in the solution.",
+        "text_bn": "যেকোনো দ্রবণে (সম্পৃক্ত, অসম্পৃক্ত বা অতিপৃক্ত) উপস্থিত ক্যাটায়ন ও অ্যানায়নের মোল ঘনমাত্রার (তাদের নিজ নিজ সহগ দ্বারা ঘাত প্রাপ্ত) গুণফলকে আয়নিক গুণফল বলে। Ksp একটি নির্দিষ্ট তাপমাত্রায় ধ্রুবক, কিন্তু Kip দ্রবণের ঘনমাত্রার উপর নির্ভরশীল।",
+        "text_en": "In any solution (saturated, unsaturated, or supersaturated), the product of the molar concentrations of the constituent ions, each raised to the power of its stoichiometric coefficient, is called the ionic product (Kip). Ksp is a constant at a specific temperature, whereas Kip depends on the current concentrations in the solution.",
         "examples": []
       },
       {
-        "type": "important",
-        "title": "অধঃক্ষেপণের শর্ত (Conditions for Precipitation)",
-        "text_bn": "১. যদি $$K_{ip} > K_{sp}$$ হয়: দ্রবণটি অতিপৃক্ত এবং অতিরিক্ত লবণ অধঃক্ষিপ্ত হবে।\n২. যদি $$K_{ip} < K_{sp}$$ হয়: দ্রবণটি অসম্পৃক্ত এবং কোনো অধঃক্ষেপ পড়বে না।\n৩. যদি $$K_{ip} = K_{sp}$$ হয়: দ্রবণটি সম্পৃক্ত এবং সাম্যাবস্থায় থাকে।",
-        "text_en": "1. If $$K_{ip} > K_{sp}$$: The solution is supersaturated and the excess salt will precipitate.\n2. If $$K_{ip} < K_{sp}$$: The solution is unsaturated and no precipitation will occur.\n3. If $$K_{ip} = K_{sp}$$: The solution is saturated and is in equilibrium."
+        "type": "important_rules",
+        "title": "অধঃক্ষেপণের শর্ত ও গাণিতিক নিয়ম",
+        "rules": [
+          {
+            "bn": "যদি $$K_{ip} > K_{sp}$$ হয়, তবে দ্রবণটি অতিপৃক্ত এবং অধঃক্ষেপ পড়বে।"
+          },
+          {
+            "bn": "যদি $$K_{ip} < K_{sp}$$ হয়, তবে দ্রবণটি অসম্পৃক্ত এবং কোনো অধঃক্ষেপ পড়বে না।"
+          },
+          {
+            "bn": "যদি $$K_{ip} = K_{sp}$$ হয়, তবে দ্রবণটি সম্পৃক্ত এবং সাম্যাবস্থায় থাকে।"
+          },
+          {
+            "bn": "গাণিতিক নিয়ম ১: অধঃক্ষেপ পড়বে কি না জানতে চাইলে, যার Ksp দেওয়া আছে তার Kip বের করে Ksp এর সাথে তুলনা করতে হবে।"
+          },
+          {
+            "bn": "গাণিতিক নিয়ম ২: অধঃক্ষেপ পড়ার জন্য কোনো অজানা রাশির মান বের করতে বললে, $$K_{ip} > K_{sp}$$ শর্ত ধরে গণনা শুরু করতে হবে।"
+          }
+        ]
       },
       {
         "type": "example",
         "title": "অধঃক্ষেপণ সংক্রান্ত গাণিতিক সমস্যা",
         "examples": [
           {
-            "bn": "প্রশ্ন: 50 mL 0.01M $$CaCl_2$$ দ্রবণের সাথে 50 mL 0.001M $$Na_2SO_4$$ দ্রবণ মেশানো হলো। $$CaSO_4$$ এর অধঃক্ষেপ পড়বে কি? ($$CaSO_4$$ এর $$K_{sp} = 2.4 \\times 10^{-5}$$)\nউত্তর: মিশ্রণের পর মোট আয়তন = 100 mL।\nনতুন ঘনমাত্রা, $$[Ca^{2+}] = \\frac{0.01 \\times 50}{100} = 0.005M$$।\nনতুন ঘনমাত্রা, $$[SO_4^{2-}] = \\frac{0.001 \\times 50}{100} = 0.0005M$$।\nআয়নিক গুণফল, $$K_{ip} = [Ca^{2+}][SO_4^{2-}] = (0.005)(0.0005) = 2.5 \\times 10^{-6}$$।\nযেহেতু $$K_{ip} (2.5 \\times 10^{-6}) < K_{sp} (2.4 \\times 10^{-5})$$, তাই অধঃক্ষেপ পড়বে না।",
-            "en": "Question: 50 mL of 0.01M $$CaCl_2$$ solution is mixed with 50 mL of 0.001M $$Na_2SO_4$$ solution. Will $$CaSO_4$$ precipitate? ($$K_{sp}$$ for $$CaSO_4 = 2.4 \\times 10^{-5}$$)\nAnswer: After mixing, total volume = 100 mL.\nNew concentration, $$[Ca^{2+}] = \\frac{0.01 \\times 50}{100} = 0.005M$$.\nNew concentration, $$[SO_4^{2-}] = \\frac{0.001 \\times 50}{100} = 0.0005M$$.\nIonic product, $$K_{ip} = [Ca^{2+}][SO_4^{2-}] = (0.005)(0.0005) = 2.5 \\times 10^{-6}$$.\nSince $$K_{ip} (2.5 \\times 10^{-6}) < K_{sp} (2.4 \\times 10^{-5})$$, no precipitate will form."
+            "bn": "প্রশ্ন: 50 mL 0.01M $$CaCl_2$$ দ্রবণের সাথে 50 mL 0.001M $$Na_2SO_4$$ দ্রবণ মেশানো হলো। $$CaSO_4$$ এর অধঃক্ষেপ পড়বে কি? (দেওয়া আছে, $$CaSO_4$$ এর $$K_{sp} = 2.4 \\times 10^{-5}$$)। উত্তর: মিশ্রণের পর মোট আয়তন = 100 mL। নতুন ঘনমাত্রা, $$[Ca^{2+}] = \\frac{0.01 \\times 50}{100} = 0.005M$$। নতুন ঘনমাত্রা, $$[SO_4^{2-}] = \\frac{0.001 \\times 50}{100} = 0.0005M$$। আয়নিক গুণফল, $$K_{ip} = [Ca^{2+}][SO_4^{2-}] = (0.005)(0.0005) = 2.5 \\times 10^{-6}$$। যেহেতু $$K_{ip} (2.5 \\times 10^{-6})$$ এর মান $$K_{sp} (2.4 \\times 10^{-5})$$ এর চেয়ে কম, তাই অধঃক্ষেপ পড়বে না।",
+            "en": "Question: 50 mL of 0.01M $$CaCl_2$$ solution is mixed with 50 mL of 0.001M $$Na_2SO_4$$ solution. Will $$CaSO_4$$ precipitate? (Given, $$K_{sp}$$ for $$CaSO_4 = 2.4 \\times 10^{-5}$$). Answer: After mixing, total volume = 100 mL. New concentration, $$[Ca^{2+}] = \\frac{0.01 \\times 50}{100} = 0.005M$$. New concentration, $$[SO_4^{2-}] = \\frac{0.001 \\times 50}{100} = 0.0005M$$. Ionic product, $$K_{ip} = [Ca^{2+}][SO_4^{2-}] = (0.005)(0.0005) = 2.5 \\times 10^{-6}$$. Since the value of $$K_{ip} (2.5 \\times 10^{-6})$$ is less than $$K_{sp} (2.4 \\times 10^{-5})$$, no precipitate will form."
           }
         ]
       }
@@ -408,17 +537,17 @@
       {
         "type": "definition",
         "title": "সম-আয়ন প্রভাব (Common Ion Effect)",
-        "text_bn": "কোনো স্বল্প দ্রবণীয় তড়িৎ বিশ্লেষ্যের সম্পৃক্ত দ্রবণে, যদি এমন কোনো তীব্র তড়িৎ বিশ্লেষ্য যোগ করা হয় যার একটি আয়ন স্বল্প দ্রবণীয় লবণটির ক্যাটায়ন বা অ্যানায়নের অনুরূপ (সম-আয়ন) হয়, তবে লা-শাতেলিয়ের নীতি অনুসারে সাম্যাবস্থা বাম দিকে সরে যায়। ফলে স্বল্প দ্রবণীয় লবণটির দ্রাব্যতা আরও হ্রাস পায়। এই ঘটনাকে সম-আয়ন প্রভাব বলে। দ্রাব্যতা ($$s$$) কমলেও দ্রাব্যতা গুণফল ($$K_{sp}$$) অপরিবর্তিত থাকে।",
-        "text_en": "In a saturated solution of a sparingly soluble electrolyte, if a strong electrolyte is added that has an ion in common with the sparingly soluble salt, the equilibrium shifts to the left according to Le Chatelier's principle. This causes a decrease in the solubility of the sparingly soluble salt. This phenomenon is called the common ion effect. While solubility ($$s$$) decreases, the solubility product ($$K_{sp}$$) remains constant.",
-        "examples": []
+        "text_bn": "কোনো স্বল্প দ্রবণীয় তড়িৎ বিশ্লেষ্যের সম্পৃক্ত দ্রবণে, যদি এমন কোনো তীব্র তড়িৎ বিশ্লেষ্য যোগ করা হয় যার একটি আয়ন স্বল্প দ্রবণীয় লবণটির ক্যাটায়ন বা অ্যানায়নের অনুরূপ (সম-আয়ন) হয়, তবে লা-শাতেলিয়ের নীতি অনুসারে সাম্যাবস্থা বাম দিকে সরে যায়। ফলে স্বল্প দ্রবণীয় লবণটির দ্রাব্যতা আরও হ্রাস পায়। এই ঘটনাকে সম-আয়ন প্রভাব বলে। দ্রাব্যতা (s) কমলেও দ্রাব্যতা গুণফল (Ksp) অপরিবর্তিত থাকে।",
+        "text_en": "In a saturated solution of a sparingly soluble electrolyte, if a strong electrolyte is added that has an ion in common with the sparingly soluble salt, the equilibrium shifts to the left according to Le Chatelier's principle. This causes a decrease in the solubility of the sparingly soluble salt. This phenomenon is called the common ion effect. While solubility (s) decreases, the solubility product (Ksp) remains constant.",
+        "note_bn": "সম-আয়ন প্রভাবের অঙ্ক করার সময় দ্রাব্যতা (s) এর উচ্চতর ঘাত (যেমন $$s^2, s^3, s^4$$) উপেক্ষা করা যেতে পারে।"
       },
       {
         "type": "example",
         "title": "সম-আয়ন প্রভাবের প্রয়োগ",
         "examples": [
           {
-            "bn": "প্রশ্ন: বিশুদ্ধ পানিতে $$AgCl$$ এর দ্রাব্যতা $$s$$। 0.1M $$NaCl$$ দ্রবণে $$AgCl$$ এর দ্রাব্যতা কত হবে? ($$AgCl$$ এর $$K_{sp} = 1.8 \\times 10^{-10}$$)\nউত্তর: ধরা যাক, 0.1M $$NaCl$$ দ্রবণে $$AgCl$$ এর নতুন দ্রাব্যতা $$s'$$ mol/L।\n$$AgCl \\rightleftharpoons Ag^+ + Cl^-$$;   $$NaCl \\rightarrow Na^+ + Cl^-$$ \nদ্রবণে $$[Ag^+] = s'$$ এবং $$[Cl^-] = s' + 0.1$$। যেহেতু $$s'$$ খুবই ক্ষুদ্র, $$s' + 0.1 \\approx 0.1$$।\n$$K_{sp} = [Ag^+][Cl^-] = (s')(0.1)$$ \n$$s' = \\frac{1.8 \\times 10^{-10}}{0.1} = 1.8 \\times 10^{-9} \\text{ mol/L}$$। \nদেখা যাচ্ছে, দ্রাব্যতা সম-আয়ন $$Cl^-$$ এর উপস্থিতিতে উল্লেখযোগ্যভাবে হ্রাস পেয়েছে।",
-            "en": "Question: The solubility of $$AgCl$$ in pure water is s. What will be its solubility in a 0.1M $$NaCl$$ solution? ($$K_{sp}$$ of $$AgCl = 1.8 \\times 10^{-10}$$)\nAnswer: Let the new solubility of AgCl in 0.1M NaCl be $$s'$$ mol/L.\n$$AgCl \\rightleftharpoons Ag^+ + Cl^-$$;   $$NaCl \\rightarrow Na^+ + Cl^-$$ \nIn the solution, $$[Ag^+] = s'$$ and $$[Cl^-] = s' + 0.1$$. Since $$s'$$ is very small, $$s' + 0.1 \\approx 0.1$$.\n$$K_{sp} = [Ag^+][Cl^-] = (s')(0.1)$$ \n$$s' = \\frac{1.8 \\times 10^{-10}}{0.1} = 1.8 \\times 10^{-9} \\text{ mol/L}$$۔ \nClearly, the solubility has decreased significantly due to the presence of the common ion $$Cl^-$$."
+            "bn": "প্রশ্ন: বিশুদ্ধ পানিতে $$AgCl$$ এর দ্রাব্যতা s। 0.1M $$NaCl$$ দ্রবণে $$AgCl$$ এর দ্রাব্যতা কত হবে? (দেওয়া আছে, $$AgCl$$ এর $$K_{sp} = 1.8 \\times 10^{-10}$$)। উত্তর: ধরা যাক, 0.1M $$NaCl$$ দ্রবণে $$AgCl$$ এর নতুন দ্রাব্যতা $$s'$$ mol/L। $$AgCl \\rightleftharpoons Ag^+ + Cl^-$$;   $$NaCl \\rightarrow Na^+ + Cl^-$$ দ্রবণে $$[Ag^+] = s'$$ এবং $$[Cl^-] = s' + 0.1$$। যেহেতু $$s'$$ খুবই ক্ষুদ্র, $$s' + 0.1 \\approx 0.1$$। $$K_{sp} = [Ag^+][Cl^-] = (s')(0.1)$$। অতএব, $$s' = \\frac{1.8 \\times 10^{-10}}{0.1} = 1.8 \\times 10^{-9} \\text{ mol/L}$$। দেখা যাচ্ছে, দ্রাব্যতা সম-আয়ন $$Cl^-$$ এর উপস্থিতিতে উল্লেখযোগ্যভাবে হ্রাস পেয়েছে।",
+            "en": "Question: The solubility of AgCl in pure water is s. What will be its solubility in a 0.1M NaCl solution? (Given, $$K_{sp}$$ of $$AgCl = 1.8 \\times 10^{-10}$$). Answer: Let the new solubility of AgCl in 0.1M NaCl be $$s'$$ mol/L. $$AgCl \\rightleftharpoons Ag^+ + Cl^-$$;   $$NaCl \\rightarrow Na^+ + Cl^-$$ In the solution, $$[Ag^+] = s'$$ and $$[Cl^-] = s' + 0.1$$. Since $$s'$$ is very small, $$s' + 0.1 \\approx 0.1$$. $$K_{sp} = [Ag^+][Cl^-] = (s')(0.1)$$. Therefore, $$s' = \\frac{1.8 \\times 10^{-10}}{0.1} = 1.8 \\times 10^{-9} \\text{ mol/L}$$. Clearly, the solubility has decreased significantly due to the presence of the common ion $$Cl^-$$."
           }
         ]
       }
@@ -430,8 +559,8 @@
       {
         "type": "definition",
         "title": "শুষ্ক পরীক্ষা: শিখা পরীক্ষা (Dry Test: Flame Test)",
-        "text_bn": "কিছু ধাতব লবণকে গাঢ় $$HCl$$ সহযোগে একটি প্ল্যাটিনাম তারের মাথায় নিয়ে বুনসেন বার্নারের অনুজ্জ্বল শিখায় ধরলে বৈশিষ্ট্যপূর্ণ বর্ণ সৃষ্টি হয়। $$HCl$$ লবণটিকে উদ্বায়ী ক্লোরাইডে পরিণত করে। তাপের কারণে ইলেকট্রন উচ্চ শক্তিস্তরে যায় এবং নিম্ন শক্তিস্তরে ফিরে আসার সময় দৃশ্যমান আলো বিকিরণ করে, যা থেকে ক্যাটায়নকে শনাক্ত করা হয়।",
-        "text_en": "When some metallic salts, mixed with concentrated $$HCl$$ on a platinum wire loop, are heated in a non-luminous Bunsen flame, they produce characteristic colors. $$HCl$$ converts the salt into its volatile chloride. Due to the heat, electrons get excited to higher energy levels and emit visible light upon returning to lower levels, which helps identify the cation.",
+        "text_bn": "কিছু ধাতব লবণকে গাঢ় HCl সহযোগে একটি প্ল্যাটিনাম তারের মাথায় নিয়ে বুনসেন বার্নারের অনুজ্জ্বল শিখায় ধরলে বৈশিষ্ট্যপূর্ণ বর্ণ সৃষ্টি হয়। HCl লবণটিকে উদ্বায়ী ক্লোরাইডে পরিণত করে। তাপের কারণে ইলেকট্রন উচ্চ শক্তিস্তরে যায় এবং নিম্ন শক্তিস্তরে ফিরে আসার সময় দৃশ্যমান আলো বিকিরণ করে, যা থেকে ক্যাটায়নকে শনাক্ত করা হয়।",
+        "text_en": "When some metallic salts, mixed with concentrated HCl on a platinum wire loop, are heated in a non-luminous Bunsen flame, they produce characteristic colors. HCl converts the salt into its volatile chloride. Due to the heat, electrons get excited to higher energy levels and emit visible light upon returning to lower levels, which helps identify the cation.",
         "examples": []
       },
       {
@@ -505,6 +634,138 @@
             "লঘু $$HCl$$",
             "বুদবুদসহ বর্ণহীন, গন্ধহীন $$CO_2$$ গ্যাস নির্গত হয়, যা চুনের পানিকে ঘোলা করে।"
           ]
+        ]
+      }
+    ]
+  },
+  "chemical-equilibrium": {
+    "title": "রাসায়নিক সাম্যাবস্থা: Kp ও Kc",
+    "blocks": [
+      {
+        "type": "equation",
+        "title": "বিভিন্ন বিক্রিয়ার জন্য Kp ও Kc এর রাশিমালা",
+        "items": [
+          {
+            "reaction": "$$PCl_5 \\rightleftharpoons PCl_3 + Cl_2$$",
+            "Kp": "$$K_p = \\frac{\\alpha^2 P}{1-\\alpha^2}$$",
+            "Kc": "$$K_c = \\frac{\\alpha^2}{V(1-\\alpha)}$$"
+          },
+          {
+            "reaction": "$$N_2O_4 \\rightleftharpoons 2NO_2$$",
+            "Kp": "$$K_p = \\frac{4\\alpha^2 P}{1-\\alpha^2}$$",
+            "Kc": "$$K_c = \\frac{4\\alpha^2}{V(1-\\alpha)}$$"
+          },
+          {
+            "reaction": "$$N_2 + 3H_2 \\rightleftharpoons 2NH_3$$",
+            "Kp": "$$K_p = \\frac{16\\alpha^2(2-\\alpha)^2}{27P^2(1-\\alpha)^4}$$",
+            "Kc": "$$K_c = \\frac{4\\alpha^2 V^2}{27(1-\\alpha)^4}$$"
+          },
+          {
+            "reaction": "$$H_2 + I_2 \\rightleftharpoons 2HI$$",
+            "Kp": "$$K_p = \\frac{4\\alpha^2}{(1-\\alpha)^2}$$",
+            "Kc": "$$K_c = \\frac{4\\alpha^2}{(1-\\alpha)^2}$$"
+          }
+        ],
+        "description_bn": "এখানে alpha হলো বিয়োজন মাত্রা, P হলো মোট চাপ এবং V হলো আয়তন।",
+        "description_en": "Here, alpha is the degree of dissociation, P is the total pressure, and V is the volume."
+      },
+      {
+        "type": "equation",
+        "title": "তাপমাত্রার উপর Kp ও Kc এর নির্ভরশীলতা (ভ্যান্ট হফ সমীকরণ)",
+        "items": [
+          {
+            "equation": "$$\\ln K = -\\frac{\\Delta H}{R} \\cdot \\frac{1}{T} + C$$"
+          },
+          {
+            "equation": "$$\\log K = -\\frac{\\Delta H}{2.303 R} \\cdot \\frac{1}{T} + C$$"
+          }
+        ],
+        "description_bn": "এই সমীকরণ থেকে প্রাপ্ত লেখচিত্রের ঢাল (যার মান -ΔH/R) থেকে বিক্রিয়ার এনথালপির পরিবর্তন (ΔH) সম্পর্কে ধারণা পাওয়া যায়। তাপোৎপাদী বিক্রিয়ার জন্য (যেখানে ΔH ঋণাত্মক) ঢাল ধনাত্মক হয়, এবং তাপহারী বিক্রিয়ার জন্য (যেখানে ΔH ধনাত্মক) ঢাল ঋণাত্মক হয়।",
+        "description_en": "From the slope (equal to -ΔH/R) of the graph of this equation, the change in enthalpy (ΔH) of the reaction can be determined. For an exothermic reaction (where ΔH is negative), the slope is positive, and for an endothermic reaction (where ΔH is positive), the slope is negative."
+      }
+    ]
+  },
+  "acid-base-equilibrium": {
+    "title": "অ্যাসিড-ক্ষার সাম্যাবস্থা",
+    "blocks": [
+      {
+        "type": "important_formula",
+        "title": "দুর্বল অ্যাসিড ও ক্ষার",
+        "items": [
+          {
+            "bn": {
+              "label": "বিয়োজন ধ্রুবক (অ্যাসিড)",
+              "formula": "$$K_a = \\alpha^2 c$$"
+            }
+          },
+          {
+            "bn": {
+              "label": "বিয়োজন ধ্রুবক (ক্ষার)",
+              "formula": "$$K_b = \\alpha^2 c$$"
+            }
+          },
+          {
+            "bn": {
+              "label": "দুর্বল অ্যাসিডের pH",
+              "formula": "$$pH = -\\log(\\alpha c) = -\\log\\sqrt{K_a c}$$"
+            }
+          },
+          {
+            "bn": {
+              "label": "দুর্বল ক্ষারের pOH",
+              "formula": "$$pOH = -\\log(\\alpha c) = -\\log\\sqrt{K_b c}$$"
+            }
+          },
+          {
+            "bn": {
+              "label": "ক্ষারীয় দ্রবণের pH",
+              "formula": "$$pH = 14 - pOH$$"
+            }
+          }
+        ],
+        "description_bn": "এখানে alpha হলো বিয়োজন মাত্রা এবং c হলো ঘনমাত্রা।"
+      },
+      {
+        "type": "important_formula",
+        "title": "শক্তিশালী অ্যাসিড ও ক্ষার",
+        "items": [
+          {
+            "bn": {
+              "label": "শক্তিশালী অ্যাসিডের pH",
+              "formula": "$$pH = -\\log[H^+]$$"
+            }
+          },
+          {
+            "bn": {
+              "label": "শক্তিশালী ক্ষারের pOH",
+              "formula": "$$pOH = -\\log[OH^-]$$"
+            }
+          },
+          {
+            "bn": {
+              "label": "ক্ষারীয় দ্রবণের pH",
+              "formula": "$$pH = 14 - pOH$$"
+            }
+          }
+        ],
+        "note_bn": "বিশেষ দ্রষ্টব্য: অ্যাসিড ও ক্ষারের ঘনমাত্রাকে তুল্যাঙ্ক সংখ্যা দিয়ে গুণ করলে [H+] ও [OH-] এর ঘনমাত্রা পাওয়া যাবে।"
+      },
+      {
+        "type": "equation",
+        "title": "বাফার দ্রবণ (হেন্ডারসন-হাসেলবালখ সমীকরণ)",
+        "items": [
+          {
+            "bn_title": "অম্লীয় বাফার:",
+            "equation": "$$pH = pK_a + \\log \\frac{[\\text{Salt}]}{[\\text{Acid}]} = pK_a + \\log \\frac{n_{\\text{salt}}}{n_{\\text{acid}}}$$"
+          },
+          {
+            "bn_title": "ক্ষারীয় বাফার:",
+            "equation": "$$pOH = pK_b + \\log \\frac{[\\text{Salt}]}{[\\text{Base}]} = pK_b + \\log \\frac{n_{\\text{salt}}}{n_{\\text{base}}}$$"
+          },
+          {
+            "bn_title": "pKa ও pKb:",
+            "equation": "$$pK_a = -\\log K_a, \\quad pK_b = -\\log K_b$$"
+          }
         ]
       }
     ]

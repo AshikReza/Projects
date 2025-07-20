@@ -9,6 +9,10 @@
         "title": "Ideal Gas Laws (আদর্শ গ্যাস সূত্র)"
       },
       {
+        "id": "derived-gas-equations",
+        "title": "Derived Gas Equations (অতিরিক্ত গ্যাস সূত্র)"
+      },
+      {
         "id": "daltons-law-of-partial-pressures",
         "title": "Dalton's Law of Partial Pressures (ডাল্টনের আংশিক চাপ সূত্র)"
       },
@@ -23,6 +27,10 @@
       {
         "id": "ideal-gas-vs-real-gas",
         "title": "Ideal Gas vs. Real Gas (আদর্শ গ্যাস বনাম বাস্তব গ্যাস)"
+      },
+      {
+        "id": "standard-conditions-and-constants",
+        "title": "Standard Conditions & Constants (আদর্শ অবস্থা ও ধ্রুবক)"
       },
       {
         "id": "acids-and-bases",

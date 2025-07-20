@@ -197,10 +197,17 @@
       },
       {
         "type": "equation",
-        "title": "Gay-Lussac's Law (গেলুসাকের সূত্র)",
+        "title": "Gay-Lussac's Law (গেলুসাকের/চাপীয় সূত্র)",
         "equation": "\\frac{P_1}{T_1} = \\frac{P_2}{T_2}",
         "description_bn": "স্থির আয়তনে ($$V$$) এবং মোল সংখ্যায় ($$n$$), নির্দিষ্ট ভরের কোনো গ্যাসের চাপ ($$P$$) তার পরম তাপমাত্রার ($$T$$) সমানুপাতিক। অর্থাৎ, $$P \\propto T$$ বা $$\\frac{P}{T} = K$$ (ধ্রুবক)।",
         "description_en": "At constant volume ($$V$$) and molar amount ($$n$$), the pressure ($$P$$) of a fixed mass of a gas is directly proportional to its absolute temperature ($$T$$). That is, $$P \\propto T$$ or $$\\frac{P}{T} = K$$ (constant)."
+      },
+      {
+        "type": "equation",
+        "title": "Avogadro's Law (অ্যাভোগাড্রোর সূত্র)",
+        "equation": "\\frac{V_1}{n_1} = \\frac{V_2}{n_2}",
+        "description_bn": "স্থির তাপমাত্রা ($$T$$) ও চাপে ($$P$$), যেকোনো গ্যাসের আয়তন ($$V$$) তার মোল সংখ্যার ($$n$$) সমানুপাতিক। অর্থাৎ, $$V \\propto n$$ বা $$\\frac{V}{n} = K$$ (ধ্রুবক)।",
+        "description_en": "At constant temperature ($$T$$) and pressure ($$P$$), the volume ($$V$$) of a gas is directly proportional to its molar amount ($$n$$). That is, $$V \\propto n$$ or $$\\frac{V}{n} = K$$ (constant)."
       },
       {
         "type": "equation",
@@ -208,37 +215,6 @@
         "equation": "PV = nRT",
         "description_bn": "বয়েল, চার্লস এবং অ্যাভোগাড্রোর সূত্রকে একত্রিত করে আদর্শ গ্যাস সমীকরণটি পাওয়া যায়। এখানে $$R$$ হলো মোলার গ্যাস ধ্রুবক। এই সমীকরণটি গ্যাসের চাপ, আয়তন, মোল সংখ্যা এবং তাপমাত্রার মধ্যে সম্পর্ক স্থাপন করে।",
         "description_en": "The ideal gas equation is derived by combining Boyle's, Charles's, and Avogadro's laws. Here, $$R$$ is the molar gas constant. This equation establishes the relationship between the pressure, volume, molar amount, and temperature of a gas."
-      },
-      {
-        "type": "table",
-        "title": "Values and Units of Molar Gas Constant (R) (মোলার গ্যাস ধ্রুবক (R) এর মান ও একক)",
-        "headers": [
-          "Value of R (R-এর মান)",
-          "Units (একক)",
-          "When to Use (কখন ব্যবহার্য)"
-        ],
-        "rows": [
-          [
-            "0.0821",
-            "L·atm·mol⁻¹·K⁻¹",
-            "When pressure is in atmospheres (atm) and volume is in liters (L). (যখন চাপ atm এবং আয়তন L এককে থাকে।)"
-          ],
-          [
-            "8.314",
-            "J·mol⁻¹·K⁻¹",
-            "SI unit. Used in energy calculations (e.g., kinetic energy) and when pressure is in Pascals (Pa) and volume in cubic meters (m³). (SI একক। শক্তি (যেমন: গতিশক্তি) এবং যখন চাপ Pa ও আয়তন m³ এককে থাকে তখন ব্যবহৃত হয়।)"
-          ],
-          [
-            "8.314",
-            "Pa·m³·mol⁻¹·K⁻¹",
-            "Equivalent to the Joule unit, emphasizes P and V units. (Joule এককের সমতুল্য, P এবং V এককের ওপর জোর দেয়।)"
-          ],
-          [
-            "62.36",
-            "L·mmHg·mol⁻¹·K⁻¹",
-            "When pressure is in millimeters of mercury (mmHg) and volume is in liters (L). (যখন চাপ mmHg এবং আয়তন L এককে থাকে।)"
-          ]
-        ]
       },
       {
         "type": "example",
@@ -261,6 +237,25 @@
             "en": "💡 Solution: Here, $$T = 27 + 273 = 300$$ $$K$$, $$P = 2$$ $$atm$$, $$w = 88$$ $$g$$. The molecular weight of $$CO_2$$ is $$M = 44$$ $$g/mol$$. So, number of moles $$n = \\frac{w}{M} = \\frac{88}{44} = 2$$ $$mol$$. We know, $$PV = nRT$$ ⇒ $$V = \\frac{nRT}{P} = \\frac{2 \\times 0.0821 \\times 300}{2} = 24.63$$ $$L$$."
           }
         ]
+      }
+    ]
+  },
+  "derived-gas-equations": {
+    "title": "Derived Gas Equations (অতিরিক্ত গ্যাস সূত্র)",
+    "blocks": [
+      {
+        "type": "equation",
+        "title": "Relationship with Molar Mass (আণবিক ভরের সাথে সম্পর্ক)",
+        "equation": "M = \\frac{wRT}{PV}",
+        "description_bn": "আদর্শ গ্যাস সমীকরণ থেকে এটি পাওয়া যায়, যেখানে $$n = w/M$$ (ভর/আণবিক ভর)। এটি কোনো অজানা গ্যাসের আণবিক ভর নির্ণয়ে ব্যবহৃত হয়।",
+        "description_en": "This is derived from the Ideal Gas Law by substituting $$n = w/M$$ (mass/molar mass). It is used to determine the molar mass of an unknown gas."
+      },
+      {
+        "type": "equation",
+        "title": "Relationship with Density (ঘনত্বের সাথে সম্পর্ক)",
+        "equation": "d = \\frac{PM}{RT}",
+        "description_bn": "আদর্শ গ্যাস সমীকরণকে রূপান্তর করে গ্যাসের ঘনত্ব ($$d$$) নির্ণয়ের এই সূত্রটি পাওয়া যায়। যেহেতু $$d = w/V$$।",
+        "description_en": "The ideal gas equation can be rearranged to find the density ($$d$$) of a gas, since $$d = w/V$$."
       }
     ]
   },
@@ -287,6 +282,13 @@
         "equation": "P_i = X_i \\times P_{total}",
         "description_bn": "কোনো একটি উপাদান গ্যাসের আংশিক চাপ ($$P_i$$) হলো ঐ গ্যাসের মোল ভগ্নাংশ ($$X_i$$) এবং গ্যাস মিশ্রণের মোট চাপের ($$P_{total}$$) গুণফল। মোল ভগ্নাংশ ($$X_i$$) হলো ঐ উপাদানের মোল সংখ্যাকে মিশ্রণের মোট মোল সংখ্যা দিয়ে ভাগ করে পাওয়া যায়: $$X_i = \\frac{n_i}{n_{total}}$$.",
         "description_en": "The partial pressure of a component gas ($$P_i$$) is the product of its mole fraction ($$X_i$$) and the total pressure of the gas mixture ($$P_{total}$$). The mole fraction ($$X_i$$) is the moles of that component divided by the total moles in the mixture: $$X_i = \\frac{n_i}{n_{total}}$$."
+      },
+      {
+        "type": "equation",
+        "title": "Gas Mixing Formulas (গ্যাস মিশ্রণের সূত্র)",
+        "equation": "P_{final}V_{final} = P_1V_1 + P_2V_2 + ...",
+        "description_bn": "স্থির তাপমাত্রায় বিভিন্ন পাত্রে থাকা গ্যাসকে একটি পাত্রে মিশ্রিত করা হলে, চূড়ান্ত মিশ্রণের চাপ ($$P_{final}$$) ও আয়তন ($$V_{final}$$)-এর গুণফল প্রতিটি গ্যাসের প্রাথমিক চাপ ও আয়তনের গুণফলের সমষ্টির সমান হয়। যদি বিভিন্ন তাপমাত্রার গ্যাস মেশানো হয়, তবে সূত্রটি হয়: $$\\frac{P_{final}V_{final}}{T_{final}} = \\frac{P_1V_1}{T_1} + \\frac{P_2V_2}{T_2} + ...$$",
+        "description_en": "When gases from different containers are mixed in one container at constant temperature, the product of the final pressure ($$P_{final}$$) and final volume ($$V_{final}$$) equals the sum of the products of initial pressure and volume for each gas. If gases at different temperatures are mixed, the formula becomes: $$\\frac{P_{final}V_{final}}{T_{final}} = \\frac{P_1V_1}{T_1} + \\frac{P_2V_2}{T_2} + ...$$"
       },
       {
         "type": "example",
@@ -326,9 +328,9 @@
       {
         "type": "equation",
         "title": "Graham's Law Formula (গ্রাহামের সূত্রের সূত্র)",
-        "equation": "\\frac{r_1}{r_2} = \\sqrt{\\frac{M_2}{M_1}} = \\sqrt{\\frac{d_2}{d_1}}",
-        "description_bn": "স্থির তাপমাত্রা ও চাপে, কোনো গ্যাসের ব্যাপন হার ($$r$$) তার আণবিক ভরের ($$M$$) অথবা ঘনত্বের ($$d$$) বর্গমূলের ব্যস্তানুপাতিক। [15] এর অর্থ, হালকা গ্যাসের ব্যাপন হার বেশি এবং ভারী গ্যাসের ব্যাপন হার কম।",
-        "description_en": "At constant temperature and pressure, the rate of diffusion ($$r$$) of a gas is inversely proportional to the square root of its molar mass ($$M$$) or its density ($$d$$). [15] This means lighter gases diffuse faster, and heavier gases diffuse slower."
+        "equation": "\\frac{r_1}{r_2} = \\frac{S_1/t_1}{S_2/t_2} = \\frac{t_2}{t_1} \\text{ (for same S)} = \\frac{S_1}{S_2} \\text{ (for same t)} = \\sqrt{\\frac{M_2}{M_1}} = \\sqrt{\\frac{d_2}{d_1}}",
+        "description_bn": "স্থির তাপমাত্রা ও চাপে, কোনো গ্যাসের ব্যাপন হার ($$r$$) তার আণবিক ভরের ($$M$$) অথবা ঘনত্বের ($$d$$) বর্গমূলের ব্যস্তানুপাতিক। [15] ব্যাপন হারকে অতিক্রান্ত দূরত্ব ($$S$$) এবং প্রয়োজনীয় সময় ($$t$$) দিয়েও প্রকাশ করা যায়। এর অর্থ, হালকা গ্যাসের ব্যাপন হার বেশি এবং ভারী গ্যাসের ব্যাপন হার কম।",
+        "description_en": "At constant temperature and pressure, the rate of diffusion ($$r$$) of a gas is inversely proportional to the square root of its molar mass ($$M$$) or its density ($$d$$). [15] The rate can also be expressed using distance traveled ($$S$$) and time taken ($$t$$). This means lighter gases diffuse faster, and heavier gases diffuse slower."
       },
       {
         "type": "example",
@@ -366,7 +368,7 @@
         "rows": [
           [
             "Root Mean Square Velocity (বর্গমূল গড় বর্গবেগ)",
-            "$$C_{rms} = \\sqrt{\\frac{3RT}{M}}$$",
+            "$$C_{rms} = \\sqrt{\\frac{3RT}{M}} = \\sqrt{\\frac{3P}{d}}$$",
             "The square root of the average of the squares of the velocities of all molecules. (সব অণুর বেগের বর্গের গড়ের বর্গমূল।)"
           ],
           [
@@ -391,8 +393,8 @@
         "type": "equation",
         "title": "Kinetic Energy of Gases (গ্যাসের গতিশক্তি)",
         "equation": "E_k = \\frac{3}{2}nRT",
-        "description_bn": "একটি গ্যাসের $$n$$ মোলের মোট গতিশক্তি ($$E_k$$) হলো $$\\frac{3}{2}nRT$$। একটি অণুর জন্য গতিশক্তি হলো $$\\frac{3}{2}kT$$, যেখানে $$k$$ হলো বোল্টজম্যান ধ্রুবক ($$k = R/N_A$$)।",
-        "description_en": "The total kinetic energy ($$E_k$$) for $$n$$ moles of a gas is $$\\frac{3}{2}nRT$$. For a single molecule, the kinetic energy is $$\\frac{3}{2}kT$$, where $$k$$ is the Boltzmann constant ($$k = R/N_A$$)."
+        "description_bn": "একটি গ্যাসের $$n$$ মোলের মোট গতিশক্তি ($$E_k$$) হলো $$\\frac{3}{2}nRT$$। ১ মোলের জন্য গতিশক্তি $$\\frac{3}{2}RT$$ এবং একটি অণুর জন্য গতিশক্তি হলো $$\\frac{3}{2}kT$$, যেখানে $$k$$ হলো বোল্টজম্যান ধ্রুবক ($$k = R/N_A$$)।",
+        "description_en": "The total kinetic energy ($$E_k$$) for $$n$$ moles of a gas is $$\\frac{3}{2}nRT$$. For 1 mole, the kinetic energy is $$\\frac{3}{2}RT$$, and for a single molecule, it is $$\\frac{3}{2}kT$$, where $$k$$ is the Boltzmann constant ($$k = R/N_A$$)."
       },
       {
         "type": "example",
@@ -403,8 +405,8 @@
             "en": "Question: What is the $$C_{rms}$$ of an $$O_2$$ gas molecule at $$27°C$$?"
           },
           {
-            "bn": "💡 সমাধান: এখানে, $$T = 27 + 273 = 300$$ $$K$$। $$O_2$$ এর আণবিক ভর $$M = 32$$ $$g/mol = 0.032$$ $$kg/mol$$। গতিশক্তির সমীকরণে SI একক ব্যবহার করতে হবে, তাই $$R = 8.314$$ $$J·mol⁻¹·K⁻¹$$। $$C_{rms} = \\sqrt{\\frac{3RT}{M}} = \\sqrt{\\frac{3 \\times 8.314 \\times 300}{0.032}} \\approx 483.6$$ $$m/s$$।",
-            "en": "💡 Solution: Here, $$T = 27 + 273 = 300$$ $$K$$. Molar mass of $$O_2$$, $$M = 32$$ $$g/mol = 0.032$$ $$kg/mol$$. We must use SI units for kinetic equations, so $$R = 8.314$$ $$J·mol⁻¹·K⁻¹$$. $$C_{rms} = \\sqrt{\\frac{3RT}{M}} = \\sqrt{\\frac{3 \\times 8.314 \\times 300}{0.032}} \\approx 483.6$$ $$m/s$$."
+            "bn": "💡 সমাধান: এখানে, $$T = 27 + 273 = 300$$ $$K$$। $$O_2$$ এর আণবিক ভর $$M = 32$$ $$g/mol = 0.032$$ $$kg/mol$$। গতিবেগের সমীকরণে SI একক ব্যবহার করতে হবে, তাই $$R = 8.314$$ $$J·mol⁻¹·K⁻¹$$। M-কে kg এককে ব্যবহার করলে Crms m/s এককে পাওয়া যায়। $$C_{rms} = \\sqrt{\\frac{3RT}{M}} = \\sqrt{\\frac{3 \\times 8.314 \\times 300}{0.032}} \\approx 483.6$$ $$m/s$$।",
+            "en": "💡 Solution: Here, $$T = 27 + 273 = 300$$ $$K$$. Molar mass of $$O_2$$, $$M = 32$$ $$g/mol = 0.032$$ $$kg/mol$$. We must use SI units for velocity equations, so $$R = 8.314$$ $$J·mol⁻¹·K⁻¹$$. Using M in kg gives Crms in m/s. $$C_{rms} = \\sqrt{\\frac{3RT}{M}} = \\sqrt{\\frac{3 \\times 8.314 \\times 300}{0.032}} \\approx 483.6$$ $$m/s$$."
           }
         ]
       }
@@ -447,9 +449,9 @@
       {
         "type": "equation",
         "title": "Van der Waals Equation (ভ্যান ডার ওয়ালস সমীকরণ)",
-        "equation": "\\left(P + \\frac{n^2a}{V^2}\\right)(V - nb) = nRT",
-        "description_bn": "বাস্তব গ্যাসের জন্য আদর্শ গ্যাস সমীকরণের একটি সংশোধিত রূপ। এখানে 'a' আন্তঃআণবিক আকর্ষণ বল এবং 'b' অণুগুলোর নিজস্ব আয়তনের প্রভাব সংশোধন করে।",
-        "description_en": "A modified version of the ideal gas equation for real gases. Here 'a' corrects for intermolecular attractive forces and 'b' corrects for the volume occupied by the gas molecules themselves."
+        "equation": "\\left(P + \\frac{an^2}{V^2}\\right)(V - nb) = nRT",
+        "description_bn": "বাস্তব গ্যাসের জন্য আদর্শ গ্যাস সমীকরণের একটি সংশোধিত রূপ। এখানে 'a' আন্তঃআণবিক আকর্ষণ বল জনিত চাপ সংশোধন করে এবং 'b' অণুগুলোর নিজস্ব কার্যকর আয়তনের প্রভাব সংশোধন করে।",
+        "description_en": "A modified version of the ideal gas equation for real gases. Here 'a' corrects for the pressure due to intermolecular attractive forces and 'b' corrects for the effective volume occupied by the gas molecules themselves."
       },
       {
         "type": "equation",
@@ -508,6 +510,78 @@
             "x": { "title": { "display": true, "text": "Pressure (P) in atm" } }
           }
         }
+      }
+    ]
+  },
+  "standard-conditions-and-constants": {
+    "title": "Standard Conditions & Constants (আদর্শ অবস্থা ও ধ্রুবক)",
+    "blocks": [
+      {
+        "type": "table",
+        "title": "Standard Temperature and Pressure (STP/SATP)",
+        "headers": ["Condition", "Temperature", "Pressure", "Molar Volume"],
+        "rows": [
+          [
+            "STP (Standard Temperature and Pressure)",
+            "0 °C / 273.15 K",
+            "1 atm (101.325 kPa)",
+            "22.4 L/mol"
+          ],
+          [
+            "SATP (Standard Ambient Temperature and Pressure)",
+            "25 °C / 298.15 K",
+            "1 bar (100 kPa)",
+            "24.79 L/mol"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Values and Units of Molar Gas Constant (R) (মোলার গ্যাস ধ্রুবক (R) এর মান ও একক)",
+        "headers": [
+          "Value of R (R-এর মান)",
+          "Units (একক)",
+          "When to Use (কখন ব্যবহার্য)"
+        ],
+        "rows": [
+          [
+            "0.0821",
+            "L·atm·mol⁻¹·K⁻¹",
+            "When pressure is in atmospheres (atm) and volume is in liters (L). (যখন চাপ atm এবং আয়তন L এককে থাকে।)"
+          ],
+          [
+            "8.314",
+            "J·mol⁻¹·K⁻¹",
+            "SI unit. Used in energy calculations (e.g., kinetic energy) and when pressure is in Pascals (Pa) and volume in cubic meters (m³). (SI একক। শক্তি (যেমন: গতিশক্তি) এবং যখন চাপ Pa ও আয়তন m³ এককে থাকে তখন ব্যবহৃত হয়।)"
+          ],
+          [
+            "8.314 x 10⁷",
+            "erg·mol⁻¹·K⁻¹",
+            "CGS unit for energy calculations. (CGS এককে শক্তির গণনার জন্য।)"
+          ],
+          [
+            "62.36",
+            "L·mmHg·mol⁻¹·K⁻¹",
+            "When pressure is in millimeters of mercury (mmHg) and volume is in liters (L). (যখন চাপ mmHg এবং আয়তন L এককে থাকে।)"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Other Important Constants (অন্যান্য গুরুত্বপূর্ণ ধ্রুবক)",
+        "headers": ["Constant", "Symbol", "Value"],
+        "rows": [
+          [
+            "Avogadro's Number (অ্যাভোগাড্রো সংখ্যা)",
+            "$$N_A$$",
+            "$$6.022 \\times 10^{23} mol^{-1}$$"
+          ],
+          [
+            "Boltzmann Constant (বোল্টজম্যান ধ্রুবক)",
+            "$$k = R/N_A$$",
+            "$$1.38 \\times 10^{-23} J \\cdot K^{-1}$$"
+          ]
+        ]
       }
     ]
   },
