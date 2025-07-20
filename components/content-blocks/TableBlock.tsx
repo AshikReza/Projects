@@ -19,7 +19,6 @@ export const TableBlock = ({
   rows: string[][];
 }) => (
   <Card className="my-4 overflow-hidden">
-    {/* Add overflow-hidden to respect Card's border-radius */}
     <CardHeader>
       <CardTitle className="text-base font-semibold">{title}</CardTitle>
     </CardHeader>
@@ -31,8 +30,8 @@ export const TableBlock = ({
               {headers.map((header, index) => (
                 <TableHead
                   key={index}
-                  // Header text is bold and uses a brighter color in dark mode for contrast.
-                  className="whitespace-nowrap px-4 font-extrabold text-slate-700 dark:text-slate-200"
+                  // REMOVED: whitespace-nowrap
+                  className="px-4 font-extrabold text-slate-700 dark:text-slate-200"
                 >
                   <MarkdownRenderer content={header} />
                 </TableHead>
@@ -45,7 +44,9 @@ export const TableBlock = ({
                 {row.map((cell, cellIndex) => (
                   <TableCell
                     key={cellIndex}
-                    className="min-w-[180px] whitespace-nowrap px-4 align-top"
+                    // REMOVED: min-w-[180px] and whitespace-nowrap
+                    // ADDED: whitespace-normal to ensure text wraps
+                    className="whitespace-normal px-4 align-top"
                   >
                     <MarkdownRenderer content={cell} />
                   </TableCell>

@@ -211,6 +211,82 @@
       },
       {
         "type": "equation",
+        "title": "Combined Gas Law (সমন্বিত গ্যাস সূত্র)",
+        "equation": "\\frac{P_1V_1}{T_1} = \\frac{P_2V_2}{T_2}",
+        "description_bn": "এই সূত্রটি বয়েল, চার্লস এবং গেলুসাকের সূত্রকে একত্রিত করে। এটি নির্দিষ্ট পরিমাণ গ্যাসের (n sabit) জন্য চাপ, আয়তন এবং তাপমাত্রার পরিবর্তনশীল সম্পর্ক বর্ণনা করে।",
+        "description_en": "This law combines Boyle's, Charles's, and Gay-Lussac's laws. It describes the relationship between pressure, volume, and temperature for a fixed amount of gas (n is constant)."
+      },
+      {
+        "type": "table",
+        "title": "Comparison of Gas Laws (গ্যাস সূত্রসমূহের তুলনা)",
+        "headers": [
+          "Feature (বৈশিষ্ট্য)",
+          "Boyle's Law (বয়েলের সূত্র)",
+          "Charles's Law (চার্লসের সূত্র)",
+          "Gay-Lussac's Law (গেলুসাকের সূত্র)",
+          "Avogadro's Law (অ্যাভোগাড্রোর সূত্র)"
+        ],
+        "rows": [
+          [
+            "Variables Related (সম্পর্কিত চলক)",
+            "Pressure (P) & Volume (V)",
+            "Volume (V) & Temperature (T)",
+            "Pressure (P) & Temperature (T)",
+            "Volume (V) & Moles (n)"
+          ],
+          [
+            "Constant Variables (ধ্রুব চলক)",
+            "Temperature (T), Moles (n)",
+            "Pressure (P), Moles (n)",
+            "Volume (V), Moles (n)",
+            "Pressure (P), Temperature (T)"
+          ],
+          [
+            "Mathematical Relationship (গাণিতিক সম্পর্ক)",
+            "Inversely Proportional",
+            "Directly Proportional",
+            "Directly Proportional",
+            "Directly Proportional"
+          ],
+          [
+            "Formula (সূত্র)",
+            "P∝1/V or PV=K",
+            "V∝T or V/T=K",
+            "P∝T or P/T=K",
+            "V∝n or V/n=K"
+          ],
+          [
+            "Equation (Initial/Final) (সমীকরণ)",
+            "P₁V₁ = P₂V₂",
+            "V₁/T₁ = V₂/T₂",
+            "P₁/T₁ = P₂/T₂",
+            "V₁/n₁ = V₂/n₂"
+          ],
+          [
+            "Graphical Representation (Example) (উদাহরণসহ লেখচিত্র)",
+            "P vs V: Rectangular Hyperbola",
+            "V vs T (Kelvin): Straight line thru origin",
+            "P vs T (Kelvin): Straight line thru origin",
+            "V vs n: Straight line thru origin"
+          ],
+          [
+            "Underlying Principle (অন্তর্নিহিত নীতি)",
+            "Constant kinetic energy means fixed P×V product for a given amount of gas.",
+            "Increased kinetic energy at higher temp leads to greater collision force for constant pressure or greater volume.",
+            "Increased kinetic energy at higher temp leads to greater collision frequency/force for constant volume.",
+            "More gas particles mean more volume at constant P and T, as each particle occupies space."
+          ],
+          [
+            "Real-world Analogy (বাস্তব-জগতের উপমা)",
+            "Squeezing a balloon (volume decreases, pressure increases).",
+            "Heating a balloon (volume increases).",
+            "Pressure cooker (pressure increases with temperature).",
+            "Inflating a tire (adding more air increases volume/pressure)."
+          ]
+        ]
+      },
+      {
+        "type": "equation",
         "title": "Ideal Gas Equation (আদর্শ গ্যাস সমীকরণ)",
         "equation": "PV = nRT",
         "description_bn": "বয়েল, চার্লস এবং অ্যাভোগাড্রোর সূত্রকে একত্রিত করে আদর্শ গ্যাস সমীকরণটি পাওয়া যায়। এখানে $$R$$ হলো মোলার গ্যাস ধ্রুবক। এই সমীকরণটি গ্যাসের চাপ, আয়তন, মোল সংখ্যা এবং তাপমাত্রার মধ্যে সম্পর্ক স্থাপন করে।",
