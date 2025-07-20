@@ -1,29 +1,151 @@
+"use client";
+
+import { useState, useEffect } from "react";
+import { HabitGrid } from "@/components/habit-grid";
+import { WeeklyReport } from "@/components/weekly-report"; // Import the new component
 import { Button } from "@/components/ui/button";
-import Link from "next/link";
-import { Rocket } from "lucide-react";
+import { Input } from "@/components/ui/input";
+import {
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog";
+import { ChevronLeft, ChevronRight, PlusCircle } from "lucide-react";
+import { addWeeks, subWeeks, format } from "date-fns";
 
-import { BackgroundLines } from "@/components/ui/background-lines";
+// Export types so other components can use them
+export interface Habit {
+  id: number;
+  text: string;
+}
 
-// Change this from "export function BackgroundLinesDemo()" to "export default function HomePage()"
-export default function HomePage() {
+export interface DailyProgress {
+  [date: string]: number[]; // e.g., { "2025-07-21": [1, 3] }
+}
+
+export default function Home() {
+  const [habits, setHabits] = useState<Habit[]>([]);
+  const [progress, setProgress] = useState<DailyProgress>({});
+  const [currentWeek, setCurrentWeek] = useState(new Date());
+  const [newHabit, setNewHabit] = useState("");
+  const [isDialogOpen, setIsDialogOpen] = useState(false);
+  const [isClient, setIsClient] = useState(false);
+
+  // Load data from localStorage on mount
+  useEffect(() => {
+    setIsClient(true);
+    const storedHabits = localStorage.getItem("dopamine-habits-grid");
+    const storedProgress = localStorage.getItem("dopamine-progress-grid");
+    if (storedHabits) setHabits(JSON.parse(storedHabits));
+    if (storedProgress) setProgress(JSON.parse(storedProgress));
+  }, []);
+
+  // Save habits to localStorage
+  useEffect(() => {
+    if (isClient)
+      localStorage.setItem("dopamine-habits-grid", JSON.stringify(habits));
+  }, [habits, isClient]);
+
+  // Save progress to localStorage
+  useEffect(() => {
+    if (isClient)
+      localStorage.setItem("dopamine-progress-grid", JSON.stringify(progress));
+  }, [progress, isClient]);
+
+  const handleAddHabit = () => {
+    if (newHabit.trim() !== "") {
+      const newHabitObject = { id: Date.now(), text: newHabit.trim() };
+      setHabits([...habits, newHabitObject]);
+      setNewHabit("");
+      setIsDialogOpen(false);
+    }
+  };
+
+  const goToPreviousWeek = () => setCurrentWeek(subWeeks(currentWeek, 1));
+  const goToNextWeek = () => setCurrentWeek(addWeeks(currentWeek, 1));
+  const goToToday = () => setCurrentWeek(new Date());
+
+  if (!isClient) {
+    return null; // or a loading skeleton
+  }
+
   return (
-    // The component you are using as the page root should be the top-level element.
-    // In this case, it seems to be BackgroundLines.
-    <BackgroundLines className="flex items-center justify-center min-h-screen w-full flex-col px-4">
-      <Rocket className="h-24 w-24 text-primary animate-bounce" />
-      <h2 className="bg-clip-text text-transparent text-center bg-gradient-to-b from-neutral-900 to-neutral-700 dark:from-neutral-600 dark:to-white text-2xl md:text-4xl lg:text-7xl font-sans py-2 md:py-10 relative z-20 font-bold tracking-tight">
-        HSC Note Navigator
-      </h2>
-      <p className="max-w-xl mx-auto text-sm md:text-lg text-neutral-700 dark:text-neutral-400 text-center">
-        Your all-in-one companion for acing the HSC exams. Access notes,
-        flashcards, quizzes, and more.
-      </p>
+    <main className="min-h-screen bg-gray-50 p-4 sm:p-8">
+      <div className="max-w-7xl mx-auto">
+        <header className="text-center mb-8">
+          <h1 className="text-4xl sm:text-5xl font-bold tracking-tight">
+            Dopamine Diary
+          </h1>
+          <p className="text-lg text-muted-foreground mt-2">
+            Build habits that make you feel good, one week at a time.
+          </p>
+        </header>
 
-      <div className="absolute bottom-28">
-        <Button asChild size="lg" className="px-10 py-6 text-lg hover:scale-105">
-          <Link href="/subjects">Get Started</Link>
-        </Button>
+        {/* --- CONTROLS --- */}
+        <div className="flex justify-between items-center mb-4">
+          <Dialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
+            <DialogTrigger asChild>
+              <Button>
+                <PlusCircle className="mr-2 h-4 w-4" />
+                Add Habit
+              </Button>
+            </DialogTrigger>
+            <DialogContent>
+              <DialogHeader>
+                <DialogTitle>Add a New Habit</DialogTitle>
+              </DialogHeader>
+              <div className="space-y-4 py-4">
+                <Input
+                  value={newHabit}
+                  onChange={(e) => setNewHabit(e.target.value)}
+                  placeholder="e.g., Wake up @ 7am"
+                  onKeyDown={(e) => e.key === "Enter" && handleAddHabit()}
+                />
+                <Button onClick={handleAddHabit} className="w-full">
+                  Add Habit
+                </Button>
+              </div>
+            </DialogContent>
+          </Dialog>
+
+          <div className="flex items-center space-x-2">
+            <Button variant="outline" size="icon" onClick={goToPreviousWeek}>
+              <ChevronLeft className="h-4 w-4" />
+            </Button>
+            <Button variant="outline" onClick={goToToday}>
+              Today
+            </Button>
+            <Button variant="outline" size="icon" onClick={goToNextWeek}>
+              <ChevronRight className="h-4 w-4" />
+            </Button>
+          </div>
+        </div>
+
+        {/* --- THE GRID --- */}
+        <HabitGrid
+          habits={habits}
+          progress={progress}
+          week={currentWeek}
+          setHabits={setHabits}
+          setProgress={setProgress}
+        />
+
+        {/* --- WEEKLY REPORT CARD --- */}
+        {/* We only show the report if there are habits to track */}
+        {habits.length > 0 && (
+          <WeeklyReport
+            habits={habits}
+            progress={progress}
+            week={currentWeek}
+          />
+        )}
+
+        <footer className="text-center mt-8 text-muted-foreground text-sm">
+          <p>Click the checkboxes to track your progress.</p>
+        </footer>
       </div>
-    </BackgroundLines>
+    </main>
   );
 }

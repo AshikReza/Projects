@@ -39,6 +39,19 @@
   scrollbar-color: hsl(var(--primary) / 0.6) transparent;
 }
 
+/* Add this to the bottom of app/globals.css */
+
+/* Target the individual bars inside the recharts component */
+.recharts-bar-rectangle path {
+  transition: transform 0.2s ease-in-out;
+  transform-origin: bottom;
+}
+
+/* Apply the scale effect on hover */
+.recharts-bar-rectangle path:hover {
+  transform: scaleY(1.05);
+}
+
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
