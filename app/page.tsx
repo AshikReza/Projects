@@ -1,8 +1,10 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { useAuth } from "@/components/auth-provider";
+import { LoginForm } from "@/components/login";
 import { HabitGrid } from "@/components/habit-grid";
-import { WeeklyReport } from "@/components/weekly-report"; // Import the new component
+import { WeeklyReport } from "@/components/weekly-report";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import {
@@ -14,6 +16,8 @@ import {
 } from "@/components/ui/dialog";
 import { ChevronLeft, ChevronRight, PlusCircle } from "lucide-react";
 import { addWeeks, subWeeks } from "date-fns";
+import { auth, db } from "@/lib/firebase";
+import { doc, onSnapshot, setDoc } from "firebase/firestore";
 
 // Export types so other components can use them
 export interface Habit {
@@ -26,61 +30,106 @@ export interface DailyProgress {
 }
 
 export default function Home() {
+  const { user, loading } = useAuth();
   const [habits, setHabits] = useState<Habit[]>([]);
   const [progress, setProgress] = useState<DailyProgress>({});
   const [currentWeek, setCurrentWeek] = useState(new Date());
   const [newHabit, setNewHabit] = useState("");
   const [isDialogOpen, setIsDialogOpen] = useState(false);
-  const [isClient, setIsClient] = useState(false);
 
-  // Load data from localStorage on mount
+  // Listen to data changes from Firestore
   useEffect(() => {
-    setIsClient(true);
-    const storedHabits = localStorage.getItem("dopamine-habits-grid");
-    const storedProgress = localStorage.getItem("dopamine-progress-grid");
-    if (storedHabits) setHabits(JSON.parse(storedHabits));
-    if (storedProgress) setProgress(JSON.parse(storedProgress));
-  }, []);
+    if (!user) {
+      setHabits([]);
+      setProgress({});
+      return;
+    }
 
-  // Save habits to localStorage
-  useEffect(() => {
-    if (isClient)
-      localStorage.setItem("dopamine-habits-grid", JSON.stringify(habits));
-  }, [habits, isClient]);
+    const unsub = onSnapshot(doc(db, "users", user.uid), (doc) => {
+      if (doc.exists()) {
+        const data = doc.data();
+        setHabits(data.habits || []);
+        setProgress(data.progress || {});
+      }
+    });
 
-  // Save progress to localStorage
-  useEffect(() => {
-    if (isClient)
-      localStorage.setItem("dopamine-progress-grid", JSON.stringify(progress));
-  }, [progress, isClient]);
+    // Unsubscribe from listener on cleanup
+    return () => unsub();
+  }, [user]);
 
-  const handleAddHabit = () => {
+  // Function to update Firestore
+  const updateFirestore = (newData: {
+    habits?: Habit[];
+    progress?: DailyProgress;
+  }) => {
+    if (!user) return;
+    const userDocRef = doc(db, "users", user.uid);
+    // Use setDoc with merge: true to create or update the document
+    setDoc(userDocRef, newData, { merge: true });
+  };
+
+  const handleAddHabit = async () => {
     if (newHabit.trim() !== "") {
       const newHabitObject = { id: Date.now(), text: newHabit.trim() };
-      setHabits([...habits, newHabitObject]);
+      const updatedHabits = [...habits, newHabitObject];
+      setHabits(updatedHabits);
+      await updateFirestore({ habits: updatedHabits });
       setNewHabit("");
       setIsDialogOpen(false);
     }
+  };
+
+  const handleSetHabits = (newHabits: Habit[]) => {
+    setHabits(newHabits);
+    updateFirestore({ habits: newHabits });
+  };
+
+  const handleSetProgress = (newProgress: DailyProgress) => {
+    setProgress(newProgress);
+    updateFirestore({ progress: newProgress });
   };
 
   const goToPreviousWeek = () => setCurrentWeek(subWeeks(currentWeek, 1));
   const goToNextWeek = () => setCurrentWeek(addWeeks(currentWeek, 1));
   const goToToday = () => setCurrentWeek(new Date());
 
-  if (!isClient) {
-    return null; // or a loading skeleton
+  if (loading) {
+    return <p>Loading...</p>; // Or a loading skeleton
+  }
+
+  if (!user) {
+    return (
+      <main className="min-h-screen flex items-center justify-center bg-gray-50 p-4">
+        <div className="max-w-md w-full">
+          <header className="text-center mb-8">
+            <h1 className="text-4xl sm:text-5xl font-bold tracking-tight">
+              Dopamine Diary
+            </h1>
+            <p className="text-lg text-muted-foreground mt-2">
+              Sign in to track your habits.
+            </p>
+          </header>
+          <LoginForm />
+        </div>
+      </main>
+    );
   }
 
   return (
     <main className="min-h-screen bg-gray-50 p-4 sm:p-8">
       <div className="max-w-7xl mx-auto">
-        <header className="text-center mb-8">
-          <h1 className="text-4xl sm:text-5xl font-bold tracking-tight">
-            Dopamine Diary
-          </h1>
-          <p className="text-lg text-muted-foreground mt-2">
-            Build habits that make you feel good, one week at a time.
-          </p>
+        <header className="flex justify-between items-center mb-8">
+          <div className="text-left">
+            <h1 className="text-4xl sm:text-5xl font-bold tracking-tight">
+              Dopamine Diary
+            </h1>
+            <p className="text-lg text-muted-foreground mt-2">
+              Welcome, {user.email}!
+            </p>
+          </div>
+          <Button variant="outline" onClick={() => auth.signOut()}>
+            Sign Out
+          </Button>
         </header>
 
         {/* --- CONTROLS --- */}
@@ -128,12 +177,11 @@ export default function Home() {
           habits={habits}
           progress={progress}
           week={currentWeek}
-          setHabits={setHabits}
-          setProgress={setProgress}
+          setHabits={handleSetHabits}
+          setProgress={handleSetProgress}
         />
 
         {/* --- WEEKLY REPORT CARD --- */}
-        {/* We only show the report if there are habits to track */}
         {habits.length > 0 && (
           <WeeklyReport
             habits={habits}
